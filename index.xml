@@ -1,0 +1,1307 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rmdhnreza.my.id</title><link>https://rmdhnreza.my.id/</link><description>Recent content on rmdhnreza.my.id</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Sun, 31 Jan 2021 00:42:03 +0700</lastBuildDate><atom:link href="https://rmdhnreza.my.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Mengatasi Windows 10 Tidak Add Bisa Account Di Windows Mail</title><link>https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/</link><pubDate>Sun, 31 Jan 2021 00:42:03 +0700</pubDate><guid>https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/</guid><description>&lt;img src="https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/mail.jpg" alt="Featured image of post Mengatasi Windows 10 Tidak Add Bisa Account Di Windows Mail" />&lt;p>Biasanya ini terjadi ketika kalian sudah menghapus &lt;code>bloatware&lt;/code> di windows 10 kalian, Jadinya ada software core yang terhapus.&lt;/p>
+&lt;p>Untuk mengatasi tidak bisa menambahkan akun di aplikasi Mail Windows 10 caranya cukup mudah&lt;/p>
+&lt;ol>
+&lt;li>Kalian buka &lt;code>Windows Powershell (Admin)&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 46; flex-basis: 111px">
+&lt;a href="https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/1.jpg" data-size="270x580">&lt;img src="https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/1.jpg"
+srcset="https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/1_hu2b84970fcf118414c43cad0b9147d453_15169_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/1_hu2b84970fcf118414c43cad0b9147d453_15169_1024x0_resize_q50_box.jpg 1024w"
+width="270"
+height="580"
+loading="lazy"
+alt="Mengatasi Windows 10 Tidak Bisa Add Account di Windows Mail">
+&lt;/a>
+&lt;figcaption>Mengatasi Windows 10 Tidak Bisa Add Account di Windows Mail&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="2">
+&lt;li>Masukan perintah berikut&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="n">dism&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="n">online&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="nb">add-capability&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="n">capabilityname&lt;/span>&lt;span class="err">:&lt;/span>&lt;span class="n">OneCoreUAP&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">OneSync&lt;/span>&lt;span class="p">~~~~&lt;/span>&lt;span class="n">0&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">0&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">1&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">0&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 236; flex-basis: 567px">
+&lt;a href="https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/2.jpg" data-size="825x349">&lt;img src="https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/2.jpg"
+srcset="https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/2_hu2c2d77283383d724765299af9c618826_13072_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/2_hu2c2d77283383d724765299af9c618826_13072_1024x0_resize_q50_box.jpg 1024w"
+width="825"
+height="349"
+loading="lazy"
+alt="Mengatasi Windows 10 Tidak Bisa Add Account di Windows Mail">
+&lt;/a>
+&lt;figcaption>Mengatasi Windows 10 Tidak Bisa Add Account di Windows Mail&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="3">
+&lt;li>Tunggu sampai selesai (&lt;em>This operation completed successfully&lt;/em>), biasanya tidak sampai 5 menit&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 236; flex-basis: 567px">
+&lt;a href="https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/3.jpg" data-size="825x349">&lt;img src="https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/3.jpg"
+srcset="https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/3_hu1d79b3e8a1fd85a123f5c0fb1c3d5e02_22159_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/3_hu1d79b3e8a1fd85a123f5c0fb1c3d5e02_22159_1024x0_resize_q50_box.jpg 1024w"
+width="825"
+height="349"
+loading="lazy"
+alt="Mengatasi Windows 10 Tidak Bisa Add Account di Windows Mail">
+&lt;/a>
+&lt;figcaption>Mengatasi Windows 10 Tidak Bisa Add Account di Windows Mail&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="4">
+&lt;li>Setelah selesai kalian coba add akun di Windows Mail tanpa perlu restart windows kalian&lt;/li>
+&lt;/ol></description></item><item><title>Enable Atau Disable Windows Defender Windows 10</title><link>https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/</link><pubDate>Tue, 26 Jan 2021 19:38:52 +0700</pubDate><guid>https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/</guid><description>&lt;img src="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/defender.jpg" alt="Featured image of post Enable Atau Disable Windows Defender Windows 10" />&lt;p>Mulai Windows 10 versi 2004 Windows Defender diganti namanya menjadi Microsoft Defender Antivirus, Sebetulnya Microsoft Defender Antivirus akan nonaktif sendiri jika kalian menginstall Antivirus pihak ketiga, seperti: ESET, Norton, dll.&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong> Jika kalian menggunakan Windows 10 Home, kalian gunakan cara ke dua yang menggunakan regedit (registry editor).&lt;/p>
+&lt;p>Sebelum menonaktifkan Defender Antivirus, pastikan kalian Off kan terlebih dahulu &lt;strong>Microsoft Defender Antivirus Tamper Protection&lt;/strong>&lt;/p>
+&lt;p>Caranya:&lt;/p>
+&lt;ol>
+&lt;li>Buka &lt;strong>Windows Security&lt;/strong>, dan click/tap di &lt;strong>Virus &amp;amp; threat protection&lt;/strong> icon.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 151; flex-basis: 362px">
+&lt;a href="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-1.jpg" data-size="750x496">&lt;img src="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-1.jpg"
+srcset="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-1_hu7a67033fa4b1a39be699091631182152_29000_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-1_hu7a67033fa4b1a39be699091631182152_29000_1024x0_resize_q50_box.jpg 1024w"
+width="750"
+height="496"
+loading="lazy"
+alt="Tamper Protection">
+&lt;/a>
+&lt;figcaption>Tamper Protection&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="2">
+&lt;li>Click/tap on the &lt;strong>Manage settings&lt;/strong> link dibawah &lt;strong>Virus &amp;amp; threat protection settings&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 72; flex-basis: 173px">
+&lt;a href="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-2.jpg" data-size="502x693">&lt;img src="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-2.jpg"
+srcset="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-2_hu647a97a6a0d08963f5369ad2c4eaee35_31183_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-2_hu647a97a6a0d08963f5369ad2c4eaee35_31183_1024x0_resize_q50_box.jpg 1024w"
+width="502"
+height="693"
+loading="lazy"
+alt="Tamper Protection">
+&lt;/a>
+&lt;figcaption>Tamper Protection&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="3">
+&lt;li>Scroll sampai bawah dan Off kan &lt;strong>Tamper Protection&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 65; flex-basis: 156px">
+&lt;a href="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-3.jpg" data-size="489x750">&lt;img src="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-3.jpg"
+srcset="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-3_hu8782bba879c30b32c51c2d10b942896b_38280_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-3_hu8782bba879c30b32c51c2d10b942896b_38280_1024x0_resize_q50_box.jpg 1024w"
+width="489"
+height="750"
+loading="lazy"
+alt="Tamper Protection">
+&lt;/a>
+&lt;figcaption>Tamper Protection&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Jika sudah, ikuti langkah selanjutnya.&lt;/p>
+&lt;h4 id="cara-1-menggunakan-local-group-policy-editor">Cara 1: Menggunakan Local Group Policy Editor&lt;/h4>
+&lt;ol>
+&lt;li>Buka &lt;strong>Local Group Policy Editor&lt;/strong>, caranya kalian tekan shorcurt pada keyboard &lt;strong>Win + R&lt;/strong>, setelah itu masukan &lt;code>gpedit.msc&lt;/code> atau Kalian juga bisa menggunakan fitur &lt;strong>Search&lt;/strong>&lt;/li>
+&lt;li>Di panel sebelah kiri &lt;strong>Local Group Policy Editor&lt;/strong>, Kalian masuk ke&lt;/li>
+&lt;/ol>
+&lt;p>Untuk Windows 10 version 1909 dan sebelumnya
+Computer Configuration\Administrative Templates\Windows Components\Windows\Defender Antivirus&lt;/p>
+&lt;p>Untuk Windows 10 version 2004 dan selanjutnya
+Computer Configuration\Administrative Templates\Windows Components\Microsoft Defender Antivirus&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 172; flex-basis: 412px">
+&lt;a href="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/gpedit-1.jpg" data-size="750x436">&lt;img src="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/gpedit-1.jpg"
+srcset="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/gpedit-1_hud1b4db53832b29732504d9f693659467_53238_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/gpedit-1_hud1b4db53832b29732504d9f693659467_53238_1024x0_resize_q50_box.jpg 1024w"
+width="750"
+height="436"
+loading="lazy"
+alt="Local Group Policy Editor">
+&lt;/a>
+&lt;figcaption>Local Group Policy Editor&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="3">
+&lt;li>Di Panel sebelah kanan &lt;strong>Windows Defender Antivirus&lt;/strong> atau &lt;strong>Microsoft Defender Antivirus&lt;/strong>, double click/tap di &lt;strong>Turn off Windows Defender Antivirus&lt;/strong> atau &lt;strong>Turn off Microsoft Defender Antivirus&lt;/strong> Untuk mengedit policy nya&lt;/li>
+&lt;li>Untuk Disable Defender Antivirus kalian pilih &lt;strong>Enabled&lt;/strong>&lt;/li>
+&lt;li>Sedangkan untuk Enable Defender Antivirus kalian pilih &lt;strong>Not Configured&lt;/strong> atau &lt;strong>Disabled&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 107; flex-basis: 258px">
+&lt;a href="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/gpedit-2.jpg" data-size="686x636">&lt;img src="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/gpedit-2.jpg"
+srcset="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/gpedit-2_hu60a81a6af1646659fe879d8137529b40_46153_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/gpedit-2_hu60a81a6af1646659fe879d8137529b40_46153_1024x0_resize_q50_box.jpg 1024w"
+width="686"
+height="636"
+loading="lazy"
+alt="Local Group Policy Editor">
+&lt;/a>
+&lt;figcaption>Local Group Policy Editor&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h4 id="cara-2-menggunakan-registry-editor-regedit">Cara 2: Menggunakan Registry Editor (Regedit)&lt;/h4>
+&lt;p>File .reg dibawah ini mengubah value DWORD registry key berikut&lt;br>
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender&lt;br>
+DisableAntiSpyware DWORD&lt;br>
+0 = Disable&lt;br>
+1 atau delete = Enable&lt;/p>
+&lt;ol>
+&lt;li>Enable Defender Antivirus (Default Settings)&lt;/li>
+&lt;li>Disable Defender Antivirus
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.tenforums.com/attachments/tutorials/130449d1492353257-turn-off-windows-defender-windows-10-a-turn_on_windows_defender_antivirus.reg" target="_blank" rel="nofollow noopener"
+>Download Reg File&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Save file di Desktop atau dimana saja
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.tenforums.com/attachments/tutorials/130448d1492353257-turn-off-windows-defender-windows-10-a-turn_off_windows_defender_antivirus.reg" target="_blank" rel="nofollow noopener"
+>Download Reg File&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Double click/tap di file .reg yang kalian download.&lt;/li>
+&lt;li>Ketika muncul UAC kalian klik Yes, dan klik OK lagi untuk menerapkan konfigurasi regedit nya.&lt;/li>
+&lt;li>Restart Explorer atau Sign Out &amp;amp; Sign In atau Kalian Restart PC kalian. Untuk menerapkan konfigurasi yang sudah di setting di &lt;strong>Regedit&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>Source Tutorial: &lt;a class="link" href="https://www.tenforums.com/tutorials/5918-how-turn-off-microsoft-defender-antivirus-windows-10-a.html" target="_blank" rel="nofollow noopener"
+>tenforums&lt;/a>&lt;/p></description></item><item><title>Enable Atau Disable Cortana Di Windows 10</title><link>https://rmdhnreza.my.id/enable-atau-disable-cortana-di-windows-10/</link><pubDate>Fri, 22 Jan 2021 16:53:20 +0700</pubDate><guid>https://rmdhnreza.my.id/enable-atau-disable-cortana-di-windows-10/</guid><description>&lt;img src="https://rmdhnreza.my.id/enable-atau-disable-cortana-di-windows-10/cortana.jpg" alt="Featured image of post Enable Atau Disable Cortana Di Windows 10" />&lt;p>Cortana adalah asisten pribadi berbasis cloud yang bekerja di seluruh perangkat Windows dan layanan Microsoft lainnya. Cortana dapat menyediakan berbagai fitur. Cortana di Windows tersedia di negara dan bahasa tertentu. Cortana juga tersedia di platform lain, seperti Android dan iOS.&lt;/p>
+&lt;p>Cortana bekerja paling baik saat kalian masuk (&lt;em>sign in&lt;/em>) dan mengizinkannya menggunakan data dari perangkat kalian, layanan Microsoft lainnya, dan layanan pihak ketiga yang kalian pilih untuk disambungkan. Cortana belajar dari data tertentu tentang kalian, seperti pencarian, kalender, kontak, dan lokasi kalian. Kalian dapat mengontrol seberapa banyak data yang Anda bagikan. Jika kalian memilih untuk tidak masuk (&lt;em>sign in&lt;/em>) ke Cortana di Windows, kalian masih dapat mengobrol dengan Cortana dan menggunakannya untuk membantu kalian mencari di web, dokumen yang disimpan di layanan Microsoft seperti OneDrive, dan perangkat Windows Kalian. Di perangkat iOS dan Android, Cortana hanya berfungsi saat kalian masuk (&lt;em>sign in&lt;/em>).&lt;/p>
+&lt;p>Kalian harus log in sebagai &lt;strong>administrator&lt;/strong> untuk enable atau disable Cortana&lt;/p>
+&lt;h4 id="enable-atau-disable-cortana-menggunakan-group-policy">Enable atau Disable Cortana menggunakan Group Policy&lt;/h4>
+&lt;ol>
+&lt;li>Buka &lt;strong>Local Group Policy Editor&lt;/strong>, caranya kalian tekan shorcurt pada keyboard &lt;strong>Win + R&lt;/strong>, setelah itu masukan &lt;code>gpedit.msc&lt;/code> atau Kalian juga bisa menggunakan fitur &lt;strong>Search&lt;/strong>&lt;/li>
+&lt;li>Di panel sebelah kiri &lt;strong>Local Group Policy Editor&lt;/strong>, Kalian masuk ke&lt;/li>
+&lt;/ol>
+&lt;p>Computer Configuration/Administrative Templates/Windows Components/Search&lt;/p>
+&lt;ol start="3">
+&lt;li>Di Panel sebelah kanan &lt;strong>Search&lt;/strong>, double click/tap di &lt;strong>Allow Cortana&lt;/strong> Untuk mengedit policy nya&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 270; flex-basis: 648px">
+&lt;a href="https://rmdhnreza.my.id/enable-atau-disable-cortana-di-windows-10/1.png" data-size="956x354">&lt;img src="https://rmdhnreza.my.id/enable-atau-disable-cortana-di-windows-10/1.png"
+srcset="https://rmdhnreza.my.id/enable-atau-disable-cortana-di-windows-10/1_hu0e18ca98ca65e3b5a9d58533e75fd3f4_37627_480x0_resize_q50_box_2.png 480w, https://rmdhnreza.my.id/enable-atau-disable-cortana-di-windows-10/1_hu0e18ca98ca65e3b5a9d58533e75fd3f4_37627_1024x0_resize_q50_box_2.png 1024w"
+width="956"
+height="354"
+loading="lazy"
+alt="Local Group Policy Editor">
+&lt;/a>
+&lt;figcaption>Local Group Policy Editor&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="4">
+&lt;li>Langkah selanjutnya kalian tinggal lihat &lt;strong>langkah 5 untuk enable cortana&lt;/strong> atau &lt;strong>langkah 6 untuk disable cortana&lt;/strong>&lt;/li>
+&lt;li>Untuk Enable Cortana kalian pilih &lt;strong>Not Configured&lt;/strong> atau &lt;strong>Enabled&lt;/strong>&lt;/li>
+&lt;li>Untuk Disable Cortana kalian pilih &lt;strong>Disabled&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 109; flex-basis: 262px">
+&lt;a href="https://rmdhnreza.my.id/enable-atau-disable-cortana-di-windows-10/2.png" data-size="700x640">&lt;img src="https://rmdhnreza.my.id/enable-atau-disable-cortana-di-windows-10/2.png"
+srcset="https://rmdhnreza.my.id/enable-atau-disable-cortana-di-windows-10/2_huf690f7bccb3e10c74b909fb4e03868ba_19688_480x0_resize_q50_box_2.png 480w, https://rmdhnreza.my.id/enable-atau-disable-cortana-di-windows-10/2_huf690f7bccb3e10c74b909fb4e03868ba_19688_1024x0_resize_q50_box_2.png 1024w"
+width="700"
+height="640"
+loading="lazy"
+alt="Local Group Policy Editor">
+&lt;/a>
+&lt;figcaption>Local Group Policy Editor&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="7">
+&lt;li>Jika sudah, Close &lt;strong>Local Group Policy Editor&lt;/strong>&lt;/li>
+&lt;li>Restart Explorer atau Sign Out &amp;amp; Sign In atau Kalian Restart PC kalian. Untuk menerapkan konfigurasi yang sudah di setting di &lt;strong>Local Group Policy Editor&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;h4 id="enable-atau-disable-cortana-menggunakan-regedit">Enable atau Disable Cortana menggunakan Regedit&lt;/h4>
+&lt;p>File .reg dibawah ini mengubah value DWORD registry key berikut
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search
+AllowCortana DWORD
+0 = Disable
+1 atau delete = Enable&lt;/p>
+&lt;ol>
+&lt;li>Download file &lt;strong>langkah 2&lt;/strong> untuk Enable Cortana &amp;amp; &lt;strong>langkah 3&lt;/strong> untuk Disable Cortana&lt;/li>
+&lt;li>Enable Cortana (Default Settings)
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.tenforums.com/attachments/tutorials/41034d1443973120-cortana-enable-disable-windows-10-a-enable_cortana.reg" target="_blank" rel="nofollow noopener"
+>Download Reg File&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Disable Cortana
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.tenforums.com/attachments/tutorials/41033d1443973120-cortana-enable-disable-windows-10-a-disable_cortana.reg" target="_blank" rel="nofollow noopener"
+>Download Reg File&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Save file di Desktop atau dimana saja&lt;/li>
+&lt;li>Double click/tap di file .reg yang kalian download.&lt;/li>
+&lt;li>Ketika muncul UAC kalian klik Yes, dan klik OK lagi untuk menerapkan konfigurasi regedit nya.&lt;/li>
+&lt;li>Restart Explorer atau Sign Out &amp;amp; Sign In atau Kalian Restart PC kalian. Untuk menerapkan konfigurasi yang sudah di setting di &lt;strong>Regedit&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Note:&lt;/strong> Cara pertama (gpedit), biasanya tidak bisa diterapkan di &lt;strong>Windows versi Home&lt;/strong>, untuk itu kalian bisa menggunakan cara kedua (regedit)&lt;/p>
+&lt;p>Source Tutorial: &lt;a class="link" href="https://www.tenforums.com/tutorials/25118-enable-disable-cortana-windows-10-a.html" target="_blank" rel="nofollow noopener"
+>tenforums&lt;/a>&lt;/p></description></item><item><title>Cara Menginstall Package Manager Scoop Di Windows 10</title><link>https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/</link><pubDate>Thu, 21 Jan 2021 23:23:46 +0700</pubDate><guid>https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/</guid><description>&lt;img src="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/scoop.jpg" alt="Featured image of post Cara Menginstall Package Manager Scoop Di Windows 10" />&lt;p>Apa itu scoop ? Scoop adalah &lt;em>command-line package manager&lt;/em> untuk memudahkan kalian menginstall aplikasi. Scoop menginstal program ke home direktori (C:/Users/Username) secara default. Jadi, kalian tidak memerlukan izin admin untuk menginstal program, dan kalian tidak akan melihat pop-up UAC setiap kali kalian menginstall atau menghapus program.&lt;/p>
+&lt;h4 id="menginstall-scoop">Menginstall Scoop&lt;/h4>
+&lt;p>Cara menginstall scoop, pastikan di windows kalian&lt;/p>
+&lt;ol>
+&lt;li>Powershell versi 5 atau lebih baru (di windows 10 sudah terinstall secara default)&lt;/li>
+&lt;li>.NET Framework 5 atau lebih baru (di windows 10 sudah terinstall secara default)&lt;/li>
+&lt;/ol>
+&lt;p>Jika sudah memenuhi syarat diatas, kalian bisa jalankan perintah ini terlebih dahulu untuk menginstall scoop&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="nb">Set-ExecutionPolicy&lt;/span> &lt;span class="n">RemoteSigned&lt;/span> &lt;span class="n">-scope&lt;/span> &lt;span class="n">CurrentUser&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 523; flex-basis: 1257px">
+&lt;a href="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/2.png" data-size="859x164">&lt;img src="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/2.png"
+srcset="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/2_hu77510ceb97726a010903cde69903cd7b_18635_480x0_resize_q50_box_2.png 480w, https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/2_hu77510ceb97726a010903cde69903cd7b_18635_1024x0_resize_q50_box_2.png 1024w"
+width="859"
+height="164"
+loading="lazy"
+alt="Set-ExecutionPolicy RemoteSigned -scope CurrentUser">
+&lt;/a>
+&lt;figcaption>Set-ExecutionPolicy RemoteSigned -scope CurrentUser&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Setelah itu kalian ketik &lt;code>Y&lt;/code> dan &lt;code>Enter&lt;/code>, lalu copy &amp;amp; paste perintah dibawah ini untuk menginstall scoop&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="nb">Invoke-Expression&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nb">New-Object&lt;/span> &lt;span class="n">System&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Net&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">WebClient&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="n">DownloadString&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;https://get.scoop.sh&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Atau yang lebih pendek&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="nb">iwr &lt;/span>&lt;span class="n">-useb&lt;/span> &lt;span class="n">get&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">scoop&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">sh&lt;/span> &lt;span class="p">|&lt;/span> &lt;span class="nb">iex
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 385; flex-basis: 924px">
+&lt;a href="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/3.png" data-size="859x223">&lt;img src="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/3.png"
+srcset="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/3_hud7dd4d0be50b9c41437954cb0030fecb_20044_480x0_resize_q50_box_2.png 480w, https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/3_hud7dd4d0be50b9c41437954cb0030fecb_20044_1024x0_resize_q50_box_2.png 1024w"
+width="859"
+height="223"
+loading="lazy"
+alt="Install Scoop">
+&lt;/a>
+&lt;figcaption>Install Scoop&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h4 id="menginstall-aplikasi">Menginstall Aplikasi&lt;/h4>
+&lt;p>Sebelum menginstall aplikasi, kalian wajib menginstall &lt;code>git&lt;/code> terlebih dahulu, dengan perintah&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="n">scoop&lt;/span> &lt;span class="n">install&lt;/span> &lt;span class="n">git&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Note: Jika kalian butuh &lt;code>openSSH&lt;/code> kalian bisa install&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="n">scoop&lt;/span> &lt;span class="n">install&lt;/span> &lt;span class="n">git-with-openssh&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 438; flex-basis: 1051px">
+&lt;a href="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/4.png" data-size="859x196">&lt;img src="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/4.png"
+srcset="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/4_hu9af7f4158e917da1908913024fa6296f_22194_480x0_resize_q50_box_2.png 480w, https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/4_hu9af7f4158e917da1908913024fa6296f_22194_1024x0_resize_q50_box_2.png 1024w"
+width="859"
+height="196"
+loading="lazy"
+alt="Install Git OpenSSH">
+&lt;/a>
+&lt;figcaption>Install Git OpenSSH&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 176; flex-basis: 422px">
+&lt;a href="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/5.png" data-size="859x488">&lt;img src="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/5.png"
+srcset="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/5_hu8e0f1518601d48e3da445ca9181cb0df_49529_480x0_resize_q50_box_2.png 480w, https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/5_hu8e0f1518601d48e3da445ca9181cb0df_49529_1024x0_resize_q50_box_2.png 1024w"
+width="859"
+height="488"
+loading="lazy"
+alt="Install Git OpenSSH">
+&lt;/a>
+&lt;figcaption>Install Git OpenSSH&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Setelah git nya terinstall kalian &lt;strong>add extras bucket&lt;/strong>, agar banyak aplikasi yang bisa di kalian install via scoop, caranya&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="n">scoop&lt;/span> &lt;span class="n">bucket&lt;/span> &lt;span class="n">add&lt;/span> &lt;span class="n">extras&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 371; flex-basis: 892px">
+&lt;a href="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/6.png" data-size="859x231">&lt;img src="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/6.png"
+srcset="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/6_hu8c38f3a34cda9f8f934a8e1097985922_9692_480x0_resize_q50_box_2.png 480w, https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/6_hu8c38f3a34cda9f8f934a8e1097985922_9692_1024x0_resize_q50_box_2.png 1024w"
+width="859"
+height="231"
+loading="lazy"
+alt="Add Bucket">
+&lt;/a>
+&lt;figcaption>Add Bucket&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Untuk menginstall aplikasi dengan scoop sangat mudah caranya&lt;/p>
+&lt;ol>
+&lt;li>Kalian buka powershell kalian&lt;/li>
+&lt;li>Jalankan perintah&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="n">scoop&lt;/span> &lt;span class="n">install&lt;/span> &lt;span class="n">nama-aplikasi&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Contohnya, disini saya akan menginstall &lt;strong>FFMPEG&lt;/strong> &amp;amp; &lt;strong>HUGO-EXTENDED&lt;/strong>, kalian tinggal jalankan perintah&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="n">scoop&lt;/span> &lt;span class="n">install&lt;/span> &lt;span class="n">ffmpeg&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="n">scoop&lt;/span> &lt;span class="n">install&lt;/span> &lt;span class="n">hugo-extended&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Atau bisa juga disatukan perintahnya&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="n">scoop&lt;/span> &lt;span class="n">install&lt;/span> &lt;span class="n">ffmpeg&lt;/span> &lt;span class="n">hugo-extended&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 511; flex-basis: 1227px">
+&lt;a href="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/7.png" data-size="859x168">&lt;img src="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/7.png"
+srcset="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/7_hu667d332f7a2d22ecee58d0a96a264c6d_20660_480x0_resize_q50_box_2.png 480w, https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/7_hu667d332f7a2d22ecee58d0a96a264c6d_20660_1024x0_resize_q50_box_2.png 1024w"
+width="859"
+height="168"
+loading="lazy"
+alt="Install Hugo Extended">
+&lt;/a>
+&lt;figcaption>Install Hugo Extended&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h4 id="update-aplikasi">Update Aplikasi&lt;/h4>
+&lt;p>Untuk update aplikasi perintahnya&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="n">scoop&lt;/span> &lt;span class="n">update&lt;/span> &lt;span class="n">nama-aplikasi&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Atau jika kalian ingin mengupdate semua aplikasi bisa dengan perintah&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="n">scoop&lt;/span> &lt;span class="n">update&lt;/span> &lt;span class="p">*&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Setelah kalian mengupdate aplikasi via scoop, pastikan kalian menjalankan perintah dibawah ini untuk menghapus aplikasi versi sebelumnya&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="n">scoop&lt;/span> &lt;span class="n">cache&lt;/span> &lt;span class="nb">rm &lt;/span>&lt;span class="p">*&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Untuk lebih lengkapnya tentang scoop ini kalian bisa langsung kunjungi &lt;a class="link" href="https://github.com/lukesampson/%28wiki%29" target="_blank" rel="nofollow noopener"
+>documentation nya di github&lt;/a>&lt;/p></description></item><item><title>Tutorial Menonton Live Stream Sepakbola Kualitas HD</title><link>https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/</link><pubDate>Sun, 10 Jan 2021 00:56:20 +0700</pubDate><guid>https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/</guid><description>&lt;img src="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/soccer.jpg" alt="Featured image of post Tutorial Menonton Live Stream Sepakbola Kualitas HD" />&lt;p>Tutorial kali ini akan membahas cara menonton live stream sepakbola secara ilegal tentunya, sebelum memulai tutorial ini pastikan kalian sudah setting &lt;code>DNS-over-HTTPS&lt;/code> agar website streaming nya tidak terblokir, karena sudah banyak website-website streaming yang sudah diblokir oleh pihak ISP di Indonesia. Dengan menggunakan &lt;code>DNS-over-HTTPS&lt;/code> kalian tidak perlu menggunakan VPN. Cara setting &lt;code>Dns-over-HTTPS&lt;/code> sudah ada di website ini.&lt;/p>
+&lt;h4 class="centertext" id="membuka-situs-terblokir-menggunakan-dns-over-httpshttpsrmdhnrezamyidmembuka-situs-terblokir-menggunakan-dns-over-https">&lt;a class="link" href="https://rmdhnreza.my.id/membuka-situs-terblokir-menggunakan-dns-over-https/" target="_blank" rel="nofollow noopener"
+>Membuka Situs Terblokir Menggunakan DNS Over HTTPS&lt;/a>&lt;/h4>
+&lt;p>Jika sudah setting &lt;code>DNS-over-HTTPS&lt;/code> nya, langsung saja ke tutorialnya&lt;/p>
+&lt;ol>
+&lt;li>Kalian kunjungi web &lt;a class="link" href="https://reedit.soccerstreams.net/home" target="_blank" rel="nofollow noopener"
+>Soccer Stream&lt;/a>&lt;/li>
+&lt;li>Klik di bagian &lt;code>Live Streams&lt;/code> pada pertandingan yang akan kalian tonton, disini saya contohkan pertandingan &lt;strong>Granada Vs Barcelona&lt;/strong>
+&lt;figure style="flex-grow: 176; flex-basis: 424px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/1.jpg" data-size="1780x1007">&lt;img src="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/1.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/1_hubb69a023eb9c0d5ea4fcae8095010a04_55777_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/1_hubb69a023eb9c0d5ea4fcae8095010a04_55777_1024x0_resize_q50_box.jpg 1024w"
+width="1780"
+height="1007"
+loading="lazy"
+alt="Soccer Stream">
+&lt;/a>
+&lt;figcaption>Soccer Stream&lt;/figcaption>
+&lt;/figure>&lt;/li>
+&lt;li>Setelah itu kalian pilih salah satu website stream nya, jika live stream nya tidak bisa diputar, kalian pilih website stream yang lain, disini saya menggunakan web &lt;strong>Technoreels&lt;/strong> (Nomor 2) untuk stream nya
+&lt;figure style="flex-grow: 177; flex-basis: 426px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/2.jpg" data-size="1777x999">&lt;img src="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/2.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/2_hu258e6cd7a404fd8af40429b90a02c938_82527_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/2_hu258e6cd7a404fd8af40429b90a02c938_82527_1024x0_resize_q50_box.jpg 1024w"
+width="1777"
+height="999"
+loading="lazy"
+alt="Soccer Stream">
+&lt;/a>
+&lt;figcaption>Soccer Stream&lt;/figcaption>
+&lt;/figure>&lt;/li>
+&lt;li>Selamat Menonton
+&lt;figure style="flex-grow: 199; flex-basis: 479px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/3.jpg" data-size="1903x952">&lt;img src="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/3.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/3_hub513178a642a047f6f82f8f803728227_137380_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/3_hub513178a642a047f6f82f8f803728227_137380_1024x0_resize_q50_box.jpg 1024w"
+width="1903"
+height="952"
+loading="lazy"
+alt="Soccer Stream">
+&lt;/a>
+&lt;figcaption>Soccer Stream&lt;/figcaption>
+&lt;/figure>&lt;/li>
+&lt;/ol>
+&lt;h2 class="centertext" id="tambahan-agar-lebih-enak-streaming-nya">Tambahan agar lebih enak streaming nya&lt;/h2>
+&lt;ol>
+&lt;li>Gunakan ekstensi adblocker agar tidak ada iklan yang mengganggu, saya sarankan menggunakan &lt;strong>uBlock Origin&lt;/strong> yang kalian bisa install di browser kalian
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm" target="_blank" rel="nofollow noopener"
+>uBlock untuk Google Chrome atau Chromium Based Browser&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak" target="_blank" rel="nofollow noopener"
+>uBlock untuk Microsoft Edge (Chromium)&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/" target="_blank" rel="nofollow noopener"
+>uBlock untuk Mozilla Firefox atau Gecko Based Browser&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Setelah terinstall kalian masuk ke &lt;strong>Dashboard uBlock Origin&lt;/strong> nya, caranya klik icon uBlock Origin nya, lalu Klik di icon Gear
+&lt;figure style="flex-grow: 60; flex-basis: 144px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/ublock-1.jpg" data-size="276x458">&lt;img src="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/ublock-1.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/ublock-1_hued137320709de32c6bc3a1570cc8cc0a_13732_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/ublock-1_hued137320709de32c6bc3a1570cc8cc0a_13732_1024x0_resize_q50_box.jpg 1024w"
+width="276"
+height="458"
+loading="lazy"
+alt="Soccer Stream">
+&lt;/a>
+&lt;figcaption>Soccer Stream&lt;/figcaption>
+&lt;/figure>&lt;/li>
+&lt;li>Masuk ke bagian &lt;strong>Filter Lists&lt;/strong> lalu &lt;strong>Update Now&lt;/strong>
+&lt;figure style="flex-grow: 193; flex-basis: 464px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/ublock-2.jpg" data-size="1908x986">&lt;img src="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/ublock-2.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/ublock-2_hua7a16821a5e2c75793bc1ff05ed6a79d_75944_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/ublock-2_hua7a16821a5e2c75793bc1ff05ed6a79d_75944_1024x0_resize_q50_box.jpg 1024w"
+width="1908"
+height="986"
+loading="lazy"
+alt="Soccer Stream">
+&lt;/a>
+&lt;figcaption>Soccer Stream&lt;/figcaption>
+&lt;/figure>&lt;/li>
+&lt;li>Tunggu sampai semua Filter nya ter-update&lt;/li>
+&lt;/ol>
+&lt;h2 class="centertext" id="tambahan">Tambahan&lt;/h2>
+&lt;p>Di Indonesia sendiri &lt;strong>Mola TV&lt;/strong> adalah tempat streaming legal untuk siaran sepak bola, oleh karena itu jika kalian ingin menonton siaran sepakbola secara legal kalian bisa berlangganan &lt;strong>Mola TV&lt;/strong> Untuk harganya bisa kalian lihat di bagian &lt;a class="link" href="https://mola.tv/accounts/profile?tab=subscriptionPackage" target="_blank" rel="nofollow noopener"
+>Beli Akses halaman Mola TV&lt;/a>&lt;/p></description></item><item><title>Tutorial Convert Video YouTube Ke Audio FLAC Menggunakan youtube-dl</title><link>https://rmdhnreza.my.id/tutorial-convert-video-youtube-ke-audio-flac-menggunakan-youtube-dl/</link><pubDate>Sat, 09 Jan 2021 22:09:10 +0700</pubDate><guid>https://rmdhnreza.my.id/tutorial-convert-video-youtube-ke-audio-flac-menggunakan-youtube-dl/</guid><description>&lt;img src="https://rmdhnreza.my.id/tutorial-convert-video-youtube-ke-audio-flac-menggunakan-youtube-dl/youtube-dl.jpg" alt="Featured image of post Tutorial Convert Video YouTube Ke Audio FLAC Menggunakan youtube-dl" />&lt;p>Tutorial kali ini saya akan share cara convert video atau music dari youtube ke format FLAC menggunakan &lt;strong>youtube-dl&lt;/strong>.
+Pastikan di sistem operasi kalian sudah terinstall ffmpeg, jika belum terinstall, silahkan install terlebih dahulu agar tidak error.&lt;/p>
+&lt;h4 id="tutorial-installasi-di-sistem-operasi-linux">Tutorial Installasi di Sistem Operasi Linux&lt;/h4>
+&lt;ol>
+&lt;li>Download terlebih dahulu youtube-dl nya, untuk sistem operasi Linux kalian bisa menggunakan &lt;strong>curl&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash"> sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Atau menggunakan &lt;strong>wget&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash"> sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Jika di sistem operasi kalian sudah terinstall &lt;strong>python3&lt;/strong> kalian bisa menggunakan perintah&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash"> sudo pip3 install --upgrade youtube_dl
+&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="tutorial-installasi-di-sistem-operasi-windows">Tutorial Installasi di Sistem Operasi Windows&lt;/h4>
+&lt;ol>
+&lt;li>Download &lt;a class="link" href="https://yt-dl.org/downloads/2021.01.08/youtube-dl.exe" target="_blank" rel="nofollow noopener"
+>youtube-dl.exe&lt;/a> dan copy ke &lt;code>C:\Windows&lt;/code>, Jika kalian mendapati error kalian install &lt;a class="link" href="https://www.microsoft.com/en-US/download/details.aspx?id=5555" target="_blank" rel="nofollow noopener"
+>Microsoft Visual C++ 2010 Redistributable Package (x86)&lt;/a> terlebih dahulu.&lt;/li>
+&lt;li>Jika di sistem operasi kalian sudah terinstall &lt;strong>python3&lt;/strong> kalian bisa menggunakan perintah&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash"> pip3 install --upgrade youtube_dl
+&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="convert-video-ke-audio-format-flac">Convert Video ke Audio Format FLAC&lt;/h4>
+&lt;ol>
+&lt;li>Kalian cari Video atau Music yang akan kalian convert, disini saya akan convert music dari channel NCS &lt;code>https://www.youtube.com/watch?v=AnF_VOliv0E&lt;/code>&lt;/li>
+&lt;li>Jika kalian sudah siap, kalian buka &lt;code>CMD&lt;/code> / &lt;code>Powershell&lt;/code> untuk Windows, dan &lt;code>Terminal&lt;/code> untuk Linux&lt;/li>
+&lt;li>Masukan perintah berikut&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash"> youtube-dl -x --audio-format flac &lt;span class="s2">&amp;#34;https://www.youtube.com/watch?v=AnF_VOliv0E&amp;#34;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;code>-x&lt;/code> adalah kependekan dari &lt;code>--extract-audio&lt;/code>
+&lt;figure style="flex-grow: 502; flex-basis: 1207px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-convert-video-youtube-ke-audio-flac-menggunakan-youtube-dl/youtube-dl-1.jpg" data-size="1026x204">&lt;img src="https://rmdhnreza.my.id/tutorial-convert-video-youtube-ke-audio-flac-menggunakan-youtube-dl/youtube-dl-1.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-convert-video-youtube-ke-audio-flac-menggunakan-youtube-dl/youtube-dl-1_hu949617a6db7cc02bcb7260024e690797_29300_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-convert-video-youtube-ke-audio-flac-menggunakan-youtube-dl/youtube-dl-1_hu949617a6db7cc02bcb7260024e690797_29300_1024x0_resize_q50_box.jpg 1024w"
+width="1026"
+height="204"
+loading="lazy"
+alt="youtube-dl">
+&lt;/a>
+&lt;figcaption>youtube-dl&lt;/figcaption>
+&lt;/figure>
+&lt;figure style="flex-grow: 182; flex-basis: 438px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-convert-video-youtube-ke-audio-flac-menggunakan-youtube-dl/youtube-dl-2.jpg" data-size="1032x565">&lt;img src="https://rmdhnreza.my.id/tutorial-convert-video-youtube-ke-audio-flac-menggunakan-youtube-dl/youtube-dl-2.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-convert-video-youtube-ke-audio-flac-menggunakan-youtube-dl/youtube-dl-2_hucc028a6f6c25ddf55c2743baee0c8c0b_32618_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-convert-video-youtube-ke-audio-flac-menggunakan-youtube-dl/youtube-dl-2_hucc028a6f6c25ddf55c2743baee0c8c0b_32618_1024x0_resize_q50_box.jpg 1024w"
+width="1032"
+height="565"
+loading="lazy"
+alt="youtube-dl">
+&lt;/a>
+&lt;figcaption>youtube-dl&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item><item><title>Add Lazyload Di Setiap Images Di Hugo Website</title><link>https://rmdhnreza.my.id/add-lazyload-di-setiap-images-di-hugo-website/</link><pubDate>Sat, 09 Jan 2021 18:37:35 +0700</pubDate><guid>https://rmdhnreza.my.id/add-lazyload-di-setiap-images-di-hugo-website/</guid><description>&lt;img src="https://rmdhnreza.my.id/add-lazyload-di-setiap-images-di-hugo-website/lazyload.jpg" alt="Featured image of post Add Lazyload Di Setiap Images Di Hugo Website" />&lt;p>Apa sih &lt;em>lazyload&lt;/em> ? Lazy Load adalah sebuah teknik untuk membuat pemuatan gambar di website menjadi tidak sinkron, Dengan artian setelah konten bagian atas sepenuhnya dimuat, Maka gambar tidak akan dimuat [Sumber: &lt;a class="link" href="https://www.jagoanhosting.com/blog/apa-itu-lazy-load/" target="_blank" rel="nofollow noopener"
+>Jagoan Hosting&lt;/a>]&lt;/p>
+&lt;p>Sebelumnya disini saya tidak menggunakan atribute default HTML5 &lt;code>load=&amp;quot;lazy&amp;quot;&lt;/code>, tetapi menggunakan javascript tambahan yaitu &lt;code>lazysizes&lt;/code> yang bisa kalian lihat &lt;em>source code&lt;/em> nya di &lt;a class="link" href="https://github.com/aFarkas/lazysizes" target="_blank" rel="nofollow noopener"
+>github&lt;/a>&lt;/p>
+&lt;ol>
+&lt;li>Kalian download dulu &lt;a class="link" href="https://afarkas.github.io/lazysizes/lazysizes.min.js" target="_blank" rel="nofollow noopener"
+>lazysizes.min.js&lt;/a> dan kalian simpan di &lt;code>static/js&lt;/code> dengan nama &lt;code>lazysizes.min.js&lt;/code>&lt;/li>
+&lt;li>Lalu kalian tambahkan script nya ke &lt;code>header.html&lt;/code> atau &lt;code>footer.html&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">script&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">{{&lt;/span> &lt;span class="err">&amp;#34;&lt;/span>&lt;span class="na">js&lt;/span>&lt;span class="err">/&lt;/span>&lt;span class="na">lazysizes&lt;/span>&lt;span class="err">.&lt;/span>&lt;span class="na">js&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="err">|&lt;/span> &lt;span class="na">absURL&lt;/span> &lt;span class="err">}}&lt;/span> &lt;span class="na">async&lt;/span> &lt;span class="na">as&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;script&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>Atau kalian bisa menggunakan cdn, tambahkan &lt;em>snippet&lt;/em> berikut di &lt;code>header.html&lt;/code> atau &lt;code>footer.html&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">script&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.0/lazysizes.min.js&amp;#34;&lt;/span> &lt;span class="na">integrity&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;sha512-JrL1wXR0TeToerkl6TPDUa9132S3PB1UeNpZRHmCe6TxS43PFJUcEYUhjJb/i63rSd+uRvpzlcGOtvC/rDQcDg==&amp;#34;&lt;/span> &lt;span class="na">crossorigin&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;anonymous&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>Buat &lt;code>render-image.html&lt;/code> di folder &lt;code>layouts/_default/_markup/&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-go" data-lang="go">&lt;span class="nx">layouts&lt;/span>
+&lt;span class="err">└──&lt;/span> &lt;span class="nx">_default&lt;/span>
+&lt;span class="err">└──&lt;/span> &lt;span class="nx">_markup&lt;/span>
+&lt;span class="err">└──&lt;/span> &lt;span class="nx">render&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nx">image&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">html&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="5">
+&lt;li>Tambahkan &lt;em>snippet&lt;/em> HTML berikut ini di &lt;code>render-image.html&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">img&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;lazyload&amp;#34;&lt;/span> &lt;span class="na">data-src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ .Destination | safeURL }}&amp;#34;&lt;/span> &lt;span class="na">alt&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ .PlainText }}&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="6">
+&lt;li>Jika sudah kalian save, setelah itu kalian bisa coba tambahkan gambar di post kalian menggunakan format default markdown&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-markdown" data-lang="markdown">![&lt;span class="nt">Contoh Gambar&lt;/span>](&lt;span class="na">/Link/Gambar&lt;/span>)
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="7">
+&lt;li>Jika berhasil, maka gambar akan muncul dengan sempurna dan terdapat &lt;code>class=&amp;quot;lazyload&amp;quot;&lt;/code>, jika gambar tidak muncul pastikan tidak ada error yang berhubungan dengan &lt;code>lazysizes.min.js&lt;/code>, atau kalian bisa lihat di &lt;em>&lt;strong>Inspect Element&lt;/strong>&lt;/em> bagian &lt;em>&lt;strong>Console&lt;/strong>&lt;/em> disana akan terdapat error yang akan memudahkan kalian untuk memecahkan masalahnya.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 343; flex-basis: 824px">
+&lt;a href="https://rmdhnreza.my.id/add-lazyload-di-setiap-images-di-hugo-website/1.jpeg" data-size="1594x464">&lt;img src="https://rmdhnreza.my.id/add-lazyload-di-setiap-images-di-hugo-website/1.jpeg"
+srcset="https://rmdhnreza.my.id/add-lazyload-di-setiap-images-di-hugo-website/1_hubb92d9f8f70700b147b13e257a64c7c0_57382_480x0_resize_q50_box.jpeg 480w, https://rmdhnreza.my.id/add-lazyload-di-setiap-images-di-hugo-website/1_hubb92d9f8f70700b147b13e257a64c7c0_57382_1024x0_resize_q50_box.jpeg 1024w"
+width="1594"
+height="464"
+loading="lazy"
+alt="Lazyload">
+&lt;/a>
+&lt;figcaption>Lazyload&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item><item><title>Add target=`_blank` di Hugo Link</title><link>https://rmdhnreza.my.id/add-target_blank-di-hugo-link/</link><pubDate>Sat, 09 Jan 2021 17:35:36 +0700</pubDate><guid>https://rmdhnreza.my.id/add-target_blank-di-hugo-link/</guid><description>&lt;img src="https://rmdhnreza.my.id/add-target_blank-di-hugo-link/hugo.jpg" alt="Featured image of post Add target=`_blank` di Hugo Link" />&lt;p>Mulai versi 0.60 hugo mengganti &lt;em>Content Format&lt;/em> nya dari &lt;em>&lt;strong>Blackfriday&lt;/strong>&lt;/em> ke &lt;em>&lt;strong>Goldmark&lt;/strong>&lt;/em>. Untuk &lt;code>blackfriday&lt;/code> kalian bisa setting di &lt;code>config.toml&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="p">[&lt;/span>&lt;span class="nx">blackfriday&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;span class="nx">hrefTargetBlank&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Tetapi di hugo 0.60 sudah tidak bisa melakukan itu, karena sudah menggunakan &lt;code>Goldmark&lt;/code>, jadi kalian perlu beberapa langkah tambahan untuk menambahkan &lt;code>target=&amp;quot;_blank&amp;quot;&lt;/code> secara default di setiap link hugo website kalian.&lt;/p>
+&lt;h2 id="render-hooks-dengan-goldmark">Render Hooks dengan Goldmark&lt;/h2>
+&lt;p>Goldmark dan &lt;a class="link" href="https://gohugo.io/getting-started/configuration-markup/#markdown-render-hooks" target="_blank" rel="nofollow noopener"
+>Markdown Render Hooks&lt;/a> adalah fitur baru di Hugo v0.62.0 jadi pastikan versi Hugo kalian sama atau lebih baru dari versi ini.&lt;/p>
+&lt;p>&lt;a class="link" href="https://gohugo.io/getting-started/configuration-markup/#markdown-render-hooks" target="_blank" rel="nofollow noopener"
+>Markdown Render Hooks&lt;/a> menawarkan beberapa cara untuk mengubah &lt;em>perilaku&lt;/em> &lt;em>default markdown&lt;/em> , misalnya mengubah ukuran gambar yang diunggah, menambahkan class &lt;em>lazy&lt;/em> di setiap gambar yang kalian unggah atau membuka link di tab baru.&lt;/p>
+&lt;p>Untuk membuka setiap link di tab baru kalian harus membuat &lt;code>render-link.html&lt;/code> di folder &lt;code>layout/_default/_markup/&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-go" data-lang="go">&lt;span class="nx">layouts&lt;/span>
+&lt;span class="err">└──&lt;/span> &lt;span class="nx">_default&lt;/span>
+&lt;span class="err">└──&lt;/span> &lt;span class="nx">_markup&lt;/span>
+&lt;span class="err">└──&lt;/span> &lt;span class="nx">render&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nx">link&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">html&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Jika sudah isikan &lt;code>content html&lt;/code> berikut ini&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">a&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ .Destination | safeURL }}&amp;#34;&lt;/span>&lt;span class="err">{{&lt;/span> &lt;span class="na">with&lt;/span> &lt;span class="err">.&lt;/span>&lt;span class="na">Title&lt;/span>&lt;span class="err">}}&lt;/span> &lt;span class="na">title&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ . }}&amp;#34;&lt;/span>&lt;span class="err">{{&lt;/span> &lt;span class="na">end&lt;/span> &lt;span class="err">}}{{&lt;/span> &lt;span class="na">if&lt;/span> &lt;span class="na">strings&lt;/span>&lt;span class="err">.&lt;/span>&lt;span class="na">HasPrefix&lt;/span> &lt;span class="err">.&lt;/span>&lt;span class="na">Destination&lt;/span> &lt;span class="err">&amp;#34;&lt;/span>&lt;span class="na">https&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="err">}}&lt;/span> &lt;span class="na">target&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;_blank&amp;#34;&lt;/span>&lt;span class="err">{{&lt;/span> &lt;span class="na">end&lt;/span> &lt;span class="err">}}&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>{{ .Text }}&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">a&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Kalian juga bisa menambahkan &lt;code>rel=&amp;quot;nofollow&amp;quot;&lt;/code>, &lt;code>rel=&amp;quot;ugc&amp;quot;&lt;/code> atau &lt;code>rel=&amp;quot;nofollow noopener&amp;quot;&lt;/code> jadinya seperti ini&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">a&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ .Destination | safeURL }}&amp;#34;&lt;/span>&lt;span class="err">{{&lt;/span> &lt;span class="na">with&lt;/span> &lt;span class="err">.&lt;/span>&lt;span class="na">Title&lt;/span>&lt;span class="err">}}&lt;/span> &lt;span class="na">title&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ . }}&amp;#34;&lt;/span>&lt;span class="err">{{&lt;/span> &lt;span class="na">end&lt;/span> &lt;span class="err">}}{{&lt;/span> &lt;span class="na">if&lt;/span> &lt;span class="na">strings&lt;/span>&lt;span class="err">.&lt;/span>&lt;span class="na">HasPrefix&lt;/span> &lt;span class="err">.&lt;/span>&lt;span class="na">Destination&lt;/span> &lt;span class="err">&amp;#34;&lt;/span>&lt;span class="na">https&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="err">}}&lt;/span> &lt;span class="na">target&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;_blank&amp;#34;&lt;/span>&lt;span class="err">{{&lt;/span> &lt;span class="na">end&lt;/span> &lt;span class="err">}}&lt;/span> &lt;span class="na">rel&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;nofollow noopener&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>{{ .Text }}&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">a&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Setelah itu kalian save, dan kalian coba dengan membuat link di post kalian dengan format &lt;em>markdown&lt;/em>&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-markdown" data-lang="markdown">[&lt;span class="nt">Contoh Link&lt;/span>](&lt;span class="na">https://rmdhnreza.my.id&lt;/span>)
+&lt;/code>&lt;/pre>&lt;/div>&lt;h4 class="centertext" id="contoh-linkhttpsrmdhnrezamyid">&lt;a class="link" href="https://rmdhnreza.my.id" target="_blank" rel="nofollow noopener"
+>Contoh Link&lt;/a>&lt;/h4></description></item><item><title>Tutorial Compress Video Dengan FFMPEG</title><link>https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/</link><pubDate>Fri, 08 Jan 2021 20:14:20 +0700</pubDate><guid>https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/</guid><description>&lt;img src="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg.jpg" alt="Featured image of post Tutorial Compress Video Dengan FFMPEG" />&lt;p>Pada kesempatan kali ini saya akan memberikan tutorial compress video menggunakan ffmpeg, ffmpeg ini biasanya program yang digunakan aplikasi untuk compress video, salah satunya handbrake.
+Tutorial ini bisa dipakai di sistem operasi Linux dan Windows (disini saya menggunakan Linux, tetapi perintah nya sama saja mau Linux ataupun Windows)&lt;/p>
+&lt;ol>
+&lt;li>Kalian install ffmpeg terlebih dahulu
+&lt;ul>
+&lt;li>Untuk Windows kalian bisa download di &lt;a class="link" href="https://www.gyan.dev/ffmpeg/builds/" target="_blank" rel="nofollow noopener"
+>gyan.dev&lt;/a>&lt;/li>
+&lt;li>untuk sistem operasi Linux saya sarankan menginstall ffmpeg dari snap, karena sudah support &lt;em>Hardware Accelerated&lt;/em>, tetapi jika GPU kalian belum support NVENC kalian bisa menggunakan perintah&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash"> sudo pacman -S ffmpeg &lt;span class="o">(&lt;/span>Arc based&lt;span class="o">)&lt;/span>
+sudo apt install ffmpeg &lt;span class="o">(&lt;/span>Debian based&lt;span class="o">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Jika kalian menggunakan snap bisa menggunakan perintah&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash"> snap install ffmpeg
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Jika ffmpeg nya sudah terinstall kalian bisa cek menggunakan powershell atau terminal dengan perintah &lt;code> ffmpeg&lt;/code> jika tidak muncul error berarti installasi selesai, jika muncul &lt;code>command not found&lt;/code> berarti kalian belum setting &lt;strong>PATH&lt;/strong> untuk ffmpeg nya,
+&lt;ul>
+&lt;li>Untuk setting &lt;strong>PATH&lt;/strong> di Windows bisa kalian kunjungi &lt;a class="link" href="https://sulhi.id/setting-path-environment-variable-di-windows-10/" target="_blank" rel="nofollow noopener"
+>sulhi.id&lt;/a>&lt;/li>
+&lt;li>Untuk setting &lt;strong>PATH&lt;/strong> di Linux kalian bisa kunjungi thread di &lt;a class="link" href="https://stackoverflow.com/questions/14637979/how-to-permanently-set-path-on-linux-unix" target="_blank" rel="nofollow noopener"
+>stackoverflow&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Sekarang kita mulai compress video nya dengan perintah&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash"> ffmpeg -i input.mp4 -vcodec h264 -acodec aac output.mp4
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>Jika kalian ingin menggunakan &lt;em>Hardware Accelerated&lt;/em>, kalian bisa gunakan perintah&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash"> ffmpeg -hwaccel cuvid -c:v h264_cuvid -i input.mp4 -c:v h264_nvenc -cq &lt;span class="m">19&lt;/span> -c:a copy output.mp4
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>input.mp4&lt;/strong> ini adalah nama dan extensi video yang akan di compress sedangkan &lt;strong>output.mp4&lt;/strong> adalah video yang sudah selesai di compress&lt;br>
+&lt;code>-cq 19&lt;/code> &lt;strong>0&lt;/strong> itu auto &lt;strong>19&lt;/strong> rekomendasi &lt;strong>51&lt;/strong> lossless, kalian bisa pilih 1-51.&lt;/p>
+&lt;ol start="5">
+&lt;li>Perbedaan kecepatan compress menggunakan CPU dan GPU (&lt;em>Hardware Accelerated&lt;/em>)&lt;/li>
+&lt;/ol>
+&lt;p>AMD Phenom X4 955 BE @ 3.20GHz (4 Cores) | GPU NVIDIA GTX 750Ti&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 236; flex-basis: 568px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-cpu.jpg" data-size="1264x534">&lt;img src="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-cpu.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-cpu_hu7194277f954cbfc7d681bf4065cb05a3_156454_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-cpu_hu7194277f954cbfc7d681bf4065cb05a3_156454_1024x0_resize_q50_box.jpg 1024w"
+width="1264"
+height="534"
+loading="lazy"
+alt="CPU">
+&lt;/a>
+&lt;figcaption>CPU&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 235; flex-basis: 565px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-gpu.jpg" data-size="1264x536">&lt;img src="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-gpu.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-gpu_hu292623b4aee406d690f711ef69326a71_111612_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-gpu_hu292623b4aee406d690f711ef69326a71_111612_1024x0_resize_q50_box.jpg 1024w"
+width="1264"
+height="536"
+loading="lazy"
+alt="GPU">
+&lt;/a>
+&lt;figcaption>GPU&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="6">
+&lt;li>Jika kalian ingin setting bitrate video nya kalian bisa menggunakan perintah&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash"> ffmpeg -hwaccel cuvid -c:v h264_cuvid -i input.mp4 -c:v h264_nvenc -cq &lt;span class="m">19&lt;/span> -b:v 512k -minrate 512k -maxrate 512k -bufsize 512k -c:a copy output.mp4
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;code>512k&lt;/code> bisa kalian ganti misalnya dengan &lt;code>1024k&lt;/code> atau &lt;code>1M&lt;/code>&lt;/p>
+&lt;p>Menggunakan perintah langkah 4 | Menggunakan perintah langkah 6&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 293; flex-basis: 703px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-normal.jpg" data-size="721x246">&lt;img src="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-normal.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-normal_hud0c4d3e19d9c5c28edfb071972ee5d00_18806_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-normal_hud0c4d3e19d9c5c28edfb071972ee5d00_18806_1024x0_resize_q50_box.jpg 1024w"
+width="721"
+height="246"
+loading="lazy"
+alt="CPU">
+&lt;/a>
+&lt;figcaption>CPU&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 531; flex-basis: 1275px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-512k.jpg" data-size="941x177">&lt;img src="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-512k.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-512k_hua0cc18579822754eb4fbbb9406eea930_18304_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-512k_hua0cc18579822754eb4fbbb9406eea930_18304_1024x0_resize_q50_box.jpg 1024w"
+width="941"
+height="177"
+loading="lazy"
+alt="GPU">
+&lt;/a>
+&lt;figcaption>GPU&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item><item><title>Membuka Situs Terblokir Menggunakan DNS Over HTTPS</title><link>https://rmdhnreza.my.id/membuka-situs-terblokir-menggunakan-dns-over-https/</link><pubDate>Fri, 08 Jan 2021 15:33:28 +0700</pubDate><guid>https://rmdhnreza.my.id/membuka-situs-terblokir-menggunakan-dns-over-https/</guid><description>&lt;img src="https://rmdhnreza.my.id/membuka-situs-terblokir-menggunakan-dns-over-https/doh.jpg" alt="Featured image of post Membuka Situs Terblokir Menggunakan DNS Over HTTPS" />&lt;p>Kali ini saya akan share cara &lt;strong>Membuka Situs Terblokir Menggunakan DNS Over HTTPS&lt;/strong> atau biasa disingkat &lt;strong>DoH&lt;/strong>, cara ini tidak menggunakan aplikasi pihak ketiga, seperti VPN atau yang lainnya, cara ini hanya membutuhkan &lt;strong>Browser Up-to-Date&lt;/strong>. Kelebihan menggunakan &lt;strong>DoH&lt;/strong> ini tidak terlalu berpengaruh pada kecepatan internet kalian, tetapi kekurangan &lt;strong>DoH&lt;/strong> ini hanya bisa membuka situs terblokir yang menggunakan protokol &lt;strong>HTTPS&lt;/strong>, tapi tenang saja karena tahun 2021 ini hampir semua web sudah menggunakan protokol &lt;strong>HTTPS&lt;/strong>.&lt;/p>
+&lt;h2 id="menggunakan-dns-over-https-google-chrome">Menggunakan DNS Over HTTPS Google Chrome&lt;/h2>
+&lt;p>Untuk Google Chrome sendiri sudah support DNS Over HTTPS di sistem operasi Windows, Android, hanya saja di sistem operasi Linux belum support (teatpi bisa menggunakan policy). Untuk mengaktifkannya kalian bisa&lt;/p>
+&lt;ol>
+&lt;li>Masuk ke bagian &lt;strong>Settings&lt;/strong> (Klik titik 3 dibagian atas kanan lalu pilih settings)&lt;/li>
+&lt;li>Pilih &lt;strong>Privacy and Security&lt;/strong> (dibagian kiri) dan kalian Klik &lt;strong>Security&lt;/strong>&lt;/li>
+&lt;li>On kan &lt;strong>Use Secure DNS&lt;/strong> kalian pilih &lt;strong>With:&lt;/strong> lalu disana kalian pilih DNS yang kalian pakai
+&lt;img src="https://lh4.googleusercontent.com/zem6Estu-y7LDKLscD6R_08bBVr1lXNda5PjEWMi7KizMcxCs6NqyaIv0htyS-zOPnSwC1b1084HpbMo3ZsJAHwHuuuVNTl_-fbfcgJX5h-6pJzZ-ipl3gAtXCCEh9_znbg4b6FK" alt="Dns Over HTTPS Chrome" />&lt;/li>
+&lt;/ol>
+&lt;p>Untuk sistem operasi Linux kalian bisa menggunakan policy&lt;/p>
+&lt;ol>
+&lt;li>Kalian buat file &lt;strong>policies.json&lt;/strong> di
+&lt;ul>
+&lt;li>/etc/opt/chrome/policies/managed/policies.json (Untuk Google Chrome)&lt;/li>
+&lt;li>/etc/opt/chromium/policies/managed/policies.json (Untuk Chromium Based Browser)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Lalu isikan&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="p">{&lt;/span>
+&lt;span class="nt">&amp;#34;DnsOverHttpsMode&amp;#34;&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;secure&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nt">&amp;#34;DnsOverHttpsTemplates&amp;#34;&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;https://dns.quad9.net/dns-query&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>Save&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Note:&lt;/strong> DNS Over HTTPS diatas (Untuk Linux) menggunakan DNS quad9, untuk DNS lain kalian bisa ubah templatenya dengan&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://dns.google/dns-query">https://dns.google/dns-query&lt;/a> (DNS Google)&lt;/li>
+&lt;li>&lt;a href="https://cloudflare-dns.com/dns-query">https://cloudflare-dns.com/dns-query&lt;/a> (DNS Cloudflare)&lt;/li>
+&lt;/ul>
+&lt;h2 id="menggunakan-dns-over-https-microsoft-edge-chromium">Menggunakan DNS Over HTTPS Microsoft Edge (Chromium)&lt;/h2>
+&lt;p>Untuk Microsoft Edge sendiri sudah support &lt;strong>DNS Over HTTPS&lt;/strong> di sistem operasi Windows, Linux. Untuk mengaktifkannya kalian bisa&lt;/p>
+&lt;ol>
+&lt;li>Masuk ke bagian &lt;strong>settings&lt;/strong> (Klik titik 3 dibagian atas kanan lalu pilih settings)&lt;/li>
+&lt;li>Pilih &lt;strong>Privacy, search, and services&lt;/strong> (dibagian kiri) dan kalian scroll kebawah sampai bagian &lt;strong>Security&lt;/strong>&lt;/li>
+&lt;li>On kan &lt;strong>Use Secure DNS&lt;/strong> kalian pilih &lt;strong>Choose a service provider&lt;/strong> klik kolomnya lalu disana kalian pilih DNS yang kalian pakai&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://1.bp.blogspot.com/-zPY8bFYsd4o/X_gdY5FerAI/AAAAAAAAC0M/qsrQlQJuyIQcea5chT6TFFjfhCFoOgpnwCLcBGAsYHQ/s1920/doh-edge.jpg" alt="Dns Over HTTPS Microsoft Edge" />&lt;/p>
+&lt;h2 id="menggunakan-dns-over-https-mozilla-firefox">Menggunakan DNS Over HTTPS Mozilla Firefox&lt;/h2>
+&lt;p>Untuk Microsoft Edge sendiri sudah support &lt;strong>DNS Over HTTPS&lt;/strong> di sistem operasi Windows, Linux. Untuk mengaktifkannya kalian bisa&lt;/p>
+&lt;ol>
+&lt;li>Masuk ke bagian &lt;strong>Preferences&lt;/strong> (Klik strip 3 dibagian atas kanan lalu pilih Preferences)&lt;/li>
+&lt;li>Scroll ke paling bawah sampai bagian &lt;strong>Network Settings&lt;/strong> dan kalian klik &lt;strong>Settings&lt;/strong>&lt;/li>
+&lt;li>Ceklis &lt;strong>Enable DNS over HTTPS&lt;/strong> lalu kalian pilih &lt;strong>Cloudflare&lt;/strong> atau &lt;strong>NextDNS&lt;/strong>
+&lt;img src="https://1.bp.blogspot.com/-EODEbdBhGds/X_gdzpyYHwI/AAAAAAAAC0U/FJli4jERHV8dwTekdBEcveeMpR_d3uE8wCLcBGAsYHQ/s1920/doh-firefox.jpg" alt="Dns Over HTTPS Firefox" />&lt;/li>
+&lt;/ol>
+&lt;h2 id="menggunakan-dns-over-https-andorid-9">Menggunakan DNS Over HTTPS Andorid 9+&lt;/h2>
+&lt;p>Untuk Android 9 keatas sudah support &lt;strong>DNS Over HTTPS&lt;/strong> atau &lt;strong>Private DNS&lt;/strong>. Untuk mengaktifkannya kalian bisa&lt;/p>
+&lt;ol>
+&lt;li>Buka &lt;strong>Settings&lt;/strong> ⇢ &lt;strong>Connections&lt;/strong> ⇢ &lt;strong>Cari Private DNS&lt;/strong> atau Jika kalian mau lebih cepat kalian search aja &lt;strong>“Private DNS”&lt;/strong> dibagian settings&lt;/li>
+&lt;li>Kalian Klik &lt;strong>Private DNS&lt;/strong> nya dan Pilih &lt;strong>Private DNS provider hostname&lt;/strong>&lt;/li>
+&lt;li>Kalian isi
+&lt;ul>
+&lt;li>&lt;strong>dns.google&lt;/strong> untuk DNS Google&lt;/li>
+&lt;li>&lt;strong>1dot1dot1dot1.cloudflare-dns.com&lt;/strong> untuk DNS Cloudflare&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Jika sudah klik Save, kalian sudah bisa membuka situs yang terblokir
+&lt;img src="https://1.bp.blogspot.com/-uiWIS2iAzYI/X_gehiS1WgI/AAAAAAAAC0g/pZ6n5ZLJa0I8MSJcunp_T31C85uPxfttACLcBGAsYHQ/s1280/doh-android.jpg" alt="Dns Over HTTPS Android" />&lt;/li>
+&lt;/ol></description></item><item><title>Trik Mendownload Music Format FLAC Di Deezer</title><link>https://rmdhnreza.my.id/trik-mendownload-music-format-flac-di-deezer/</link><pubDate>Fri, 08 Jan 2021 14:47:05 +0700</pubDate><guid>https://rmdhnreza.my.id/trik-mendownload-music-format-flac-di-deezer/</guid><description>&lt;img src="https://rmdhnreza.my.id/trik-mendownload-music-format-flac-di-deezer/deezer.jpg" alt="Featured image of post Trik Mendownload Music Format FLAC Di Deezer" />&lt;p>Tutorial kali ini saya akan membagian trik mengunduh dari deezer dengan bitrate FLAC menggunakan aplikasi atau tools berbasis python. Jadi untuk kalian yang belum terinstall python3 di sistem operasi nya pastikan kalian install dulu python3 nya yang bisa di download di python.org/downloads/. Tips mengetahui python3 sudah terinstall di sistem operasi kalian caranya sangat mudah, untuk kalian pengguna sistem operasi Linux, MacOS kalian tinggal buka terminal saja dan untuk pengguna Windows kalian buka Powershell lalu ketikan perintah&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash"> python3 --version
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Hasilnya akan seperti ini, di sistem operasi saya yang terinstall python3 versi 3.6.9. Oke kita langsung saja mulai tutorialnya.
+&lt;img src="https://1.bp.blogspot.com/-A7KDhUmMzUU/X3c5bYisZHI/AAAAAAAACq8/G7mrtAkLjYYTUcZOprTU_BEMm3Eg7Q4vQCLcBGAsYHQ/s958/python3.jpg" alt="Cek Python Version" /> alt=&amp;ldquo;Cek Python Version&amp;rdquo; &amp;gt;}}&lt;/p>
+&lt;h2 id="tanpa-git">Tanpa Git&lt;/h2>
+&lt;ol>
+&lt;li>Kalian download dulu source code nya dari &lt;a class="link" href="https://git.rip/RemixDev/deemix-pyweb" target="_blank" rel="nofollow noopener"
+>git.rip/RemixDev/deemix-pyweb&lt;/a> lalu extract&lt;/li>
+&lt;li>Kalian masuk ke folder &lt;strong>deemix-pyweb&lt;/strong> nya lalu buka Terminal untuk sistem operasi Linux, MacOS dan Powershell untuk sistem operasi Windows lalu ketikan perintah&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash"> python3 -m pip install -U --user -r requirements.txt
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="https://1.bp.blogspot.com/-Jx9tty-lkkE/X3YsHLec62I/AAAAAAAACo4/wGBJGL92880guXZ9IRy-KQiPRMBijWTGgCLcBGAsYHQ/s958/3.jpg" alt="Trik Mendownload di Deezer.com" />&lt;/p>
+&lt;p>&lt;img src="https://1.bp.blogspot.com/-uP6PfAsBDGo/X3Ysy0tEBrI/AAAAAAAACpM/D9Kl5LbEBEcJS68lsv3cuDYz7sbKOHLdwCPcBGAYYCw/s958/4.jpg" alt="Trik Mendownload di Deezer.com" />&lt;/p>
+&lt;ol start="3">
+&lt;li>Jika semua package nya sudah terinstall kalian download &lt;strong>deemix-webui&lt;/strong> dari &lt;a class="link" href="https://git.rip/RemixDev/deemix-webui" target="_blank" rel="nofollow noopener"
+>git.rip/RemixDev/deemix-webui&lt;/a> lalu extract dan rename folder nya dari &lt;strong>deemix-webui&lt;/strong> menjadi &lt;strong>webui&lt;/strong> setelah itu cut/pindahkan folder nya ke folder &lt;strong>deemix-pyweb&lt;/strong> yang kalian download dilangkah 1. Jadinya seperti ini didalam folder &lt;strong>deemix-pyweb&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://1.bp.blogspot.com/-tru5MPm4Oo8/X_gT5cVDCHI/AAAAAAAACzw/AHXYZ2_wxW8Xn0gEmptN9u9KzcUXuGiSACLcBGAsYHQ/s958/webui.jpg" alt="Trik Mendownload di Deezer.com" />&lt;/p>
+&lt;ol start="4">
+&lt;li>Di Terminal atau Powershell kalian ketikan perintah untuk menjalankan deemix nya&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash"> python3 server.py
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="5">
+&lt;li>Setelah itu akan muncul link http://127.0.0.1:6595 dan kalian buka link nya di browser&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://1.bp.blogspot.com/-3gS2ROUCwAs/X3YslVSP1dI/AAAAAAAACpE/R70y5HMCD0IvR684Q8MGflSYPek2w-XzwCLcBGAsYHQ/s958/6.jpg" alt="Trik Mendownload di Deezer.com" />&lt;/p>
+&lt;h2 id="menggunakan-git">Menggunakan Git&lt;/h2>
+&lt;ol>
+&lt;li>Kalian clone repository dengan dengan perintah&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash"> git clone https://git.rip/RemixDev/deemix-pyweb.git
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Kalian masuk ke folder deemix-pyweb nya lalu buka Terminal untuk sistem operasi Linux, MacOS dan Powershell untuk sistem operasi Windows lalu ketikan perintah&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">python3 -m pip install -U --user -r requirements.txt
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="https://1.bp.blogspot.com/-Jx9tty-lkkE/X3YsHLec62I/AAAAAAAACo4/wGBJGL92880guXZ9IRy-KQiPRMBijWTGgCLcBGAsYHQ/s958/3.jpg" alt="Trik Mendownload di Deezer.com" />&lt;/p>
+&lt;p>&lt;img src="https://1.bp.blogspot.com/-uP6PfAsBDGo/X3Ysy0tEBrI/AAAAAAAACpM/D9Kl5LbEBEcJS68lsv3cuDYz7sbKOHLdwCPcBGAYYCw/s958/4.jpg" alt="Trik Mendownload di Deezer.com" />&lt;/p>
+&lt;ol start="3">
+&lt;li>Jika semua package nya sudah terinstall kalian clone juga webui nya dengan perintah&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash"> git submodule update --init --recursive
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="https://1.bp.blogspot.com/-GcWharjIILs/X3YtwePP-VI/AAAAAAAACpY/Pc5GoMi0ihQbYTD8XYDp3vqeqvHW2L0pwCLcBGAsYHQ/s958/5.jpg" alt="Trik Mendownload di Deezer.com" />&lt;/p>
+&lt;ol start="4">
+&lt;li>Di Terminal atau Powershell kalian ketikan perintah untuk menjalankan deemix nya&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash"> python3 server.py
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="5">
+&lt;li>Setelah itu akan muncul link http://127.0.0.1:6595 dan kalian buka link nya di browser&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://1.bp.blogspot.com/-3gS2ROUCwAs/X3YslVSP1dI/AAAAAAAACpE/R70y5HMCD0IvR684Q8MGflSYPek2w-XzwCLcBGAsYHQ/s958/6.jpg" alt="Trik Mendownload di Deezer.com" />&lt;/p>
+&lt;h2 id="cara-mendapatkan-arl-google-chrome--chromium-based-browser">Cara Mendapatkan ARL Google Chrome / Chromium Based Browser&lt;/h2>
+&lt;ol>
+&lt;li>Kalian akses &lt;a class="link" href="https://www.deezer.com" target="_blank" rel="nofollow noopener"
+>deezer.com&lt;/a> dan login&lt;/li>
+&lt;li>Kalian klik &lt;strong>icon gembok&lt;/strong> pada address bar dan pilih &lt;strong>Cookies&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://1.bp.blogspot.com/-YHuRX7MFkMc/X3YuLj-gBEI/AAAAAAAACpo/08Ns9cidoS0ihEn1jFbdkDhGq3N_BeTVACLcBGAsYHQ/s1918/chrome1.jpg" alt="Trik Mendownload di Deezer.com" />&lt;/p>
+&lt;ol start="3">
+&lt;li>Pilih &lt;strong>deezer.com&lt;/strong> pilih &lt;strong>Cookies&lt;/strong> lagi&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://1.bp.blogspot.com/-mIC5_u7YXgA/X3YuRVH2srI/AAAAAAAACpw/C3H5OuOpnSg6SSXrt-1KpszMOX1yWU5-ACLcBGAsYHQ/s1918/chrome2.jpg" alt="Trik Mendownload di Deezer.com" />&lt;/p>
+&lt;ol start="4">
+&lt;li>Disana kalian cari &lt;strong>arl&lt;/strong> dan copy &lt;strong>content&lt;/strong> nya dengan cara klik 2x lalu &lt;strong>CTRL+C&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://1.bp.blogspot.com/-ukA-f1Trcs0/X3YuW9w5h5I/AAAAAAAACp0/jUvWCErHC2YMl4lZ9oXGSxrh0YARJIHxQCLcBGAsYHQ/s1918/chrome3.jpg" alt="Trik Mendownload di Deezer.com" />&lt;/p>
+&lt;h2 id="cara-mendapatkan-arl-firefox--gecko-based-browser">Cara Mendapatkan ARL Firefox / Gecko Based Browser&lt;/h2>
+&lt;ol>
+&lt;li>Kalian akses &lt;a class="link" href="https://www.deezer.com" target="_blank" rel="nofollow noopener"
+>deezer.com&lt;/a> dan login&lt;/li>
+&lt;li>Kalian klik kanan dan pilih &lt;strong>Inspect Element&lt;/strong> atau dengan menggunakan shortcut &lt;strong>CTRL+SHIFT+I&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://1.bp.blogspot.com/-Yw3deFdtKCk/X3Yt5GLdLeI/AAAAAAAACpc/hMwz1R83Oko808p6SBXTpdzMyCh2HbVUACLcBGAsYHQ/s1078/8.jpg" alt="Trik Mendownload di Deezer.com" />&lt;/p>
+&lt;ol start="3">
+&lt;li>Masuk ke tab Storage pilih Cookies pilih &lt;a href="https://www.deezer.com">https://www.deezer.com&lt;/a>, disana kalian akan melihat &lt;strong>arl&lt;/strong> dan kalian copy &lt;strong>value&lt;/strong> nya dengan cara klik 2x lalu &lt;strong>CTRL+C&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://1.bp.blogspot.com/-t5a7zFAAdUM/X3Yt-_R59LI/AAAAAAAACpg/uvvZMB1vXTIxRxo_nQZyITRcmT_bg1MCwCLcBGAsYHQ/s1078/9.jpg" alt="Trik Mendownload di Deezer.com" />&lt;/p>
+&lt;h2 id="mendownload-music">Mendownload Music&lt;/h2>
+&lt;ol>
+&lt;li>Setelah mendapatkan &lt;strong>ARL&lt;/strong>, kalian &lt;strong>Open Settings&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://1.bp.blogspot.com/-ezlDk1XAx94/X3YuemqsHaI/AAAAAAAACp8/QSOi-br_bS8cyyNE3t3ZTvpii8sT3vuowCLcBGAsYHQ/s1078/7.jpg" alt="Trik Mendownload di Deezer.com" />&lt;/p>
+&lt;ol start="2">
+&lt;li>Masukan &lt;strong>ARL&lt;/strong> yang kalian dapatkan tadi di kolom &lt;strong>ARL&lt;/strong> nya, lalu kalian &lt;strong>UPDATE&lt;/strong>, Jika tidak ada error, maka &lt;strong>username deezer&lt;/strong> kalian akan muncul&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://1.bp.blogspot.com/-_Ysj3nSD9Wc/X3Yuka9ZW7I/AAAAAAAACqA/UlR4zDCfLCY2XtxY7VxFtv2yDDStFplPQCLcBGAsYHQ/s1078/10.jpg" alt="Trik Mendownload di Deezer.com" />&lt;/p>
+&lt;p>&lt;img src="https://1.bp.blogspot.com/-3OXncrO816I/X3YuuR2wdRI/AAAAAAAACqM/3bneCqGgxocHhm2Zs4_xyjocNgT7mfaOQCLcBGAsYHQ/s1078/11.jpg" alt="Trik Mendownload di Deezer.com" />&lt;/p>
+&lt;ol start="3">
+&lt;li>Scroll kebawah sampai bagian &lt;strong>Downloads&lt;/strong> lalu ubah &lt;strong>Preferred Bitrate&lt;/strong> mnejadi &lt;strong>FLAC&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://1.bp.blogspot.com/-PS6RNpj9wGY/X3Yu0qlGfyI/AAAAAAAACqU/paF8xTDD5oIMWTs1lUrCwJKUymH6YLBCgCLcBGAsYHQ/s1078/12.jpg" alt="Trik Mendownload di Deezer.com" />&lt;/p>
+&lt;ol start="4">
+&lt;li>Kalian klik &lt;strong>Save&lt;/strong>&lt;/li>
+&lt;li>Setelah itu kalian bisa klik &lt;strong>Search&lt;/strong> untuk mendownload Music yang kalian ingin download dengan format &lt;strong>FLAC&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://1.bp.blogspot.com/-cXGrMftzm7A/X3Yu6tJfj2I/AAAAAAAACqY/caM_2uI0NOo2zns3V1sjdbi_QalaFy8WQCLcBGAsYHQ/s1078/13.jpg" alt="Trik Mendownload di Deezer.com" />&lt;/p></description></item><item><title>Tutorial Membuat Static Website Dengan Hugo</title><link>https://rmdhnreza.my.id/tutorial-membuat-static-website-dengan-hugo/</link><pubDate>Thu, 07 Jan 2021 18:54:45 +0700</pubDate><guid>https://rmdhnreza.my.id/tutorial-membuat-static-website-dengan-hugo/</guid><description>&lt;img src="https://rmdhnreza.my.id/tutorial-membuat-static-website-dengan-hugo/hugo.jpg" alt="Featured image of post Tutorial Membuat Static Website Dengan Hugo" />&lt;p>Hugo adalah Static Webite Generator yang ditulis menggunakan bahasa program Go. Hugo adalah project Open Source yang dilisensikan di bawah Lisensi Apache 2.0. Hugo mampu memuat halaman dalam hitungan detik ( &amp;lt;1ms per halaman) karena itu Hugo terkenal dengan &amp;ldquo;The world’s fastest framework for building websites&amp;rdquo;.&lt;/p>
+&lt;p>Disini saya akan men-deploy website hugo ke Firebase, selain ke Firebase kalian juga bisa hosting website kalian ke Github, Gitlab atau Netlify.&lt;/p>
+&lt;p>Sebelum membuat website dengan Hugo pastikan kalian menginstall Hugo nya terlebih dahulu.&lt;/p>
+&lt;ol>
+&lt;li>Install hugo versi terbaru yang bisa kalian download di &lt;a class="link" href="https://github.com/gohugoio/hugo/releases" target="_blank" rel="nofollow noopener"
+>github.com/gohugoio/hugo/releases&lt;/a>&lt;/li>
+&lt;li>Saya sarankan kalian mengunduh versi extended nya, karena beberapa tema hanya support versi extended&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://1.bp.blogspot.com/-dnVPw2BHVB8/X3iUG5N64hI/AAAAAAAACrc/AFjHbgjsNOAi0rEyDgG56ou8PVEpl2vTQCLcBGAsYHQ/s958/2.jpg" alt="Tutorial Membuat Static Website dengan Framework Hugo" />&lt;/p>
+&lt;ol start="3">
+&lt;li>Setelah kalian menginstall hugo nya, buka Windows Powershell untuk yang menggunakan sistem operasi Windows dan buka Terminal untuk sistem operasi berbasis Linux dan jalankan perintah &lt;code> hugo version&lt;/code> dan jika tidak ada error maka hugo sudah berhasil di install di sistem operasi kalian.&lt;/li>
+&lt;/ol>
+&lt;h2 id="membuat-website-dengan-hugo">Membuat Website Dengan Hugo&lt;/h2>
+&lt;ol>
+&lt;li>Kita harus membuat website nya dulu dengan perintah hugo new site rmdhnreza untuk rmdhnreza kalian bisa ganti dengan nama yang kalian mau, jika sudah selesai hugo akan membuat folder baru dengan nama tadi.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://1.bp.blogspot.com/-onczNnB0HZs/X3iUj6JxbzI/AAAAAAAACro/76K6ioQlgYQW8cDBogDGZMg6eX5n8v5ggCLcBGAsYHQ/s1150/3.jpg" alt="Tutorial Membuat Static Website dengan Framework Hugo" />&lt;/p>
+&lt;ol start="2">
+&lt;li>Masuk ke folder yang baru dibuat &lt;code> cd rmdhnreza&lt;/code>&lt;/li>
+&lt;li>Download tema hugo nya yang bisa kalian dapatkan di themes.gohugo.io, disini saya akan menggunakan tema paper. Perlu kalian ketahui, setiap tema config nya pasti berbeda ada yang menggunakan format &lt;strong>.TOML&lt;/strong> dan ada juga yang menggunakan format &lt;strong>.YML&lt;/strong>, jadi pastikan kalian menginstallnya sesuai dengan dokumentasi tema tersebut.&lt;/li>
+&lt;li>Untuk menginstall tema paper di root folder hugo website kalian ketikan perintah perintah&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash"> git submodule add https://github.com/nanxiaobei/hugo-paper themes/paper
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="5">
+&lt;li>Edit &lt;strong>config.toml&lt;/strong> menggunakan editor, lalu ubah nama temanya&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://1.bp.blogspot.com/-fN1BGpEngMk/X_cNJlFcnXI/AAAAAAAACzI/sgrmLg7h9yAH7-OeocEeWlOI2_pAiZnqACLcBGAsYHQ/s960/9.jpg" alt="Tutorial Membuat Static Website dengan Framework Hugo" />&lt;/p>
+&lt;ol start="6">
+&lt;li>kita coba jalankan hugo nya dengan perintah &lt;code> hugo server -D&lt;/code> Jika tidak ada error maka pemasangan tema berhasil &lt;strong>CTRL + C&lt;/strong> untuk menghentikan proses hugo.&lt;/li>
+&lt;li>Buat post dengan perintah &lt;code> hugo new PostPertama.md&lt;/code> pastikan ekstensi &lt;strong>.md&lt;/strong> (markdown) kalian tulis.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://1.bp.blogspot.com/-6jIwe9lsEEE/X_cOMDPE4fI/AAAAAAAACzQ/DUfo0Oqe2jEf_GkUrcovvQeznSLSBjjTgCLcBGAsYHQ/s637/11.jpg" alt="Tutorial Membuat Static Website dengan Framework Hugo" />&lt;/p>
+&lt;ol start="8">
+&lt;li>Maka akan muncul file baru di folder content, disana kalian bisa edit post nya dan pastikan &lt;strong>draft: false&lt;/strong> agar nanti muncul pada saat kita hosting ke firebase&lt;/li>
+&lt;li>Jalankan lagi hugo server dengan perintah &lt;code> hugo server -D&lt;/code> lalu buka di browser &lt;strong>http://localhost:1313&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://1.bp.blogspot.com/-S9AvWTeMM_s/X3iVGmjVP5I/AAAAAAAACr8/bIxz6ueUNJ4tJBPnXe_FxHh2eCF4Q5SwQCLcBGAsYHQ/s1918/13.jpg" alt="Tutorial Membuat Static Website dengan Framework Hugo" />&lt;/p>
+&lt;ol start="10">
+&lt;li>Jika dirasa sudah cukup &lt;strong>CTRL + C&lt;/strong> untuk menghentikan proses hugo, dan ketik perintah &lt;code> hugo&lt;/code> nanti akan muncul folder baru bernama &lt;strong>public&lt;/strong>, nah folder ini yang nantinya akan kita hosting ke firebase&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://1.bp.blogspot.com/-C6uWslKC3o0/X3iVMzNz7vI/AAAAAAAACsA/u4Aj-jIGLOU14DrP9R3dNAJz6LASHk7KgCLcBGAsYHQ/s638/14.jpg" alt="Tutorial Membuat Static Website dengan Framework Hugo" />&lt;/p>
+&lt;h2 id="hosting-ke-firebase">Hosting ke Firebase&lt;/h2>
+&lt;p>Sebelum kita mengupload static website kita ke Firebase pastikan kalian sudah menginstall npm package &lt;strong>firebase-tools&lt;/strong> di sistem operasi kalian, jika kalian belum menginstallnya kalian download dan install &lt;strong>nodeJS&lt;/strong> versi terbaru, setelah terinstall masukan perintah &lt;code> npm install -g firebase-tools&lt;/code> di Powershell, CMD ataupun terminal. Jika Kalian sudah menginstall firebase tools nya, kita langsung saja mulai hosting static website kita ke firebase&lt;/p>
+&lt;ol>
+&lt;li>Login ke firebase, gunakan perintah&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash"> firebase login
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Setelah berhasil login, ketikan perintah&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash"> firebase init
+&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>Pilih Hosting&lt;/li>
+&lt;li>Pilih project kalian jika kalian belum punya project tinggal pilih &lt;strong>Create a new project&lt;/strong>&lt;/li>
+&lt;li>Beri nama &amp;amp; ID project kalian&lt;/li>
+&lt;li>What do you want to use as your public directory? &lt;strong>Enter&lt;/strong>&lt;/li>
+&lt;li>Configure as a single-page app (rewrite all urls to /index.html)? &lt;strong>No&lt;/strong>&lt;/li>
+&lt;li>File public/404.html already exists. Overwrite? &lt;strong>No&lt;/strong>&lt;/li>
+&lt;li>File public/index.html already exists. Overwrite? &lt;strong>No&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://1.bp.blogspot.com/-eWXp0dNrDrg/X3icUKGHMyI/AAAAAAAACsk/wzYR9KvzYjonpc65e9siTrvXPVrTpIXjQCLcBGAsYHQ/s1078/16.jpg" alt="Tutorial Membuat Static Website dengan Framework Hugo" />&lt;/p>
+&lt;ol start="3">
+&lt;li>Sekarang kita upload semua file yang ada di folder public dengan perintah&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash"> firebase deploy
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>Jika berhasil nanti akan muncul URL nya di terminal, bisa kalian buka di browser &lt;strong>&lt;a href="https://rmdhnrezamyid.web.app">https://rmdhnrezamyid.web.app&lt;/a>&lt;/strong>&lt;/li>
+&lt;li>Edit &lt;strong>config.toml&lt;/strong>, ganti bagian &lt;strong>baseURL&lt;/strong> nya dengan link website kalian lalu save&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://1.bp.blogspot.com/-04MLwZshVX8/X3icgE92o6I/AAAAAAAACss/vO8-kdBfQAY0vVY3QklY9NzuXatQm4N1gCLcBGAsYHQ/s958/18.jpg" alt="Tutorial Membuat Static Website dengan Framework Hugo" />&lt;/p>
+&lt;ol start="6">
+&lt;li>Langkah terakhir kalian ketikan perintah&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash"> hugo
+firebase deploy
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Sekarang buka URL kalian di browser,
+&lt;img src="https://1.bp.blogspot.com/-LHm8DzZblIk/X3icsi-4zTI/AAAAAAAACs4/bg0soHYAn3kB9a6KKp-_opFp2D0uoVimwCLcBGAsYHQ/s1918/20.jpg" alt="Tutorial Membuat Static Website dengan Framework Hugo" />&lt;/p>
+&lt;p>Untuk lebih lengkapnya bisa kalian kunjungi dokumentasi hugo di &lt;a class="link" href="https://gohugo.io/documentation/" target="_blank" rel="nofollow noopener"
+>https://gohugo.io/documentation/&lt;/a>.&lt;/p></description></item><item><title>Trik Download Torrent Menggunakan Heroku</title><link>https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/</link><pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate><guid>https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/</guid><description>&lt;img src="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/heroku.jpg" alt="Featured image of post Trik Download Torrent Menggunakan Heroku" />&lt;p>Pada tutorial kali ini saya akan membagikan cara mengunduh atau leech file torrent dari Heroku langsung ke akun Google Drive atau Team Drive kita. Jadi kita bisa mengunduhnya via download manager seperti EagleGet, Free Download Manager, Internet Download Manager, dll.&lt;/p>
+&lt;p>Tutorial kali ini mirip-mirip dengan tutorial &lt;a class="link" href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/" target="_blank" rel="nofollow noopener"
+>Setup Google Drive Indexer di Heroku&lt;/a> yang ada di blog ini, jika kalian sudah pernah mencoba &lt;a class="link" href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/" target="_blank" rel="nofollow noopener"
+>Setup Google Drive Indexer di Heroku&lt;/a> langkah-langkahnya tidak terlalu rumit seperti membuat &lt;strong>Client_ID&lt;/strong>, &lt;strong>Client_Secret&lt;/strong>, dll.&lt;/p>
+&lt;p>Pertama-tama kalian yang tidak punya akun heroku harus buat dulu di akunnya di &lt;a class="link" href="https://heroku.com" target="_blank" rel="nofollow noopener"
+>heroku.com&lt;/a>, jika kalian sudah membuat akunnya langsung saja kita mulai pemasangannya. Oke, langsung saja kita masuk ke Tutorialnya&lt;/p>
+&lt;h2 id="setup-heroku">Setup Heroku&lt;/h2>
+&lt;ol>
+&lt;li>Klik link berikut ini &lt;a class="link" href="https://github.com/patheticGeek/torrent-aio-bot" target="_blank" rel="nofollow noopener"
+>Heroku Deploy&lt;/a>
+&lt;ul>
+&lt;li>&lt;strong>App name&lt;/strong> kalian bebas apa saja asal masih tersedia di heroku nya, app name ini yang akan menjadi subdomain link kalian&lt;/li>
+&lt;li>&lt;strong>Region&lt;/strong> kalian bebas mau di US atau EU&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
+&lt;a href="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/1.jpg" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/1.jpg"
+srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/1_hu8e11f1393c1ef7dc79a856b66d17e8fd_61416_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/1_hu8e11f1393c1ef7dc79a856b66d17e8fd_61416_1024x0_resize_q50_box.jpg 1024w"
+width="1920"
+height="1080"
+loading="lazy"
+alt="Heroku Torrent to Google Drive">
+&lt;/a>
+&lt;figcaption>Heroku Torrent to Google Drive&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="2">
+&lt;li>Setelah semuanya selesai kalian klik &lt;strong>Deploy app&lt;/strong> &amp;amp; tunggu beberapa menit sampai prosesnya selesai&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
+&lt;a href="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/2.jpg" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/2.jpg"
+srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/2_huaef0fcd197dc1d34f2d0fe27bd1408e7_74660_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/2_huaef0fcd197dc1d34f2d0fe27bd1408e7_74660_1024x0_resize_q50_box.jpg 1024w"
+width="1920"
+height="1080"
+loading="lazy"
+alt="Heroku Torrent to Google Drive">
+&lt;/a>
+&lt;figcaption>Heroku Torrent to Google Drive&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="3">
+&lt;li>Jika proses build nya sudah selesai kalian klik &lt;strong>Manage app&lt;/strong> masuk ke bagian &lt;strong>Settings&lt;/strong> dan klik &lt;strong>Reveal Config Vars&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
+&lt;a href="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/3.jpg" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/3.jpg"
+srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/3_hud3b635ac0b72a55357156ce89566efb8_72036_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/3_hud3b635ac0b72a55357156ce89566efb8_72036_1024x0_resize_q50_box.jpg 1024w"
+width="1920"
+height="1080"
+loading="lazy"
+alt="Heroku Torrent to Google Drive">
+&lt;/a>
+&lt;figcaption>Heroku Torrent to Google Drive&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="4">
+&lt;li>Isi bagian
+&lt;ul>
+&lt;li>&lt;strong>KEY&lt;/strong> dengan &lt;strong>SITE&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>VALUE&lt;/strong> dengan &lt;a href="https://appname.herokuapp.com/">https://appname.herokuapp.com/&lt;/a> (&lt;strong>appname&lt;/strong> kalian ganti dengan name yang kalian buat di langkah 1)&lt;/li>
+&lt;li>Lalu klik &lt;strong>Add&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
+&lt;a href="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/4.jpg" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/4.jpg"
+srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/4_hua67d69e5bf38ed8dcf5fdeca5e95470c_87518_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/4_hua67d69e5bf38ed8dcf5fdeca5e95470c_87518_1024x0_resize_q50_box.jpg 1024w"
+width="1920"
+height="1080"
+loading="lazy"
+alt="Heroku Torrent to Google Drive">
+&lt;/a>
+&lt;figcaption>Heroku Torrent to Google Drive&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Sampai sini sebetulnya kalian sudah bisa mengunduh/leech torrent, tapi pasti akan error karena tempat penyimpanannya (dalam hal ini Google Drive) belum kita setting.&lt;/p>
+&lt;h2 id="membuat-client--secret-id">Membuat Client &amp;amp; Secret ID&lt;/h2>
+&lt;ol start="5">
+&lt;li>Buka &lt;a class="link" href="https://developers.google.com/drive/api/v3/quickstart/nodejs" target="_blank" rel="nofollow noopener"
+>developers.google.com/drive/api/v3/quickstart/nodejs&lt;/a> Klik &lt;strong>Enable Drive API&lt;/strong> masuk dengan akun Google kalian. Jika kalian sudah masuk tinggal isi project name bebas setelah itu Next maka akan muncul &lt;strong>Configure your OAuth client&lt;/strong> kalian pilih &lt;strong>Desktop App&lt;/strong> jika sudah langsung klik &lt;strong>Create&lt;/strong> maka kalian akan mendapatkan &lt;strong>Client ID&lt;/strong> &amp;amp; &lt;strong>Client Secret&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
+&lt;a href="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/6.jpg" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/6.jpg"
+srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/6_hu2eb93da4905f2a789c3611c8d2319b00_131982_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/6_hu2eb93da4905f2a789c3611c8d2319b00_131982_1024x0_resize_q50_box.jpg 1024w"
+width="1920"
+height="1080"
+loading="lazy"
+alt="Heroku Torrent to Google Drive">
+&lt;/a>
+&lt;figcaption>Heroku Torrent to Google Drive&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="6">
+&lt;li>Buka link: &lt;a href="https://appname.herokuapp.com/drivehelp">https://appname.herokuapp.com/drivehelp&lt;/a>
+&lt;ul>
+&lt;li>Copy &amp;amp; Paste &lt;strong>Client ID&lt;/strong> &amp;amp; &lt;strong>Client Secret&lt;/strong> yang kalian buat dilangkah 5&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Setelah semuanya selesai kalian klik Generate token&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
+&lt;a href="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/7.jpg" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/7.jpg"
+srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/7_hub61d870a53ded41ebafb117edf93cd54_49440_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/7_hub61d870a53ded41ebafb117edf93cd54_49440_1024x0_resize_q50_box.jpg 1024w"
+width="1920"
+height="1080"
+loading="lazy"
+alt="Heroku Torrent to Google Drive">
+&lt;/a>
+&lt;figcaption>Heroku Torrent to Google Drive&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="8">
+&lt;li>Kalian masuk dengan akun Google kalian, akun Google ini yang akan menjadi tempat penyimpanan unduhan torrent, jadi pastikan kalian masuk dengan akun Google yang memiliki Shared Drive atau akun Universitas (edu).&lt;/li>
+&lt;li>Setelah mendapatkan &lt;strong>Auth Code&lt;/strong> paste code nya dikolom app kalian, lalu &lt;strong>Get auth code&lt;/strong> maka kalian akan mendapatkan &lt;strong>token&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
+&lt;a href="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/9.jpg" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/9.jpg"
+srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/9_hu8fe1c062b638520157db5c9288a69546_84279_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/9_hu8fe1c062b638520157db5c9288a69546_84279_1024x0_resize_q50_box.jpg 1024w"
+width="1920"
+height="1080"
+loading="lazy"
+alt="Heroku Torrent to Google Drive">
+&lt;/a>
+&lt;figcaption>Heroku Torrent to Google Drive&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="10">
+&lt;li>Setting config aplikasi kalian (Langkah Nomor 4) seperti berikut (KEY -&amp;gt; Value)
+&lt;ul>
+&lt;li>&lt;strong>CLIENT_ID&lt;/strong> -&amp;gt; yang kalian dapatkan pada langkah 5&lt;/li>
+&lt;li>&lt;strong>CLIENT_SECRET&lt;/strong> -&amp;gt; yang kalian dapatkan pada langkah 5&lt;/li>
+&lt;li>&lt;strong>AUTH_CODE&lt;/strong> -&amp;gt; yang kalian dapatkan pada langkah 7&lt;/li>
+&lt;li>&lt;strong>TOKEN&lt;/strong> -&amp;gt; yang kalian dapatkan 9&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Jika kalian ingin menyimpan unduhan torrent nya di satu folder maka buat config
+&lt;ul>
+&lt;li>&lt;strong>GDRIVE_PARENT_FOLDER&lt;/strong> -&amp;gt; Isi dengan ID Folder kalian&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 182; flex-basis: 438px">
+&lt;a href="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/10.jpg" data-size="1920x1052">&lt;img src="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/10.jpg"
+srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/10_hu1e3ac807bf3924ddba73fc46bb371501_72179_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/10_hu1e3ac807bf3924ddba73fc46bb371501_72179_1024x0_resize_q50_box.jpg 1024w"
+width="1920"
+height="1052"
+loading="lazy"
+alt="Heroku Torrent to Google Drive">
+&lt;/a>
+&lt;figcaption>Heroku Torrent to Google Drive&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="12">
+&lt;li>Maka hasil akhirnya seperti ini&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
+&lt;a href="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/11.jpg" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/11.jpg"
+srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/11_huf64c55db3253f6d57e04a28d82139420_96178_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/11_huf64c55db3253f6d57e04a28d82139420_96178_1024x0_resize_q50_box.jpg 1024w"
+width="1920"
+height="1080"
+loading="lazy"
+alt="Heroku Torrent to Google Drive">
+&lt;/a>
+&lt;figcaption>Heroku Torrent to Google Drive&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="13">
+&lt;li>Setelah itu kalian bisa tes download torrent jika berhasil maka hasil undukan akan langsung muncul dibagian Drive&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
+&lt;a href="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/14.jpg" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/14.jpg"
+srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/14_hu33c0ae8654820850bc83c68d9216dd34_66724_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/14_hu33c0ae8654820850bc83c68d9216dd34_66724_1024x0_resize_q50_box.jpg 1024w"
+width="1920"
+height="1080"
+loading="lazy"
+alt="Heroku Torrent to Google Drive">
+&lt;/a>
+&lt;figcaption>Heroku Torrent to Google Drive&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
+&lt;a href="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/15.jpg" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/15.jpg"
+srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/15_hua4fe9a2a3f35769f9de9b6c99bb3db3d_89879_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/15_hua4fe9a2a3f35769f9de9b6c99bb3db3d_89879_1024x0_resize_q50_box.jpg 1024w"
+width="1920"
+height="1080"
+loading="lazy"
+alt="Heroku Torrent to Google Drive">
+&lt;/a>
+&lt;figcaption>Heroku Torrent to Google Drive&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Jika kalian bingung dengan langkah-langkah nya kalian bisa tanyakan di kolom komentar bingung di langkah berapa&lt;/p></description></item><item><title>Setup Google Drive Indexer di Heroku</title><link>https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/</link><pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate><guid>https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/</guid><description>&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/heroku.jpg" alt="Featured image of post Setup Google Drive Indexer di Heroku" />&lt;p>Google Drive Indexer memudahkan kalian untuk share file dari akun Team Drive untuk di unduh oleh orang lain, karena Team Drive sendiri tidak support share folder maka Gdrive Indexer ini solusinya. Perlu diketahui Gdrive Indexer ini support drive dan juga Team Drive.&lt;/p>
+&lt;p>Pada tutorial kali ini Gdrive Indexer akan kita pasang di Heroku, jadi buat kalian yang tidak punya akun heroku harus buat dulu di heroku.com, jika kalian sudah membuat akunnya langsung saja kita mulai pemasangannya.&lt;/p>
+&lt;h2 id="setup-heroku">Setup Heroku&lt;/h2>
+&lt;ol>
+&lt;li>Klik link berikut ini &lt;a class="link" href="https://heroku.com/deploy?template=https://github.com/patheticGeek/gdrive-index" target="_blank" rel="nofollow noopener"
+>Deploy to Heroku&lt;/a>
+&lt;ul>
+&lt;li>&lt;strong>App name&lt;/strong> kalian bebas apa saja asal masih tersedia di heroku nya, app name ini yang akan menjadi subdomain link kalian&lt;/li>
+&lt;li>&lt;strong>Region&lt;/strong> kalian bebas mau di US atau EU&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 177; flex-basis: 427px">
+&lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/1.jpg" data-size="1918x1078">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/1.jpg"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/1_hucded35280e212db777c89446bbd9f095_54425_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/1_hucded35280e212db777c89446bbd9f095_54425_1024x0_resize_q50_box.jpg 1024w"
+width="1918"
+height="1078"
+loading="lazy"
+alt="Heroku Google Drive Indexer">
+&lt;/a>
+&lt;figcaption>Heroku Google Drive Indexer&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="2">
+&lt;li>Setelah semuanya selesai kalian klik Deploy app &amp;amp; tunggu beberapa menit sampai prosesnya selesai&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 177; flex-basis: 427px">
+&lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/2.jpg" data-size="1918x1078">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/2.jpg"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/2_hue121623585bb09e2c4a0d682446cc929_71031_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/2_hue121623585bb09e2c4a0d682446cc929_71031_1024x0_resize_q50_box.jpg 1024w"
+width="1918"
+height="1078"
+loading="lazy"
+alt="Heroku Google Drive Indexer">
+&lt;/a>
+&lt;figcaption>Heroku Google Drive Indexer&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="3">
+&lt;li>Jika proses build nya sudah selesai kalian klik Manage app masuk ke bagian &lt;strong>Settings&lt;/strong> dan klik &lt;strong>Reveal Config Vars&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 177; flex-basis: 427px">
+&lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/3.jpg" data-size="1918x1078">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/3.jpg"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/3_hu0edaee79fbb1aca0646b703a06c7ddbb_63840_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/3_hu0edaee79fbb1aca0646b703a06c7ddbb_63840_1024x0_resize_q50_box.jpg 1024w"
+width="1918"
+height="1078"
+loading="lazy"
+alt="Heroku Google Drive Indexer">
+&lt;/a>
+&lt;figcaption>Heroku Google Drive Indexer&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="4">
+&lt;li>Isi bagian &lt;strong>KEY&lt;/strong> dengan &lt;strong>AUTH&lt;/strong> sedangkan &lt;strong>VALUE&lt;/strong> nya kosongkan saja klik &lt;strong>Add&lt;/strong>&lt;/li>
+&lt;li>Buka project kalian &lt;a href="https://appname.herokuapp.com/setup">https://appname.herokuapp.com/setup&lt;/a> ganti &lt;strong>appname&lt;/strong> dengan &lt;strong>appname&lt;/strong> yang kalian buat dilangkah pertama&lt;/li>
+&lt;li>Jika sukses maka tampilan app kalian akan seperti ini&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 177; flex-basis: 427px">
+&lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/4.jpg" data-size="1918x1078">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/4.jpg"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/4_hua726eb7d52e00b0b347db8d36187daab_61928_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/4_hua726eb7d52e00b0b347db8d36187daab_61928_1024x0_resize_q50_box.jpg 1024w"
+width="1918"
+height="1078"
+loading="lazy"
+alt="Heroku Google Drive Indexer">
+&lt;/a>
+&lt;figcaption>Heroku Google Drive Indexer&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2 id="membuat-client--secret-id">Membuat Client &amp;amp; Secret ID&lt;/h2>
+&lt;ol start="7">
+&lt;li>Buka &lt;a class="link" href="https://developers.google.com/drive/api/v3/quickstart/nodejs" target="_blank" rel="nofollow noopener"
+>developers.google.com/drive/api/v3/quickstart/nodejs&lt;/a> Klik &lt;strong>Enable Drive API&lt;/strong> Login dengan akun Google kalian. Jika kalian sudah masuk tinggal isi &lt;strong>Project Name&lt;/strong> bebas setelah itu Next maka akan muncul &lt;strong>Configure your OAuth&lt;/strong> client kalian pilih &lt;strong>Desktop App&lt;/strong> jika sudah langsung klik &lt;strong>Create&lt;/strong> maka kalian akan mendapatkan &lt;strong>Client ID&lt;/strong> &amp;amp; &lt;strong>Client Secret&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 211; flex-basis: 507px">
+&lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi.jpg" data-size="905x428">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi.jpg"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi_hufd866423443b8ee3c3a1a1fbd35a087a_19724_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi_hufd866423443b8ee3c3a1a1fbd35a087a_19724_1024x0_resize_q50_box.jpg 1024w"
+width="905"
+height="428"
+loading="lazy"
+alt="Heroku Google Drive Indexer">
+&lt;/a>
+&lt;figcaption>Heroku Google Drive Indexer&lt;/figcaption>
+&lt;/figure>
+&lt;figure style="flex-grow: 182; flex-basis: 438px">
+&lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi1.jpg" data-size="905x495">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi1.jpg"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi1_huaf0d5b176b73243e225e639666567980_18384_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi1_huaf0d5b176b73243e225e639666567980_18384_1024x0_resize_q50_box.jpg 1024w"
+width="905"
+height="495"
+loading="lazy"
+alt="Heroku Google Drive Indexer">
+&lt;/a>
+&lt;figcaption>Heroku Google Drive Indexer&lt;/figcaption>
+&lt;/figure>
+&lt;figure style="flex-grow: 185; flex-basis: 445px">
+&lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi2.jpg" data-size="905x488">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi2.jpg"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi2_hua31f4e6c8acf367bc019d9f5b2ee1930_30293_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi2_hua31f4e6c8acf367bc019d9f5b2ee1930_30293_1024x0_resize_q50_box.jpg 1024w"
+width="905"
+height="488"
+loading="lazy"
+alt="Heroku Google Drive Indexer">
+&lt;/a>
+&lt;figcaption>Heroku Google Drive Indexer&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="8">
+&lt;li>Copy &lt;strong>Client ID &amp;amp; Client Secret&lt;/strong> ke app kalian (langkah nomer 6) setelah itu &lt;strong>Get Auth Code&lt;/strong>, akan otomatis membuka tab baru dan kalian masuk dengan akun Google kalian sampai mendapatkan code nya&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 177; flex-basis: 427px">
+&lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/5.jpg" data-size="1918x1078">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/5.jpg"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/5_hua726eb7d52e00b0b347db8d36187daab_71322_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/5_hua726eb7d52e00b0b347db8d36187daab_71322_1024x0_resize_q50_box.jpg 1024w"
+width="1918"
+height="1078"
+loading="lazy"
+alt="Heroku Google Drive Indexer">
+&lt;/a>
+&lt;figcaption>Heroku Google Drive Indexer&lt;/figcaption>
+&lt;/figure>
+&lt;figure style="flex-grow: 98; flex-basis: 236px">
+&lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi4.jpg" data-size="524x532">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi4.jpg"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi4_hu203943b078cab5027b3d40799c203099_11046_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi4_hu203943b078cab5027b3d40799c203099_11046_1024x0_resize_q50_box.jpg 1024w"
+width="524"
+height="532"
+loading="lazy"
+alt="Heroku Google Drive Indexer">
+&lt;/a>
+&lt;figcaption>Heroku Google Drive Indexer&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="9">
+&lt;li>Paste Code pada kolom Paste auth code here lalu klik Generate token maka akan muncul akses token-nya&lt;/li>
+&lt;li>Untuk &lt;strong>Parent Folder ID&lt;/strong> ini opsional tapi saya sangat sarankan untuk diisi, disini saya akan menggunakan &lt;strong>Shared Drive&lt;/strong> jadi saya isi ID nya dengan ID folder shared drive saya
+&lt;ul>
+&lt;li>contoh: &lt;a href="https://drive.google.com/drive/folders/">https://drive.google.com/drive/folders/&lt;/a>&lt;strong>0ANKV19DAKsAKdsRUk9PVA&lt;/strong>&lt;/li>
+&lt;li>Kalian hanya copy bagian &lt;strong>0ANKV19DAKsAKdsRUk9PVA&lt;/strong> saja dan paste di Parent Folder ID&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Untuk bagian Auth kalian boleh isi atau tidak, tapi untuk keamanan saya sarankan kalian isi.&lt;/li>
+&lt;li>Langkah selanjutnya kalian tinggal copy paste pada tabel Enviroment variables ke config app kalian (langkah nomor 4)&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 124; flex-basis: 297px">
+&lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi5.jpg" data-size="568x458">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi5.jpg"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi5_hue58f937d58f57025daeb5094b83f40e8_36879_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi5_hue58f937d58f57025daeb5094b83f40e8_36879_1024x0_resize_q50_box.jpg 1024w"
+width="568"
+height="458"
+loading="lazy"
+alt="Heroku Google Drive Indexer">
+&lt;/a>
+&lt;figcaption>Heroku Google Drive Indexer&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="13">
+&lt;li>Jadinya seperti ini&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 177; flex-basis: 427px">
+&lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/6.jpg" data-size="1918x1078">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/6.jpg"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/6_huc43c1eaa929cfd9fb974dc8abb574378_86189_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/6_huc43c1eaa929cfd9fb974dc8abb574378_86189_1024x0_resize_q50_box.jpg 1024w"
+width="1918"
+height="1078"
+loading="lazy"
+alt="Heroku Google Drive Indexer">
+&lt;/a>
+&lt;figcaption>Heroku Google Drive Indexer&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="14">
+&lt;li>jika sudah kalian tinggal buka &lt;a href="https://appname.herokuapp.com">https://appname.herokuapp.com&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 177; flex-basis: 427px">
+&lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/7.jpg" data-size="1918x1078">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/7.jpg"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/7_hue7a171b2c317520ba6445d8fbef9f4eb_30305_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/7_hue7a171b2c317520ba6445d8fbef9f4eb_30305_1024x0_resize_q50_box.jpg 1024w"
+width="1918"
+height="1078"
+loading="lazy"
+alt="Heroku Google Drive Indexer">
+&lt;/a>
+&lt;figcaption>Heroku Google Drive Indexer&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 177; flex-basis: 427px">
+&lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/8.jpg" data-size="1918x1078">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/8.jpg"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/8_huf4af12b411307681c05b96c46bdaf0d3_68930_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/8_huf4af12b411307681c05b96c46bdaf0d3_68930_1024x0_resize_q50_box.jpg 1024w"
+width="1918"
+height="1078"
+loading="lazy"
+alt="Heroku Google Drive Indexer">
+&lt;/a>
+&lt;figcaption>Heroku Google Drive Indexer&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="15">
+&lt;li>Itulah langkah-langkah setup Google Drive Indexer di Heroku, jika kalian kesulitan dalam pemasangannya kalian bisa tanyakan di kolom komentar&lt;/li>
+&lt;/ol></description></item><item><title>Tutorial Cara Copy File dari Team Drive ke Google Drive</title><link>https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/</link><pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate><guid>https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/</guid><description>&lt;img src="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/drive.jpg" alt="Featured image of post Tutorial Cara Copy File dari Team Drive ke Google Drive" />&lt;p>Pada tutorial kali ini saya akan membagikan cara copy file dari Team Drive ke Akun Google Drive, seperti yang kita ketahui sekarang Google Drive tidak bisa melakukan copy file secara langsung ke akun Google Drive kita sebagai gantinya hanya dijadikan shorcut saja alih-alih filenya dicopy ke akun Google Drive.&lt;/p>
+&lt;p>Disini saya akan menggunakan aplikasi bernama rclone untuk melakukan copy dari Team Drive ke Google Drive, perlu diketahui rclone ini bisa dijalankan pada Linux, Mac OS &amp;amp; Windows. Perlu diketahui disini saya menggunakan Sistem Operasi Linux. Oke langsung saja.&lt;/p>
+&lt;ol>
+&lt;li>Download aplikasi rclone terlebih dahulu di official website nya &lt;a class="link" href="https://rclone.org" target="_blank" rel="nofollow noopener"
+>rclone.org&lt;/a>&lt;/li>
+&lt;li>Untuk pengguna Linux, Mac OS saya sarankan menggunakan perintah&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">curl https://rclone.org/install.sh &lt;span class="p">|&lt;/span> sudo bash
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>Untuk Pengguna Windows
+&lt;ul>
+&lt;li>Kalian bisa langsung unduh zip file nya, pastikan kalian mengunduh sesuai dengan sistem operasi kalian apakah 32-Bit atau 64-Bit.&lt;/li>
+&lt;li>Extract file nya menggunakan 7-Zip atau sejenisnya &amp;amp; buka folder hasil extract&lt;/li>
+&lt;li>Kalian klik kanan di explorer nya sambil menekan &lt;strong>SHIFT&lt;/strong> maka akan muncul &lt;strong>Open command window here&lt;/strong>, setelah itu akan muncul cmd untuk Windows 7, 8, 8.1 &amp;amp; Powershell untuk Windows 10&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Jika proses installasi rclone berjalan lancar kalian bisa ketikan&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">rclone config
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="5">
+&lt;li>Jika tidak muncul error maka bisa langsung lanjut ke langkah selanjutnya&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig.jpg" data-size="958x538">&lt;img src="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig_hu02659673197e35ad657095a6701ced3f_24951_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig_hu02659673197e35ad657095a6701ced3f_24951_1024x0_resize_q50_box.jpg 1024w"
+width="958"
+height="538"
+loading="lazy"
+alt="Tutorial Copy File dari Team Drive ke Google Drive">
+&lt;/a>
+&lt;figcaption>Tutorial Copy File dari Team Drive ke Google Drive&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2 id="konfigurasi-teamdrive">Konfigurasi TeamDrive&lt;/h2>
+&lt;ol>
+&lt;li>Ketikan perintah Lalu Enter&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">rclone config
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>&lt;strong>No remotes found - make a new one&lt;/strong> &amp;gt; kalian pilih &lt;strong>n&lt;/strong> untuk membuat remote&lt;/li>
+&lt;li>&lt;strong>name&lt;/strong> &amp;gt; kalian buat nama remote kalian bebas, tapi saya sarankan jangan memakai spasi, disini nama remote yang akan saya gunakan &lt;strong>TeamDrive&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig1.jpg" data-size="958x538">&lt;img src="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig1.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig1_hu934f9ea439b756ee715ba90979a6a845_26220_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig1_hu934f9ea439b756ee715ba90979a6a845_26220_1024x0_resize_q50_box.jpg 1024w"
+width="958"
+height="538"
+loading="lazy"
+alt="Tutorial Copy File dari Team Drive ke Google Drive">
+&lt;/a>
+&lt;figcaption>Tutorial Copy File dari Team Drive ke Google Drive&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="4">
+&lt;li>&lt;strong>Storage&lt;/strong> &amp;gt; kalian ketik &amp;ldquo;&lt;strong>drive&lt;/strong>&amp;rdquo; (tanpa tanda &amp;ldquo;&amp;quot;)&lt;/li>
+&lt;li>&lt;strong>client_id&lt;/strong>, &lt;strong>client_secret&lt;/strong>, kalian kosongkan saja&lt;/li>
+&lt;li>&lt;strong>Scope&lt;/strong> &amp;gt; Kalian pilih nomor &lt;strong>1&lt;/strong> (Full Access)&lt;/li>
+&lt;li>&lt;strong>root_folder_id&lt;/strong>, &lt;strong>service_account_file&lt;/strong> kalian kosongkan saja&lt;/li>
+&lt;li>Edit advanced config? pilih &lt;strong>N&lt;/strong> atau bisa Enter langsung&lt;/li>
+&lt;li>Use auto config?
+&lt;ul>
+&lt;li>Jika kalian pilih Y maka rclone akan otomatis membuka URL dan kalian tinggal masuk saja dengan akun Google yang memiliki Shared Drive&lt;/li>
+&lt;li>Jika kalian pilih N maka akan muncul URL di terminal dan kalian harus copy paste manual ke browser lalu masuk dengan akun Google yang memiliki Shared Drive setelah itu kalian copy code yang muncul di browser lalu paste di Terminal&lt;/li>
+&lt;li>Kesimpulan: Kalian bebas pilih yang mana saja yang menurut kalian paling mudah.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Configure this as a team drive? kalian pilih &lt;strong>Y&lt;/strong>, ini adalah hal yang paling penting dalam konfigurasi akun Team Drive di rclone. jika kalian pilih N, Shared Drive kalian tidak akan muncul di rclone&lt;/li>
+&lt;li>Pilih Akun TeamDrive yang akan di copy filenya&lt;/li>
+&lt;li>Setelah itu kalian tinggal Enter dan Enter lagi, maka rclone akan kembali ke perintah 1&lt;/li>
+&lt;/ol>
+&lt;h2 id="konfigurasi-google-drive">Konfigurasi Google Drive&lt;/h2>
+&lt;ol>
+&lt;li>Sama seperti langkah Konfigurasi Team Drive, yang harus dibedakan adalah nama pada langkah nomor 3 disini saya menggunakan nama MainDrive dan Langkah nomor 10 kalian harus pilih &lt;strong>N&lt;/strong>&lt;/li>
+&lt;li>Jika konfigurasi telah selesai kalian ketik q lalu Enter untuk Quit&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig2.jpg" data-size="958x538">&lt;img src="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig2.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig2_hu6de4f5cd23559069bf48cf547893b937_49898_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig2_hu6de4f5cd23559069bf48cf547893b937_49898_1024x0_resize_q50_box.jpg 1024w"
+width="958"
+height="538"
+loading="lazy"
+alt="Tutorial Copy File dari Team Drive ke Google Drive">
+&lt;/a>
+&lt;figcaption>Tutorial Copy File dari Team Drive ke Google Drive&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2 id="melakukan-copy-dari-remote-teamdrive-ke-maindrive">Melakukan copy dari remote TeamDrive ke MainDrive&lt;/h2>
+&lt;ol>
+&lt;li>Yang harus kalian lakukan pertama kali adalah share file (karena Team Drive untuk sekarang tidak bisa share folder) dari akun Team Drive kalian ke akun Google Drive yang akan meng-copy jika kalian tidak melakukan ini maka dipastikan akan error pada saat melakukan copy dengan rclone&lt;/li>
+&lt;li>Saya akan melakukan copy Video Running Man tahun 2010 di Folder (Perhatikan &lt;strong>PATH&lt;/strong> nya) &lt;strong>RunningMan/2010&lt;/strong> ke Folder &lt;strong>2010&lt;/strong> di Akun Google Drive&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 202; flex-basis: 486px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/path.jpg" data-size="1633x805">&lt;img src="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/path.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/path_hu1ee4bc8640850d8439eaf6d5358e298e_106129_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/path_hu1ee4bc8640850d8439eaf6d5358e298e_106129_1024x0_resize_q50_box.jpg 1024w"
+width="1633"
+height="805"
+loading="lazy"
+alt="Tutorial Copy File dari Team Drive ke Google Drive">
+&lt;/a>
+&lt;figcaption>Tutorial Copy File dari Team Drive ke Google Drive&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="3">
+&lt;li>Jika sudah di Share langsung buka cmd, PowerShell atau terminal nya lalu ketikan perintah&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">rclone copy --progress --drive-server-side-across-configs NamaRemoteTeamDriveKalian:Folder/Yang/Akan/Di/Share NamaRemoteGoogleDriveKalian:NamaFolder
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>Dalam kasus saya perintahnya&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">rclone copy --progress --drive-server-side-across-configs TeamDrive:RunningMan/2010 MainDrive:2010
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig3.jpg" data-size="958x538">&lt;img src="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig3.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig3_hu24c5113d554701931843330baca85040_31216_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig3_hu24c5113d554701931843330baca85040_31216_1024x0_resize_q50_box.jpg 1024w"
+width="958"
+height="538"
+loading="lazy"
+alt="Tutorial Copy File dari Team Drive ke Google Drive">
+&lt;/a>
+&lt;figcaption>Tutorial Copy File dari Team Drive ke Google Drive&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="5">
+&lt;li>Jika berhasil maka tidak ada error yang muncul dan kalian akan melihat progress copy filenya&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig4.jpg" data-size="958x538">&lt;img src="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig4.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig4_hu8c7a37744050638e6288838479104a9e_42368_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig4_hu8c7a37744050638e6288838479104a9e_42368_1024x0_resize_q50_box.jpg 1024w"
+width="958"
+height="538"
+loading="lazy"
+alt="Tutorial Copy File dari Team Drive ke Google Drive">
+&lt;/a>
+&lt;figcaption>Tutorial Copy File dari Team Drive ke Google Drive&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Jika kalian masih kebingungan kalian bisa tanyakan di kolom komentar, bingungnya dibagian mana, sebisa mungkin nanti saya akan bantu&lt;/p></description></item></channel></rss>
