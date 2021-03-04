@@ -1,4 +1,180 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rmdhnreza.my.id</title><link>https://rmdhnreza.my.id/</link><description>Recent content on rmdhnreza.my.id</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Sun, 31 Jan 2021 00:42:03 +0700</lastBuildDate><atom:link href="https://rmdhnreza.my.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Mengatasi Windows 10 Tidak Add Bisa Account Di Windows Mail</title><link>https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/</link><pubDate>Sun, 31 Jan 2021 00:42:03 +0700</pubDate><guid>https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/</guid><description>&lt;img src="https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/mail.jpg" alt="Featured image of post Mengatasi Windows 10 Tidak Add Bisa Account Di Windows Mail" />&lt;p>Biasanya ini terjadi ketika kalian sudah menghapus &lt;code>bloatware&lt;/code> di windows 10 kalian, Jadinya ada software core yang terhapus.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rmdhnreza.my.id</title><link>https://rmdhnreza.my.id/</link><description>Recent content on rmdhnreza.my.id</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Thu, 04 Mar 2021 16:33:19 +0700</lastBuildDate><atom:link href="https://rmdhnreza.my.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Tutorial Build Hugo Website Ke Github Pages Menggunakan Github Actions</title><link>https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/</link><pubDate>Thu, 04 Mar 2021 16:33:19 +0700</pubDate><guid>https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/</guid><description>&lt;img src="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/github.jpg" alt="Featured image of post Tutorial Build Hugo Website Ke Github Pages Menggunakan Github Actions" />&lt;p>Saya asumsikan kalian sudah mempunyai akun &lt;a class="link" href="https://github.com" target="_blank" rel="nofollow noopener"
+>Github&lt;/a> dan di Sistem Operasi kalian sudah terinstall &lt;a class="link" href="https://gohugo.io" target="_blank" rel="nofollow noopener"
+>Hugo&lt;/a>. Langsung saja ke Tutorialnya&lt;/p>
+&lt;ol>
+&lt;li>Buat public repository dengan &lt;strong>username&lt;/strong> github kalian ditambhakan &lt;strong>.github.io&lt;/strong> jadinya seperti ini &lt;strong>rmdhnreza.github.io&lt;/strong> dan ceklis &lt;em>Add a README file&lt;/em>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 100; flex-basis: 240px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/1.jpg" data-size="819x819">&lt;img src="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/1.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/1_huceb7a698cba8244876424c663cd48cc4_57020_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/1_huceb7a698cba8244876424c663cd48cc4_57020_1024x0_resize_q50_box.jpg 1024w"
+width="819"
+height="819"
+loading="lazy"
+alt="Membuat Repository Github">
+&lt;/a>
+&lt;figcaption>Membuat Repository Github&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="2">
+&lt;li>Clone repository yang sudah kalian buat dengan perintah&lt;/li>
+&lt;/ol>
+&lt;pre>&lt;code>git clone https://github.com/rmdhnreza/rmdhnreza.github.io
+&lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 229; flex-basis: 551px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/2.jpg" data-size="952x414">&lt;img src="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/2.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/2_hu883d8c38c52a3769d0f09e0d856adc12_32929_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/2_hu883d8c38c52a3769d0f09e0d856adc12_32929_1024x0_resize_q50_box.jpg 1024w"
+width="952"
+height="414"
+loading="lazy"
+alt="Clone Repository">
+&lt;/a>
+&lt;figcaption>Clone Repository&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="3">
+&lt;li>Buat hugo website dengan perintah&lt;/li>
+&lt;/ol>
+&lt;pre>&lt;code>hugo new site --force rmdhnreza.github.io
+&lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 164; flex-basis: 393px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/5.jpg" data-size="1098x669">&lt;img src="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/5.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/5_hube485677ec8827aa52cb96b170815244_44830_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/5_hube485677ec8827aa52cb96b170815244_44830_1024x0_resize_q50_box.jpg 1024w"
+width="1098"
+height="669"
+loading="lazy"
+alt="Membuat Hugo Website">
+&lt;/a>
+&lt;figcaption>Membuat Hugo Website&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong> argumen &amp;ndash;force disini untuk memberi tahu hugo jika folder nya tidak kosong&lt;/p>
+&lt;ol start="4">
+&lt;li>Masuk ke folder &lt;strong>root direktori&lt;/strong> hugo kalian (rmdhnreza.github.io) dan tambahkan tema yang akan kalian pasang, disini saya menggunakan tema &lt;strong>Vanilla&lt;/strong>, untuk menginstall tema yang kalian inginkan kalian lihat dokumentasi tema nya disini saya menggunakan perintah&lt;/li>
+&lt;/ol>
+&lt;pre>&lt;code>git submodule add https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme.git themes/vanilla-bootstrap-hugo-theme
+&lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 164; flex-basis: 393px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/7.jpg" data-size="1098x669">&lt;img src="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/7.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/7_hu1e23e55e42775f566223114547c3a473_63179_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/7_hu1e23e55e42775f566223114547c3a473_63179_1024x0_resize_q50_box.jpg 1024w"
+width="1098"
+height="669"
+loading="lazy"
+alt="Menginstall Tema Vanilla">
+&lt;/a>
+&lt;figcaption>Menginstall Tema Vanilla&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="5">
+&lt;li>Copy isi folder dari exampleSite ke &lt;strong>root direktori&lt;/strong> hugo website kalian, jangan lupa jika di &lt;strong>exampleSite&lt;/strong> terdapat &lt;strong>config.yaml&lt;/strong> maka kalian harus &lt;strong>hapus config.toml&lt;/strong> di &lt;strong>root direktori&lt;/strong> hugo website kalian, jika ada 2 config, kemungkinan besar akan error.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 180; flex-basis: 433px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/8.jpg" data-size="1294x717">&lt;img src="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/8.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/8_hue0d75bd97a60f9d6cd4635e5831c3c4a_44531_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/8_hue0d75bd97a60f9d6cd4635e5831c3c4a_44531_1024x0_resize_q50_box.jpg 1024w"
+width="1294"
+height="717"
+loading="lazy"
+alt="Hapus salah satu config">
+&lt;/a>
+&lt;figcaption>Hapus salah satu config&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="6">
+&lt;li>Ganti &lt;strong>baseURL&lt;/strong> di &lt;strong>config.yml&lt;/strong> dengan &lt;strong>URL Website&lt;/strong> kalian (&lt;a href="https://rmdhnreza.github.io">https://rmdhnreza.github.io&lt;/a>)&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 137; flex-basis: 331px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/9.jpg" data-size="1294x938">&lt;img src="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/9.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/9_hu3e48deaa661f421076eee9ca45b3a19a_76392_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/9_hu3e48deaa661f421076eee9ca45b3a19a_76392_1024x0_resize_q50_box.jpg 1024w"
+width="1294"
+height="938"
+loading="lazy"
+alt="Ganti baseURL di config hugo">
+&lt;/a>
+&lt;figcaption>Ganti baseURL di config hugo&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="7">
+&lt;li>Test website kalian dengan perintah &lt;code>hugo server&lt;/code> Jika tidak ada error maka kita bisa langsung ke langkah selanjutnya&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 164; flex-basis: 393px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/10.jpg" data-size="1098x669">&lt;img src="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/10.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/10_huf5befba36ac6c360c8ebcf810194a1c2_94179_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/10_huf5befba36ac6c360c8ebcf810194a1c2_94179_1024x0_resize_q50_box.jpg 1024w"
+width="1098"
+height="669"
+loading="lazy"
+alt="Hugo Server tidak ada error">
+&lt;/a>
+&lt;figcaption>Hugo Server tidak ada error&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="8">
+&lt;li>Buat folder &lt;strong>.github/workflows&lt;/strong> di &lt;strong>root direktori&lt;/strong> hugo dan buat file &lt;strong>gh-pages.yml&lt;/strong> di folder nya, jadi struktur foldernya seperti ini&lt;/li>
+&lt;/ol>
+&lt;pre>&lt;code>.github
+└── workflows
+└── gh-pages.yml
+&lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 189; flex-basis: 455px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/12.jpg" data-size="1525x804">&lt;img src="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/12.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/12_hud4464b87d6d302131005dcfc1be0a4a5_78042_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/12_hud4464b87d6d302131005dcfc1be0a4a5_78042_1024x0_resize_q50_box.jpg 1024w"
+width="1525"
+height="804"
+loading="lazy"
+alt="Github Actions">
+&lt;/a>
+&lt;figcaption>Github Actions&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="9">
+&lt;li>Isikan code berikut di gh-pages.yml&lt;/li>
+&lt;/ol>
+&lt;pre>&lt;code>name: github pages
+on:
+push:
+branches:
+- main
+workflow_dispatch:
+inputs:
+git-ref:
+description: Git Ref (Optional)
+required: false
+jobs:
+deploy:
+runs-on: ubuntu-latest
+steps:
+- uses: actions/checkout@v2
+with:
+submodules: recursive # Fetch the Docsy theme
+fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+- name: Setup Hugo
+uses: peaceiris/actions-hugo@v2
+with:
+hugo-version: '0.81.0'
+extended: true
+- run: hugo --minify
+- name: Deploy
+uses: peaceiris/actions-gh-pages@v3
+with:
+github_token: ${{ secrets.GITHUB_TOKEN }}
+&lt;/code>&lt;/pre>&lt;ol start="9">
+&lt;li>Jika sudah maka bisa langsung kita push ke github dengan perintah&lt;/li>
+&lt;/ol>
+&lt;pre>&lt;code>git add .
+git commit -m &amp;quot;Hugo Github Pages&amp;quot;
+git push origin main
+&lt;/code>&lt;/pre>&lt;ol start="10">
+&lt;li>Sekarang di Github kalian, masuk ke bagian &lt;strong>Settings&lt;/strong> lalu scroll kebawah sampai bagian &lt;strong>Github Pages&lt;/strong>, disana kalian ganti &lt;strong>Source Branch&lt;/strong> nya dari &lt;strong>main&lt;/strong> ke &lt;strong>gh-pages&lt;/strong>, setelah itu kalian &lt;strong>Save&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 153; flex-basis: 369px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/16.jpg" data-size="959x623">&lt;img src="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/16.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/16_hu31fcb03f66171d3ff535d155f4d9ad31_51215_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/16_hu31fcb03f66171d3ff535d155f4d9ad31_51215_1024x0_resize_q50_box.jpg 1024w"
+width="959"
+height="623"
+loading="lazy"
+alt="Ganti source branch dari main ke gh-pages">
+&lt;/a>
+&lt;figcaption>Ganti source branch dari main ke gh-pages&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="11">
+&lt;li>Kalian coba URL &lt;a href="https://username.github.io/">https://username.github.io/&lt;/a> apakah website nya sudah live atau belum, jika belum, kalian masuk ke bagian &lt;strong>Actions&lt;/strong> lalu klik &lt;strong>github pages&lt;/strong> lalu klik &lt;strong>run workflow&lt;/strong> kalian klik &lt;strong>run workflow&lt;/strong> lagi&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 180; flex-basis: 434px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/17.jpg" data-size="1934x1069">&lt;img src="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/17.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/17_huefdc5531b8a9a17673e08c3ce1afb10c_40712_480x0_resize_q50_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/17_huefdc5531b8a9a17673e08c3ce1afb10c_40712_1024x0_resize_q50_box.jpg 1024w"
+width="1934"
+height="1069"
+loading="lazy"
+alt="Wwbsite sudah Live dan bisa diakses">
+&lt;/a>
+&lt;figcaption>Wwbsite sudah Live dan bisa diakses&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item><item><title>Mengatasi Windows 10 Tidak Add Bisa Account Di Windows Mail</title><link>https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/</link><pubDate>Sun, 31 Jan 2021 00:42:03 +0700</pubDate><guid>https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/</guid><description>&lt;img src="https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/mail.jpg" alt="Featured image of post Mengatasi Windows 10 Tidak Add Bisa Account Di Windows Mail" />&lt;p>Biasanya ini terjadi ketika kalian sudah menghapus &lt;code>bloatware&lt;/code> di windows 10 kalian, Jadinya ada software core yang terhapus.&lt;/p>
 &lt;p>Untuk mengatasi tidak bisa menambahkan akun di aplikasi Mail Windows 10 caranya cukup mudah&lt;/p>
 &lt;ol>
 &lt;li>Kalian buka &lt;code>Windows Powershell (Admin)&lt;/code>&lt;/li>
