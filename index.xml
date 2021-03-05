@@ -1,4 +1,89 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rmdhnreza.my.id</title><link>https://rmdhnreza.my.id/</link><description>Recent content on rmdhnreza.my.id</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Fri, 05 Mar 2021 17:16:23 +0700</lastBuildDate><atom:link href="https://rmdhnreza.my.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Membuat Icon Website Light Dan Dark Mode</title><link>https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/</link><pubDate>Fri, 05 Mar 2021 17:16:23 +0700</pubDate><guid>https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/</guid><description>&lt;img src="https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/1.jpg" alt="Featured image of post Cara Membuat Icon Website Light Dan Dark Mode" />&lt;p>Kali ini saya akan memberikan tutorial cara membuat icon website menjadi Light Mode dan Dark Mode, seperti ini contohnya:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rmdhnreza.my.id</title><link>https://rmdhnreza.my.id/</link><description>Recent content on rmdhnreza.my.id</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Fri, 05 Mar 2021 20:45:48 +0700</lastBuildDate><atom:link href="https://rmdhnreza.my.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Reset Trial IDM Dengan Menghapus Key Registry</title><link>https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/</link><pubDate>Fri, 05 Mar 2021 20:45:48 +0700</pubDate><guid>https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/</guid><description>&lt;img src="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/idm-logo.svg" alt="Featured image of post Cara Reset Trial IDM Dengan Menghapus Key Registry" />&lt;p>Internet Download Manager atau biasa disingkat IDM, adalah perangkat lunak yang mampu mengunduh data-data yang ada di internet dan meneruskan kembali. Program buatan New York, Amerika ini menempati posisi teratas dalam memaksimalkan kecepatan mengunduh data. Tampilan dan grafis yang sederhana membuat IDM lebih bersahabat dengan penggunanya.&lt;/p>
+&lt;p>IDM didukung dengan fitur meneruskan kembali, yaitu untuk mengunduh ulang berkas-berkas yang sebelumnya terputus karena masalah teknis maupun nonteknis. IDM juga memiliki fitur unduh yang cepat dengan kemampuan melakukan segmentasi berkas secara otomatis dan didukung dengan teknologi yang aman. &lt;a class="link" href="https://id.wikipedia.org/wiki/Internet_Download_Manager" target="_blank" rel="nofollow noopener"
+>Sumber Wikipedia&lt;/a>&lt;/p>
+&lt;hr>
+&lt;p>Pada tutorial kali ini kita akan melakukan trial reset IDM menjadi 30 hari (seperti awal mula install), Caranya pun cukup mudah&lt;/p>
+&lt;ol>
+&lt;li>&lt;em>Force Close&lt;/em> IDM terlebih dahulu, dengan mengklik exit di IDM pada bagian &lt;em>tray icon&lt;/em>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 79; flex-basis: 190px">
+&lt;a href="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/0.jpg" data-size="184x232">&lt;img src="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/0.jpg"
+srcset="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/0_hu11cff93fb2140053e3f45cef3e6dee91_7014_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/0_hu11cff93fb2140053e3f45cef3e6dee91_7014_1024x0_resize_q60_box.jpg 1024w"
+width="184"
+height="232"
+loading="lazy"
+alt="Klik Exit di Tray Icon">
+&lt;/a>
+&lt;figcaption>Klik Exit di Tray Icon&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="2">
+&lt;li>Kalian buka &lt;strong>registry editor&lt;/strong> dengan menekan shortcut &lt;strong>Win + R&lt;/strong> pada keyboard lalu isikan &lt;strong>regedit&lt;/strong> dan tekan &lt;strong>enter&lt;/strong>, Jika muncul &lt;em>Prompt UAC&lt;/em> kalian klik &lt;em>Yes&lt;/em>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 198; flex-basis: 476px">
+&lt;a href="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/1.jpg" data-size="399x201">&lt;img src="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/1.jpg"
+srcset="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/1_hu7fcff9d4aeb9c3ebfa433019672a21fb_12414_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/1_hu7fcff9d4aeb9c3ebfa433019672a21fb_12414_1024x0_resize_q60_box.jpg 1024w"
+width="399"
+height="201"
+loading="lazy"
+alt="Run">
+&lt;/a>
+&lt;figcaption>Run&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 187; flex-basis: 449px">
+&lt;a href="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/2.jpg" data-size="1148x613">&lt;img src="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/2.jpg"
+srcset="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/2_hua7f9787ec15f32d35ad61c8f680f94fc_23761_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/2_hua7f9787ec15f32d35ad61c8f680f94fc_23761_1024x0_resize_q60_box.jpg 1024w"
+width="1148"
+height="613"
+loading="lazy"
+alt="Run">
+&lt;/a>
+&lt;figcaption>Run&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="3">
+&lt;li>Maka akan muncul Window Registry Editor, Navigasikan ke&lt;/li>
+&lt;/ol>
+&lt;pre>&lt;code>HKEY_USERS
+└── S-1-5-21-563298657-3659230254-7856325069-1001_Classes
+└── WOW6432Node
+└── CLSID
+└── {07999AC3-058B-40BF-984F-69EB1E554CA7} &amp;lt;-- Hapus
+&lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 187; flex-basis: 449px">
+&lt;a href="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/3.jpg" data-size="1148x613">&lt;img src="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/3.jpg"
+srcset="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/3_hua1ac52bca950f4ba2e0c809240d26b3e_38022_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/3_hua1ac52bca950f4ba2e0c809240d26b3e_38022_1024x0_resize_q60_box.jpg 1024w"
+width="1148"
+height="613"
+loading="lazy"
+alt="Registry Editor">
+&lt;/a>
+&lt;figcaption>Registry Editor&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 187; flex-basis: 449px">
+&lt;a href="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/4.jpg" data-size="1148x613">&lt;img src="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/4.jpg"
+srcset="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/4_hufae38581dbec8b4130d629c97b8d6ec7_72467_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/4_hufae38581dbec8b4130d629c97b8d6ec7_72467_1024x0_resize_q60_box.jpg 1024w"
+width="1148"
+height="613"
+loading="lazy"
+alt="Registry Editor">
+&lt;/a>
+&lt;figcaption>Registry Editor&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Catatan: Pada bagian &lt;strong>S-1-5-21-563298657-3659230254-7856325069-1001_Classes&lt;/strong> angka &lt;strong>563298657-3659230254-7856325069&lt;/strong> pasti berbeda setiap komputer, jadi jika beda nama key registry nya tidak masalah, yang penting kalian pilih yang ada tulisan &lt;strong>_Classes&lt;/strong> nya.&lt;/p>
+&lt;ol start="4">
+&lt;li>Hapus registry key &lt;strong>{07999AC3-058B-40BF-984F-69EB1E554CA7}&lt;/strong> dengan cara Klik Kanan -&amp;gt; Delete&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 187; flex-basis: 449px">
+&lt;a href="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/5.jpg" data-size="1148x613">&lt;img src="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/5.jpg"
+srcset="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/5_hu323ba322dbf434561055640959e543e2_96691_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/5_hu323ba322dbf434561055640959e543e2_96691_1024x0_resize_q60_box.jpg 1024w"
+width="1148"
+height="613"
+loading="lazy"
+alt="Hapus Key">
+&lt;/a>
+&lt;figcaption>Hapus Key&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="5">
+&lt;li>Tutup Window Registry Editor nya&lt;/li>
+&lt;li>Buka aplikasi IDM nya.&lt;/li>
+&lt;/ol></description></item><item><title>Cara Membuat Icon Website Light Dan Dark Mode</title><link>https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/</link><pubDate>Fri, 05 Mar 2021 17:16:23 +0700</pubDate><guid>https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/</guid><description>&lt;img src="https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/1.jpg" alt="Featured image of post Cara Membuat Icon Website Light Dan Dark Mode" />&lt;p>Kali ini saya akan memberikan tutorial cara membuat icon website menjadi Light Mode dan Dark Mode, seperti ini contohnya:&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 315; flex-basis: 758px">
 &lt;a href="https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/2.jpg" data-size="613x194">&lt;img src="https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/2.jpg"
 srcset="https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/2_hua01bbe152d26acc1c4d16c21c857d49f_43727_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/2_hua01bbe152d26acc1c4d16c21c857d49f_43727_1024x0_resize_q60_box.jpg 1024w"
