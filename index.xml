@@ -1,4 +1,237 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rmdhnreza.my.id</title><link>https://rmdhnreza.my.id/</link><description>Recent content on rmdhnreza.my.id</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Fri, 05 Mar 2021 20:45:48 +0700</lastBuildDate><atom:link href="https://rmdhnreza.my.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Reset Trial IDM Dengan Menghapus Key Registry</title><link>https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/</link><pubDate>Fri, 05 Mar 2021 20:45:48 +0700</pubDate><guid>https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/</guid><description>&lt;img src="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/idm-logo.svg" alt="Featured image of post Cara Reset Trial IDM Dengan Menghapus Key Registry" />&lt;p>Internet Download Manager atau biasa disingkat IDM, adalah perangkat lunak yang mampu mengunduh data-data yang ada di internet dan meneruskan kembali. Program buatan New York, Amerika ini menempati posisi teratas dalam memaksimalkan kecepatan mengunduh data. Tampilan dan grafis yang sederhana membuat IDM lebih bersahabat dengan penggunanya.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rmdhnreza.my.id</title><link>https://rmdhnreza.my.id/</link><description>Recent content on rmdhnreza.my.id</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Sat, 06 Mar 2021 00:15:23 +0700</lastBuildDate><atom:link href="https://rmdhnreza.my.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Mengatasi White Flash Saat Dark Mode Pada Browser</title><link>https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/</link><pubDate>Sat, 06 Mar 2021 00:15:23 +0700</pubDate><guid>https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/</guid><description>&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/browser.svg" alt="Featured image of post Mengatasi White Flash Saat Dark Mode Pada Browser" />&lt;p>&lt;em>&lt;strong>White Flash&lt;/strong>&lt;/em> adalah hal paling menjengkelkan pada saat kita berselancar di dunia maya, &lt;em>&lt;strong>White Flash&lt;/strong>&lt;/em> ini biasanya muncul ketika kalian membuka tab bar atau sedang memuat website yang kalian kunjungi. Disini saya akan membagikan tutorial untuk Web Browser &lt;a class="link" href="https://www.mozilla.org/en-US/firefox/new/" target="_blank" rel="nofollow noopener"
+>Firefox&lt;/a>, &lt;a class="link" href="https://www.google.com/chrome/" target="_blank" rel="nofollow noopener"
+>Chrome&lt;/a> &amp;amp; &lt;a class="link" href="https://www.microsoft.com/en-us/edge" target="_blank" rel="nofollow noopener"
+>Microsoft Edge&lt;/a>.&lt;/p>
+&lt;p>Pertama-tama jika kalian menggunakan Windows 10, Fitur &lt;em>&lt;strong>Dark Mode&lt;/strong>&lt;/em> nya kalian aktifkan, &lt;em>&lt;strong>White Flash&lt;/strong>&lt;/em> tidak akan muncul, tetapi jika kalian tetap menggunakan &lt;em>&lt;strong>Light Mode&lt;/strong>&lt;/em> dan ingin menghilangkan &lt;em>&lt;strong>White Flash&lt;/strong>&lt;/em> ikuti tutorial berikut.&lt;/p>
+&lt;div class="center-text">
+&lt;h3 id="klik-browser-yang-kalian-gunakan">Klik Browser yang kalian Gunakan&lt;/h3>
+&lt;p>&lt;a class="link" href="#firefox" >&lt;img src="mozilla.svg" alt="Firefox" />&lt;/a> &lt;a class="link" href="#google-chrome" >&lt;img src="chrome.svg" alt="Chrome" />&lt;/a> &lt;a class="link" href="#microsoft-edge" >&lt;img src="edge.svg" alt="Edge" />&lt;/a>&lt;/p>
+&lt;/div>
+&lt;h3 id="firefox">Firefox&lt;/h3>
+&lt;ol>
+&lt;li>Kalian kunjungi &lt;strong>about:config&lt;/strong> &amp;amp; &lt;strong>Klik Accept the Risk and Continue&lt;/strong>&lt;/li>
+&lt;li>Copy dan Paste baris beriku&lt;/li>
+&lt;/ol>
+&lt;pre>&lt;code>ui.systemUsesDarkTheme -&amp;gt;&amp;gt; Number -&amp;gt;&amp;gt; 0 itu Light Mode &amp;amp; 1 Dark Mode
+browser.in-content.dark-mode -&amp;gt;&amp;gt; boolean -&amp;gt;&amp;gt; Jika Dark Mode pilih **True** sedangkan Light Mode **False**
+&lt;/code>&lt;/pre>&lt;p>Jadinya Seperti ini&lt;/p>
+&lt;pre>&lt;code>ui.systemUsesDarkTheme -&amp;gt;&amp;gt; Number -&amp;gt;&amp;gt; 1
+browser.in-content.dark-mode -&amp;gt;&amp;gt; boolean -&amp;gt;&amp;gt; true
+&lt;/code>&lt;/pre>&lt;p>Jika ingin Light Mode&lt;/p>
+&lt;pre>&lt;code>ui.systemUsesDarkTheme -&amp;gt;&amp;gt; Number -&amp;gt;&amp;gt; 0
+browser.in-content.dark-mode -&amp;gt;&amp;gt; boolean -&amp;gt;&amp;gt; false
+&lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 229; flex-basis: 550px">
+&lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-1.jpg" data-size="881x384">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-1.jpg"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-1_hub0aa38dd4b2bd03d7bd1779e4dfea528_21387_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-1_hub0aa38dd4b2bd03d7bd1779e4dfea528_21387_1024x0_resize_q60_box.jpg 1024w"
+width="881"
+height="384"
+loading="lazy"
+alt="Firefox Force Dark Mode">
+&lt;/a>
+&lt;figcaption>Firefox Force Dark Mode&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 229; flex-basis: 550px">
+&lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-2.jpg" data-size="881x384">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-2.jpg"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-2_huf5c4c4837758c8a4e181bd99f4d69e6e_19840_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-2_huf5c4c4837758c8a4e181bd99f4d69e6e_19840_1024x0_resize_q60_box.jpg 1024w"
+width="881"
+height="384"
+loading="lazy"
+alt="Firefox Force Dark Mode">
+&lt;/a>
+&lt;figcaption>Firefox Force Dark Mode&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="3">
+&lt;li>Install Add-ons &lt;a class="link" href="https://addons.mozilla.org/en-US/firefox/addon/darkreader/" target="_blank" rel="nofollow noopener"
+>Dark Reader&lt;/a> dan Jika sudah terinstall lanjut ke langkah 4&lt;/li>
+&lt;li>Klik icon Dark Reader nya ↠ Dev Tools ↠ Preview new design ↠ Apply ↠ Exit&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 122; flex-basis: 293px">
+&lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-3.jpg" data-size="728x595">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-3.jpg"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-3_hu690d75d50ea436f5805d5c59a3b7f07b_36948_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-3_hu690d75d50ea436f5805d5c59a3b7f07b_36948_1024x0_resize_q60_box.jpg 1024w"
+width="728"
+height="595"
+loading="lazy"
+alt="Settings Dark Reader">
+&lt;/a>
+&lt;figcaption>Settings Dark Reader&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 122; flex-basis: 293px">
+&lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-4.jpg" data-size="728x595">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-4.jpg"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-4_hu1c2ce55f59aa796356312c73289e086e_47699_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-4_hu1c2ce55f59aa796356312c73289e086e_47699_1024x0_resize_q60_box.jpg 1024w"
+width="728"
+height="595"
+loading="lazy"
+alt="Settings Dark Reader">
+&lt;/a>
+&lt;figcaption>Settings Dark Reader&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="5">
+&lt;li>Klik Settings ↠ Site List ↠ On kan Enable on restricted pages ↠ Back ↠ Manage Settings ↠ On kan Synchronize site fixes&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 122; flex-basis: 293px">
+&lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-5.jpg" data-size="728x595">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-5.jpg"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-5_hub7af0f36f60f0ba108cc897c0da6de6e_28432_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-5_hub7af0f36f60f0ba108cc897c0da6de6e_28432_1024x0_resize_q60_box.jpg 1024w"
+width="728"
+height="595"
+loading="lazy"
+alt="Settings Dark Reader">
+&lt;/a>
+&lt;figcaption>Settings Dark Reader&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 122; flex-basis: 293px">
+&lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-6.jpg" data-size="728x595">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-6.jpg"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-6_huda88bdf3cd6f48b73cf024506d4bf25f_38558_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-6_huda88bdf3cd6f48b73cf024506d4bf25f_38558_1024x0_resize_q60_box.jpg 1024w"
+width="728"
+height="595"
+loading="lazy"
+alt="Settings Dark Reader">
+&lt;/a>
+&lt;figcaption>Settings Dark Reader&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="6">
+&lt;li>Selesai, White Flash tidak akan Muncul.&lt;/li>
+&lt;/ol>
+&lt;h3 id="google-chrome">Google Chrome&lt;/h3>
+&lt;ol>
+&lt;li>Kalian buat shortcut Google Chrome di Desktop kalian dengan cara&lt;/li>
+&lt;/ol>
+&lt;pre>&lt;code>Klik Start Menu -&amp;gt;&amp;gt; Klik Kanan pada icon Google Chrome -&amp;gt;&amp;gt; More -&amp;gt;&amp;gt; Open file location
+-&amp;gt;&amp;gt; Klik Kanan pada icon Google Chrome -&amp;gt;&amp;gt; Send to -&amp;gt;&amp;gt; Desktop (create shortcut)
+&lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 125; flex-basis: 301px">
+&lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/s-1.jpg" data-size="784x624">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/s-1.jpg"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/s-1_hub0398b7345ab53f2401e443fed6ab6ab_69547_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/s-1_hub0398b7345ab53f2401e443fed6ab6ab_69547_1024x0_resize_q60_box.jpg 1024w"
+width="784"
+height="624"
+loading="lazy"
+alt="Buat Shortcut Google Chrome">
+&lt;/a>
+&lt;figcaption>Buat Shortcut Google Chrome&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 158; flex-basis: 381px">
+&lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/s-2.jpg" data-size="1189x748">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/s-2.jpg"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/s-2_hufeaa74cdd872c1fd7b1c4df0cea1abad_98224_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/s-2_hufeaa74cdd872c1fd7b1c4df0cea1abad_98224_1024x0_resize_q60_box.jpg 1024w"
+width="1189"
+height="748"
+loading="lazy"
+alt="Buat Shortcut Google Chrome">
+&lt;/a>
+&lt;figcaption>Buat Shortcut Google Chrome&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="2">
+&lt;li>Klik kanan pada shortcut Google Chrome yang baru saja dibuat, tambahkan command line &lt;strong>&amp;ndash;force-dark-mode&lt;/strong> setelah chrome.exe&amp;quot;&lt;/li>
+&lt;/ol>
+&lt;pre>&lt;code>&amp;quot;C:\Program Files\Google\Chrome\Application\chrome.exe&amp;quot;[spasi]--force-dark-mode
+Jadinya seperti ini
+&amp;quot;C:\Program Files\Google\Chrome\Application\chrome.exe&amp;quot; --force-dark-mode
+&lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 69; flex-basis: 167px">
+&lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-2.jpg" data-size="363x520">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-2.jpg"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-2_hu46083b1edc8903e973c49ef81094595e_29842_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-2_hu46083b1edc8903e973c49ef81094595e_29842_1024x0_resize_q60_box.jpg 1024w"
+width="363"
+height="520"
+loading="lazy"
+alt="Menambahkan &amp;ndash;force-dark-mode">
+&lt;/a>
+&lt;figcaption>Menambahkan –force-dark-mode&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 69; flex-basis: 167px">
+&lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-3.jpg" data-size="364x521">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-3.jpg"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-3_hub3e802c5e915d806525a19b3302c8064_26762_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-3_hub3e802c5e915d806525a19b3302c8064_26762_1024x0_resize_q60_box.jpg 1024w"
+width="364"
+height="521"
+loading="lazy"
+alt="Klik Continue jika ada prompt seperti ini">
+&lt;/a>
+&lt;figcaption>Klik Continue jika ada prompt seperti ini&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="3">
+&lt;li>Buka Chrome &amp;amp; Install Extension &lt;a class="link" href="https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh" target="_blank" rel="nofollow noopener"
+>Dark Reader&lt;/a> dan Jika sudah terinstall lanjut ke langkah 4&lt;/li>
+&lt;li>Klik icon Dark Reader nya ↠ Dev Tools ↠ Preview New Design ↠ Apply ↠ Exit&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 166; flex-basis: 399px">
+&lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-4.jpg" data-size="1024x615">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-4.jpg"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-4_hu80b72f019a8ed50fded70dba69c802d5_79869_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-4_hu80b72f019a8ed50fded70dba69c802d5_79869_1024x0_resize_q60_box.jpg 1024w"
+width="1024"
+height="615"
+loading="lazy"
+alt="Settings Dark Reader">
+&lt;/a>
+&lt;figcaption>Settings Dark Reader&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="5">
+&lt;li>Klik Settings ↠ Site List ↠ On kan Enable on restricted pages ↠ Back ↠ Manage Settings ↠ On kan Synchronize site fixes&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 166; flex-basis: 399px">
+&lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-5.jpg" data-size="1024x615">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-5.jpg"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-5_hue8df7b0c9550c4c798a02293f9318313_45252_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-5_hue8df7b0c9550c4c798a02293f9318313_45252_1024x0_resize_q60_box.jpg 1024w"
+width="1024"
+height="615"
+loading="lazy"
+alt="Settings Dark Reader">
+&lt;/a>
+&lt;figcaption>Settings Dark Reader&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 166; flex-basis: 399px">
+&lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-6.jpg" data-size="1024x615">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-6.jpg"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-6_huc76def990cb8c3c76fd5e08ed7a6d4b0_52180_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-6_huc76def990cb8c3c76fd5e08ed7a6d4b0_52180_1024x0_resize_q60_box.jpg 1024w"
+width="1024"
+height="615"
+loading="lazy"
+alt="Settings Dark Reader">
+&lt;/a>
+&lt;figcaption>Settings Dark Reader&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="6">
+&lt;li>Selesai, White Flash tidak akan Muncul.&lt;/li>
+&lt;/ol>
+&lt;h2 id="microsoft-edge">Microsoft Edge&lt;/h2>
+&lt;ol>
+&lt;li>Kalian kunjungi &lt;strong>edge://settings/appearance&lt;/strong> dan ganti &lt;strong>Default Theme&lt;/strong> ke &lt;strong>Dark&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 164; flex-basis: 395px">
+&lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-1.jpg" data-size="997x605">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-1.jpg"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-1_hu3c0065054d46c5557079ef42086376fa_35252_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-1_hu3c0065054d46c5557079ef42086376fa_35252_1024x0_resize_q60_box.jpg 1024w"
+width="997"
+height="605"
+loading="lazy"
+alt="Mengganti Tema">
+&lt;/a>
+&lt;figcaption>Mengganti Tema&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="2">
+&lt;li>Install Extension &lt;a class="link" href="https://microsoftedge.microsoft.com/addons/detail/ifoakfbpdcdoeenechcleahebpibofpc" target="_blank" rel="nofollow noopener"
+>Dark Reader&lt;/a> dan Jika sudah terinstall lanjut ke langkah 3&lt;/li>
+&lt;li>Klik icon Dark Reader nya ↠ Dev Tools ↠ Preview New Design ↠ Apply ↠ Exit&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 164; flex-basis: 395px">
+&lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-2.jpg" data-size="997x605">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-2.jpg"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-2_hub64f1fb094cb59b429ee964d848a064f_82560_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-2_hub64f1fb094cb59b429ee964d848a064f_82560_1024x0_resize_q60_box.jpg 1024w"
+width="997"
+height="605"
+loading="lazy"
+alt="Settings Dark Reader">
+&lt;/a>
+&lt;figcaption>Settings Dark Reader&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="4">
+&lt;li>Klik Settings ↠ Site List ↠ On kan Enable on restricted pages ↠ Back ↠ Manage Settings ↠ On kan Synchronize site fixes&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 164; flex-basis: 395px">
+&lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-3.jpg" data-size="997x605">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-3.jpg"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-3_hua746cabca46b6e03b8740ca00bb9fc3a_39038_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-3_hua746cabca46b6e03b8740ca00bb9fc3a_39038_1024x0_resize_q60_box.jpg 1024w"
+width="997"
+height="605"
+loading="lazy"
+alt="Settings Dark Reader">
+&lt;/a>
+&lt;figcaption>Settings Dark Reader&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 164; flex-basis: 395px">
+&lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-4.jpg" data-size="997x605">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-4.jpg"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-4_hua814ee22e2c567826fa23f3a32c56f6a_46125_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-4_hua814ee22e2c567826fa23f3a32c56f6a_46125_1024x0_resize_q60_box.jpg 1024w"
+width="997"
+height="605"
+loading="lazy"
+alt="Settings Dark Reader">
+&lt;/a>
+&lt;figcaption>Settings Dark Reader&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="5">
+&lt;li>Selesai, White Flash tidak akan Muncul.&lt;/li>
+&lt;/ol></description></item><item><title>Cara Reset Trial IDM Dengan Menghapus Key Registry</title><link>https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/</link><pubDate>Fri, 05 Mar 2021 20:45:48 +0700</pubDate><guid>https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/</guid><description>&lt;img src="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/idm-logo.svg" alt="Featured image of post Cara Reset Trial IDM Dengan Menghapus Key Registry" />&lt;p>Internet Download Manager atau biasa disingkat IDM, adalah perangkat lunak yang mampu mengunduh data-data yang ada di internet dan meneruskan kembali. Program buatan New York, Amerika ini menempati posisi teratas dalam memaksimalkan kecepatan mengunduh data. Tampilan dan grafis yang sederhana membuat IDM lebih bersahabat dengan penggunanya.&lt;/p>
 &lt;p>IDM didukung dengan fitur meneruskan kembali, yaitu untuk mengunduh ulang berkas-berkas yang sebelumnya terputus karena masalah teknis maupun nonteknis. IDM juga memiliki fitur unduh yang cepat dengan kemampuan melakukan segmentasi berkas secara otomatis dan didukung dengan teknologi yang aman. &lt;a class="link" href="https://id.wikipedia.org/wiki/Internet_Download_Manager" target="_blank" rel="nofollow noopener"
 >Sumber Wikipedia&lt;/a>&lt;/p>
 &lt;hr>
