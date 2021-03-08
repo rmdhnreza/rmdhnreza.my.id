@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rmdhnreza.my.id</title><link>https://rmdhnreza.my.id/</link><description>Recent content on rmdhnreza.my.id</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Mon, 08 Mar 2021 17:30:13 +0700</lastBuildDate><atom:link href="https://rmdhnreza.my.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Mendapatkan License ESET Trial 30 Hari Secara Gratis 2021</title><link>https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/</link><pubDate>Mon, 08 Mar 2021 17:30:13 +0700</pubDate><guid>https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/</guid><description>&lt;img src="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-logo.svg" alt="Featured image of post Cara Mendapatkan License ESET Trial 30 Hari Secara Gratis 2021" />&lt;p>Di awal bulan maret 2021 ini ESET telah merazia besar-besaran license mereka, Jika license yang kalian pakai hanya untuk 1 devices dan dipake 2 devices atau lebih, maka antivirus ESET kalian tidak akan bisa dipakai untuk Update database ESET.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rmdhnreza.my.id</title><link>https://rmdhnreza.my.id/</link><description>Recent content on rmdhnreza.my.id</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Mon, 08 Mar 2021 23:02:16 +0700</lastBuildDate><atom:link href="https://rmdhnreza.my.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Membuat Spoiler Di Hugo Website</title><link>https://rmdhnreza.my.id/cara-membuat-spoiler-di-hugo-website/</link><pubDate>Mon, 08 Mar 2021 23:02:16 +0700</pubDate><guid>https://rmdhnreza.my.id/cara-membuat-spoiler-di-hugo-website/</guid><description>&lt;img src="https://rmdhnreza.my.id/cara-membuat-spoiler-di-hugo-website/hugo.svg" alt="Featured image of post Cara Membuat Spoiler Di Hugo Website" />&lt;p>Kalian yang suka ikut forum (seperti Kaskus, Reddit, Tenforums, MDL, dll) pasti sudah tahu apa itu spoiler. Spoiler sangat sering digunakan, bahkan dianjurkan jika kalian ingin membuat postingan gambar yang berukuran besar ataupun video.&lt;/p>
+&lt;p>Untuk bisa membuat spoiler pada website yang menggunakan framework hugo, kita akan menyisipkan beberapa baris kode HTML saja (terutama untuk yang temanya belum support spoiler), Kode ini tidak menggunakan Javascript ataupun JQuery, murni menggunakan HTML saja. Berikut ini adalah langkah-langkah yang bisa kalian coba jika ingin membuat spoiler pada postingan blog yang menggunakan framework hugo.&lt;/p>
+&lt;ol>
+&lt;li>Buat &lt;em>shortcode&lt;/em> dengan nama &lt;strong>spoiler.html&lt;/strong> di project hugo kalian, &lt;em>Shortcode&lt;/em> ini bisa ditempatkan di bagian Tema atau langsung di bagian layouts pada project hugo.&lt;/li>
+&lt;/ol>
+&lt;h3 id="bagian-layouts-disarankan">Bagian Layouts (Disarankan)&lt;/h3>
+&lt;pre>&lt;code>rmdhnreza.my.id
+└───layouts
+└───shortcodes
+└───spoiler.html
+&lt;/code>&lt;/pre>&lt;h3 id="bagian-tema">Bagian Tema&lt;/h3>
+&lt;pre>&lt;code>rmdhnreza.my.id
+└───themes
+└───nama-tema
+└───layouts
+└───shortcodes
+└───spoiler.html
+&lt;/code>&lt;/pre>&lt;ol start="2">
+&lt;li>Isikan kode berikut pada file &lt;strong>spoiler.html&lt;/strong>. &lt;em>Snippet&lt;/em> HTML ini diambil dari &lt;a class="link" href="https://github.com/wowchemy/wowchemy-hugo-modules/blob/5072eddcc1eb7fcb3749a61fe2e83f4e1c36c557/wowchemy/layouts/shortcodes/spoiler.html" target="_blank" rel="nofollow noopener"
+>Wowchemy Hugo Modules&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-html" data-lang="html">{{- $id := printf &amp;#34;spoiler-%d&amp;#34; .Ordinal -}}
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">details&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;spoiler {{ .Get &amp;#34;&lt;/span>&lt;span class="na">class&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="err">}}&amp;#34;&lt;/span> &lt;span class="err">{{&lt;/span> &lt;span class="na">with&lt;/span> &lt;span class="err">.&lt;/span>&lt;span class="na">Get&lt;/span> &lt;span class="err">&amp;#34;&lt;/span>&lt;span class="na">style&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="err">}}&lt;/span>&lt;span class="na">style&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ . | safeCSS }}&amp;#34;&lt;/span>&lt;span class="err">{{&lt;/span> &lt;span class="na">end&lt;/span> &lt;span class="err">}}&lt;/span> &lt;span class="na">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{$id}}&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">summary&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>{{ .Get &amp;#34;text&amp;#34; | markdownify | emojify }}&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">summary&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>{{ .Inner | markdownify | emojify }}&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">details&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>Jika sudah kalian save.&lt;/li>
+&lt;li>Untuk membuat spoiler kalian tambahkan kode berikut pada postingan kalian&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 217; flex-basis: 522px">
+&lt;a href="https://rmdhnreza.my.id/cara-membuat-spoiler-di-hugo-website/1.jpg" data-size="733x337">&lt;img src="https://rmdhnreza.my.id/cara-membuat-spoiler-di-hugo-website/1.jpg"
+srcset="https://rmdhnreza.my.id/cara-membuat-spoiler-di-hugo-website/1_hu1e67be3d915a0b020e957698fc7aeda0_15335_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-membuat-spoiler-di-hugo-website/1_hu1e67be3d915a0b020e957698fc7aeda0_15335_1024x0_resize_q60_box.jpg 1024w"
+width="733"
+height="337"
+loading="lazy"
+alt="Spoiler Hugo">
+&lt;/a>
+&lt;figcaption>Spoiler Hugo&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="5">
+&lt;li>Jadinya seperti ini&lt;/li>
+&lt;/ol>
+&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>Test Spoiler&lt;/summary>
+&lt;p>Test spoiler hugo rmdhnreza.my.id&lt;/p>
+&lt;/details>
+&lt;ol start="6">
+&lt;li>Jika kalian ingin mengubah cursor nya menjadi pointer, kalian bisa tambahkan kode CSS berikut&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="nt">summary&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;span class="k">cursor&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">pointer&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Cara Mendapatkan License ESET Trial 30 Hari Secara Gratis 2021</title><link>https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/</link><pubDate>Mon, 08 Mar 2021 17:30:13 +0700</pubDate><guid>https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/</guid><description>&lt;img src="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-logo.svg" alt="Featured image of post Cara Mendapatkan License ESET Trial 30 Hari Secara Gratis 2021" />&lt;p>Di awal bulan maret 2021 ini ESET telah merazia besar-besaran license mereka, Jika license yang kalian pakai hanya untuk 1 devices dan dipake 2 devices atau lebih, maka antivirus ESET kalian tidak akan bisa dipakai untuk Update database ESET.&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 136; flex-basis: 327px">
 &lt;a href="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-1.jpg" data-size="900x660">&lt;img src="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-1.jpg"
 srcset="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-1_hubff7ffe1208770f966d906dbcfd662d5_45478_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-1_hubff7ffe1208770f966d906dbcfd662d5_45478_1024x0_resize_q60_box.jpg 1024w"
