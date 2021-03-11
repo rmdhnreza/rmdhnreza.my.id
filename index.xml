@@ -1,4 +1,263 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rmdhnreza.my.id</title><link>https://rmdhnreza.my.id/</link><description>Recent content on rmdhnreza.my.id</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Mon, 08 Mar 2021 23:02:16 +0700</lastBuildDate><atom:link href="https://rmdhnreza.my.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Membuat Spoiler Di Hugo Website</title><link>https://rmdhnreza.my.id/cara-membuat-spoiler-di-hugo-website/</link><pubDate>Mon, 08 Mar 2021 23:02:16 +0700</pubDate><guid>https://rmdhnreza.my.id/cara-membuat-spoiler-di-hugo-website/</guid><description>&lt;img src="https://rmdhnreza.my.id/cara-membuat-spoiler-di-hugo-website/hugo.svg" alt="Featured image of post Cara Membuat Spoiler Di Hugo Website" />&lt;p>Kalian yang suka ikut forum (seperti Kaskus, Reddit, Tenforums, MDL, dll) pasti sudah tahu apa itu spoiler. Spoiler sangat sering digunakan, bahkan dianjurkan jika kalian ingin membuat postingan gambar yang berukuran besar ataupun video.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rmdhnreza.my.id</title><link>https://rmdhnreza.my.id/</link><description>Recent content on rmdhnreza.my.id</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Thu, 11 Mar 2021 15:36:16 +0700</lastBuildDate><atom:link href="https://rmdhnreza.my.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Tutorial Menggunakan Rclone Untuk Upload &amp; Download File Ke Dropbox</title><link>https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/</link><pubDate>Thu, 11 Mar 2021 15:36:16 +0700</pubDate><guid>https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/</guid><description>&lt;img src="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/dropbox.svg" alt="Featured image of post Tutorial Menggunakan Rclone Untuk Upload &amp; Download File Ke Dropbox" />&lt;p>Sebelumnya, ditutorial ini saya menggunakan Linux Ubuntu 18.04 dalam menggunakan perintahnya. Tapi tenang saja untuk Windows pun perintahnya sama hanya saja file rclone nya saja yang berbeda, jadi nanti kalian unduh file rclone nya sesuai dengan sistem operasi yang kalian pakai sekarang.&lt;/p>
+&lt;h3 id="install-rclone-sistem-operasi-berbasis-linux">Install rClone Sistem Operasi berbasis Linux&lt;/h3>
+&lt;ol>
+&lt;li>Untuk pengguna sistem operasi berbasis Linux, saya sarankan menggunakan perintah ini untuk menginstall nya, karena biasanya lebih up-to-date dibanding dengan versi apt (untuk Debian based)&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">curl https://rclone.org/install.sh &lt;span class="p">|&lt;/span> sudo bash
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Kalian masukan password lalu Enter&lt;/li>
+&lt;li>Tunggu hingga proses installasi selesai&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 225; flex-basis: 540px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-install-1.jpg" data-size="919x408">&lt;img src="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-install-1.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-install-1_hu953d0faf3b0b9d716f41ff82df3b4b72_186952_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-install-1_hu953d0faf3b0b9d716f41ff82df3b4b72_186952_1024x0_resize_q75_box.jpg 1024w"
+width="919"
+height="408"
+loading="lazy"
+alt="Install rclone Linux">
+&lt;/a>
+&lt;figcaption>Install rclone Linux&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h3 id="install-rclone-sistem-operasi-windows">Install rClone Sistem Operasi Windows&lt;/h3>
+&lt;ol>
+&lt;li>Saya sarankan kalian menginstall scoop terlebih dahulu yang bisa kalian lihat di &lt;a class="link" href="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/" >Cara Menginstall Package Manager Scoop Di Windows 10&lt;/a>&lt;/li>
+&lt;li>Gunakan perintah ini untuk menginstall rclone&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="n">scoop&lt;/span> &lt;span class="n">install&lt;/span> &lt;span class="n">rclone&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 180; flex-basis: 434px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-install-2.jpg" data-size="1020x564">&lt;img src="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-install-2.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-install-2_hu4d386ab04dcb217e520aeb577eeff9d2_321947_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-install-2_hu4d386ab04dcb217e520aeb577eeff9d2_321947_1024x0_resize_q75_box.jpg 1024w"
+width="1020"
+height="564"
+loading="lazy"
+alt="Install rclone Windows dengan scoop">
+&lt;/a>
+&lt;figcaption>Install rclone Windows dengan scoop&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h3 id="setup-rclone">Setup rClone&lt;/h3>
+&lt;ol>
+&lt;li>Kalian jalankan perintah
+&lt;ul>
+&lt;li>&lt;code>rclone config&lt;/code>&lt;/li>
+&lt;li>Pilih &lt;code>n&lt;/code>&lt;/li>
+&lt;li>Isi nama remote, disini nama remote saya yaitu &lt;strong>dropbox&lt;/strong>&lt;/li>
+&lt;li>Enter&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Pilih Storage, karena disini kita akan menggunakan storage dropbox, maka kalian isi nama storage nya &lt;strong>&lt;code>dropbox&lt;/code>&lt;/strong> (nomor 10)&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 225; flex-basis: 540px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-1.jpg" data-size="919x408">&lt;img src="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-1.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-1_hu74aa3f114397c2eef3e3fa455563e172_69934_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-1_hu74aa3f114397c2eef3e3fa455563e172_69934_1024x0_resize_q75_box.jpg 1024w"
+width="919"
+height="408"
+loading="lazy"
+alt="rclone config">
+&lt;/a>
+&lt;figcaption>rclone config&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="3">
+&lt;li>&lt;strong>OAuth Client Id &amp;amp; Secret&lt;/strong>, sebetulnya bisa &lt;strong>dikosongkan&lt;/strong> jika kalian tidak mau ribet, tapi disini saya menggunakan &lt;strong>Client ID &amp;amp; Secret&lt;/strong> saya sendiri caranya&lt;/li>
+&lt;/ol>
+&lt;h3 id="membuat-client-id--secret-dropbox">Membuat Client ID &amp;amp; Secret Dropbox&lt;/h3>
+&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>Klik Untuk Membuka Spoiler&lt;/summary>
+&lt;p>&lt;ol>
+&lt;li>Kalian kunjungi &lt;a class="link" href="https://www.dropbox.com/developers/apps/create" target="_blank" rel="nofollow noopener"
+>Dropbox App Console&lt;/a>&lt;/li>
+&lt;li>Create App&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 151; flex-basis: 364px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/dropbox-api-1.jpg" data-size="1378x907">&lt;img src="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/dropbox-api-1.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/dropbox-api-1_hu6df1d584b8b8b1a858f2158318960e98_87222_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/dropbox-api-1_hu6df1d584b8b8b1a858f2158318960e98_87222_1024x0_resize_q75_box.jpg 1024w"
+width="1378"
+height="907"
+loading="lazy"
+alt="Dropbox Developer">
+&lt;/a>
+&lt;figcaption>Dropbox Developer&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="3">
+&lt;li>&lt;strong>Choose an API&lt;/strong> pilih &lt;strong>Scoped access&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Choose the Type&lt;/strong> of access you need pilih &lt;strong>Full Dropbox&lt;/strong>&lt;/li>
+&lt;li>Name your app isi Bebas asal masih bisa dipakai&lt;/li>
+&lt;li>Create App&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 140; flex-basis: 338px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/dropbox-api-2.jpg" data-size="1380x979">&lt;img src="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/dropbox-api-2.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/dropbox-api-2_hu7cdd9fe71de851d80dee5694440482a1_170534_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/dropbox-api-2_hu7cdd9fe71de851d80dee5694440482a1_170534_1024x0_resize_q75_box.jpg 1024w"
+width="1380"
+height="979"
+loading="lazy"
+alt="Dropbox Developer">
+&lt;/a>
+&lt;figcaption>Dropbox Developer&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="7">
+&lt;li>Dibagian Settings
+&lt;ul>
+&lt;li>Copy App key &amp;amp; App secret&lt;/li>
+&lt;li>Isi Redirect URIs dengan &lt;strong>http://localhost:53682&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 166; flex-basis: 400px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/dropbox-api-3.jpg" data-size="1396x836">&lt;img src="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/dropbox-api-3.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/dropbox-api-3_huaa7afe17d7e491ab1645a5740234730f_152210_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/dropbox-api-3_huaa7afe17d7e491ab1645a5740234730f_152210_1024x0_resize_q75_box.jpg 1024w"
+width="1396"
+height="836"
+loading="lazy"
+alt="Dropbox Developer">
+&lt;/a>
+&lt;figcaption>Dropbox Developer&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="8">
+&lt;li>Masuk ke tab Permissions, Kalian ceklis semua lalu Submit&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 166; flex-basis: 400px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/dropbox-api-4.jpg" data-size="1396x836">&lt;img src="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/dropbox-api-4.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/dropbox-api-4_hu37dc582f088a44a2ff1cb652daf48203_206815_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/dropbox-api-4_hu37dc582f088a44a2ff1cb652daf48203_206815_1024x0_resize_q75_box.jpg 1024w"
+width="1396"
+height="836"
+loading="lazy"
+alt="Dropbox Developer">
+&lt;/a>
+&lt;figcaption>Dropbox Developer&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;/p>
+&lt;/details>
+&lt;ol start="4">
+&lt;li>Isikan &lt;strong>client_id&lt;/strong> dengan &lt;strong>App key&lt;/strong> dan &lt;strong>client_secret&lt;/strong> dengan &lt;strong>App secret&lt;/strong>, sekali lagi ini hanya &lt;strong>optional&lt;/strong>, kalian boleh kosongkan bagian ini&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 225; flex-basis: 540px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-2.jpg" data-size="919x408">&lt;img src="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-2.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-2_hu65c4b2eef22bfd34a765d634e335184b_112931_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-2_hu65c4b2eef22bfd34a765d634e335184b_112931_1024x0_resize_q75_box.jpg 1024w"
+width="919"
+height="408"
+loading="lazy"
+alt="rclone config">
+&lt;/a>
+&lt;figcaption>rclone config&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="5">
+&lt;li>Edit advanced config pilih &lt;code>n) No (default)&lt;/code>&lt;/li>
+&lt;li>Kalian copy dan eksekusi perintah yang diberikan oleh aplikasi rclone di terminal atau powershell yang baru&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 225; flex-basis: 540px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-3.jpg" data-size="919x408">&lt;img src="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-3.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-3_hu9e63f1bf393c620054f850335e81b9bd_142923_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-3_hu9e63f1bf393c620054f850335e81b9bd_142923_1024x0_resize_q75_box.jpg 1024w"
+width="919"
+height="408"
+loading="lazy"
+alt="rclone config">
+&lt;/a>
+&lt;figcaption>rclone config&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 191; flex-basis: 459px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-4.jpg" data-size="964x503">&lt;img src="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-4.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-4_hu227cfeb2b4cb431ccb6369fa21aa1cbd_122464_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-4_hu227cfeb2b4cb431ccb6369fa21aa1cbd_122464_1024x0_resize_q75_box.jpg 1024w"
+width="964"
+height="503"
+loading="lazy"
+alt="rclone config">
+&lt;/a>
+&lt;figcaption>rclone config&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="7">
+&lt;li>Nanti kalian akan diberikan link local yang harus kalian buka di browser, buka link nya di browser
+&lt;ul>
+&lt;li>Kalian klik Continue&lt;/li>
+&lt;li>Klik Allow&lt;/li>
+&lt;li>Copy dan Paste Access Token (Lihat yang saya blok) ke Terminal yang pertama tadi lalu klik Enter&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 166; flex-basis: 400px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-5.jpg" data-size="1396x836">&lt;img src="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-5.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-5_hu8027b0f3fa2944054dacd6c72cc04f4c_177246_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-5_hu8027b0f3fa2944054dacd6c72cc04f4c_177246_1024x0_resize_q75_box.jpg 1024w"
+width="1396"
+height="836"
+loading="lazy"
+alt="rclone config">
+&lt;/a>
+&lt;figcaption>rclone config&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 166; flex-basis: 400px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-6.jpg" data-size="1396x836">&lt;img src="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-6.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-6_huc4b1e2b6afd9ed825a9f299621d45ac3_149089_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-6_huc4b1e2b6afd9ed825a9f299621d45ac3_149089_1024x0_resize_q75_box.jpg 1024w"
+width="1396"
+height="836"
+loading="lazy"
+alt="rclone config">
+&lt;/a>
+&lt;figcaption>rclone config&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 166; flex-basis: 400px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-7.jpg" data-size="1396x836">&lt;img src="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-7.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-7_hu2a5c28abdd5b3e6586c0fc10034254cd_265009_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-7_hu2a5c28abdd5b3e6586c0fc10034254cd_265009_1024x0_resize_q75_box.jpg 1024w"
+width="1396"
+height="836"
+loading="lazy"
+alt="rclone config">
+&lt;/a>
+&lt;figcaption>rclone config&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="8">
+&lt;li>Jika berhasil kalian tinggal pilih &lt;code>y) Yes this is Ok (default)&lt;/code> dan Enter&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 217; flex-basis: 522px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-8.jpg" data-size="1054x484">&lt;img src="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-8.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-8_hu240031771fb013fdb6857b0479f7d859_214150_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-8_hu240031771fb013fdb6857b0479f7d859_214150_1024x0_resize_q75_box.jpg 1024w"
+width="1054"
+height="484"
+loading="lazy"
+alt="rclone config">
+&lt;/a>
+&lt;figcaption>rclone config&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="9">
+&lt;li>Ketik &lt;code>q&lt;/code> untuk keluar dari config rclone&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 217; flex-basis: 522px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-9.jpg" data-size="1054x484">&lt;img src="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-9.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-9_hu70723d6f75cbb895d85552d0236fb218_155613_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-config-9_hu70723d6f75cbb895d85552d0236fb218_155613_1024x0_resize_q75_box.jpg 1024w"
+width="1054"
+height="484"
+loading="lazy"
+alt="rclone config">
+&lt;/a>
+&lt;figcaption>rclone config&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h3 id="download--upload-file-dengan-rclone-ke-dropbox">Download &amp;amp; Upload file dengan rClone ke Dropbox&lt;/h3>
+&lt;h3 id="perintah-rclone-untuk-upload">Perintah rclone untuk upload&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">rclone copy --progress /path/file/ namaremote:path/file/di/dropbox
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Disini saya contohkan akan upload file &lt;strong>Win10.ISO&lt;/strong> yang path nya di &lt;strong>/home/rmdhnreza/Win10.ISO&lt;/strong> ke &lt;strong>Folder WindowsISO&lt;/strong> yang ada di &lt;strong>Dropbox&lt;/strong>
+Jadi, perintahnya seperti ini&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">rclone copy --progress /home/rmdhnreza/Win10.ISO dropbox:WindowsISO
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 217; flex-basis: 522px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-download-1.jpg" data-size="1054x484">&lt;img src="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-download-1.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-download-1_hu8417a00bc5e2f979f5b278eb1759b8f7_122447_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-download-1_hu8417a00bc5e2f979f5b278eb1759b8f7_122447_1024x0_resize_q75_box.jpg 1024w"
+width="1054"
+height="484"
+loading="lazy"
+alt="rclone upload file local ke dropbox">
+&lt;/a>
+&lt;figcaption>rclone upload file local ke dropbox&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h3 id="perintah-rclone-untuk-download">Perintah rclone untuk Download&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">rclone copy --progress namaremote:path/file/di/dropbox /path/file/
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Disini saya contohkan akan download file &lt;strong>Win10.ISO&lt;/strong> yang path nya di &lt;strong>dropbox &amp;gt; WindowsISO/Win10.ISO&lt;/strong> yang ada di &lt;strong>Dropbox&lt;/strong> ke &lt;strong>Folder Home Directory saya&lt;/strong>
+Jadi, perintahnya seperti ini&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">rclone copy --progress dropbox:WindowsISO/Win10.ISO /home/rmdhnreza/Win10.ISO
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 217; flex-basis: 522px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-download-2.jpg" data-size="1054x484">&lt;img src="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-download-2.jpg"
+srcset="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-download-2_hu0558b268c5bfb9f1a28e48c7d24443b2_116043_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/rclone-download-2_hu0558b268c5bfb9f1a28e48c7d24443b2_116043_1024x0_resize_q75_box.jpg 1024w"
+width="1054"
+height="484"
+loading="lazy"
+alt="rclone download file dropbox ke local">
+&lt;/a>
+&lt;figcaption>rclone download file dropbox ke local&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Itu tadi adalah cara mudahnya download dan upload file menggunakan rclone ke dropbox, jika kalian masih bingung dengan perintah-perintah nya kalian bisa lihat langsung di &lt;a class="link" href="https://github.com/rclone/rclone/wiki" target="_blank" rel="nofollow noopener"
+>Rclone Wiki&lt;/a> untuk lebih lengkapnya.&lt;/p></description></item><item><title>Cara Membuat Spoiler Di Hugo Website</title><link>https://rmdhnreza.my.id/cara-membuat-spoiler-di-hugo-website/</link><pubDate>Mon, 08 Mar 2021 23:02:16 +0700</pubDate><guid>https://rmdhnreza.my.id/cara-membuat-spoiler-di-hugo-website/</guid><description>&lt;img src="https://rmdhnreza.my.id/cara-membuat-spoiler-di-hugo-website/hugo.svg" alt="Featured image of post Cara Membuat Spoiler Di Hugo Website" />&lt;p>Kalian yang suka ikut forum (seperti Kaskus, Reddit, Tenforums, MDL, dll) pasti sudah tahu apa itu spoiler. Spoiler sangat sering digunakan, bahkan dianjurkan jika kalian ingin membuat postingan gambar yang berukuran besar ataupun video.&lt;/p>
 &lt;p>Untuk bisa membuat spoiler pada website yang menggunakan framework hugo, kita akan menyisipkan beberapa baris kode HTML saja (terutama untuk yang temanya belum support spoiler), Kode ini tidak menggunakan Javascript ataupun JQuery, murni menggunakan HTML saja. Berikut ini adalah langkah-langkah yang bisa kalian coba jika ingin membuat spoiler pada postingan blog yang menggunakan framework hugo.&lt;/p>
 &lt;ol>
 &lt;li>Buat &lt;em>shortcode&lt;/em> dengan nama &lt;strong>spoiler.html&lt;/strong> di project hugo kalian, &lt;em>Shortcode&lt;/em> ini bisa ditempatkan di bagian Tema atau langsung di bagian layouts pada project hugo.&lt;/li>
@@ -30,7 +289,7 @@
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 217; flex-basis: 522px">
 &lt;a href="https://rmdhnreza.my.id/cara-membuat-spoiler-di-hugo-website/1.jpg" data-size="733x337">&lt;img src="https://rmdhnreza.my.id/cara-membuat-spoiler-di-hugo-website/1.jpg"
-srcset="https://rmdhnreza.my.id/cara-membuat-spoiler-di-hugo-website/1_hu1e67be3d915a0b020e957698fc7aeda0_15335_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-membuat-spoiler-di-hugo-website/1_hu1e67be3d915a0b020e957698fc7aeda0_15335_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/cara-membuat-spoiler-di-hugo-website/1_hu1e67be3d915a0b020e957698fc7aeda0_15335_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-membuat-spoiler-di-hugo-website/1_hu1e67be3d915a0b020e957698fc7aeda0_15335_1024x0_resize_q75_box.jpg 1024w"
 width="733"
 height="337"
 loading="lazy"
@@ -54,7 +313,7 @@ alt="Spoiler Hugo">
 &lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Cara Mendapatkan License ESET Trial 30 Hari Secara Gratis 2021</title><link>https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/</link><pubDate>Mon, 08 Mar 2021 17:30:13 +0700</pubDate><guid>https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/</guid><description>&lt;img src="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-logo.svg" alt="Featured image of post Cara Mendapatkan License ESET Trial 30 Hari Secara Gratis 2021" />&lt;p>Di awal bulan maret 2021 ini ESET telah merazia besar-besaran license mereka, Jika license yang kalian pakai hanya untuk 1 devices dan dipake 2 devices atau lebih, maka antivirus ESET kalian tidak akan bisa dipakai untuk Update database ESET.&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 136; flex-basis: 327px">
 &lt;a href="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-1.jpg" data-size="900x660">&lt;img src="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-1.jpg"
-srcset="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-1_hubff7ffe1208770f966d906dbcfd662d5_45478_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-1_hubff7ffe1208770f966d906dbcfd662d5_45478_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-1_hubff7ffe1208770f966d906dbcfd662d5_45478_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-1_hubff7ffe1208770f966d906dbcfd662d5_45478_1024x0_resize_q75_box.jpg 1024w"
 width="900"
 height="660"
 loading="lazy"
@@ -70,7 +329,7 @@ alt="License ESET">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 168; flex-basis: 405px">
 &lt;a href="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-ru-1.jpg" data-size="1330x788">&lt;img src="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-ru-1.jpg"
-srcset="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-ru-1_hu425a6d80b10bfce9f6a6c4505a1f8432_67948_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-ru-1_hu425a6d80b10bfce9f6a6c4505a1f8432_67948_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-ru-1_hu425a6d80b10bfce9f6a6c4505a1f8432_67948_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-ru-1_hu425a6d80b10bfce9f6a6c4505a1f8432_67948_1024x0_resize_q75_box.jpg 1024w"
 width="1330"
 height="788"
 loading="lazy"
@@ -87,7 +346,7 @@ alt="License ESET">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 168; flex-basis: 405px">
 &lt;a href="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-ru-2.jpg" data-size="1330x788">&lt;img src="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-ru-2.jpg"
-srcset="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-ru-2_hu8e6837fd42f2a8e92689e476f3627f21_70518_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-ru-2_hu8e6837fd42f2a8e92689e476f3627f21_70518_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-ru-2_hu8e6837fd42f2a8e92689e476f3627f21_70518_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-ru-2_hu8e6837fd42f2a8e92689e476f3627f21_70518_1024x0_resize_q75_box.jpg 1024w"
 width="1330"
 height="788"
 loading="lazy"
@@ -96,7 +355,7 @@ alt="Klik Button Berwarna Hijau">
 &lt;figcaption>Klik Button Berwarna Hijau&lt;/figcaption>
 &lt;/figure> &lt;figure style="flex-grow: 168; flex-basis: 405px">
 &lt;a href="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-ru-3.jpg" data-size="1330x788">&lt;img src="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-ru-3.jpg"
-srcset="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-ru-3_hub31a95a73e1286325786150ed1c40f89_59924_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-ru-3_hub31a95a73e1286325786150ed1c40f89_59924_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-ru-3_hub31a95a73e1286325786150ed1c40f89_59924_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-ru-3_hub31a95a73e1286325786150ed1c40f89_59924_1024x0_resize_q75_box.jpg 1024w"
 width="1330"
 height="788"
 loading="lazy"
@@ -109,7 +368,7 @@ alt="Klik saja X, jika kalian klik kolom berwarna hijau, kalian akan mengunduh i
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 181; flex-basis: 436px">
 &lt;a href="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-ru-4.jpg" data-size="1287x708">&lt;img src="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-ru-4.jpg"
-srcset="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-ru-4_hu2ef5bccbb59c4225ad62c8d348d22611_62912_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-ru-4_hu2ef5bccbb59c4225ad62c8d348d22611_62912_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-ru-4_hu2ef5bccbb59c4225ad62c8d348d22611_62912_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-ru-4_hu2ef5bccbb59c4225ad62c8d348d22611_62912_1024x0_resize_q75_box.jpg 1024w"
 width="1287"
 height="708"
 loading="lazy"
@@ -122,7 +381,7 @@ alt="Email berisi License, Username &amp; Password">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 152; flex-basis: 365px">
 &lt;a href="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-2.jpg" data-size="828x544">&lt;img src="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-2.jpg"
-srcset="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-2_hu3df3d75a4522bb047518a2c0b2586457_32721_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-2_hu3df3d75a4522bb047518a2c0b2586457_32721_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-2_hu3df3d75a4522bb047518a2c0b2586457_32721_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-2_hu3df3d75a4522bb047518a2c0b2586457_32721_1024x0_resize_q75_box.jpg 1024w"
 width="828"
 height="544"
 loading="lazy"
@@ -131,7 +390,7 @@ alt="Klik Use Purchased License Key">
 &lt;figcaption>Klik Use Purchased License Key&lt;/figcaption>
 &lt;/figure> &lt;figure style="flex-grow: 152; flex-basis: 365px">
 &lt;a href="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-3.jpg" data-size="828x544">&lt;img src="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-3.jpg"
-srcset="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-3_hu8563715381365a87216d931d9f48514a_26831_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-3_hu8563715381365a87216d931d9f48514a_26831_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-3_hu8563715381365a87216d931d9f48514a_26831_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-3_hu8563715381365a87216d931d9f48514a_26831_1024x0_resize_q75_box.jpg 1024w"
 width="828"
 height="544"
 loading="lazy"
@@ -141,7 +400,7 @@ alt="Isikan License nya">
 &lt;/figure>&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 152; flex-basis: 365px">
 &lt;a href="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-4.jpg" data-size="828x544">&lt;img src="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-4.jpg"
-srcset="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-4_hu23a5acadae39aa065c5ff6e9f6da20a3_26925_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-4_hu23a5acadae39aa065c5ff6e9f6da20a3_26925_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-4_hu23a5acadae39aa065c5ff6e9f6da20a3_26925_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-4_hu23a5acadae39aa065c5ff6e9f6da20a3_26925_1024x0_resize_q75_box.jpg 1024w"
 width="828"
 height="544"
 loading="lazy"
@@ -150,7 +409,7 @@ alt="Klik Activate">
 &lt;figcaption>Klik Activate&lt;/figcaption>
 &lt;/figure> &lt;figure style="flex-grow: 152; flex-basis: 365px">
 &lt;a href="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-5.jpg" data-size="828x544">&lt;img src="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-5.jpg"
-srcset="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-5_hu25953a22e07bec4786198f4e94d336c9_27718_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-5_hu25953a22e07bec4786198f4e94d336c9_27718_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-5_hu25953a22e07bec4786198f4e94d336c9_27718_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-5_hu25953a22e07bec4786198f4e94d336c9_27718_1024x0_resize_q75_box.jpg 1024w"
 width="828"
 height="544"
 loading="lazy"
@@ -181,7 +440,7 @@ browser.in-content.dark-mode -&amp;gt;&amp;gt; boolean -&amp;gt;&amp;gt; true
 browser.in-content.dark-mode -&amp;gt;&amp;gt; boolean -&amp;gt;&amp;gt; false
 &lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 229; flex-basis: 550px">
 &lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-1.jpg" data-size="881x384">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-1.jpg"
-srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-1_hub0aa38dd4b2bd03d7bd1779e4dfea528_21387_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-1_hub0aa38dd4b2bd03d7bd1779e4dfea528_21387_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-1_hub0aa38dd4b2bd03d7bd1779e4dfea528_21387_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-1_hub0aa38dd4b2bd03d7bd1779e4dfea528_21387_1024x0_resize_q75_box.jpg 1024w"
 width="881"
 height="384"
 loading="lazy"
@@ -190,7 +449,7 @@ alt="Firefox Force Dark Mode">
 &lt;figcaption>Firefox Force Dark Mode&lt;/figcaption>
 &lt;/figure> &lt;figure style="flex-grow: 229; flex-basis: 550px">
 &lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-2.jpg" data-size="881x384">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-2.jpg"
-srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-2_huf5c4c4837758c8a4e181bd99f4d69e6e_19840_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-2_huf5c4c4837758c8a4e181bd99f4d69e6e_19840_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-2_huf5c4c4837758c8a4e181bd99f4d69e6e_19840_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-2_huf5c4c4837758c8a4e181bd99f4d69e6e_19840_1024x0_resize_q75_box.jpg 1024w"
 width="881"
 height="384"
 loading="lazy"
@@ -205,7 +464,7 @@ alt="Firefox Force Dark Mode">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 122; flex-basis: 293px">
 &lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-3.jpg" data-size="728x595">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-3.jpg"
-srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-3_hu690d75d50ea436f5805d5c59a3b7f07b_36948_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-3_hu690d75d50ea436f5805d5c59a3b7f07b_36948_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-3_hu690d75d50ea436f5805d5c59a3b7f07b_36948_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-3_hu690d75d50ea436f5805d5c59a3b7f07b_36948_1024x0_resize_q75_box.jpg 1024w"
 width="728"
 height="595"
 loading="lazy"
@@ -214,7 +473,7 @@ alt="Settings Dark Reader">
 &lt;figcaption>Settings Dark Reader&lt;/figcaption>
 &lt;/figure> &lt;figure style="flex-grow: 122; flex-basis: 293px">
 &lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-4.jpg" data-size="728x595">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-4.jpg"
-srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-4_hu1c2ce55f59aa796356312c73289e086e_47699_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-4_hu1c2ce55f59aa796356312c73289e086e_47699_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-4_hu1c2ce55f59aa796356312c73289e086e_47699_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-4_hu1c2ce55f59aa796356312c73289e086e_47699_1024x0_resize_q75_box.jpg 1024w"
 width="728"
 height="595"
 loading="lazy"
@@ -227,7 +486,7 @@ alt="Settings Dark Reader">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 122; flex-basis: 293px">
 &lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-5.jpg" data-size="728x595">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-5.jpg"
-srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-5_hub7af0f36f60f0ba108cc897c0da6de6e_28432_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-5_hub7af0f36f60f0ba108cc897c0da6de6e_28432_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-5_hub7af0f36f60f0ba108cc897c0da6de6e_28432_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-5_hub7af0f36f60f0ba108cc897c0da6de6e_28432_1024x0_resize_q75_box.jpg 1024w"
 width="728"
 height="595"
 loading="lazy"
@@ -236,7 +495,7 @@ alt="Settings Dark Reader">
 &lt;figcaption>Settings Dark Reader&lt;/figcaption>
 &lt;/figure> &lt;figure style="flex-grow: 122; flex-basis: 293px">
 &lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-6.jpg" data-size="728x595">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-6.jpg"
-srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-6_huda88bdf3cd6f48b73cf024506d4bf25f_38558_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-6_huda88bdf3cd6f48b73cf024506d4bf25f_38558_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-6_huda88bdf3cd6f48b73cf024506d4bf25f_38558_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/f-6_huda88bdf3cd6f48b73cf024506d4bf25f_38558_1024x0_resize_q75_box.jpg 1024w"
 width="728"
 height="595"
 loading="lazy"
@@ -255,7 +514,7 @@ alt="Settings Dark Reader">
 -&amp;gt;&amp;gt; Klik Kanan pada icon Google Chrome -&amp;gt;&amp;gt; Send to -&amp;gt;&amp;gt; Desktop (create shortcut)
 &lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 125; flex-basis: 301px">
 &lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/s-1.jpg" data-size="784x624">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/s-1.jpg"
-srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/s-1_hub0398b7345ab53f2401e443fed6ab6ab_69547_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/s-1_hub0398b7345ab53f2401e443fed6ab6ab_69547_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/s-1_hub0398b7345ab53f2401e443fed6ab6ab_69547_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/s-1_hub0398b7345ab53f2401e443fed6ab6ab_69547_1024x0_resize_q75_box.jpg 1024w"
 width="784"
 height="624"
 loading="lazy"
@@ -264,7 +523,7 @@ alt="Buat Shortcut Google Chrome">
 &lt;figcaption>Buat Shortcut Google Chrome&lt;/figcaption>
 &lt;/figure> &lt;figure style="flex-grow: 158; flex-basis: 381px">
 &lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/s-2.jpg" data-size="1189x748">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/s-2.jpg"
-srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/s-2_hufeaa74cdd872c1fd7b1c4df0cea1abad_98224_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/s-2_hufeaa74cdd872c1fd7b1c4df0cea1abad_98224_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/s-2_hufeaa74cdd872c1fd7b1c4df0cea1abad_98224_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/s-2_hufeaa74cdd872c1fd7b1c4df0cea1abad_98224_1024x0_resize_q75_box.jpg 1024w"
 width="1189"
 height="748"
 loading="lazy"
@@ -280,7 +539,7 @@ Jadinya seperti ini
 &amp;quot;C:\Program Files\Google\Chrome\Application\chrome.exe&amp;quot; --force-dark-mode
 &lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 69; flex-basis: 167px">
 &lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-2.jpg" data-size="363x520">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-2.jpg"
-srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-2_hu46083b1edc8903e973c49ef81094595e_29842_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-2_hu46083b1edc8903e973c49ef81094595e_29842_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-2_hu46083b1edc8903e973c49ef81094595e_29842_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-2_hu46083b1edc8903e973c49ef81094595e_29842_1024x0_resize_q75_box.jpg 1024w"
 width="363"
 height="520"
 loading="lazy"
@@ -289,7 +548,7 @@ alt="Menambahkan &amp;ndash;force-dark-mode">
 &lt;figcaption>Menambahkan –force-dark-mode&lt;/figcaption>
 &lt;/figure> &lt;figure style="flex-grow: 69; flex-basis: 167px">
 &lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-3.jpg" data-size="364x521">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-3.jpg"
-srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-3_hub3e802c5e915d806525a19b3302c8064_26762_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-3_hub3e802c5e915d806525a19b3302c8064_26762_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-3_hub3e802c5e915d806525a19b3302c8064_26762_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-3_hub3e802c5e915d806525a19b3302c8064_26762_1024x0_resize_q75_box.jpg 1024w"
 width="364"
 height="521"
 loading="lazy"
@@ -304,7 +563,7 @@ alt="Klik Continue jika ada prompt seperti ini">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 166; flex-basis: 399px">
 &lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-4.jpg" data-size="1024x615">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-4.jpg"
-srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-4_hu80b72f019a8ed50fded70dba69c802d5_79869_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-4_hu80b72f019a8ed50fded70dba69c802d5_79869_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-4_hu80b72f019a8ed50fded70dba69c802d5_79869_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-4_hu80b72f019a8ed50fded70dba69c802d5_79869_1024x0_resize_q75_box.jpg 1024w"
 width="1024"
 height="615"
 loading="lazy"
@@ -317,7 +576,7 @@ alt="Settings Dark Reader">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 166; flex-basis: 399px">
 &lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-5.jpg" data-size="1024x615">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-5.jpg"
-srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-5_hue8df7b0c9550c4c798a02293f9318313_45252_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-5_hue8df7b0c9550c4c798a02293f9318313_45252_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-5_hue8df7b0c9550c4c798a02293f9318313_45252_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-5_hue8df7b0c9550c4c798a02293f9318313_45252_1024x0_resize_q75_box.jpg 1024w"
 width="1024"
 height="615"
 loading="lazy"
@@ -326,7 +585,7 @@ alt="Settings Dark Reader">
 &lt;figcaption>Settings Dark Reader&lt;/figcaption>
 &lt;/figure> &lt;figure style="flex-grow: 166; flex-basis: 399px">
 &lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-6.jpg" data-size="1024x615">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-6.jpg"
-srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-6_huc76def990cb8c3c76fd5e08ed7a6d4b0_52180_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-6_huc76def990cb8c3c76fd5e08ed7a6d4b0_52180_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-6_huc76def990cb8c3c76fd5e08ed7a6d4b0_52180_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/c-6_huc76def990cb8c3c76fd5e08ed7a6d4b0_52180_1024x0_resize_q75_box.jpg 1024w"
 width="1024"
 height="615"
 loading="lazy"
@@ -343,7 +602,7 @@ alt="Settings Dark Reader">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 164; flex-basis: 395px">
 &lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-1.jpg" data-size="997x605">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-1.jpg"
-srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-1_hu3c0065054d46c5557079ef42086376fa_35252_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-1_hu3c0065054d46c5557079ef42086376fa_35252_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-1_hu3c0065054d46c5557079ef42086376fa_35252_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-1_hu3c0065054d46c5557079ef42086376fa_35252_1024x0_resize_q75_box.jpg 1024w"
 width="997"
 height="605"
 loading="lazy"
@@ -358,7 +617,7 @@ alt="Mengganti Tema">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 164; flex-basis: 395px">
 &lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-2.jpg" data-size="997x605">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-2.jpg"
-srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-2_hub64f1fb094cb59b429ee964d848a064f_82560_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-2_hub64f1fb094cb59b429ee964d848a064f_82560_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-2_hub64f1fb094cb59b429ee964d848a064f_82560_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-2_hub64f1fb094cb59b429ee964d848a064f_82560_1024x0_resize_q75_box.jpg 1024w"
 width="997"
 height="605"
 loading="lazy"
@@ -371,7 +630,7 @@ alt="Settings Dark Reader">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 164; flex-basis: 395px">
 &lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-3.jpg" data-size="997x605">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-3.jpg"
-srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-3_hua746cabca46b6e03b8740ca00bb9fc3a_39038_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-3_hua746cabca46b6e03b8740ca00bb9fc3a_39038_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-3_hua746cabca46b6e03b8740ca00bb9fc3a_39038_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-3_hua746cabca46b6e03b8740ca00bb9fc3a_39038_1024x0_resize_q75_box.jpg 1024w"
 width="997"
 height="605"
 loading="lazy"
@@ -380,7 +639,7 @@ alt="Settings Dark Reader">
 &lt;figcaption>Settings Dark Reader&lt;/figcaption>
 &lt;/figure> &lt;figure style="flex-grow: 164; flex-basis: 395px">
 &lt;a href="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-4.jpg" data-size="997x605">&lt;img src="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-4.jpg"
-srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-4_hua814ee22e2c567826fa23f3a32c56f6a_46125_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-4_hua814ee22e2c567826fa23f3a32c56f6a_46125_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-4_hua814ee22e2c567826fa23f3a32c56f6a_46125_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-white-flash-saat-dark-mode-pada-browser/e-4_hua814ee22e2c567826fa23f3a32c56f6a_46125_1024x0_resize_q75_box.jpg 1024w"
 width="997"
 height="605"
 loading="lazy"
@@ -400,7 +659,7 @@ alt="Settings Dark Reader">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 79; flex-basis: 190px">
 &lt;a href="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/0.jpg" data-size="184x232">&lt;img src="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/0.jpg"
-srcset="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/0_hu11cff93fb2140053e3f45cef3e6dee91_7014_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/0_hu11cff93fb2140053e3f45cef3e6dee91_7014_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/0_hu11cff93fb2140053e3f45cef3e6dee91_7014_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/0_hu11cff93fb2140053e3f45cef3e6dee91_7014_1024x0_resize_q75_box.jpg 1024w"
 width="184"
 height="232"
 loading="lazy"
@@ -413,7 +672,7 @@ alt="Klik Exit di Tray Icon">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 198; flex-basis: 476px">
 &lt;a href="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/1.jpg" data-size="399x201">&lt;img src="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/1.jpg"
-srcset="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/1_hu7fcff9d4aeb9c3ebfa433019672a21fb_12414_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/1_hu7fcff9d4aeb9c3ebfa433019672a21fb_12414_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/1_hu7fcff9d4aeb9c3ebfa433019672a21fb_12414_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/1_hu7fcff9d4aeb9c3ebfa433019672a21fb_12414_1024x0_resize_q75_box.jpg 1024w"
 width="399"
 height="201"
 loading="lazy"
@@ -423,7 +682,7 @@ alt="Run">
 &lt;/figure>&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 187; flex-basis: 449px">
 &lt;a href="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/2.jpg" data-size="1148x613">&lt;img src="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/2.jpg"
-srcset="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/2_hua7f9787ec15f32d35ad61c8f680f94fc_23761_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/2_hua7f9787ec15f32d35ad61c8f680f94fc_23761_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/2_hua7f9787ec15f32d35ad61c8f680f94fc_23761_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/2_hua7f9787ec15f32d35ad61c8f680f94fc_23761_1024x0_resize_q75_box.jpg 1024w"
 width="1148"
 height="613"
 loading="lazy"
@@ -441,7 +700,7 @@ alt="Run">
 └── {07999AC3-058B-40BF-984F-69EB1E554CA7} &amp;lt;-- Hapus
 &lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 187; flex-basis: 449px">
 &lt;a href="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/3.jpg" data-size="1148x613">&lt;img src="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/3.jpg"
-srcset="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/3_hua1ac52bca950f4ba2e0c809240d26b3e_38022_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/3_hua1ac52bca950f4ba2e0c809240d26b3e_38022_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/3_hua1ac52bca950f4ba2e0c809240d26b3e_38022_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/3_hua1ac52bca950f4ba2e0c809240d26b3e_38022_1024x0_resize_q75_box.jpg 1024w"
 width="1148"
 height="613"
 loading="lazy"
@@ -450,7 +709,7 @@ alt="Registry Editor">
 &lt;figcaption>Registry Editor&lt;/figcaption>
 &lt;/figure> &lt;figure style="flex-grow: 187; flex-basis: 449px">
 &lt;a href="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/4.jpg" data-size="1148x613">&lt;img src="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/4.jpg"
-srcset="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/4_hufae38581dbec8b4130d629c97b8d6ec7_72467_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/4_hufae38581dbec8b4130d629c97b8d6ec7_72467_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/4_hufae38581dbec8b4130d629c97b8d6ec7_72467_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/4_hufae38581dbec8b4130d629c97b8d6ec7_72467_1024x0_resize_q75_box.jpg 1024w"
 width="1148"
 height="613"
 loading="lazy"
@@ -464,7 +723,7 @@ alt="Registry Editor">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 187; flex-basis: 449px">
 &lt;a href="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/5.jpg" data-size="1148x613">&lt;img src="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/5.jpg"
-srcset="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/5_hu323ba322dbf434561055640959e543e2_96691_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/5_hu323ba322dbf434561055640959e543e2_96691_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/5_hu323ba322dbf434561055640959e543e2_96691_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-reset-trial-idm-dengan-menghapus-key-registry/5_hu323ba322dbf434561055640959e543e2_96691_1024x0_resize_q75_box.jpg 1024w"
 width="1148"
 height="613"
 loading="lazy"
@@ -478,7 +737,7 @@ alt="Hapus Key">
 &lt;/ol></description></item><item><title>Cara Membuat Icon Website Light Dan Dark Mode</title><link>https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/</link><pubDate>Fri, 05 Mar 2021 17:16:23 +0700</pubDate><guid>https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/</guid><description>&lt;img src="https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/on-off.svg" alt="Featured image of post Cara Membuat Icon Website Light Dan Dark Mode" />&lt;p>Kali ini saya akan memberikan tutorial cara membuat icon website menjadi Light Mode dan Dark Mode, seperti ini contohnya:&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 315; flex-basis: 758px">
 &lt;a href="https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/2.jpg" data-size="613x194">&lt;img src="https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/2.jpg"
-srcset="https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/2_hua01bbe152d26acc1c4d16c21c857d49f_43727_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/2_hua01bbe152d26acc1c4d16c21c857d49f_43727_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/2_hua01bbe152d26acc1c4d16c21c857d49f_43727_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/2_hua01bbe152d26acc1c4d16c21c857d49f_43727_1024x0_resize_q75_box.jpg 1024w"
 width="613"
 height="194"
 loading="lazy"
@@ -505,7 +764,7 @@ Jika website kalian belum menggunakan &lt;strong>SVG&lt;/strong>, pastikan favic
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Jika sudah kalian &lt;strong>Save&lt;/strong>&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 175; flex-basis: 422px">
 &lt;a href="https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/3.jpg" data-size="1348x766">&lt;img src="https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/3.jpg"
-srcset="https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/3_hu4df4c1588d57b9985745f71b0c5d9147_96339_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/3_hu4df4c1588d57b9985745f71b0c5d9147_96339_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/3_hu4df4c1588d57b9985745f71b0c5d9147_96339_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/3_hu4df4c1588d57b9985745f71b0c5d9147_96339_1024x0_resize_q75_box.jpg 1024w"
 width="1348"
 height="766"
 loading="lazy"
@@ -522,7 +781,7 @@ alt="Edit SVG Icon (Klik Pada Gambar Untuk Memperjelas)">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 315; flex-basis: 758px">
 &lt;a href="https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/2.jpg" data-size="613x194">&lt;img src="https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/2.jpg"
-srcset="https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/2_hua01bbe152d26acc1c4d16c21c857d49f_43727_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/2_hua01bbe152d26acc1c4d16c21c857d49f_43727_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/2_hua01bbe152d26acc1c4d16c21c857d49f_43727_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-membuat-icon-website-light-dan-dark-mode/2_hua01bbe152d26acc1c4d16c21c857d49f_43727_1024x0_resize_q75_box.jpg 1024w"
 width="613"
 height="194"
 loading="lazy"
@@ -537,7 +796,7 @@ alt="rmdhnreza.my.id">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 100; flex-basis: 240px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/1.jpg" data-size="819x819">&lt;img src="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/1.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/1_huceb7a698cba8244876424c663cd48cc4_57020_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/1_huceb7a698cba8244876424c663cd48cc4_57020_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/1_huceb7a698cba8244876424c663cd48cc4_57020_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/1_huceb7a698cba8244876424c663cd48cc4_57020_1024x0_resize_q75_box.jpg 1024w"
 width="819"
 height="819"
 loading="lazy"
@@ -551,7 +810,7 @@ alt="Membuat Repository Github">
 &lt;pre>&lt;code>git clone https://github.com/rmdhnreza/rmdhnreza.github.io
 &lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 229; flex-basis: 551px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/2.jpg" data-size="952x414">&lt;img src="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/2.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/2_hu883d8c38c52a3769d0f09e0d856adc12_32929_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/2_hu883d8c38c52a3769d0f09e0d856adc12_32929_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/2_hu883d8c38c52a3769d0f09e0d856adc12_32929_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/2_hu883d8c38c52a3769d0f09e0d856adc12_32929_1024x0_resize_q75_box.jpg 1024w"
 width="952"
 height="414"
 loading="lazy"
@@ -565,7 +824,7 @@ alt="Clone Repository">
 &lt;pre>&lt;code>hugo new site --force rmdhnreza.github.io
 &lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 164; flex-basis: 393px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/5.jpg" data-size="1098x669">&lt;img src="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/5.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/5_hube485677ec8827aa52cb96b170815244_44830_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/5_hube485677ec8827aa52cb96b170815244_44830_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/5_hube485677ec8827aa52cb96b170815244_44830_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/5_hube485677ec8827aa52cb96b170815244_44830_1024x0_resize_q75_box.jpg 1024w"
 width="1098"
 height="669"
 loading="lazy"
@@ -580,7 +839,7 @@ alt="Membuat Hugo Website">
 &lt;pre>&lt;code>git submodule add https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme.git themes/vanilla-bootstrap-hugo-theme
 &lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 164; flex-basis: 393px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/7.jpg" data-size="1098x669">&lt;img src="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/7.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/7_hu1e23e55e42775f566223114547c3a473_63179_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/7_hu1e23e55e42775f566223114547c3a473_63179_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/7_hu1e23e55e42775f566223114547c3a473_63179_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/7_hu1e23e55e42775f566223114547c3a473_63179_1024x0_resize_q75_box.jpg 1024w"
 width="1098"
 height="669"
 loading="lazy"
@@ -593,7 +852,7 @@ alt="Menginstall Tema Vanilla">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 180; flex-basis: 433px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/8.jpg" data-size="1294x717">&lt;img src="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/8.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/8_hue0d75bd97a60f9d6cd4635e5831c3c4a_44531_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/8_hue0d75bd97a60f9d6cd4635e5831c3c4a_44531_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/8_hue0d75bd97a60f9d6cd4635e5831c3c4a_44531_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/8_hue0d75bd97a60f9d6cd4635e5831c3c4a_44531_1024x0_resize_q75_box.jpg 1024w"
 width="1294"
 height="717"
 loading="lazy"
@@ -606,7 +865,7 @@ alt="Hapus salah satu config">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 137; flex-basis: 331px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/9.jpg" data-size="1294x938">&lt;img src="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/9.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/9_hu3e48deaa661f421076eee9ca45b3a19a_76392_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/9_hu3e48deaa661f421076eee9ca45b3a19a_76392_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/9_hu3e48deaa661f421076eee9ca45b3a19a_76392_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/9_hu3e48deaa661f421076eee9ca45b3a19a_76392_1024x0_resize_q75_box.jpg 1024w"
 width="1294"
 height="938"
 loading="lazy"
@@ -619,7 +878,7 @@ alt="Ganti baseURL di config hugo">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 164; flex-basis: 393px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/10.jpg" data-size="1098x669">&lt;img src="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/10.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/10_huf5befba36ac6c360c8ebcf810194a1c2_94179_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/10_huf5befba36ac6c360c8ebcf810194a1c2_94179_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/10_huf5befba36ac6c360c8ebcf810194a1c2_94179_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/10_huf5befba36ac6c360c8ebcf810194a1c2_94179_1024x0_resize_q75_box.jpg 1024w"
 width="1098"
 height="669"
 loading="lazy"
@@ -635,7 +894,7 @@ alt="Hugo Server tidak ada error">
 └── gh-pages.yml
 &lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 189; flex-basis: 455px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/12.jpg" data-size="1525x804">&lt;img src="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/12.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/12_hud4464b87d6d302131005dcfc1be0a4a5_78042_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/12_hud4464b87d6d302131005dcfc1be0a4a5_78042_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/12_hud4464b87d6d302131005dcfc1be0a4a5_78042_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/12_hud4464b87d6d302131005dcfc1be0a4a5_78042_1024x0_resize_q75_box.jpg 1024w"
 width="1525"
 height="804"
 loading="lazy"
@@ -685,7 +944,7 @@ git push origin main
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 153; flex-basis: 369px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/16.jpg" data-size="959x623">&lt;img src="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/16.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/16_hu31fcb03f66171d3ff535d155f4d9ad31_51215_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/16_hu31fcb03f66171d3ff535d155f4d9ad31_51215_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/16_hu31fcb03f66171d3ff535d155f4d9ad31_51215_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/16_hu31fcb03f66171d3ff535d155f4d9ad31_51215_1024x0_resize_q75_box.jpg 1024w"
 width="959"
 height="623"
 loading="lazy"
@@ -698,7 +957,7 @@ alt="Ganti source branch dari main ke gh-pages">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 180; flex-basis: 434px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/17.jpg" data-size="1934x1069">&lt;img src="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/17.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/17_huefdc5531b8a9a17673e08c3ce1afb10c_40712_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/17_huefdc5531b8a9a17673e08c3ce1afb10c_40712_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/17_huefdc5531b8a9a17673e08c3ce1afb10c_40712_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/17_huefdc5531b8a9a17673e08c3ce1afb10c_40712_1024x0_resize_q75_box.jpg 1024w"
 width="1934"
 height="1069"
 loading="lazy"
@@ -712,7 +971,7 @@ alt="Wwbsite sudah Live dan bisa diakses">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 46; flex-basis: 111px">
 &lt;a href="https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/1.jpg" data-size="270x580">&lt;img src="https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/1.jpg"
-srcset="https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/1_hu2b84970fcf118414c43cad0b9147d453_15169_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/1_hu2b84970fcf118414c43cad0b9147d453_15169_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/1_hu2b84970fcf118414c43cad0b9147d453_15169_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/1_hu2b84970fcf118414c43cad0b9147d453_15169_1024x0_resize_q75_box.jpg 1024w"
 width="270"
 height="580"
 loading="lazy"
@@ -726,7 +985,7 @@ alt="Mengatasi Windows 10 Tidak Bisa Add Account di Windows Mail">
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="n">dism&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="n">online&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="nb">add-capability&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="n">capabilityname&lt;/span>&lt;span class="err">:&lt;/span>&lt;span class="n">OneCoreUAP&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">OneSync&lt;/span>&lt;span class="p">~~~~&lt;/span>&lt;span class="n">0&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">0&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">1&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">0&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 236; flex-basis: 567px">
 &lt;a href="https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/2.jpg" data-size="825x349">&lt;img src="https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/2.jpg"
-srcset="https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/2_hu2c2d77283383d724765299af9c618826_13072_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/2_hu2c2d77283383d724765299af9c618826_13072_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/2_hu2c2d77283383d724765299af9c618826_13072_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/2_hu2c2d77283383d724765299af9c618826_13072_1024x0_resize_q75_box.jpg 1024w"
 width="825"
 height="349"
 loading="lazy"
@@ -739,7 +998,7 @@ alt="Mengatasi Windows 10 Tidak Bisa Add Account di Windows Mail">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 236; flex-basis: 567px">
 &lt;a href="https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/3.jpg" data-size="825x349">&lt;img src="https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/3.jpg"
-srcset="https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/3_hu1d79b3e8a1fd85a123f5c0fb1c3d5e02_22159_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/3_hu1d79b3e8a1fd85a123f5c0fb1c3d5e02_22159_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/3_hu1d79b3e8a1fd85a123f5c0fb1c3d5e02_22159_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mengatasi-windows-10-tidak-add-bisa-account-di-windows-mail/3_hu1d79b3e8a1fd85a123f5c0fb1c3d5e02_22159_1024x0_resize_q75_box.jpg 1024w"
 width="825"
 height="349"
 loading="lazy"
@@ -758,7 +1017,7 @@ alt="Mengatasi Windows 10 Tidak Bisa Add Account di Windows Mail">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 151; flex-basis: 362px">
 &lt;a href="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-1.jpg" data-size="750x496">&lt;img src="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-1.jpg"
-srcset="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-1_hu7a67033fa4b1a39be699091631182152_29000_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-1_hu7a67033fa4b1a39be699091631182152_29000_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-1_hu7a67033fa4b1a39be699091631182152_29000_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-1_hu7a67033fa4b1a39be699091631182152_29000_1024x0_resize_q75_box.jpg 1024w"
 width="750"
 height="496"
 loading="lazy"
@@ -771,7 +1030,7 @@ alt="Tamper Protection">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 72; flex-basis: 173px">
 &lt;a href="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-2.jpg" data-size="502x693">&lt;img src="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-2.jpg"
-srcset="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-2_hu647a97a6a0d08963f5369ad2c4eaee35_31183_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-2_hu647a97a6a0d08963f5369ad2c4eaee35_31183_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-2_hu647a97a6a0d08963f5369ad2c4eaee35_31183_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-2_hu647a97a6a0d08963f5369ad2c4eaee35_31183_1024x0_resize_q75_box.jpg 1024w"
 width="502"
 height="693"
 loading="lazy"
@@ -784,7 +1043,7 @@ alt="Tamper Protection">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 65; flex-basis: 156px">
 &lt;a href="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-3.jpg" data-size="489x750">&lt;img src="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-3.jpg"
-srcset="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-3_hu8782bba879c30b32c51c2d10b942896b_38280_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-3_hu8782bba879c30b32c51c2d10b942896b_38280_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-3_hu8782bba879c30b32c51c2d10b942896b_38280_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/tamper-protection-3_hu8782bba879c30b32c51c2d10b942896b_38280_1024x0_resize_q75_box.jpg 1024w"
 width="489"
 height="750"
 loading="lazy"
@@ -804,7 +1063,7 @@ Computer Configuration\Administrative Templates\Windows Components\Windows\Defen
 Computer Configuration\Administrative Templates\Windows Components\Microsoft Defender Antivirus&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 172; flex-basis: 412px">
 &lt;a href="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/gpedit-1.jpg" data-size="750x436">&lt;img src="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/gpedit-1.jpg"
-srcset="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/gpedit-1_hud1b4db53832b29732504d9f693659467_53238_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/gpedit-1_hud1b4db53832b29732504d9f693659467_53238_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/gpedit-1_hud1b4db53832b29732504d9f693659467_53238_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/gpedit-1_hud1b4db53832b29732504d9f693659467_53238_1024x0_resize_q75_box.jpg 1024w"
 width="750"
 height="436"
 loading="lazy"
@@ -819,7 +1078,7 @@ alt="Local Group Policy Editor">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 107; flex-basis: 258px">
 &lt;a href="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/gpedit-2.jpg" data-size="686x636">&lt;img src="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/gpedit-2.jpg"
-srcset="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/gpedit-2_hu60a81a6af1646659fe879d8137529b40_46153_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/gpedit-2_hu60a81a6af1646659fe879d8137529b40_46153_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/gpedit-2_hu60a81a6af1646659fe879d8137529b40_46153_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/enable-atau-disable-windows-defender-windows-10/gpedit-2_hu60a81a6af1646659fe879d8137529b40_46153_1024x0_resize_q75_box.jpg 1024w"
 width="686"
 height="636"
 loading="lazy"
@@ -866,7 +1125,7 @@ DisableAntiSpyware DWORD&lt;br>
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 270; flex-basis: 648px">
 &lt;a href="https://rmdhnreza.my.id/enable-atau-disable-cortana-di-windows-10/1.png" data-size="956x354">&lt;img src="https://rmdhnreza.my.id/enable-atau-disable-cortana-di-windows-10/1.png"
-srcset="https://rmdhnreza.my.id/enable-atau-disable-cortana-di-windows-10/1_hu0e18ca98ca65e3b5a9d58533e75fd3f4_37627_480x0_resize_q60_box_2.png 480w, https://rmdhnreza.my.id/enable-atau-disable-cortana-di-windows-10/1_hu0e18ca98ca65e3b5a9d58533e75fd3f4_37627_1024x0_resize_q60_box_2.png 1024w"
+srcset="https://rmdhnreza.my.id/enable-atau-disable-cortana-di-windows-10/1_hu0e18ca98ca65e3b5a9d58533e75fd3f4_37627_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/enable-atau-disable-cortana-di-windows-10/1_hu0e18ca98ca65e3b5a9d58533e75fd3f4_37627_1024x0_resize_q75_box_2.png 1024w"
 width="956"
 height="354"
 loading="lazy"
@@ -881,7 +1140,7 @@ alt="Local Group Policy Editor">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 109; flex-basis: 262px">
 &lt;a href="https://rmdhnreza.my.id/enable-atau-disable-cortana-di-windows-10/2.png" data-size="700x640">&lt;img src="https://rmdhnreza.my.id/enable-atau-disable-cortana-di-windows-10/2.png"
-srcset="https://rmdhnreza.my.id/enable-atau-disable-cortana-di-windows-10/2_huf690f7bccb3e10c74b909fb4e03868ba_19688_480x0_resize_q60_box_2.png 480w, https://rmdhnreza.my.id/enable-atau-disable-cortana-di-windows-10/2_huf690f7bccb3e10c74b909fb4e03868ba_19688_1024x0_resize_q60_box_2.png 1024w"
+srcset="https://rmdhnreza.my.id/enable-atau-disable-cortana-di-windows-10/2_huf690f7bccb3e10c74b909fb4e03868ba_19688_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/enable-atau-disable-cortana-di-windows-10/2_huf690f7bccb3e10c74b909fb4e03868ba_19688_1024x0_resize_q75_box_2.png 1024w"
 width="700"
 height="640"
 loading="lazy"
@@ -931,7 +1190,7 @@ AllowCortana DWORD
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="nb">Set-ExecutionPolicy&lt;/span> &lt;span class="n">RemoteSigned&lt;/span> &lt;span class="n">-scope&lt;/span> &lt;span class="n">CurrentUser&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 523; flex-basis: 1257px">
 &lt;a href="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/2.png" data-size="859x164">&lt;img src="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/2.png"
-srcset="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/2_hu77510ceb97726a010903cde69903cd7b_18635_480x0_resize_q60_box_2.png 480w, https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/2_hu77510ceb97726a010903cde69903cd7b_18635_1024x0_resize_q60_box_2.png 1024w"
+srcset="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/2_hu77510ceb97726a010903cde69903cd7b_18635_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/2_hu77510ceb97726a010903cde69903cd7b_18635_1024x0_resize_q75_box_2.png 1024w"
 width="859"
 height="164"
 loading="lazy"
@@ -945,7 +1204,7 @@ alt="Set-ExecutionPolicy RemoteSigned -scope CurrentUser">
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="nb">iwr &lt;/span>&lt;span class="n">-useb&lt;/span> &lt;span class="n">get&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">scoop&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">sh&lt;/span> &lt;span class="p">|&lt;/span> &lt;span class="nb">iex
 &lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 385; flex-basis: 924px">
 &lt;a href="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/3.png" data-size="859x223">&lt;img src="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/3.png"
-srcset="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/3_hud7dd4d0be50b9c41437954cb0030fecb_20044_480x0_resize_q60_box_2.png 480w, https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/3_hud7dd4d0be50b9c41437954cb0030fecb_20044_1024x0_resize_q60_box_2.png 1024w"
+srcset="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/3_hud7dd4d0be50b9c41437954cb0030fecb_20044_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/3_hud7dd4d0be50b9c41437954cb0030fecb_20044_1024x0_resize_q75_box_2.png 1024w"
 width="859"
 height="223"
 loading="lazy"
@@ -960,7 +1219,7 @@ alt="Install Scoop">
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="n">scoop&lt;/span> &lt;span class="n">install&lt;/span> &lt;span class="n">git-with-openssh&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 438; flex-basis: 1051px">
 &lt;a href="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/4.png" data-size="859x196">&lt;img src="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/4.png"
-srcset="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/4_hu9af7f4158e917da1908913024fa6296f_22194_480x0_resize_q60_box_2.png 480w, https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/4_hu9af7f4158e917da1908913024fa6296f_22194_1024x0_resize_q60_box_2.png 1024w"
+srcset="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/4_hu9af7f4158e917da1908913024fa6296f_22194_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/4_hu9af7f4158e917da1908913024fa6296f_22194_1024x0_resize_q75_box_2.png 1024w"
 width="859"
 height="196"
 loading="lazy"
@@ -970,7 +1229,7 @@ alt="Install Git OpenSSH">
 &lt;/figure>&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 176; flex-basis: 422px">
 &lt;a href="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/5.png" data-size="859x488">&lt;img src="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/5.png"
-srcset="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/5_hu8e0f1518601d48e3da445ca9181cb0df_49529_480x0_resize_q60_box_2.png 480w, https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/5_hu8e0f1518601d48e3da445ca9181cb0df_49529_1024x0_resize_q60_box_2.png 1024w"
+srcset="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/5_hu8e0f1518601d48e3da445ca9181cb0df_49529_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/5_hu8e0f1518601d48e3da445ca9181cb0df_49529_1024x0_resize_q75_box_2.png 1024w"
 width="859"
 height="488"
 loading="lazy"
@@ -982,7 +1241,7 @@ alt="Install Git OpenSSH">
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="n">scoop&lt;/span> &lt;span class="n">bucket&lt;/span> &lt;span class="n">add&lt;/span> &lt;span class="n">extras&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 371; flex-basis: 892px">
 &lt;a href="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/6.png" data-size="859x231">&lt;img src="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/6.png"
-srcset="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/6_hu8c38f3a34cda9f8f934a8e1097985922_9692_480x0_resize_q60_box_2.png 480w, https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/6_hu8c38f3a34cda9f8f934a8e1097985922_9692_1024x0_resize_q60_box_2.png 1024w"
+srcset="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/6_hu8c38f3a34cda9f8f934a8e1097985922_9692_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/6_hu8c38f3a34cda9f8f934a8e1097985922_9692_1024x0_resize_q75_box_2.png 1024w"
 width="859"
 height="231"
 loading="lazy"
@@ -1003,7 +1262,7 @@ alt="Add Bucket">
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="n">scoop&lt;/span> &lt;span class="n">install&lt;/span> &lt;span class="n">ffmpeg&lt;/span> &lt;span class="n">hugo-extended&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 511; flex-basis: 1227px">
 &lt;a href="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/7.png" data-size="859x168">&lt;img src="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/7.png"
-srcset="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/7_hu667d332f7a2d22ecee58d0a96a264c6d_20660_480x0_resize_q60_box_2.png 480w, https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/7_hu667d332f7a2d22ecee58d0a96a264c6d_20660_1024x0_resize_q60_box_2.png 1024w"
+srcset="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/7_hu667d332f7a2d22ecee58d0a96a264c6d_20660_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/7_hu667d332f7a2d22ecee58d0a96a264c6d_20660_1024x0_resize_q75_box_2.png 1024w"
 width="859"
 height="168"
 loading="lazy"
@@ -1029,7 +1288,7 @@ alt="Install Hugo Extended">
 &lt;li>Klik di bagian &lt;code>Live Streams&lt;/code> pada pertandingan yang akan kalian tonton, disini saya contohkan pertandingan &lt;strong>Granada Vs Barcelona&lt;/strong>
 &lt;figure style="flex-grow: 176; flex-basis: 424px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/1.jpg" data-size="1780x1007">&lt;img src="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/1.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/1_hubb69a023eb9c0d5ea4fcae8095010a04_55777_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/1_hubb69a023eb9c0d5ea4fcae8095010a04_55777_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/1_hubb69a023eb9c0d5ea4fcae8095010a04_55777_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/1_hubb69a023eb9c0d5ea4fcae8095010a04_55777_1024x0_resize_q75_box.jpg 1024w"
 width="1780"
 height="1007"
 loading="lazy"
@@ -1040,7 +1299,7 @@ alt="Soccer Stream">
 &lt;li>Setelah itu kalian pilih salah satu website stream nya, jika live stream nya tidak bisa diputar, kalian pilih website stream yang lain, disini saya menggunakan web &lt;strong>Technoreels&lt;/strong> (Nomor 2) untuk stream nya
 &lt;figure style="flex-grow: 177; flex-basis: 426px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/2.jpg" data-size="1777x999">&lt;img src="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/2.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/2_hu258e6cd7a404fd8af40429b90a02c938_82527_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/2_hu258e6cd7a404fd8af40429b90a02c938_82527_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/2_hu258e6cd7a404fd8af40429b90a02c938_82527_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/2_hu258e6cd7a404fd8af40429b90a02c938_82527_1024x0_resize_q75_box.jpg 1024w"
 width="1777"
 height="999"
 loading="lazy"
@@ -1051,7 +1310,7 @@ alt="Soccer Stream">
 &lt;li>Selamat Menonton
 &lt;figure style="flex-grow: 199; flex-basis: 479px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/3.jpg" data-size="1903x952">&lt;img src="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/3.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/3_hub513178a642a047f6f82f8f803728227_137380_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/3_hub513178a642a047f6f82f8f803728227_137380_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/3_hub513178a642a047f6f82f8f803728227_137380_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/3_hub513178a642a047f6f82f8f803728227_137380_1024x0_resize_q75_box.jpg 1024w"
 width="1903"
 height="952"
 loading="lazy"
@@ -1075,7 +1334,7 @@ alt="Soccer Stream">
 &lt;li>Setelah terinstall kalian masuk ke &lt;strong>Dashboard uBlock Origin&lt;/strong> nya, caranya klik icon uBlock Origin nya, lalu Klik di icon Gear
 &lt;figure style="flex-grow: 60; flex-basis: 144px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/ublock-1.jpg" data-size="276x458">&lt;img src="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/ublock-1.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/ublock-1_hued137320709de32c6bc3a1570cc8cc0a_13732_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/ublock-1_hued137320709de32c6bc3a1570cc8cc0a_13732_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/ublock-1_hued137320709de32c6bc3a1570cc8cc0a_13732_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/ublock-1_hued137320709de32c6bc3a1570cc8cc0a_13732_1024x0_resize_q75_box.jpg 1024w"
 width="276"
 height="458"
 loading="lazy"
@@ -1086,7 +1345,7 @@ alt="Soccer Stream">
 &lt;li>Masuk ke bagian &lt;strong>Filter Lists&lt;/strong> lalu &lt;strong>Update Now&lt;/strong>
 &lt;figure style="flex-grow: 193; flex-basis: 464px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/ublock-2.jpg" data-size="1908x986">&lt;img src="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/ublock-2.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/ublock-2_hua7a16821a5e2c75793bc1ff05ed6a79d_75944_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/ublock-2_hua7a16821a5e2c75793bc1ff05ed6a79d_75944_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/ublock-2_hua7a16821a5e2c75793bc1ff05ed6a79d_75944_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/ublock-2_hua7a16821a5e2c75793bc1ff05ed6a79d_75944_1024x0_resize_q75_box.jpg 1024w"
 width="1908"
 height="986"
 loading="lazy"
@@ -1131,7 +1390,7 @@ sudo chmod a+rx /usr/local/bin/youtube-dl
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;code>-x&lt;/code> adalah kependekan dari &lt;code>--extract-audio&lt;/code>
 &lt;figure style="flex-grow: 502; flex-basis: 1207px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-convert-video-youtube-ke-audio-flac-menggunakan-youtube-dl/youtube-dl-1.jpg" data-size="1026x204">&lt;img src="https://rmdhnreza.my.id/tutorial-convert-video-youtube-ke-audio-flac-menggunakan-youtube-dl/youtube-dl-1.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-convert-video-youtube-ke-audio-flac-menggunakan-youtube-dl/youtube-dl-1_hu949617a6db7cc02bcb7260024e690797_29300_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-convert-video-youtube-ke-audio-flac-menggunakan-youtube-dl/youtube-dl-1_hu949617a6db7cc02bcb7260024e690797_29300_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-convert-video-youtube-ke-audio-flac-menggunakan-youtube-dl/youtube-dl-1_hu949617a6db7cc02bcb7260024e690797_29300_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-convert-video-youtube-ke-audio-flac-menggunakan-youtube-dl/youtube-dl-1_hu949617a6db7cc02bcb7260024e690797_29300_1024x0_resize_q75_box.jpg 1024w"
 width="1026"
 height="204"
 loading="lazy"
@@ -1141,7 +1400,7 @@ alt="youtube-dl">
 &lt;/figure>
 &lt;figure style="flex-grow: 182; flex-basis: 438px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-convert-video-youtube-ke-audio-flac-menggunakan-youtube-dl/youtube-dl-2.jpg" data-size="1032x565">&lt;img src="https://rmdhnreza.my.id/tutorial-convert-video-youtube-ke-audio-flac-menggunakan-youtube-dl/youtube-dl-2.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-convert-video-youtube-ke-audio-flac-menggunakan-youtube-dl/youtube-dl-2_hucc028a6f6c25ddf55c2743baee0c8c0b_32618_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-convert-video-youtube-ke-audio-flac-menggunakan-youtube-dl/youtube-dl-2_hucc028a6f6c25ddf55c2743baee0c8c0b_32618_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-convert-video-youtube-ke-audio-flac-menggunakan-youtube-dl/youtube-dl-2_hucc028a6f6c25ddf55c2743baee0c8c0b_32618_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-convert-video-youtube-ke-audio-flac-menggunakan-youtube-dl/youtube-dl-2_hucc028a6f6c25ddf55c2743baee0c8c0b_32618_1024x0_resize_q75_box.jpg 1024w"
 width="1032"
 height="565"
 loading="lazy"
@@ -1182,7 +1441,7 @@ alt="youtube-dl">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 343; flex-basis: 824px">
 &lt;a href="https://rmdhnreza.my.id/add-lazyload-di-setiap-images-di-hugo-website/1.jpeg" data-size="1594x464">&lt;img src="https://rmdhnreza.my.id/add-lazyload-di-setiap-images-di-hugo-website/1.jpeg"
-srcset="https://rmdhnreza.my.id/add-lazyload-di-setiap-images-di-hugo-website/1_hubb92d9f8f70700b147b13e257a64c7c0_57382_480x0_resize_q60_box.jpeg 480w, https://rmdhnreza.my.id/add-lazyload-di-setiap-images-di-hugo-website/1_hubb92d9f8f70700b147b13e257a64c7c0_57382_1024x0_resize_q60_box.jpeg 1024w"
+srcset="https://rmdhnreza.my.id/add-lazyload-di-setiap-images-di-hugo-website/1_hubb92d9f8f70700b147b13e257a64c7c0_57382_480x0_resize_q75_box.jpeg 480w, https://rmdhnreza.my.id/add-lazyload-di-setiap-images-di-hugo-website/1_hubb92d9f8f70700b147b13e257a64c7c0_57382_1024x0_resize_q75_box.jpeg 1024w"
 width="1594"
 height="464"
 loading="lazy"
@@ -1249,7 +1508,7 @@ sudo apt install ffmpeg &lt;span class="o">(&lt;/span>Debian based&lt;span class
 &lt;p>AMD Phenom X4 955 BE @ 3.20GHz (4 Cores) | GPU NVIDIA GTX 750Ti&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 236; flex-basis: 568px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-cpu.jpg" data-size="1264x534">&lt;img src="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-cpu.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-cpu_hu7194277f954cbfc7d681bf4065cb05a3_156454_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-cpu_hu7194277f954cbfc7d681bf4065cb05a3_156454_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-cpu_hu7194277f954cbfc7d681bf4065cb05a3_156454_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-cpu_hu7194277f954cbfc7d681bf4065cb05a3_156454_1024x0_resize_q75_box.jpg 1024w"
 width="1264"
 height="534"
 loading="lazy"
@@ -1258,7 +1517,7 @@ alt="CPU">
 &lt;figcaption>CPU&lt;/figcaption>
 &lt;/figure> &lt;figure style="flex-grow: 235; flex-basis: 565px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-gpu.jpg" data-size="1264x536">&lt;img src="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-gpu.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-gpu_hu292623b4aee406d690f711ef69326a71_111612_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-gpu_hu292623b4aee406d690f711ef69326a71_111612_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-gpu_hu292623b4aee406d690f711ef69326a71_111612_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-gpu_hu292623b4aee406d690f711ef69326a71_111612_1024x0_resize_q75_box.jpg 1024w"
 width="1264"
 height="536"
 loading="lazy"
@@ -1274,7 +1533,7 @@ alt="GPU">
 &lt;p>Menggunakan perintah langkah 4 | Menggunakan perintah langkah 6&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 293; flex-basis: 703px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-normal.jpg" data-size="721x246">&lt;img src="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-normal.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-normal_hud0c4d3e19d9c5c28edfb071972ee5d00_18806_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-normal_hud0c4d3e19d9c5c28edfb071972ee5d00_18806_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-normal_hud0c4d3e19d9c5c28edfb071972ee5d00_18806_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-normal_hud0c4d3e19d9c5c28edfb071972ee5d00_18806_1024x0_resize_q75_box.jpg 1024w"
 width="721"
 height="246"
 loading="lazy"
@@ -1283,7 +1542,7 @@ alt="CPU">
 &lt;figcaption>CPU&lt;/figcaption>
 &lt;/figure> &lt;figure style="flex-grow: 531; flex-basis: 1275px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-512k.jpg" data-size="941x177">&lt;img src="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-512k.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-512k_hua0cc18579822754eb4fbbb9406eea930_18304_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-512k_hua0cc18579822754eb4fbbb9406eea930_18304_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-512k_hua0cc18579822754eb4fbbb9406eea930_18304_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-compress-video-dengan-ffmpeg/ffmpeg-512k_hua0cc18579822754eb4fbbb9406eea930_18304_1024x0_resize_q75_box.jpg 1024w"
 width="941"
 height="177"
 loading="lazy"
@@ -1541,7 +1800,7 @@ firebase deploy
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
 &lt;a href="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/1.jpg" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/1.jpg"
-srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/1_hu8e11f1393c1ef7dc79a856b66d17e8fd_61416_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/1_hu8e11f1393c1ef7dc79a856b66d17e8fd_61416_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/1_hu8e11f1393c1ef7dc79a856b66d17e8fd_61416_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/1_hu8e11f1393c1ef7dc79a856b66d17e8fd_61416_1024x0_resize_q75_box.jpg 1024w"
 width="1920"
 height="1080"
 loading="lazy"
@@ -1554,7 +1813,7 @@ alt="Heroku Torrent to Google Drive">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
 &lt;a href="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/2.jpg" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/2.jpg"
-srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/2_huaef0fcd197dc1d34f2d0fe27bd1408e7_74660_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/2_huaef0fcd197dc1d34f2d0fe27bd1408e7_74660_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/2_huaef0fcd197dc1d34f2d0fe27bd1408e7_74660_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/2_huaef0fcd197dc1d34f2d0fe27bd1408e7_74660_1024x0_resize_q75_box.jpg 1024w"
 width="1920"
 height="1080"
 loading="lazy"
@@ -1567,7 +1826,7 @@ alt="Heroku Torrent to Google Drive">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
 &lt;a href="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/3.jpg" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/3.jpg"
-srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/3_hud3b635ac0b72a55357156ce89566efb8_72036_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/3_hud3b635ac0b72a55357156ce89566efb8_72036_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/3_hud3b635ac0b72a55357156ce89566efb8_72036_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/3_hud3b635ac0b72a55357156ce89566efb8_72036_1024x0_resize_q75_box.jpg 1024w"
 width="1920"
 height="1080"
 loading="lazy"
@@ -1586,7 +1845,7 @@ alt="Heroku Torrent to Google Drive">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
 &lt;a href="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/4.jpg" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/4.jpg"
-srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/4_hua67d69e5bf38ed8dcf5fdeca5e95470c_87518_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/4_hua67d69e5bf38ed8dcf5fdeca5e95470c_87518_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/4_hua67d69e5bf38ed8dcf5fdeca5e95470c_87518_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/4_hua67d69e5bf38ed8dcf5fdeca5e95470c_87518_1024x0_resize_q75_box.jpg 1024w"
 width="1920"
 height="1080"
 loading="lazy"
@@ -1602,7 +1861,7 @@ alt="Heroku Torrent to Google Drive">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
 &lt;a href="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/6.jpg" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/6.jpg"
-srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/6_hu2eb93da4905f2a789c3611c8d2319b00_131982_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/6_hu2eb93da4905f2a789c3611c8d2319b00_131982_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/6_hu2eb93da4905f2a789c3611c8d2319b00_131982_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/6_hu2eb93da4905f2a789c3611c8d2319b00_131982_1024x0_resize_q75_box.jpg 1024w"
 width="1920"
 height="1080"
 loading="lazy"
@@ -1620,7 +1879,7 @@ alt="Heroku Torrent to Google Drive">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
 &lt;a href="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/7.jpg" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/7.jpg"
-srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/7_hub61d870a53ded41ebafb117edf93cd54_49440_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/7_hub61d870a53ded41ebafb117edf93cd54_49440_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/7_hub61d870a53ded41ebafb117edf93cd54_49440_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/7_hub61d870a53ded41ebafb117edf93cd54_49440_1024x0_resize_q75_box.jpg 1024w"
 width="1920"
 height="1080"
 loading="lazy"
@@ -1634,7 +1893,7 @@ alt="Heroku Torrent to Google Drive">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
 &lt;a href="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/9.jpg" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/9.jpg"
-srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/9_hu8fe1c062b638520157db5c9288a69546_84279_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/9_hu8fe1c062b638520157db5c9288a69546_84279_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/9_hu8fe1c062b638520157db5c9288a69546_84279_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/9_hu8fe1c062b638520157db5c9288a69546_84279_1024x0_resize_q75_box.jpg 1024w"
 width="1920"
 height="1080"
 loading="lazy"
@@ -1659,7 +1918,7 @@ alt="Heroku Torrent to Google Drive">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 182; flex-basis: 438px">
 &lt;a href="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/10.jpg" data-size="1920x1052">&lt;img src="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/10.jpg"
-srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/10_hu1e3ac807bf3924ddba73fc46bb371501_72179_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/10_hu1e3ac807bf3924ddba73fc46bb371501_72179_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/10_hu1e3ac807bf3924ddba73fc46bb371501_72179_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/10_hu1e3ac807bf3924ddba73fc46bb371501_72179_1024x0_resize_q75_box.jpg 1024w"
 width="1920"
 height="1052"
 loading="lazy"
@@ -1672,7 +1931,7 @@ alt="Heroku Torrent to Google Drive">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
 &lt;a href="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/11.jpg" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/11.jpg"
-srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/11_huf64c55db3253f6d57e04a28d82139420_96178_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/11_huf64c55db3253f6d57e04a28d82139420_96178_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/11_huf64c55db3253f6d57e04a28d82139420_96178_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/11_huf64c55db3253f6d57e04a28d82139420_96178_1024x0_resize_q75_box.jpg 1024w"
 width="1920"
 height="1080"
 loading="lazy"
@@ -1685,7 +1944,7 @@ alt="Heroku Torrent to Google Drive">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
 &lt;a href="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/14.jpg" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/14.jpg"
-srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/14_hu33c0ae8654820850bc83c68d9216dd34_66724_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/14_hu33c0ae8654820850bc83c68d9216dd34_66724_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/14_hu33c0ae8654820850bc83c68d9216dd34_66724_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/14_hu33c0ae8654820850bc83c68d9216dd34_66724_1024x0_resize_q75_box.jpg 1024w"
 width="1920"
 height="1080"
 loading="lazy"
@@ -1695,7 +1954,7 @@ alt="Heroku Torrent to Google Drive">
 &lt;/figure>&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
 &lt;a href="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/15.jpg" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/15.jpg"
-srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/15_hua4fe9a2a3f35769f9de9b6c99bb3db3d_89879_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/15_hua4fe9a2a3f35769f9de9b6c99bb3db3d_89879_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/15_hua4fe9a2a3f35769f9de9b6c99bb3db3d_89879_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/trik-download-torrent-menggunakan-heroku/15_hua4fe9a2a3f35769f9de9b6c99bb3db3d_89879_1024x0_resize_q75_box.jpg 1024w"
 width="1920"
 height="1080"
 loading="lazy"
@@ -1717,7 +1976,7 @@ alt="Heroku Torrent to Google Drive">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 427px">
 &lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/1.jpg" data-size="1918x1078">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/1.jpg"
-srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/1_hucded35280e212db777c89446bbd9f095_54425_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/1_hucded35280e212db777c89446bbd9f095_54425_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/1_hucded35280e212db777c89446bbd9f095_54425_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/1_hucded35280e212db777c89446bbd9f095_54425_1024x0_resize_q75_box.jpg 1024w"
 width="1918"
 height="1078"
 loading="lazy"
@@ -1730,7 +1989,7 @@ alt="Heroku Google Drive Indexer">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 427px">
 &lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/2.jpg" data-size="1918x1078">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/2.jpg"
-srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/2_hue121623585bb09e2c4a0d682446cc929_71031_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/2_hue121623585bb09e2c4a0d682446cc929_71031_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/2_hue121623585bb09e2c4a0d682446cc929_71031_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/2_hue121623585bb09e2c4a0d682446cc929_71031_1024x0_resize_q75_box.jpg 1024w"
 width="1918"
 height="1078"
 loading="lazy"
@@ -1743,7 +2002,7 @@ alt="Heroku Google Drive Indexer">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 427px">
 &lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/3.jpg" data-size="1918x1078">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/3.jpg"
-srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/3_hu0edaee79fbb1aca0646b703a06c7ddbb_63840_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/3_hu0edaee79fbb1aca0646b703a06c7ddbb_63840_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/3_hu0edaee79fbb1aca0646b703a06c7ddbb_63840_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/3_hu0edaee79fbb1aca0646b703a06c7ddbb_63840_1024x0_resize_q75_box.jpg 1024w"
 width="1918"
 height="1078"
 loading="lazy"
@@ -1758,7 +2017,7 @@ alt="Heroku Google Drive Indexer">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 427px">
 &lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/4.jpg" data-size="1918x1078">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/4.jpg"
-srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/4_hua726eb7d52e00b0b347db8d36187daab_61928_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/4_hua726eb7d52e00b0b347db8d36187daab_61928_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/4_hua726eb7d52e00b0b347db8d36187daab_61928_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/4_hua726eb7d52e00b0b347db8d36187daab_61928_1024x0_resize_q75_box.jpg 1024w"
 width="1918"
 height="1078"
 loading="lazy"
@@ -1773,7 +2032,7 @@ alt="Heroku Google Drive Indexer">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 211; flex-basis: 507px">
 &lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi.jpg" data-size="905x428">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi.jpg"
-srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi_hufd866423443b8ee3c3a1a1fbd35a087a_19724_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi_hufd866423443b8ee3c3a1a1fbd35a087a_19724_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi_hufd866423443b8ee3c3a1a1fbd35a087a_19724_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi_hufd866423443b8ee3c3a1a1fbd35a087a_19724_1024x0_resize_q75_box.jpg 1024w"
 width="905"
 height="428"
 loading="lazy"
@@ -1783,7 +2042,7 @@ alt="Heroku Google Drive Indexer">
 &lt;/figure>
 &lt;figure style="flex-grow: 182; flex-basis: 438px">
 &lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi1.jpg" data-size="905x495">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi1.jpg"
-srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi1_huaf0d5b176b73243e225e639666567980_18384_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi1_huaf0d5b176b73243e225e639666567980_18384_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi1_huaf0d5b176b73243e225e639666567980_18384_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi1_huaf0d5b176b73243e225e639666567980_18384_1024x0_resize_q75_box.jpg 1024w"
 width="905"
 height="495"
 loading="lazy"
@@ -1793,7 +2052,7 @@ alt="Heroku Google Drive Indexer">
 &lt;/figure>
 &lt;figure style="flex-grow: 185; flex-basis: 445px">
 &lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi2.jpg" data-size="905x488">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi2.jpg"
-srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi2_hua31f4e6c8acf367bc019d9f5b2ee1930_30293_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi2_hua31f4e6c8acf367bc019d9f5b2ee1930_30293_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi2_hua31f4e6c8acf367bc019d9f5b2ee1930_30293_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi2_hua31f4e6c8acf367bc019d9f5b2ee1930_30293_1024x0_resize_q75_box.jpg 1024w"
 width="905"
 height="488"
 loading="lazy"
@@ -1806,7 +2065,7 @@ alt="Heroku Google Drive Indexer">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 427px">
 &lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/5.jpg" data-size="1918x1078">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/5.jpg"
-srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/5_hua726eb7d52e00b0b347db8d36187daab_71322_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/5_hua726eb7d52e00b0b347db8d36187daab_71322_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/5_hua726eb7d52e00b0b347db8d36187daab_71322_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/5_hua726eb7d52e00b0b347db8d36187daab_71322_1024x0_resize_q75_box.jpg 1024w"
 width="1918"
 height="1078"
 loading="lazy"
@@ -1816,7 +2075,7 @@ alt="Heroku Google Drive Indexer">
 &lt;/figure>
 &lt;figure style="flex-grow: 98; flex-basis: 236px">
 &lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi4.jpg" data-size="524x532">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi4.jpg"
-srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi4_hu203943b078cab5027b3d40799c203099_11046_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi4_hu203943b078cab5027b3d40799c203099_11046_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi4_hu203943b078cab5027b3d40799c203099_11046_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi4_hu203943b078cab5027b3d40799c203099_11046_1024x0_resize_q75_box.jpg 1024w"
 width="524"
 height="532"
 loading="lazy"
@@ -1837,7 +2096,7 @@ alt="Heroku Google Drive Indexer">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 124; flex-basis: 297px">
 &lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi5.jpg" data-size="568x458">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi5.jpg"
-srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi5_hue58f937d58f57025daeb5094b83f40e8_36879_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi5_hue58f937d58f57025daeb5094b83f40e8_36879_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi5_hue58f937d58f57025daeb5094b83f40e8_36879_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/enabledriveapi5_hue58f937d58f57025daeb5094b83f40e8_36879_1024x0_resize_q75_box.jpg 1024w"
 width="568"
 height="458"
 loading="lazy"
@@ -1850,7 +2109,7 @@ alt="Heroku Google Drive Indexer">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 427px">
 &lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/6.jpg" data-size="1918x1078">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/6.jpg"
-srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/6_huc43c1eaa929cfd9fb974dc8abb574378_86189_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/6_huc43c1eaa929cfd9fb974dc8abb574378_86189_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/6_huc43c1eaa929cfd9fb974dc8abb574378_86189_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/6_huc43c1eaa929cfd9fb974dc8abb574378_86189_1024x0_resize_q75_box.jpg 1024w"
 width="1918"
 height="1078"
 loading="lazy"
@@ -1863,7 +2122,7 @@ alt="Heroku Google Drive Indexer">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 427px">
 &lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/7.jpg" data-size="1918x1078">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/7.jpg"
-srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/7_hue7a171b2c317520ba6445d8fbef9f4eb_30305_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/7_hue7a171b2c317520ba6445d8fbef9f4eb_30305_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/7_hue7a171b2c317520ba6445d8fbef9f4eb_30305_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/7_hue7a171b2c317520ba6445d8fbef9f4eb_30305_1024x0_resize_q75_box.jpg 1024w"
 width="1918"
 height="1078"
 loading="lazy"
@@ -1873,7 +2132,7 @@ alt="Heroku Google Drive Indexer">
 &lt;/figure>&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 427px">
 &lt;a href="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/8.jpg" data-size="1918x1078">&lt;img src="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/8.jpg"
-srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/8_huf4af12b411307681c05b96c46bdaf0d3_68930_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/8_huf4af12b411307681c05b96c46bdaf0d3_68930_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/8_huf4af12b411307681c05b96c46bdaf0d3_68930_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/setup-google-drive-indexer-di-heroku/8_huf4af12b411307681c05b96c46bdaf0d3_68930_1024x0_resize_q75_box.jpg 1024w"
 width="1918"
 height="1078"
 loading="lazy"
@@ -1907,7 +2166,7 @@ alt="Heroku Google Drive Indexer">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig.jpg" data-size="958x538">&lt;img src="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig_hu02659673197e35ad657095a6701ced3f_24951_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig_hu02659673197e35ad657095a6701ced3f_24951_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig_hu02659673197e35ad657095a6701ced3f_24951_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig_hu02659673197e35ad657095a6701ced3f_24951_1024x0_resize_q75_box.jpg 1024w"
 width="958"
 height="538"
 loading="lazy"
@@ -1926,7 +2185,7 @@ alt="Tutorial Copy File dari Team Drive ke Google Drive">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig1.jpg" data-size="958x538">&lt;img src="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig1.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig1_hu934f9ea439b756ee715ba90979a6a845_26220_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig1_hu934f9ea439b756ee715ba90979a6a845_26220_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig1_hu934f9ea439b756ee715ba90979a6a845_26220_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig1_hu934f9ea439b756ee715ba90979a6a845_26220_1024x0_resize_q75_box.jpg 1024w"
 width="958"
 height="538"
 loading="lazy"
@@ -1958,7 +2217,7 @@ alt="Tutorial Copy File dari Team Drive ke Google Drive">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig2.jpg" data-size="958x538">&lt;img src="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig2.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig2_hu6de4f5cd23559069bf48cf547893b937_49898_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig2_hu6de4f5cd23559069bf48cf547893b937_49898_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig2_hu6de4f5cd23559069bf48cf547893b937_49898_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig2_hu6de4f5cd23559069bf48cf547893b937_49898_1024x0_resize_q75_box.jpg 1024w"
 width="958"
 height="538"
 loading="lazy"
@@ -1973,7 +2232,7 @@ alt="Tutorial Copy File dari Team Drive ke Google Drive">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 202; flex-basis: 486px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/path.jpg" data-size="1633x805">&lt;img src="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/path.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/path_hu1ee4bc8640850d8439eaf6d5358e298e_106129_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/path_hu1ee4bc8640850d8439eaf6d5358e298e_106129_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/path_hu1ee4bc8640850d8439eaf6d5358e298e_106129_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/path_hu1ee4bc8640850d8439eaf6d5358e298e_106129_1024x0_resize_q75_box.jpg 1024w"
 width="1633"
 height="805"
 loading="lazy"
@@ -1991,7 +2250,7 @@ alt="Tutorial Copy File dari Team Drive ke Google Drive">
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">rclone copy --progress --drive-server-side-across-configs TeamDrive:RunningMan/2010 MainDrive:2010
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig3.jpg" data-size="958x538">&lt;img src="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig3.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig3_hu24c5113d554701931843330baca85040_31216_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig3_hu24c5113d554701931843330baca85040_31216_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig3_hu24c5113d554701931843330baca85040_31216_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig3_hu24c5113d554701931843330baca85040_31216_1024x0_resize_q75_box.jpg 1024w"
 width="958"
 height="538"
 loading="lazy"
@@ -2004,7 +2263,7 @@ alt="Tutorial Copy File dari Team Drive ke Google Drive">
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig4.jpg" data-size="958x538">&lt;img src="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig4.jpg"
-srcset="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig4_hu8c7a37744050638e6288838479104a9e_42368_480x0_resize_q60_box.jpg 480w, https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig4_hu8c7a37744050638e6288838479104a9e_42368_1024x0_resize_q60_box.jpg 1024w"
+srcset="https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig4_hu8c7a37744050638e6288838479104a9e_42368_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/tutorial-cara-copy-file-dari-team-drive-ke-google-drive/rcloneconfig4_hu8c7a37744050638e6288838479104a9e_42368_1024x0_resize_q75_box.jpg 1024w"
 width="958"
 height="538"
 loading="lazy"
