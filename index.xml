@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rmdhnreza.my.id</title><link>https://rmdhnreza.my.id/</link><description>Recent content on rmdhnreza.my.id</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Thu, 11 Mar 2021 15:36:16 +0700</lastBuildDate><atom:link href="https://rmdhnreza.my.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Tutorial Menggunakan Rclone Untuk Upload &amp; Download File Ke Dropbox</title><link>https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/</link><pubDate>Thu, 11 Mar 2021 15:36:16 +0700</pubDate><guid>https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/</guid><description>&lt;img src="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/dropbox.svg" alt="Featured image of post Tutorial Menggunakan Rclone Untuk Upload &amp; Download File Ke Dropbox" />&lt;p>Sebelumnya, ditutorial ini saya menggunakan Linux Ubuntu 18.04 dalam menggunakan perintahnya. Tapi tenang saja untuk Windows pun perintahnya sama hanya saja file rclone nya saja yang berbeda, jadi nanti kalian unduh file rclone nya sesuai dengan sistem operasi yang kalian pakai sekarang.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rmdhnreza.my.id</title><link>https://rmdhnreza.my.id/</link><description>Recent content on rmdhnreza.my.id</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Thu, 11 Mar 2021 15:36:16 +0700</lastBuildDate><atom:link href="https://rmdhnreza.my.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Tutorial Mempercepat Video Pelatihan Prakerja di Skill Akademi</title><link>https://rmdhnreza.my.id/tutorial-mempercepat-video-pelatihan-prakerja-di-skill-akademi/</link><pubDate>Thu, 11 Mar 2021 15:36:16 +0700</pubDate><guid>https://rmdhnreza.my.id/tutorial-mempercepat-video-pelatihan-prakerja-di-skill-akademi/</guid><description>&lt;img src="https://rmdhnreza.my.id/tutorial-mempercepat-video-pelatihan-prakerja-di-skill-akademi/academia.svg" alt="Featured image of post Tutorial Mempercepat Video Pelatihan Prakerja di Skill Akademi" />&lt;p>Untuk kalian yang sedang mengikuti pelatihan prakerja khususnya yang sedang mengerjakan pelatihan di Skill Akademi, pasti kalian bosan ketika menonton video nya, Untuk itu disini saya akan memberikan tutorial mempercepat Video di Skill Akademi.&lt;/p>
+&lt;p>Tutorial disini saya menggunakan Desktop/Laptop, untuk Mobile saya kurang tahu, Oke langsung saja ke tutorialnya.&lt;/p>
+&lt;ol>
+&lt;li>Gunakan Browser Google Chrome atau Mozilla Firefox&lt;/li>
+&lt;li>Install Extension atau Addons Video Speed Controller
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk" target="_blank" rel="nofollow noopener"
+>Video Speed Controller untuk Google Chrome atau Chromium Based Browser&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://addons.mozilla.org/en-US/firefox/addon/videospeed/" target="_blank" rel="nofollow noopener"
+>Video Speed Controller untuk Mozilla Firefox atau Gecko Based Browser&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Jika Extension atau Addons nya sudah terinstall, kalian klik icon nya lalu klik Settings&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 137; flex-basis: 330px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-mempercepat-video-pelatihan-prakerja-di-skill-akademi/skill-akademi-1.png" data-size="1063x772">&lt;img src="https://rmdhnreza.my.id/tutorial-mempercepat-video-pelatihan-prakerja-di-skill-akademi/skill-akademi-1.png"
+srcset="https://rmdhnreza.my.id/tutorial-mempercepat-video-pelatihan-prakerja-di-skill-akademi/skill-akademi-1_hu7d18ea05399c4184c8c68cc2e80ba7c4_30678_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/tutorial-mempercepat-video-pelatihan-prakerja-di-skill-akademi/skill-akademi-1_hu7d18ea05399c4184c8c68cc2e80ba7c4_30678_1024x0_resize_q75_box_2.png 1024w"
+width="1063"
+height="772"
+loading="lazy"
+alt="Klik icon Extension nya lalu klik Settings">
+&lt;/a>
+&lt;figcaption>Klik icon Extension nya lalu klik Settings&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="4">
+&lt;li>Ubah bagian &lt;code>Advance&lt;/code> &lt;code>X&lt;/code> dari 10 detik bebas menjadi berapa detik untuk mempercepat video nyam disini saya ubah menjadi 60 detik atau 1 menit&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 137; flex-basis: 330px">
+&lt;a href="https://rmdhnreza.my.id/tutorial-mempercepat-video-pelatihan-prakerja-di-skill-akademi/skill-akademi-2.png" data-size="1063x772">&lt;img src="https://rmdhnreza.my.id/tutorial-mempercepat-video-pelatihan-prakerja-di-skill-akademi/skill-akademi-2.png"
+srcset="https://rmdhnreza.my.id/tutorial-mempercepat-video-pelatihan-prakerja-di-skill-akademi/skill-akademi-2_hue0f7d59792b8158c135f7b32848e106c_55191_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/tutorial-mempercepat-video-pelatihan-prakerja-di-skill-akademi/skill-akademi-2_hue0f7d59792b8158c135f7b32848e106c_55191_1024x0_resize_q75_box_2.png 1024w"
+width="1063"
+height="772"
+loading="lazy"
+alt="Ubah Advance menjadi 60 Detik">
+&lt;/a>
+&lt;figcaption>Ubah Advance menjadi 60 Detik&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="5">
+&lt;li>Setelah itu kalian &lt;strong>Refresh&lt;/strong> web skill akademi nya&lt;/li>
+&lt;li>Kalian play video nya, lalu tekan &lt;code>X&lt;/code> pada keyboard kalian, maka video akan mempercepat sesuai dengan yang kalian setting tadi menjadi berapa detik.&lt;/li>
+&lt;/ol>
+&lt;h3 id="video">Video&lt;/h3>
+&lt;details class="spoiler " id="spoiler-0">
+&lt;summary>Klik Untuk Membuka Spoiler&lt;/summary>
+&lt;p>&lt;video controls preload="auto" width="100%" class="html-video">
+&lt;source src="https://rmdhnreza.my.id/tutorial-mempercepat-video-pelatihan-prakerja-di-skill-akademi/video.mp4" type="video/mp4" }}>
+&lt;p>Your browser doesn't support embedded videos, but don't worry, you can &lt;a href="https://rmdhnreza.my.id/tutorial-mempercepat-video-pelatihan-prakerja-di-skill-akademi/video.mp4">download it&lt;/a> and watch it with your favorite video player!&lt;/p>
+&lt;/video>
+&lt;/p>
+&lt;/details>
+&lt;p>Itu saja tutorial cara mempercepat video di Skill Akademi, jika ada pertanyaan silahkan berkomentar dibawah&lt;/p></description></item><item><title>Tutorial Menggunakan Rclone Untuk Upload &amp; Download File Ke Dropbox</title><link>https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/</link><pubDate>Thu, 11 Mar 2021 15:36:16 +0700</pubDate><guid>https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/</guid><description>&lt;img src="https://rmdhnreza.my.id/tutorial-menggunakan-rclone-untuk-upload-download-file-ke-dropbox/dropbox.svg" alt="Featured image of post Tutorial Menggunakan Rclone Untuk Upload &amp; Download File Ke Dropbox" />&lt;p>Sebelumnya, ditutorial ini saya menggunakan Linux Ubuntu 18.04 dalam menggunakan perintahnya. Tapi tenang saja untuk Windows pun perintahnya sama hanya saja file rclone nya saja yang berbeda, jadi nanti kalian unduh file rclone nya sesuai dengan sistem operasi yang kalian pakai sekarang.&lt;/p>
 &lt;h3 id="install-rclone-sistem-operasi-berbasis-linux">Install rClone Sistem Operasi berbasis Linux&lt;/h3>
 &lt;ol>
 &lt;li>Untuk pengguna sistem operasi berbasis Linux, saya sarankan menggunakan perintah ini untuk menginstall nya, karena biasanya lebih up-to-date dibanding dengan versi apt (untuk Debian based)&lt;/li>
