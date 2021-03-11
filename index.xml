@@ -2151,13 +2151,14 @@ alt="Heroku Google Drive Indexer">
 &lt;/ol>
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">curl https://rclone.org/install.sh &lt;span class="p">|&lt;/span> sudo bash
 &lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
-&lt;li>Untuk Pengguna Windows
+&lt;li>Untuk Pengguna Windows Saya sarankan kalian menginstall scoop terlebih dahulu yang bisa kalian lihat di &lt;a class="link" href="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/" >Cara Menginstall Package Manager Scoop Di Windows 10&lt;/a>
 &lt;ul>
-&lt;li>Kalian bisa langsung unduh zip file nya, pastikan kalian mengunduh sesuai dengan sistem operasi kalian apakah 32-Bit atau 64-Bit.&lt;/li>
-&lt;li>Extract file nya menggunakan 7-Zip atau sejenisnya &amp;amp; buka folder hasil extract&lt;/li>
-&lt;li>Kalian klik kanan di explorer nya sambil menekan &lt;strong>SHIFT&lt;/strong> maka akan muncul &lt;strong>Open command window here&lt;/strong>, setelah itu akan muncul cmd untuk Windows 7, 8, 8.1 &amp;amp; Powershell untuk Windows 10&lt;/li>
+&lt;li>Gunakan perintah ini untuk menginstall rclone&lt;/li>
 &lt;/ul>
 &lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="n">scoop&lt;/span> &lt;span class="n">install&lt;/span> &lt;span class="n">rclone&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
 &lt;li>Jika proses installasi rclone berjalan lancar kalian bisa ketikan&lt;/li>
 &lt;/ol>
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">rclone config
