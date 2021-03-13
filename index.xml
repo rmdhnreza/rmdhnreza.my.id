@@ -1,4 +1,113 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rmdhnreza.my.id</title><link>https://rmdhnreza.my.id/</link><description>Recent content on rmdhnreza.my.id</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Sat, 13 Mar 2021 16:33:19 +0700</lastBuildDate><atom:link href="https://rmdhnreza.my.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Mount Google Drive di Linux dengan Google Drive Ocamlfuse</title><link>https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/</link><pubDate>Sat, 13 Mar 2021 16:33:19 +0700</pubDate><guid>https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/</guid><description>&lt;img src="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/drive.svg" alt="Featured image of post Mount Google Drive di Linux dengan Google Drive Ocamlfuse" />&lt;p>Menurut deskripsi resminya, google-drive-ocamlfuse adalah sistem file FUSE (Filesystem in Userspace) untuk Google Drive yang ditulis menggunakan bahasa pemrograman Ocaml. Dengan menggunakan &lt;em>software&lt;/em> ini, Kalian dapat memasang Google Drive pada sistem linux kalian dan mengaksesnya seperti direktori biasa. Setiap perubahan yang dibuat akan disinkronkan secara otomatis.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rmdhnreza.my.id</title><link>https://rmdhnreza.my.id/</link><description>Recent content on rmdhnreza.my.id</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Sun, 14 Mar 2021 00:33:19 +0700</lastBuildDate><atom:link href="https://rmdhnreza.my.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Hapus Semua Log Workflows Hasil Github Actions</title><link>https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/</link><pubDate>Sun, 14 Mar 2021 00:33:19 +0700</pubDate><guid>https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/</guid><description>&lt;img src="https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/github.svg" alt="Featured image of post Cara Hapus Semua Log Workflows Hasil Github Actions" />&lt;p>Pada kesempatan kali ini saya akan share Cara Hapus Semua Log Workflows Hasil Github Actions, seperti ini
+&lt;figure style="flex-grow: 176; flex-basis: 423px">
+&lt;a href="https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/gh-actions-1.jpg" data-size="1349x764">&lt;img src="https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/gh-actions-1.jpg"
+srcset="https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/gh-actions-1_hu3fe0871e608fc8fdf85da5bd76cea754_75228_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/gh-actions-1_hu3fe0871e608fc8fdf85da5bd76cea754_75228_1024x0_resize_q75_box.jpg 1024w"
+width="1349"
+height="764"
+loading="lazy"
+alt="Github Workflows">
+&lt;/a>
+&lt;figcaption>Github Workflows&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Disini saya menggunakan Linux Ubuntu, tapi untuk sistem operasi lain sama saja perintahnya, yang berbeda hanya penginstallan gh-cli nya saja, Oke langsung ke tutorialnya.&lt;/p>
+&lt;ol>
+&lt;li>Install &lt;strong>gh-cli jq&lt;/strong> dan &lt;strong>findutils&lt;/strong> untuk Sistem Operasi
+&lt;ul>
+&lt;li>Ubuntu gunakan perintah&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
+sudo apt-add-repository https://cli.github.com/packages
+sudo apt update
+sudo apt install gh jq findutils
+&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>Arch Linux gunakan perintah&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo pacman -S github-cli jq findutils
+&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>Windows, Untuk sistem operasi Windows gunakan scoop, jika sistem operasi kalian belum terinstall scoop, kalian bisa lihat tutorial nya di &lt;a class="link" href="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/" >Cara Menginstall Package Manager Scoop Di Windows 10&lt;/a>. Setelah terinstall scoop gunakan perintah&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="n">scoop&lt;/span> &lt;span class="n">install&lt;/span> &lt;span class="n">gh&lt;/span> &lt;span class="n">jq&lt;/span> &lt;span class="n">findutils&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 233; flex-basis: 559px">
+&lt;a href="https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/gh-actions-2.jpg" data-size="1016x436">&lt;img src="https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/gh-actions-2.jpg"
+srcset="https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/gh-actions-2_hubffde8f245b1805237295a51c33a1711_17305_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/gh-actions-2_hubffde8f245b1805237295a51c33a1711_17305_1024x0_resize_q75_box.jpg 1024w"
+width="1016"
+height="436"
+loading="lazy"
+alt="Install github-cli">
+&lt;/a>
+&lt;figcaption>Install github-cli&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="2">
+&lt;li>Cek github cli nya apakah sudah sukses terintall dengan perintah&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">gh --version
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 233; flex-basis: 559px">
+&lt;a href="https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/gh-actions-3.jpg" data-size="1016x436">&lt;img src="https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/gh-actions-3.jpg"
+srcset="https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/gh-actions-3_huefaecac35a0ca283b536047ff704a045_12326_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/gh-actions-3_huefaecac35a0ca283b536047ff704a045_12326_1024x0_resize_q75_box.jpg 1024w"
+width="1016"
+height="436"
+loading="lazy"
+alt="Cek gh cli apakah sudah terinstall">
+&lt;/a>
+&lt;figcaption>Cek gh cli apakah sudah terinstall&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="3">
+&lt;li>Masukan perintah berikut ini untuk login ke akun github kalian yang akan dihapus log workflows nya&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">gh auth login
+&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code> ? What account do you want to log into? -&amp;gt; GitHub.com
+? What is your preferred protocol for Git operations? -&amp;gt; HTTPS
+? How would you like to authenticate GitHub CLI? -&amp;gt; Login with a web browser (sangat mudah)
+? Masukan one-time code nya
+? Authorize Github
+? Tekan Enter di terminal
+&lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 233; flex-basis: 559px">
+&lt;a href="https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/gh-actions-4.jpg" data-size="1016x436">&lt;img src="https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/gh-actions-4.jpg"
+srcset="https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/gh-actions-4_hua99b6b5949bf002c8fa4ffd98a9be119_41565_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/gh-actions-4_hua99b6b5949bf002c8fa4ffd98a9be119_41565_1024x0_resize_q75_box.jpg 1024w"
+width="1016"
+height="436"
+loading="lazy"
+alt="Login akun github menggunakan gh-cli">
+&lt;/a>
+&lt;figcaption>Login akun github menggunakan gh-cli&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="4">
+&lt;li>Setelah kalian sukses login, kalian gunakan perintah ini untuk menghapus semua log workflows hasil github actions&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">gh api repos/username/namarepo/actions/runs &lt;span class="se">\
+&lt;/span>&lt;span class="se">&lt;/span>&lt;span class="p">|&lt;/span> jq -r &lt;span class="s1">&amp;#39;.workflow_runs[] | select(.head_branch != &amp;#34;master&amp;#34;) | &amp;#34;\(.id)&amp;#34;&amp;#39;&lt;/span> &lt;span class="se">\
+&lt;/span>&lt;span class="se">&lt;/span>&lt;span class="p">|&lt;/span> xargs -n1 -I % gh api repos/username/namarepo/actions/runs/% -X DELETE --silent
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Note:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>username&lt;/strong> ganti dengan &lt;strong>username&lt;/strong> github kalian !&lt;/li>
+&lt;li>&lt;strong>namarepo&lt;/strong> ganti dengan &lt;strong>nama repository&lt;/strong> yang akan di hapus log workflows nya !&lt;/li>
+&lt;li>Jika kalian tidak ingin menghapus log workflows di branch &lt;code>main&lt;/code> ganti &lt;code>master&lt;/code> dengan &lt;code>main&lt;/code>, begitupun sebaliknya! Perintah diatas &lt;strong>tidak menghapus&lt;/strong> log workflows di branch &lt;code>master&lt;/code>
+&lt;figure style="flex-grow: 233; flex-basis: 559px">
+&lt;a href="https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/gh-actions-5.jpg" data-size="1016x436">&lt;img src="https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/gh-actions-5.jpg"
+srcset="https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/gh-actions-5_huac7a9ccd46944be70617dca9edfc94e9_17786_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/gh-actions-5_huac7a9ccd46944be70617dca9edfc94e9_17786_1024x0_resize_q75_box.jpg 1024w"
+width="1016"
+height="436"
+loading="lazy"
+alt="Hapus semua log workflows hasil github actions">
+&lt;/a>
+&lt;figcaption>Hapus semua log workflows hasil github actions&lt;/figcaption>
+&lt;/figure>&lt;/li>
+&lt;/ul>
+&lt;ol start="5">
+&lt;li>Setelah kalian menjalankan perintahnya cek log workflows nya apakah sudah terhapus atau belum. jika belum kalian jalankan lagi saja perintahnya sampai semuanya terhapus
+&lt;figure style="flex-grow: 176; flex-basis: 423px">
+&lt;a href="https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/gh-actions-6.jpg" data-size="1349x764">&lt;img src="https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/gh-actions-6.jpg"
+srcset="https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/gh-actions-6_huab38ad81c2986b2b15bfd5f14d5bf111_55769_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-hapus-semua-log-workflows-hasil-github-actions/gh-actions-6_huab38ad81c2986b2b15bfd5f14d5bf111_55769_1024x0_resize_q75_box.jpg 1024w"
+width="1349"
+height="764"
+loading="lazy"
+alt="Install github-cli">
+&lt;/a>
+&lt;figcaption>Install github-cli&lt;/figcaption>
+&lt;/figure>&lt;/li>
+&lt;/ol></description></item><item><title>Mount Google Drive di Linux dengan Google Drive Ocamlfuse</title><link>https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/</link><pubDate>Sat, 13 Mar 2021 16:33:19 +0700</pubDate><guid>https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/</guid><description>&lt;img src="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/drive.svg" alt="Featured image of post Mount Google Drive di Linux dengan Google Drive Ocamlfuse" />&lt;p>Menurut deskripsi resminya, google-drive-ocamlfuse adalah sistem file FUSE (Filesystem in Userspace) untuk Google Drive yang ditulis menggunakan bahasa pemrograman Ocaml. Dengan menggunakan &lt;em>software&lt;/em> ini, Kalian dapat memasang Google Drive pada sistem linux kalian dan mengaksesnya seperti direktori biasa. Setiap perubahan yang dibuat akan disinkronkan secara otomatis.&lt;/p>
 &lt;p>Fitur Google Drive Ocamlfuse:&lt;/p>
 &lt;ul>
 &lt;li>Full read/write access to ordinary files and folders&lt;/li>
