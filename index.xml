@@ -1,4 +1,157 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rmdhnreza.my.id</title><link>https://rmdhnreza.my.id/</link><description>Recent content on rmdhnreza.my.id</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Sat, 13 Mar 2021 00:16:23 +0700</lastBuildDate><atom:link href="https://rmdhnreza.my.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Install Transmission BT 3.0 di Linux Ubuntu</title><link>https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/</link><pubDate>Sat, 13 Mar 2021 00:16:23 +0700</pubDate><guid>https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/</guid><description>&lt;img src="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/ubuntu.svg" alt="Featured image of post Cara Install Transmission BT 3.0 di Linux Ubuntu" />&lt;p>Pada kesempatan kali ini saya akan share tutorial Cara Install Transmission BT 3.0 di Linux Ubuntu. Transmission adalah klien BitTorrent gratis yang tersedia untuk Linux. Transmission ini menggunakan sumber daya yang sangat sedikit dibandingkan dengan klien BitTorrent lainnya. Aplikasi klien Transmission tidak tersedia di repositori Ubuntu 20.04. Namun, kalian dapat menginstallnya melalui repositori PPA eksternal. Pada saat tutorial ini ditulis, versi Transmission terbaru adalah 3.00.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rmdhnreza.my.id</title><link>https://rmdhnreza.my.id/</link><description>Recent content on rmdhnreza.my.id</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Sat, 13 Mar 2021 16:33:19 +0700</lastBuildDate><atom:link href="https://rmdhnreza.my.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Mount Google Drive di Linux dengan Google Drive Ocamlfuse</title><link>https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/</link><pubDate>Sat, 13 Mar 2021 16:33:19 +0700</pubDate><guid>https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/</guid><description>&lt;img src="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/drive.svg" alt="Featured image of post Mount Google Drive di Linux dengan Google Drive Ocamlfuse" />&lt;p>Menurut deskripsi resminya, google-drive-ocamlfuse adalah sistem file FUSE (Filesystem in Userspace) untuk Google Drive yang ditulis menggunakan bahasa pemrograman Ocaml. Dengan menggunakan &lt;em>software&lt;/em> ini, Kalian dapat memasang Google Drive pada sistem linux kalian dan mengaksesnya seperti direktori biasa. Setiap perubahan yang dibuat akan disinkronkan secara otomatis.&lt;/p>
+&lt;p>Fitur Google Drive Ocamlfuse:&lt;/p>
+&lt;ul>
+&lt;li>Full read/write access to ordinary files and folders&lt;/li>
+&lt;li>Read-only access to Google Docs, Sheets, and Slides (exported to configurable formats)&lt;/li>
+&lt;li>Multiple account support&lt;/li>
+&lt;li>Duplicate file handling&lt;/li>
+&lt;li>Access to trash (.Trash directory)&lt;/li>
+&lt;li>Unix permissions and ownership&lt;/li>
+&lt;li>Symbolic links&lt;/li>
+&lt;li>Read-ahead buffers when streaming&lt;/li>
+&lt;li>Accessing content shared with you (requires configuration)&lt;/li>
+&lt;li>Team Drive Support&lt;/li>
+&lt;li>Service Account Support&lt;/li>
+&lt;li>OAuth2 for Devices Support&lt;/li>
+&lt;/ul>
+&lt;p>Disini saya menggunakan Ubuntu 18.04, tapi untuk sistem operasi berbasis Linux lainnya sama saja.&lt;/p>
+&lt;ol>
+&lt;li>Installasi di Sistem Operasi
+&lt;ul>
+&lt;li>Ubuntu kalian harus add ppa terlebih dahulu&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo add-apt-repository ppa:alessandro-strada/ppa -y &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> sudo apt install google-drive-ocamlfuse
+&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>Arch Linux kalian bisa menggunakan yay&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">yay -S google-drive-ocamlfuse
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 233; flex-basis: 559px">
+&lt;a href="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-0.jpg" data-size="1016x436">&lt;img src="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-0.jpg"
+srcset="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-0_hua9de76c1a1bbaac0911f53681339ee06_12386_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-0_hua9de76c1a1bbaac0911f53681339ee06_12386_1024x0_resize_q75_box.jpg 1024w"
+width="1016"
+height="436"
+loading="lazy"
+alt="Install google-drive-ocamlfuse">
+&lt;/a>
+&lt;figcaption>Install google-drive-ocamlfuse&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="2">
+&lt;li>Setelah berhasil terinstall kalian jalankan perintah berikut ini terlebih dahulu (wajib)&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">google-drive-ocamlfuse
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 191; flex-basis: 460px">
+&lt;a href="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-1.jpg" data-size="977x509">&lt;img src="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-1.jpg"
+srcset="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-1_hu64009153b91d147bec6e0a203ee94dda_10767_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-1_hu64009153b91d147bec6e0a203ee94dda_10767_1024x0_resize_q75_box.jpg 1024w"
+width="977"
+height="509"
+loading="lazy"
+alt="Perintah google-drive-ocamlfuse">
+&lt;/a>
+&lt;figcaption>Perintah google-drive-ocamlfuse&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="3">
+&lt;li>Maka akan otomatis membuka browser, kalian log in menggunakan akun Google kalian&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 182; flex-basis: 436px">
+&lt;a href="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-2.jpg" data-size="1360x747">&lt;img src="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-2.jpg"
+srcset="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-2_hu53e03c7e41315517fc8095cc9ebf47ed_49197_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-2_hu53e03c7e41315517fc8095cc9ebf47ed_49197_1024x0_resize_q75_box.jpg 1024w"
+width="1360"
+height="747"
+loading="lazy"
+alt="Login dengan akun google kalian">
+&lt;/a>
+&lt;figcaption>Login dengan akun google kalian&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="4">
+&lt;li>Tunggu beberapa saat sampai di terminal tertulis &lt;code>Access token retrieved correctly.&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 182; flex-basis: 436px">
+&lt;a href="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-3.jpg" data-size="1360x747">&lt;img src="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-3.jpg"
+srcset="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-3_hu85368f8d71eb2b5be82eac107bc9573f_28246_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-3_hu85368f8d71eb2b5be82eac107bc9573f_28246_1024x0_resize_q75_box.jpg 1024w"
+width="1360"
+height="747"
+loading="lazy"
+alt="Mendapatkan Akses Token (otomatis)">
+&lt;/a>
+&lt;figcaption>Mendapatkan Akses Token (otomatis)&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 198; flex-basis: 475px">
+&lt;a href="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-4.jpg" data-size="1009x509">&lt;img src="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-4.jpg"
+srcset="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-4_huac433c3f5a7b19fce37d1b19035160b0_14045_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-4_huac433c3f5a7b19fce37d1b19035160b0_14045_1024x0_resize_q75_box.jpg 1024w"
+width="1009"
+height="509"
+loading="lazy"
+alt="Access token retrieved correctly.">
+&lt;/a>
+&lt;figcaption>Access token retrieved correctly.&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="5">
+&lt;li>Buat folder di &lt;em>home directory&lt;/em> untuk &lt;em>mount&lt;/em> Google Drive nya, bebas dengan nama apapun, disini saya menggunakan nama &lt;strong>GoogleDrive&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">mkdir &lt;span class="nv">$HOME&lt;/span>/GoogleDrive
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="6">
+&lt;li>Kita beri tahu google-drive-ocamlfuse untuk memasang Google Drive di Folder yang telah kita buat tadi di langkah 5&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">google-drive-ocamlfuse &lt;span class="nv">$HOME&lt;/span>/GoogleDrive
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 191; flex-basis: 460px">
+&lt;a href="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-5.jpg" data-size="977x509">&lt;img src="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-5.jpg"
+srcset="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-5_hu8335fafc2644da10c235664071e7c77b_18653_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-5_hu8335fafc2644da10c235664071e7c77b_18653_1024x0_resize_q75_box.jpg 1024w"
+width="977"
+height="509"
+loading="lazy"
+alt="mount google-drive-ocamlfuse">
+&lt;/a>
+&lt;figcaption>mount google-drive-ocamlfuse&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="7">
+&lt;li>Cek jika &lt;em>mount&lt;/em> sudah berhasil&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">df -h
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 233; flex-basis: 559px">
+&lt;a href="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-9.jpg" data-size="1016x436">&lt;img src="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-9.jpg"
+srcset="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-9_hu0b966ec3d31d16a73f66b21baefa6444_31725_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-9_hu0b966ec3d31d16a73f66b21baefa6444_31725_1024x0_resize_q75_box.jpg 1024w"
+width="1016"
+height="436"
+loading="lazy"
+alt="mount google-drive-ocamlfuse">
+&lt;/a>
+&lt;figcaption>mount google-drive-ocamlfuse&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 182; flex-basis: 436px">
+&lt;a href="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-6.jpg" data-size="1360x747">&lt;img src="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-6.jpg"
+srcset="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-6_hu1e1b772d7aa20e2696b41d2112d8ceae_31287_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-6_hu1e1b772d7aa20e2696b41d2112d8ceae_31287_1024x0_resize_q75_box.jpg 1024w"
+width="1360"
+height="747"
+loading="lazy"
+alt="mount google-drive-ocamlfuse">
+&lt;/a>
+&lt;figcaption>mount google-drive-ocamlfuse&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="8">
+&lt;li>Jika kalian ingin upload file ke Google Drive, kalian tinggal copy-paste saja file nya ke folder GoogleDrive nya, maka akan otomatis &lt;strong>sync&lt;/strong>, disini saya copy-paste &lt;strong>apps.deb&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 182; flex-basis: 436px">
+&lt;a href="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-7.jpg" data-size="1360x747">&lt;img src="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-7.jpg"
+srcset="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-7_hu54fe51de79eb45b1322fc8ae21c44229_31969_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-7_hu54fe51de79eb45b1322fc8ae21c44229_31969_1024x0_resize_q75_box.jpg 1024w"
+width="1360"
+height="747"
+loading="lazy"
+alt="Upload ke Google Drive">
+&lt;/a>
+&lt;figcaption>Upload ke Google Drive&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 182; flex-basis: 436px">
+&lt;a href="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-8.jpg" data-size="1360x747">&lt;img src="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-8.jpg"
+srcset="https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-8_hu1340cf6a85114b3b48e469d1c37dd975_52426_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/mount-google-drive-di-linux-dengan-google-drive-ocamlfuse/google-drive-ocamlfuse-8_hu1340cf6a85114b3b48e469d1c37dd975_52426_1024x0_resize_q75_box.jpg 1024w"
+width="1360"
+height="747"
+loading="lazy"
+alt="Sync Google Drive">
+&lt;/a>
+&lt;figcaption>Sync Google Drive&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Untuk lebih lengkapnya tentang google-drive-ocamlfuse ini kalian bisa langsung lihat di &lt;a class="link" href="https://github.com/astrada/google-drive-ocamlfuse/wiki" target="_blank" rel="nofollow noopener"
+>documentation&lt;/a> nya yang ada di github&lt;br>
+google-drive-ocamlfuse juga bisa dipakai untuk Team Drive, jika kalian ingin &lt;em>mount&lt;/em> Shared drives kalian.&lt;/p></description></item><item><title>Cara Install Transmission BT 3.0 di Linux Ubuntu</title><link>https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/</link><pubDate>Sat, 13 Mar 2021 00:16:23 +0700</pubDate><guid>https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/</guid><description>&lt;img src="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/ubuntu.svg" alt="Featured image of post Cara Install Transmission BT 3.0 di Linux Ubuntu" />&lt;p>Pada kesempatan kali ini saya akan share tutorial Cara Install Transmission BT 3.0 di Linux Ubuntu. Transmission adalah klien BitTorrent gratis yang tersedia untuk Linux. Transmission ini menggunakan sumber daya yang sangat sedikit dibandingkan dengan klien BitTorrent lainnya. Aplikasi klien Transmission tidak tersedia di repositori Ubuntu 20.04. Namun, kalian dapat menginstallnya melalui repositori PPA eksternal. Pada saat tutorial ini ditulis, versi Transmission terbaru adalah 3.00.&lt;/p>
 &lt;h2 id="install-transmission-30-ubuntu-1804--2004">Install Transmission 3.0 Ubuntu 18.04 &amp;amp; 20.04&lt;/h2>
 &lt;ol>
 &lt;li>Tambahkan ppa berikut ini dan jalankan perintah untuk menginstall transmission nya&lt;/li>
