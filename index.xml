@@ -12,8 +12,8 @@ Jika kalian ingin hosting atau deploy ke Github kalian bisa lihat tutorial &lt;a
 &lt;li>&lt;strong>Initialize repository with a README&lt;/strong> kalian &lt;strong>ceklis&lt;/strong>&lt;/li>
 &lt;/ul>
 &lt;p>&lt;figure style="flex-grow: 113; flex-basis: 273px">
-&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/1.png" data-size="951x835">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/1.png"
-srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/1_hub123151015c9f6f46dbf14dcd9e0788e_3182383_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/1_hub123151015c9f6f46dbf14dcd9e0788e_3182383_1024x0_resize_q75_box_2.png 1024w"
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/1.jpg" data-size="951x835">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/1.jpg"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/1_hu2d5c0a2dcc2bed22423c40f09433858b_52027_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/1_hu2d5c0a2dcc2bed22423c40f09433858b_52027_1024x0_resize_q75_box.jpg 1024w"
 width="951"
 height="835"
 loading="lazy"
@@ -21,8 +21,8 @@ alt="Create a project">
 &lt;/a>
 &lt;figcaption>Create a project&lt;/figcaption>
 &lt;/figure> &lt;figure style="flex-grow: 113; flex-basis: 273px">
-&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/2.png" data-size="951x835">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/2.png"
-srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/2_hub123151015c9f6f46dbf14dcd9e0788e_3182383_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/2_hub123151015c9f6f46dbf14dcd9e0788e_3182383_1024x0_resize_q75_box_2.png 1024w"
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/2.jpg" data-size="951x835">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/2.jpg"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/2_hu84425b6ae2d09bb06861562777e452e0_59208_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/2_hu84425b6ae2d09bb06861562777e452e0_59208_1024x0_resize_q75_box.jpg 1024w"
 width="951"
 height="835"
 loading="lazy"
@@ -30,8 +30,8 @@ alt="Create blank project">
 &lt;/a>
 &lt;figcaption>Create blank project&lt;/figcaption>
 &lt;/figure> &lt;figure style="flex-grow: 114; flex-basis: 273px">
-&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/3.png" data-size="952x835">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/3.png"
-srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/3_hu79e33255194560f92856468f15909678_3185740_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/3_hu79e33255194560f92856468f15909678_3185740_1024x0_resize_q75_box_2.png 1024w"
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/3.jpg" data-size="952x835">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/3.jpg"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/3_hu0e3e1b987e0da5bad2cba18a5aad57f0_69471_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/3_hu0e3e1b987e0da5bad2cba18a5aad57f0_69471_1024x0_resize_q75_box.jpg 1024w"
 width="952"
 height="835"
 loading="lazy"
@@ -48,8 +48,8 @@ alt="Project name">
 &lt;/ol>
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">hugo new site --force rmdhnreza.gitlab.io
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 91; flex-basis: 218px">
-&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/4.png" data-size="960x1054">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/4.png"
-srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/4_hud67faa2a15498d68a7b9224b35599822_4055041_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/4_hud67faa2a15498d68a7b9224b35599822_4055041_1024x0_resize_q75_box_2.png 1024w"
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/4.jpg" data-size="960x1054">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/4.jpg"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/4_hu6627bc2a7e72398fa28710fdab527155_101959_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/4_hu6627bc2a7e72398fa28710fdab527155_101959_1024x0_resize_q75_box.jpg 1024w"
 width="960"
 height="1054"
 loading="lazy"
@@ -57,8 +57,8 @@ alt="Clone repository">
 &lt;/a>
 &lt;figcaption>Clone repository&lt;/figcaption>
 &lt;/figure> &lt;figure style="flex-grow: 91; flex-basis: 218px">
-&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/5.png" data-size="960x1054">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/5.png"
-srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/5_hud67faa2a15498d68a7b9224b35599822_4055041_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/5_hud67faa2a15498d68a7b9224b35599822_4055041_1024x0_resize_q75_box_2.png 1024w"
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/5.jpg" data-size="960x1054">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/5.jpg"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/5_hu6627bc2a7e72398fa28710fdab527155_123716_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/5_hu6627bc2a7e72398fa28710fdab527155_123716_1024x0_resize_q75_box.jpg 1024w"
 width="960"
 height="1054"
 loading="lazy"
@@ -74,8 +74,8 @@ alt="Buat hugo website">
 &lt;li>Copy isi folder dari &lt;strong>tema/exampleSite&lt;/strong> ke &lt;strong>root direktori&lt;/strong> hugo website kalian, jangan lupa jika di &lt;strong>exampleSite&lt;/strong> terdapat &lt;strong>config.yaml&lt;/strong> maka kalian harus &lt;strong>hapus config.toml&lt;/strong> di &lt;strong>root direktori&lt;/strong> hugo website kalian, begitupun sebaliknya. Karena jika ada 2 config, kemungkinan besar akan error.&lt;/li>
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 91; flex-basis: 218px">
-&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/6.png" data-size="960x1054">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/6.png"
-srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/6_hud67faa2a15498d68a7b9224b35599822_4055041_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/6_hud67faa2a15498d68a7b9224b35599822_4055041_1024x0_resize_q75_box_2.png 1024w"
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/6.jpg" data-size="960x1054">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/6.jpg"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/6_hubbf3897e991d18bc29ab735b8857ae16_45001_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/6_hubbf3897e991d18bc29ab735b8857ae16_45001_1024x0_resize_q75_box.jpg 1024w"
 width="960"
 height="1054"
 loading="lazy"
@@ -83,8 +83,8 @@ alt="Copy isi exampleSite">
 &lt;/a>
 &lt;figcaption>Copy isi exampleSite&lt;/figcaption>
 &lt;/figure> &lt;figure style="flex-grow: 91; flex-basis: 218px">
-&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/7.png" data-size="960x1054">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/7.png"
-srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/7_hud67faa2a15498d68a7b9224b35599822_4055041_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/7_hud67faa2a15498d68a7b9224b35599822_4055041_1024x0_resize_q75_box_2.png 1024w"
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/7.jpg" data-size="960x1054">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/7.jpg"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/7_hudc32f0885081a343588868b83bea15d6_49072_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/7_hudc32f0885081a343588868b83bea15d6_49072_1024x0_resize_q75_box.jpg 1024w"
 width="960"
 height="1054"
 loading="lazy"
@@ -96,8 +96,8 @@ alt="Paste isi ExampleSite">
 &lt;li>Jika sudah gunakan perintah &lt;code>hugo server&lt;/code> untuk menjalankannya secara local, saya asumsikan disini kalian tidak mendapati error.&lt;/li>
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
-&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/9.png" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/9.png"
-srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/9_hud1f9e107f6956d407f11100198c213bc_8308973_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/9_hud1f9e107f6956d407f11100198c213bc_8308973_1024x0_resize_q75_box_2.png 1024w"
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/9.jpg" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/9.jpg"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/9_hu969d5fcf87a3dbd442ff063e58f60e19_162580_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/9_hu969d5fcf87a3dbd442ff063e58f60e19_162580_1024x0_resize_q75_box.jpg 1024w"
 width="1920"
 height="1080"
 loading="lazy"
@@ -109,8 +109,8 @@ alt="Jalankan website secara lokal">
 &lt;li>Edit &lt;strong>config.toml&lt;/strong>, ganti &lt;strong>baseURL&lt;/strong> nya menjadi &lt;strong>&lt;a href="https://username.gitlab.io">https://username.gitlab.io&lt;/a>&lt;/strong>&lt;/li>
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
-&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/8.png" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/8.png"
-srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/8_hud1f9e107f6956d407f11100198c213bc_8308973_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/8_hud1f9e107f6956d407f11100198c213bc_8308973_1024x0_resize_q75_box_2.png 1024w"
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/8.jpg" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/8.jpg"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/8_hua0766ebea7b7794ad0346942dedff715_149983_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/8_hua0766ebea7b7794ad0346942dedff715_149983_1024x0_resize_q75_box.jpg 1024w"
 width="1920"
 height="1080"
 loading="lazy"
@@ -142,8 +142,8 @@ alt="Edit baseURL">
 &lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">only&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
 &lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="l">master&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 91; flex-basis: 218px">
-&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/10.png" data-size="960x1054">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/10.png"
-srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/10_hud67faa2a15498d68a7b9224b35599822_4055041_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/10_hud67faa2a15498d68a7b9224b35599822_4055041_1024x0_resize_q75_box_2.png 1024w"
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/10.jpg" data-size="960x1054">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/10.jpg"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/10_hu95ad2c850558e390876d648f44d81b23_75176_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/10_hu95ad2c850558e390876d648f44d81b23_75176_1024x0_resize_q75_box.jpg 1024w"
 width="960"
 height="1054"
 loading="lazy"
@@ -160,8 +160,8 @@ git add .
 git commit -m &lt;span class="s2">&amp;#34;Deploy Hugo ke Gitlab&amp;#34;&lt;/span>
 git push origin master
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 91; flex-basis: 218px">
-&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/11.png" data-size="960x1054">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/11.png"
-srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/11_hud67faa2a15498d68a7b9224b35599822_4055041_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/11_hud67faa2a15498d68a7b9224b35599822_4055041_1024x0_resize_q75_box_2.png 1024w"
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/11.jpg" data-size="960x1054">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/11.jpg"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/11_huf877f8a0271b923e1c3ec9b62eb0678b_128998_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/11_huf877f8a0271b923e1c3ec9b62eb0678b_128998_1024x0_resize_q75_box.jpg 1024w"
 width="960"
 height="1054"
 loading="lazy"
@@ -173,8 +173,8 @@ alt="Kita push ke Gitlab">
 &lt;li>Tunggu beberapa saat sampai &lt;strong>&lt;a href="https://username.gitlab.io">https://username.gitlab.io&lt;/a>&lt;/strong> bisa diakses, pada saat tutorial ini dibuat dibawah 2 menit website yang saya hosting di Gitlab langsung bisa diakses&lt;/li>
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 91; flex-basis: 218px">
-&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/12.png" data-size="951x1043">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/12.png"
-srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/12_hu7d700f7345eef757237859702a90c6d7_3975112_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/12_hu7d700f7345eef757237859702a90c6d7_3975112_1024x0_resize_q75_box_2.png 1024w"
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/12.jpg" data-size="951x1043">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/12.jpg"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/12_hu7591f44eb27df981910bbdd246fc9dc7_94176_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/12_hu7591f44eb27df981910bbdd246fc9dc7_94176_1024x0_resize_q75_box.jpg 1024w"
 width="951"
 height="1043"
 loading="lazy"
@@ -182,8 +182,8 @@ alt="Project berhasil di Push">
 &lt;/a>
 &lt;figcaption>Project berhasil di Push&lt;/figcaption>
 &lt;/figure> &lt;figure style="flex-grow: 91; flex-basis: 218px">
-&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/13.png" data-size="951x1043">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/13.png"
-srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/13_hu7d700f7345eef757237859702a90c6d7_3975112_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/13_hu7d700f7345eef757237859702a90c6d7_3975112_1024x0_resize_q75_box_2.png 1024w"
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/13.jpg" data-size="951x1043">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/13.jpg"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/13_hubf7aa0e07ef5c0f86b2a8df37e8ce67e_66073_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/13_hubf7aa0e07ef5c0f86b2a8df37e8ce67e_66073_1024x0_resize_q75_box.jpg 1024w"
 width="951"
 height="1043"
 loading="lazy"
@@ -191,8 +191,8 @@ alt="Tampilan Settings Pages">
 &lt;/a>
 &lt;figcaption>Tampilan Settings Pages&lt;/figcaption>
 &lt;/figure> &lt;figure style="flex-grow: 91; flex-basis: 218px">
-&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/14.png" data-size="951x1043">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/14.png"
-srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/14_hu7d700f7345eef757237859702a90c6d7_3975112_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/14_hu7d700f7345eef757237859702a90c6d7_3975112_1024x0_resize_q75_box_2.png 1024w"
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/14.jpg" data-size="951x1043">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/14.jpg"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/14_hubdb9ed5fb81958d94fd9d250cfc4faa7_72711_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/14_hubdb9ed5fb81958d94fd9d250cfc4faa7_72711_1024x0_resize_q75_box.jpg 1024w"
 width="951"
 height="1043"
 loading="lazy"
