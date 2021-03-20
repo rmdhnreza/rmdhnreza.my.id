@@ -1,4 +1,205 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rmdhnreza.my.id</title><link>https://rmdhnreza.my.id/</link><description>Recent content on rmdhnreza.my.id</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Tue, 16 Mar 2021 00:33:19 +0700</lastBuildDate><atom:link href="https://rmdhnreza.my.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Block Iklan di Aplikasi YouTube Android 2021 (root dan tanpa root)</title><link>https://rmdhnreza.my.id/cara-block-iklan-di-aplikasi-youtube-android-2021-root-dan-tanpa-root/</link><pubDate>Tue, 16 Mar 2021 00:33:19 +0700</pubDate><guid>https://rmdhnreza.my.id/cara-block-iklan-di-aplikasi-youtube-android-2021-root-dan-tanpa-root/</guid><description>&lt;img src="https://rmdhnreza.my.id/cara-block-iklan-di-aplikasi-youtube-android-2021-root-dan-tanpa-root/android.svg" alt="Featured image of post Cara Block Iklan di Aplikasi YouTube Android 2021 (root dan tanpa root)" />&lt;p>Adanya iklan ketika menonton video YouTube di hp Android menjadi gangguan tersendiri bagi pengguna. Iklan-iklan ini muncul mulai dari game ataupun aplikasi yang kamu instal di perangkat kamu. Selain itu, hal paling menjengkelkan ketika sedang asyik menonton tiba-tiba muncul iklan. Untuk itu disini saya akan share Cara Block Iklan di Aplikasi YouTube Android 2021 (root dan tanpa root). Oke, langsung saja ke tutorial nya&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rmdhnreza.my.id</title><link>https://rmdhnreza.my.id/</link><description>Recent content on rmdhnreza.my.id</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Sat, 20 Mar 2021 00:33:19 +0700</lastBuildDate><atom:link href="https://rmdhnreza.my.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Hosting atau Deploy Hugo di Gitlab</title><link>https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/</link><pubDate>Sat, 20 Mar 2021 00:33:19 +0700</pubDate><guid>https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/</guid><description>&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/gitlab.svg" alt="Featured image of post Cara Hosting atau Deploy Hugo di Gitlab" />&lt;p>Pertama-tama jika kalian ingin hosting atau deploy blog hugo ke Firebase kalian bisa lihat di &lt;a class="link" href="https://rmdhnreza.my.id/tutorial-membuat-static-website-dengan-hugo/" >Tutorial Membuat Static Website Dengan Hugo&lt;/a>&lt;br>
+Jika kalian ingin hosting atau deploy ke Github kalian bisa lihat tutorial &lt;a class="link" href="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/" >Tutorial Build Hugo Website Ke Github Pages Menggunakan Github Actions&lt;/a>&lt;/p>
+&lt;p>Pada kesempatan kali ini saya akan share tutorial hosting atau deploy website Hugo kalian ke &lt;a class="link" href="https://gitlab.com/" target="_blank" rel="nofollow noopener"
+>Gitlab&lt;/a>, Saya asumsikan kalian sudah mempunyai akun Gitlab dan sudah login.&lt;/p>
+&lt;ol>
+&lt;li>Buat project baru dengan klik &lt;strong>Create a project&lt;/strong> Pilih &lt;strong>Create blank project&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>&lt;strong>Project name&lt;/strong> kalian bisa isi bebas&lt;/li>
+&lt;li>&lt;strong>Project slug&lt;/strong> kalian buat &lt;strong>username&lt;/strong>.gitlab.io (Wajib jika tidak menggunakan &lt;em>&lt;strong>3rd-party&lt;/strong>&lt;/em> domain)&lt;/li>
+&lt;li>&lt;strong>Visibility Level&lt;/strong> pilih &lt;strong>Public&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Initialize repository with a README&lt;/strong> kalian &lt;strong>ceklis&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;figure style="flex-grow: 113; flex-basis: 273px">
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/1.png" data-size="951x835">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/1.png"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/1_hub123151015c9f6f46dbf14dcd9e0788e_3182383_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/1_hub123151015c9f6f46dbf14dcd9e0788e_3182383_1024x0_resize_q75_box_2.png 1024w"
+width="951"
+height="835"
+loading="lazy"
+alt="Create a project">
+&lt;/a>
+&lt;figcaption>Create a project&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 113; flex-basis: 273px">
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/2.png" data-size="951x835">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/2.png"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/2_hub123151015c9f6f46dbf14dcd9e0788e_3182383_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/2_hub123151015c9f6f46dbf14dcd9e0788e_3182383_1024x0_resize_q75_box_2.png 1024w"
+width="951"
+height="835"
+loading="lazy"
+alt="Create blank project">
+&lt;/a>
+&lt;figcaption>Create blank project&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 114; flex-basis: 273px">
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/3.png" data-size="952x835">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/3.png"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/3_hu79e33255194560f92856468f15909678_3185740_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/3_hu79e33255194560f92856468f15909678_3185740_1024x0_resize_q75_box_2.png 1024w"
+width="952"
+height="835"
+loading="lazy"
+alt="Project name">
+&lt;/a>
+&lt;figcaption>Project name&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="2">
+&lt;li>Clone repository atau project kalian, Karena disini saya menggunakan HTTPS, jadi gitlab meminta username dan password, jika kalian sudah setting &lt;strong>sshKeys&lt;/strong> di Gitlab saya sarankan clone menggunakan SSH&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">git clone https://gitlab.com/rmdhnreza/rmdhnreza.gitlab.io.git
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>Buat website hugo dengan perintah &lt;code>hugo new site --force username.gitlab.io&lt;/code>. Note: Perintah &lt;code>--force&lt;/code> disini untuk memberitahu hugo jika folder nya tidak kosong&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">hugo new site --force rmdhnreza.gitlab.io
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 91; flex-basis: 218px">
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/4.png" data-size="960x1054">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/4.png"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/4_hud67faa2a15498d68a7b9224b35599822_4055041_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/4_hud67faa2a15498d68a7b9224b35599822_4055041_1024x0_resize_q75_box_2.png 1024w"
+width="960"
+height="1054"
+loading="lazy"
+alt="Clone repository">
+&lt;/a>
+&lt;figcaption>Clone repository&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 91; flex-basis: 218px">
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/5.png" data-size="960x1054">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/5.png"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/5_hud67faa2a15498d68a7b9224b35599822_4055041_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/5_hud67faa2a15498d68a7b9224b35599822_4055041_1024x0_resize_q75_box_2.png 1024w"
+width="960"
+height="1054"
+loading="lazy"
+alt="Buat hugo website">
+&lt;/a>
+&lt;figcaption>Buat hugo website&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="4">
+&lt;li>Masuk ke folder &lt;strong>root direktori&lt;/strong> hugo kalian (rmdhnreza.gitlab.io) dan tambahkan tema yang akan kalian gunakan, disini saya menggunakan tema &lt;strong>Notepadium&lt;/strong>, untuk setting-setting temanya kalian bisa lihat di dokumentasi tema nya.&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">git submodule add https://github.com/cntrump/hugo-notepadium.git themes/hugo-notepadium
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="5">
+&lt;li>Copy isi folder dari &lt;strong>tema/exampleSite&lt;/strong> ke &lt;strong>root direktori&lt;/strong> hugo website kalian, jangan lupa jika di &lt;strong>exampleSite&lt;/strong> terdapat &lt;strong>config.yaml&lt;/strong> maka kalian harus &lt;strong>hapus config.toml&lt;/strong> di &lt;strong>root direktori&lt;/strong> hugo website kalian, begitupun sebaliknya. Karena jika ada 2 config, kemungkinan besar akan error.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 91; flex-basis: 218px">
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/6.png" data-size="960x1054">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/6.png"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/6_hud67faa2a15498d68a7b9224b35599822_4055041_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/6_hud67faa2a15498d68a7b9224b35599822_4055041_1024x0_resize_q75_box_2.png 1024w"
+width="960"
+height="1054"
+loading="lazy"
+alt="Copy isi exampleSite">
+&lt;/a>
+&lt;figcaption>Copy isi exampleSite&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 91; flex-basis: 218px">
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/7.png" data-size="960x1054">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/7.png"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/7_hud67faa2a15498d68a7b9224b35599822_4055041_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/7_hud67faa2a15498d68a7b9224b35599822_4055041_1024x0_resize_q75_box_2.png 1024w"
+width="960"
+height="1054"
+loading="lazy"
+alt="Paste isi ExampleSite">
+&lt;/a>
+&lt;figcaption>Paste isi ExampleSite&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="6">
+&lt;li>Jika sudah gunakan perintah &lt;code>hugo server&lt;/code> untuk menjalankannya secara local, saya asumsikan disini kalian tidak mendapati error.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/9.png" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/9.png"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/9_hud1f9e107f6956d407f11100198c213bc_8308973_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/9_hud1f9e107f6956d407f11100198c213bc_8308973_1024x0_resize_q75_box_2.png 1024w"
+width="1920"
+height="1080"
+loading="lazy"
+alt="Jalankan website secara lokal">
+&lt;/a>
+&lt;figcaption>Jalankan website secara lokal&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="7">
+&lt;li>Edit &lt;strong>config.toml&lt;/strong>, ganti &lt;strong>baseURL&lt;/strong> nya menjadi &lt;strong>&lt;a href="https://username.gitlab.io">https://username.gitlab.io&lt;/a>&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/8.png" data-size="1920x1080">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/8.png"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/8_hud1f9e107f6956d407f11100198c213bc_8308973_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/8_hud1f9e107f6956d407f11100198c213bc_8308973_1024x0_resize_q75_box_2.png 1024w"
+width="1920"
+height="1080"
+loading="lazy"
+alt="Edit baseURL">
+&lt;/a>
+&lt;figcaption>Edit baseURL&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="8">
+&lt;li>Buat file baru dengan nama &lt;strong>.gitlab-ci.yml&lt;/strong>, isikan konten berikut lalu Save&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-yml" data-lang="yml">&lt;span class="c"># All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">&lt;/span>&lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">registry.gitlab.com/pages/hugo:latest&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">&lt;/span>&lt;span class="nt">variables&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">GIT_SUBMODULE_STRATEGY&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">recursive&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">&lt;/span>&lt;span class="nt">test&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="l">hugo&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">except&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="l">master&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w">&lt;/span>&lt;span class="nt">pages&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="l">hugo&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">artifacts&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">paths&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="l">public&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">only&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="l">master&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 91; flex-basis: 218px">
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/10.png" data-size="960x1054">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/10.png"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/10_hud67faa2a15498d68a7b9224b35599822_4055041_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/10_hud67faa2a15498d68a7b9224b35599822_4055041_1024x0_resize_q75_box_2.png 1024w"
+width="960"
+height="1054"
+loading="lazy"
+alt=".github-ci.yml">
+&lt;/a>
+&lt;figcaption>.github-ci.yml&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="8">
+&lt;li>Sekarang kita push ke Gitlab&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">git config user.name &lt;span class="s2">&amp;#34;Nama Kalian&amp;#34;&lt;/span> -&amp;gt;&amp;gt; Jika kalian sudah setting ini secara global, bisa lewati langkah ini
+git config user.email &lt;span class="s2">&amp;#34;Email Kalian&amp;#34;&lt;/span> -&amp;gt;&amp;gt; Jika kalian sudah setting ini secara global, bisa lewati langkah ini
+git add .
+git commit -m &lt;span class="s2">&amp;#34;Deploy Hugo ke Gitlab&amp;#34;&lt;/span>
+git push origin master
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 91; flex-basis: 218px">
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/11.png" data-size="960x1054">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/11.png"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/11_hud67faa2a15498d68a7b9224b35599822_4055041_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/11_hud67faa2a15498d68a7b9224b35599822_4055041_1024x0_resize_q75_box_2.png 1024w"
+width="960"
+height="1054"
+loading="lazy"
+alt="Kita push ke Gitlab">
+&lt;/a>
+&lt;figcaption>Kita push ke Gitlab&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="9">
+&lt;li>Tunggu beberapa saat sampai &lt;strong>&lt;a href="https://username.gitlab.io">https://username.gitlab.io&lt;/a>&lt;/strong> bisa diakses, pada saat tutorial ini dibuat dibawah 2 menit website yang saya hosting di Gitlab langsung bisa diakses&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 91; flex-basis: 218px">
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/12.png" data-size="951x1043">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/12.png"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/12_hu7d700f7345eef757237859702a90c6d7_3975112_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/12_hu7d700f7345eef757237859702a90c6d7_3975112_1024x0_resize_q75_box_2.png 1024w"
+width="951"
+height="1043"
+loading="lazy"
+alt="Project berhasil di Push">
+&lt;/a>
+&lt;figcaption>Project berhasil di Push&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 91; flex-basis: 218px">
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/13.png" data-size="951x1043">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/13.png"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/13_hu7d700f7345eef757237859702a90c6d7_3975112_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/13_hu7d700f7345eef757237859702a90c6d7_3975112_1024x0_resize_q75_box_2.png 1024w"
+width="951"
+height="1043"
+loading="lazy"
+alt="Tampilan Settings Pages">
+&lt;/a>
+&lt;figcaption>Tampilan Settings Pages&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 91; flex-basis: 218px">
+&lt;a href="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/14.png" data-size="951x1043">&lt;img src="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/14.png"
+srcset="https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/14_hu7d700f7345eef757237859702a90c6d7_3975112_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/cara-hosting-atau-deploy-hugo-di-gitlab/14_hu7d700f7345eef757237859702a90c6d7_3975112_1024x0_resize_q75_box_2.png 1024w"
+width="951"
+height="1043"
+loading="lazy"
+alt="Tampilan website rmdhnreza.gitlab.io">
+&lt;/a>
+&lt;figcaption>Tampilan website rmdhnreza.gitlab.io&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item><item><title>Cara Block Iklan di Aplikasi YouTube Android 2021 (root dan tanpa root)</title><link>https://rmdhnreza.my.id/cara-block-iklan-di-aplikasi-youtube-android-2021-root-dan-tanpa-root/</link><pubDate>Tue, 16 Mar 2021 00:33:19 +0700</pubDate><guid>https://rmdhnreza.my.id/cara-block-iklan-di-aplikasi-youtube-android-2021-root-dan-tanpa-root/</guid><description>&lt;img src="https://rmdhnreza.my.id/cara-block-iklan-di-aplikasi-youtube-android-2021-root-dan-tanpa-root/android.svg" alt="Featured image of post Cara Block Iklan di Aplikasi YouTube Android 2021 (root dan tanpa root)" />&lt;p>Adanya iklan ketika menonton video YouTube di hp Android menjadi gangguan tersendiri bagi pengguna. Iklan-iklan ini muncul mulai dari game ataupun aplikasi yang kamu instal di perangkat kamu. Selain itu, hal paling menjengkelkan ketika sedang asyik menonton tiba-tiba muncul iklan. Untuk itu disini saya akan share Cara Block Iklan di Aplikasi YouTube Android 2021 (root dan tanpa root). Oke, langsung saja ke tutorial nya&lt;/p>
 &lt;ol>
 &lt;li>Download &lt;a class="link" href="https://github.com/YTVanced/VancedManager/releases/latest/download/manager.apk" target="_blank" rel="nofollow noopener"
 >Vanced Manager&lt;/a>&lt;/li>
@@ -1644,7 +1845,7 @@ alt="Membuat Hugo Website">
 &lt;/figure>&lt;/p>
 &lt;p>&lt;strong>Note:&lt;/strong> argumen &amp;ndash;force disini untuk memberi tahu hugo jika folder nya tidak kosong&lt;/p>
 &lt;ol start="4">
-&lt;li>Masuk ke folder &lt;strong>root direktori&lt;/strong> hugo kalian (rmdhnreza.github.io) dan tambahkan tema yang akan kalian pasang, disini saya menggunakan tema &lt;strong>Vanilla&lt;/strong>, untuk menginstall tema yang kalian inginkan kalian lihat dokumentasi tema nya disini saya menggunakan perintah&lt;/li>
+&lt;li>Masuk ke folder &lt;strong>root direktori&lt;/strong> hugo kalian (rmdhnreza.gitlab.io) dan tambahkan tema yang akan kalian gunakan, disini saya menggunakan tema &lt;strong>Notepadium&lt;/strong>, untuk memasang tema yang kalian inginkan kalian lihat dokumentasi tema nya.&lt;/li>
 &lt;/ol>
 &lt;pre>&lt;code>git submodule add https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme.git themes/vanilla-bootstrap-hugo-theme
 &lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 164; flex-basis: 393px">
@@ -1658,7 +1859,7 @@ alt="Menginstall Tema Vanilla">
 &lt;figcaption>Menginstall Tema Vanilla&lt;/figcaption>
 &lt;/figure>&lt;/p>
 &lt;ol start="5">
-&lt;li>Copy isi folder dari exampleSite ke &lt;strong>root direktori&lt;/strong> hugo website kalian, jangan lupa jika di &lt;strong>exampleSite&lt;/strong> terdapat &lt;strong>config.yaml&lt;/strong> maka kalian harus &lt;strong>hapus config.toml&lt;/strong> di &lt;strong>root direktori&lt;/strong> hugo website kalian, jika ada 2 config, kemungkinan besar akan error.&lt;/li>
+&lt;li>Copy isi folder dari exampleSite ke &lt;strong>root direktori&lt;/strong> hugo website kalian, jangan lupa jika di &lt;strong>exampleSite&lt;/strong> terdapat &lt;strong>config.yaml&lt;/strong> maka kalian harus &lt;strong>hapus config.toml&lt;/strong> di &lt;strong>root direktori&lt;/strong> hugo website kalian, begitupun sebaliknya. Karena jika ada 2 config, kemungkinan besar akan error.&lt;/li>
 &lt;/ol>
 &lt;p>&lt;figure style="flex-grow: 180; flex-basis: 433px">
 &lt;a href="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/8.jpg" data-size="1294x717">&lt;img src="https://rmdhnreza.my.id/tutorial-build-hugo-website-ke-github-pages-menggunakan-github-actions/8.jpg"
