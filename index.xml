@@ -1,4 +1,115 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rmdhnreza.my.id</title><link>https://rmdhnreza.my.id/</link><description>Recent content on rmdhnreza.my.id</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Sun, 28 Mar 2021 00:33:19 +0700</lastBuildDate><atom:link href="https://rmdhnreza.my.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Cara Install Oh My Zsh di Windows 10</title><link>https://rmdhnreza.my.id/cara-install-oh-my-zsh-di-windows-10/</link><pubDate>Sun, 28 Mar 2021 00:33:19 +0700</pubDate><guid>https://rmdhnreza.my.id/cara-install-oh-my-zsh-di-windows-10/</guid><description>&lt;img src="https://rmdhnreza.my.id/cara-install-oh-my-zsh-di-windows-10/windowsterminal.svg" alt="Featured image of post Cara Install Oh My Zsh di Windows 10" />&lt;p>Pada tutorial kali ini saya akan share cara menginstall Framework Oh My Zsh, untuk Sistem Operasi Windows berbeda dengan Linux &amp;amp; Mac OS karena lumayan banyak tahapan yang harus dilakukan. Tutorial ini kita akan menggunakan &lt;strong>Git Bash&lt;/strong>, jadi langsung saja ke tutorialnya.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rmdhnreza.my.id</title><link>https://rmdhnreza.my.id/</link><description>Recent content on rmdhnreza.my.id</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Fri, 16 Apr 2021 17:30:13 +0700</lastBuildDate><atom:link href="https://rmdhnreza.my.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Metode Terbaru Aktivasi ESET Terbaru Mei 2021</title><link>https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/</link><pubDate>Fri, 16 Apr 2021 17:30:13 +0700</pubDate><guid>https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/</guid><description>&lt;img src="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/eset-logo.svg" alt="Featured image of post Metode Terbaru Aktivasi ESET Terbaru Mei 2021" />&lt;h2 id="ngomong-ngomong">Ngomong-ngomong&lt;/h2>
+&lt;p>Metode ini bukan metode terbaru juga sih, karena dari ESET versi jadul sudah bisa menggunakan aktivasi seperti ini.&lt;/p>
+&lt;p>Sebelumnya saya sempat share &lt;strong>&lt;a class="link" href="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/" >Cara Mendapatkan License ESET Trial 30 Hari Secara Gratis 2021&lt;/a>&lt;/strong> dan saya coba daftar bulan Mei ini masih bisa digunakan, Jika kalian tidak mau ribet untuk aktivasi ESET silahkan kalian gunakan cara diatas, tetapi memang harus daftar 14 hari sekali, awalnya cara diatas itu 30 hari, tetapi mungkin banyak yang pakai jadi hanya 14 hari sekarang.&lt;/p>
+&lt;p>Cara yang akan share disini cukup ribet, kalian sampai harus restart Desktop/Laptop-nya dua kali, tetapi cara ini paling aman dari razia, karena saya sudah hampir pakai 2 bulan database ESET nya masih bisa update, walaupun kalian tidak bisa mengganti product ESET nya, misal dari NOD32 ke EIS kalian harus uninstall dulu NOD32 nya lalu install EIS dan ikuti lagi langkah aktivasi nya dari awal.&lt;/p>
+&lt;h2 id="tutorial-aktivasi-eset">Tutorial Aktivasi ESET&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Download file &lt;strong>&lt;a class="link" href="https://firebasestorage.googleapis.com/v0/b/rmdhnreza.appspot.com/o/Files%2Flicense.lf?alt=media&amp;amp;token=dfec78d3-c830-4aa9-ac1a-4e768a3192ab" target="_blank" rel="nofollow noopener"
+>license.lf&lt;/a>&lt;/strong> (Expired 11/21/2024) save filenya dimana saja bebas.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Disable HIPS ESET&lt;/strong> nya terlebih dahulu caranya masuk ke &lt;code>Setup -&amp;gt;&amp;gt; Advanced Setup -&amp;gt;&amp;gt; HIPS -&amp;gt;&amp;gt; Enable HIPS -&amp;gt;&amp;gt; Off kan -&amp;gt;&amp;gt; Restart Desktop/Laptop.&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Note: Jangan browsingan, buka crack, dll. Soalnya bahaya juga kalo HIPS nya lagi di Disable.&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 136; flex-basis: 327px">
+&lt;a href="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/1.png" data-size="900x660">&lt;img src="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/1.png"
+srcset="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/1_hua2170c8c9619ed4877b583c62aa362b9_40084_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/1_hua2170c8c9619ed4877b583c62aa362b9_40084_1024x0_resize_q75_box_2.png 1024w"
+width="900"
+height="660"
+loading="lazy"
+alt="Disable HIPS">
+&lt;/a>
+&lt;figcaption>Disable HIPS&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="3">
+&lt;li>Tekan shortcut &lt;strong>Win + R&lt;/strong> untuk buka Run, masukan &lt;code>%ProgramData%\ESET\ESET Security\License&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 180; flex-basis: 432px">
+&lt;a href="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/2.png" data-size="413x229">&lt;img src="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/2.png"
+srcset="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/2_hue34c037603c5a46d339387af85f98e84_10271_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/2_hue34c037603c5a46d339387af85f98e84_10271_1024x0_resize_q75_box_2.png 1024w"
+width="413"
+height="229"
+loading="lazy"
+alt="Windows Run">
+&lt;/a>
+&lt;figcaption>Windows Run&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="4">
+&lt;li>Nanti ada 1 file &lt;strong>license.lf&lt;/strong>. Kalian boleh hapus, rename, atau timpa dengan &lt;strong>license.lf&lt;/strong> yang udah di download tadi di langkah nomor 1
+&lt;ul>
+&lt;li>&lt;strong>Note: Jika tidak bisa dihapus, rename atau ditimpa, berarti belum di disable HIPS nya, Ulangi lagi langkah 2!&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 175; flex-basis: 422px">
+&lt;a href="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/3.png" data-size="1238x704">&lt;img src="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/3.png"
+srcset="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/3_hub0c75506cd032650c4617749a891ade0_40625_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/3_hub0c75506cd032650c4617749a891ade0_40625_1024x0_resize_q75_box_2.png 1024w"
+width="1238"
+height="704"
+loading="lazy"
+alt="Disini saya hanya rename license.lf menjadi license-.lf (Klik pada gambar untuk memperjelas)">
+&lt;/a>
+&lt;figcaption>Disini saya hanya rename license.lf menjadi license-.lf (Klik pada gambar untuk memperjelas)&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="5">
+&lt;li>&lt;strong>Enable lagi HIPS&lt;/strong>-nya masuk ke &lt;code>Setup -&amp;gt;&amp;gt; Advanced Setup -&amp;gt;&amp;gt; HIPS -&amp;gt;&amp;gt; Enable HIPS -&amp;gt;&amp;gt; On kan -&amp;gt;&amp;gt; Restart Desktop/Laptop.&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 136; flex-basis: 327px">
+&lt;a href="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/4.png" data-size="900x660">&lt;img src="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/4.png"
+srcset="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/4_hu67364f5dca6211f40525837f59907f38_45247_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/4_hu67364f5dca6211f40525837f59907f38_45247_1024x0_resize_q75_box_2.png 1024w"
+width="900"
+height="660"
+loading="lazy"
+alt="Enable HIPS">
+&lt;/a>
+&lt;figcaption>Enable HIPS&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="6">
+&lt;li>Update Database ESET nya.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 145; flex-basis: 348px">
+&lt;a href="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/7.png" data-size="900x620">&lt;img src="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/7.png"
+srcset="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/7_huf1f705206b8038d4486c4951099aaa36_26494_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/7_huf1f705206b8038d4486c4951099aaa36_26494_1024x0_resize_q75_box_2.png 1024w"
+width="900"
+height="620"
+loading="lazy"
+alt="Update Database">
+&lt;/a>
+&lt;figcaption>Update Database&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 145; flex-basis: 348px">
+&lt;a href="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/8.png" data-size="900x620">&lt;img src="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/8.png"
+srcset="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/8_hu29c912ab8db0b14e6980629d4454712c_24273_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/8_hu29c912ab8db0b14e6980629d4454712c_24273_1024x0_resize_q75_box_2.png 1024w"
+width="900"
+height="620"
+loading="lazy"
+alt="Update Database">
+&lt;/a>
+&lt;figcaption>Update Database&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Udah dicoba dari awal ESET mulai gencar-gencarnya razia license dan masih bisa update Database ESET nya sampai sekarang, sayangnya gk bisa ganti product (misalnya dari NOD ke EIS, pasti muncul error) kalo mau ganti product uninstall dulu ESET nya via safe mode pake ESET Uninstaller. Cara ini sudah saya coba di NOD32 dan EIS, bisa dua-dua nya.&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 145; flex-basis: 348px">
+&lt;a href="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/5.png" data-size="900x620">&lt;img src="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/5.png"
+srcset="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/5_hu720475a6bb6b10a67d7a7b4ed12c7aa1_39252_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/5_hu720475a6bb6b10a67d7a7b4ed12c7aa1_39252_1024x0_resize_q75_box_2.png 1024w"
+width="900"
+height="620"
+loading="lazy"
+alt="Expired 2024">
+&lt;/a>
+&lt;figcaption>Expired 2024&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 145; flex-basis: 348px">
+&lt;a href="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/6.png" data-size="900x620">&lt;img src="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/6.png"
+srcset="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/6_hu734f3d3dd26847c7937d9264be949888_38750_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/6_hu734f3d3dd26847c7937d9264be949888_38750_1024x0_resize_q75_box_2.png 1024w"
+width="900"
+height="620"
+loading="lazy"
+alt="Tidak bisa mengganti product, misalnya dari NOD32 ke EIS">
+&lt;/a>
+&lt;figcaption>Tidak bisa mengganti product, misalnya dari NOD32 ke EIS&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item><item><title>Cara Install Oh My Zsh di Windows 10</title><link>https://rmdhnreza.my.id/cara-install-oh-my-zsh-di-windows-10/</link><pubDate>Sun, 28 Mar 2021 00:33:19 +0700</pubDate><guid>https://rmdhnreza.my.id/cara-install-oh-my-zsh-di-windows-10/</guid><description>&lt;img src="https://rmdhnreza.my.id/cara-install-oh-my-zsh-di-windows-10/windowsterminal.svg" alt="Featured image of post Cara Install Oh My Zsh di Windows 10" />&lt;p>Pada tutorial kali ini saya akan share cara menginstall Framework Oh My Zsh, untuk Sistem Operasi Windows berbeda dengan Linux &amp;amp; Mac OS karena lumayan banyak tahapan yang harus dilakukan. Tutorial ini kita akan menggunakan &lt;strong>Git Bash&lt;/strong>, jadi langsung saja ke tutorialnya.&lt;/p>
 &lt;ol>
 &lt;li>Install &lt;a class="link" href="https://git-scm.com/download/win" target="_blank" rel="nofollow noopener"
 >Git for Windows&lt;/a> sesuai dengan sistem operasi kalian apakah 32/64 Bit, jika kalian menggunakan &lt;a class="link" href="https://rmdhnreza.my.id/cara-menginstall-package-manager-scoop-di-windows-10/" >scoop&lt;/a>, kalian bisa lewati langkah ini.&lt;/li>
@@ -1266,7 +1377,8 @@ alt="Spoiler Hugo">
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="nt">summary&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;span class="k">cursor&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">pointer&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;span class="p">}&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Cara Mendapatkan License ESET Trial 30 Hari Secara Gratis 2021</title><link>https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/</link><pubDate>Mon, 08 Mar 2021 17:30:13 +0700</pubDate><guid>https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/</guid><description>&lt;img src="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-logo.svg" alt="Featured image of post Cara Mendapatkan License ESET Trial 30 Hari Secara Gratis 2021" />&lt;p>Di awal bulan maret 2021 ini ESET telah merazia besar-besaran license mereka, Jika license yang kalian pakai hanya untuk 1 devices dan dipake 2 devices atau lebih, maka antivirus ESET kalian tidak akan bisa dipakai untuk Update database ESET.&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Cara Mendapatkan License ESET Trial 30 Hari Secara Gratis 2021</title><link>https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/</link><pubDate>Mon, 08 Mar 2021 17:30:13 +0700</pubDate><guid>https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/</guid><description>&lt;img src="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-logo.svg" alt="Featured image of post Cara Mendapatkan License ESET Trial 30 Hari Secara Gratis 2021" />&lt;p>&lt;strong>Note: sekarang menjadi 14 hari, untuk metode terbaru kalian bisa kunjungi &lt;a class="link" href="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021" >Metode Terbaru Aktivasi ESET Terbaru Mei 2021&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>Di awal bulan maret 2021 ini ESET telah merazia besar-besaran license mereka, Jika license yang kalian pakai hanya untuk 1 devices dan dipake 2 devices atau lebih, maka antivirus ESET kalian tidak akan bisa dipakai untuk Update database ESET.&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 136; flex-basis: 327px">
 &lt;a href="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-1.jpg" data-size="900x660">&lt;img src="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-1.jpg"
 srcset="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-1_hubff7ffe1208770f966d906dbcfd662d5_45478_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/eset-1_hubff7ffe1208770f966d906dbcfd662d5_45478_1024x0_resize_q75_box.jpg 1024w"
