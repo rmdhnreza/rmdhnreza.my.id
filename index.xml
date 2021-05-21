@@ -1193,7 +1193,173 @@ alt="Sync Google Drive">
 &lt;/figure>&lt;/p>
 &lt;p>Untuk lebih lengkapnya tentang google-drive-ocamlfuse ini kalian bisa langsung lihat di &lt;a class="link" href="https://github.com/astrada/google-drive-ocamlfuse/wiki" target="_blank" rel="nofollow noopener"
 >documentation&lt;/a> nya yang ada di github&lt;br>
-google-drive-ocamlfuse juga bisa dipakai untuk Team Drive, jika kalian ingin &lt;em>mount&lt;/em> Shared drives kalian.&lt;/p></description></item><item><title>Tutorial Mempercepat Video Pelatihan Prakerja di Skill Akademi</title><link>https://rmdhnreza.my.id/tutorial-mempercepat-video-pelatihan-prakerja-di-skill-akademi/</link><pubDate>Thu, 11 Mar 2021 15:36:16 +0700</pubDate><guid>https://rmdhnreza.my.id/tutorial-mempercepat-video-pelatihan-prakerja-di-skill-akademi/</guid><description>&lt;img src="https://rmdhnreza.my.id/tutorial-mempercepat-video-pelatihan-prakerja-di-skill-akademi/academia.svg" alt="Featured image of post Tutorial Mempercepat Video Pelatihan Prakerja di Skill Akademi" />&lt;p>Untuk kalian yang sedang mengikuti pelatihan prakerja khususnya yang sedang mengerjakan pelatihan di Skill Akademi, pasti kalian bosan ketika menonton video nya, Untuk itu disini saya akan memberikan tutorial mempercepat Video di Skill Akademi.&lt;/p>
+google-drive-ocamlfuse juga bisa dipakai untuk Team Drive, jika kalian ingin &lt;em>mount&lt;/em> Shared drives kalian.&lt;/p></description></item><item><title>Cara Install Transmission BT 3.0 di Linux Ubuntu</title><link>https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/</link><pubDate>Sat, 13 Mar 2021 00:16:23 +0700</pubDate><guid>https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/</guid><description>&lt;img src="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/ubuntu.svg" alt="Featured image of post Cara Install Transmission BT 3.0 di Linux Ubuntu" />&lt;p>Pada kesempatan kali ini saya akan share tutorial Cara Install Transmission BT 3.0 di Linux Ubuntu. Transmission adalah klien BitTorrent gratis yang tersedia untuk Linux. Transmission ini menggunakan sumber daya yang sangat sedikit dibandingkan dengan klien BitTorrent lainnya. Aplikasi klien Transmission tidak tersedia di repositori Ubuntu 20.04. Namun, kalian dapat menginstallnya melalui repositori PPA eksternal. Pada saat tutorial ini ditulis, versi Transmission terbaru adalah 3.00.&lt;/p>
+&lt;h2 id="install-transmission-30-ubuntu-1804--2004">Install Transmission 3.0 Ubuntu 18.04 &amp;amp; 20.04&lt;/h2>
+&lt;ol>
+&lt;li>Tambahkan ppa berikut ini dan jalankan perintah untuk menginstall transmission nya&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo add-apt-repository ppa:transmissionbt/ppa -y &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> sudo apt install transmission-daemon
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 186; flex-basis: 446px">
+&lt;a href="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-1.jpg" data-size="1210x650">&lt;img src="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-1.jpg"
+srcset="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-1_hua9cdf6f2f384b99166e2868d3badea3f_16636_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-1_hua9cdf6f2f384b99166e2868d3badea3f_16636_1024x0_resize_q75_box.jpg 1024w"
+width="1210"
+height="650"
+loading="lazy"
+alt="Add ppa dan install transmission">
+&lt;/a>
+&lt;figcaption>Add ppa dan install transmission&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="2">
+&lt;li>Setelah terinstall jalankan perintah berikut ini untuk menjalankan trasnmission nya dan agar kita bisa setting config nya&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo service transmission-daemon start
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>Edit config &lt;strong>settings.json&lt;/strong> yang terdapat di &lt;code>/etc/transmission-daemon/settings.json&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo nano /etc/transmission-daemon/settings.json
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 186; flex-basis: 446px">
+&lt;a href="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-2.jpg" data-size="1210x650">&lt;img src="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-2.jpg"
+srcset="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-2_hud873be967e461687b87254c94ff885c5_110808_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-2_hud873be967e461687b87254c94ff885c5_110808_1024x0_resize_q75_box.jpg 1024w"
+width="1210"
+height="650"
+loading="lazy"
+alt="Start transmission dan edit settings.json">
+&lt;/a>
+&lt;figcaption>Start transmission dan edit settings.json&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="4">
+&lt;li>Ubah bagian yang kalian perlukan, disini saya hanya mengubah bagian ini saja, setelah selesai edit kalian bisa simpan dengan cara &lt;code>CTRL + O&lt;/code> &lt;code>Enter&lt;/code> &lt;code>CTRL + X&lt;/code> untuk editor &lt;code>nano&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="p">{&lt;/span>
+&lt;span class="nt">&amp;#34;download-dir&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;/home/rmdhnreza/Downloads&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="err">//&lt;/span> &lt;span class="err">&amp;lt;-&lt;/span> &lt;span class="err">Ubah&lt;/span> &lt;span class="err">direktori&lt;/span> &lt;span class="err">download&lt;/span> &lt;span class="err">torrent&lt;/span> &lt;span class="err">nya&lt;/span> &lt;span class="err">sesuai&lt;/span> &lt;span class="err">keinginan&lt;/span> &lt;span class="err">kalian&lt;/span>
+&lt;span class="nt">&amp;#34;rpc-authentication-required&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">true&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="err">//&lt;/span> &lt;span class="err">&amp;lt;-&lt;/span> &lt;span class="err">Ubah&lt;/span> &lt;span class="err">ke&lt;/span> &lt;span class="err">false&lt;/span> &lt;span class="err">jika&lt;/span> &lt;span class="err">kalian&lt;/span> &lt;span class="err">tidak&lt;/span> &lt;span class="err">ingin&lt;/span> &lt;span class="err">menggunakan&lt;/span> &lt;span class="err">username/password&lt;/span> &lt;span class="err">untuk&lt;/span> &lt;span class="err">Login&lt;/span>
+&lt;span class="nt">&amp;#34;rpc-password&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;rmdhnreza&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="err">//&lt;/span> &lt;span class="err">&amp;lt;-&lt;/span> &lt;span class="err">Password&lt;/span> &lt;span class="err">untuk&lt;/span> &lt;span class="err">login,&lt;/span> &lt;span class="err">jika&lt;/span> &lt;span class="nt">&amp;#34;rpc-authentication-required&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;span class="s2">&amp;#34;rpc-port&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">9091&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="err">//&lt;/span> &lt;span class="err">&amp;lt;-&lt;/span> &lt;span class="err">Port&lt;/span> &lt;span class="err">bisa&lt;/span> &lt;span class="err">kalian&lt;/span> &lt;span class="err">ubah&lt;/span> &lt;span class="err">sesuai&lt;/span> &lt;span class="err">keigininan&lt;/span> &lt;span class="err">kalian,&lt;/span> &lt;span class="err">asal&lt;/span> &lt;span class="err">port&lt;/span> &lt;span class="err">nya&lt;/span> &lt;span class="err">belum&lt;/span> &lt;span class="err">terpakai&lt;/span> &lt;span class="err">oleh&lt;/span> &lt;span class="err">aplikasi&lt;/span> &lt;span class="err">lain&lt;/span>
+&lt;span class="nt">&amp;#34;rpc-url&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;/rmdhnreza/&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="err">//&lt;/span> &lt;span class="err">&amp;lt;-&lt;/span> &lt;span class="err">Ubah&lt;/span> &lt;span class="err">sesuai&lt;/span> &lt;span class="err">keinginan&lt;/span> &lt;span class="err">kalian,&lt;/span> &lt;span class="err">URL&lt;/span> &lt;span class="err">nya&lt;/span> &lt;span class="err">jadi&lt;/span> &lt;span class="err">seperti&lt;/span> &lt;span class="err">ini&lt;/span> &lt;span class="err">http://localhost:9091/rmdhnreza/web&lt;/span>
+&lt;span class="nt">&amp;#34;rpc-username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;rmdhnreza&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="err">//&lt;/span> &lt;span class="err">&amp;lt;-&lt;/span> &lt;span class="err">Username&lt;/span> &lt;span class="err">untuk&lt;/span> &lt;span class="err">login,&lt;/span> &lt;span class="err">jika&lt;/span> &lt;span class="nt">&amp;#34;rpc-authentication-required&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;span class="s2">&amp;#34;rpc-whitelist&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;*&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="err">//&lt;/span> &lt;span class="err">&amp;lt;-&lt;/span> &lt;span class="err">Ubah&lt;/span> &lt;span class="err">dari&lt;/span> &lt;span class="err">127.0.0.1&lt;/span> &lt;span class="err">ke&lt;/span> &lt;span class="err">*&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="5">
+&lt;li>Reload config dan restart transmission-daemon&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo service transmission-daemon reload &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> sudo service transmission-daemon restart
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 186; flex-basis: 446px">
+&lt;a href="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-3.jpg" data-size="1210x650">&lt;img src="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-3.jpg"
+srcset="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-3_hu775d8b91773e13460cba9a9afc3822b0_104295_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-3_hu775d8b91773e13460cba9a9afc3822b0_104295_1024x0_resize_q75_box.jpg 1024w"
+width="1210"
+height="650"
+loading="lazy"
+alt="Reload dan restart transmission">
+&lt;/a>
+&lt;figcaption>Reload dan restart transmission&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="6">
+&lt;li>Buka web address, disini saja menggunakan local computer jadi ip nya 127.0.0.1 atau localhost, jika kalian menggunakan VPS kalian masukan IP nya&lt;/li>
+&lt;/ol>
+&lt;pre>&lt;code>http://127.0.0.1:9091
+http://localhost:9091
+http://ip.v.p.s:9091
+&lt;/code>&lt;/pre>&lt;ol start="7">
+&lt;li>Jika berhasil maka akan ada prompt untuk memasukan username &amp;amp; password, dengan catatan di config nya kalian set &lt;code>&amp;quot;rpc-authentication-required&amp;quot;: true&lt;/code>, jika &lt;code>&amp;quot;rpc-authentication-required&amp;quot;: false&lt;/code> maka tidak akan muncul prompt ini&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 175; flex-basis: 420px">
+&lt;a href="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-4.jpg" data-size="1017x580">&lt;img src="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-4.jpg"
+srcset="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-4_hua7d7b916fc36b25720effb084cc6dadc_23565_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-4_hua7d7b916fc36b25720effb084cc6dadc_23565_1024x0_resize_q75_box.jpg 1024w"
+width="1017"
+height="580"
+loading="lazy"
+alt="Prompt username dan password">
+&lt;/a>
+&lt;figcaption>Prompt username dan password&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="8">
+&lt;li>Sekarang kalian bisa langsung add torrent file atau magnet link&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 175; flex-basis: 420px">
+&lt;a href="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-5.jpg" data-size="1017x580">&lt;img src="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-5.jpg"
+srcset="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-5_hu7be11554f60129e890f483d70d29bf68_44153_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-5_hu7be11554f60129e890f483d70d29bf68_44153_1024x0_resize_q75_box.jpg 1024w"
+width="1017"
+height="580"
+loading="lazy"
+alt="Add torrent yang akan kalian download">
+&lt;/a>
+&lt;figcaption>Add torrent yang akan kalian download&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="9">
+&lt;li>Jika pada saat download kalian mendapati error &lt;code>Permission Denied&lt;/code>, kalian bisa ubah permission &lt;code>&amp;quot;download-dir&amp;quot;: &amp;quot;/home/rmdhnreza/Downloads&amp;quot;&lt;/code> nya dengan cara&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">chmod &lt;span class="m">777&lt;/span> /home/rmdhnreza/Downloads
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 175; flex-basis: 420px">
+&lt;a href="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-6.jpg" data-size="1017x580">&lt;img src="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-6.jpg"
+srcset="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-6_hu9edddd893d32ff0add3a107781f3bf0d_39801_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-6_hu9edddd893d32ff0add3a107781f3bf0d_39801_1024x0_resize_q75_box.jpg 1024w"
+width="1017"
+height="580"
+loading="lazy"
+alt="Error permission denied">
+&lt;/a>
+&lt;figcaption>Error permission denied&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 186; flex-basis: 446px">
+&lt;a href="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-7.jpg" data-size="1210x650">&lt;img src="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-7.jpg"
+srcset="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-7_huf1569d7d42f3c258fb0d450571a0ef03_13435_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-7_huf1569d7d42f3c258fb0d450571a0ef03_13435_1024x0_resize_q75_box.jpg 1024w"
+width="1210"
+height="650"
+loading="lazy"
+alt="Ubah permission folder Downloads">
+&lt;/a>
+&lt;figcaption>Ubah permission folder Downloads&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="10">
+&lt;li>Add lagi torrent yang kalian download, sudah pasti sekarang tidak akan mendapati error &lt;code>Permission Denied&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 175; flex-basis: 420px">
+&lt;a href="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-8.jpg" data-size="1017x580">&lt;img src="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-8.jpg"
+srcset="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-8_hu3a046dc7854b68535409c493788bc384_36934_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-8_hu3a046dc7854b68535409c493788bc384_36934_1024x0_resize_q75_box.jpg 1024w"
+width="1017"
+height="580"
+loading="lazy"
+alt="File torrent sedang di download">
+&lt;/a>
+&lt;figcaption>File torrent sedang di download&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="11">
+&lt;li>Jika torrent sudah selesai cek folder download nya&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 186; flex-basis: 446px">
+&lt;a href="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-10.jpg" data-size="1210x650">&lt;img src="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-10.jpg"
+srcset="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-10_hu4a0294f4406cf74e2b5772b4b2c60bbb_19617_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-10_hu4a0294f4406cf74e2b5772b4b2c60bbb_19617_1024x0_resize_q75_box.jpg 1024w"
+width="1210"
+height="650"
+loading="lazy"
+alt="Torrent berhasil di Download">
+&lt;/a>
+&lt;figcaption>Torrent berhasil di Download&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2 id="untuk-pengguna-vps">Untuk pengguna VPS&lt;/h2>
+&lt;ol>
+&lt;li>Kalian install terlebih dahulu apache2&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo apt install apache2
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Jalankan apache2 nya dengan perintah&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo service apache2 start
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>Buat symlink directory download ke &lt;code>/var/www/html&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo ln -s /home/rmdhnreza/Downloads /var/www/html
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>Buka di browser &lt;code>http://ip.v.p.s/Downloads&lt;/code> jika kalian edit port apache2 nya menjadi 5000 (misalnya), maka &lt;code>http://ip.v.p.s:5000/Downloads&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 175; flex-basis: 420px">
+&lt;a href="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-9.jpg" data-size="1017x580">&lt;img src="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-9.jpg"
+srcset="https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-9_hu740bb583a007525ca6412c62ab24bbc8_63061_480x0_resize_q75_box.jpg 480w, https://rmdhnreza.my.id/cara-install-transmission-bt-3.0-di-linux-ubuntu/transmission-9_hu740bb583a007525ca6412c62ab24bbc8_63061_1024x0_resize_q75_box.jpg 1024w"
+width="1017"
+height="580"
+loading="lazy"
+alt="Torrent yang berhasil di Download di VPS">
+&lt;/a>
+&lt;figcaption>Torrent yang berhasil di Download di VPS&lt;/figcaption>
+&lt;/figure>&lt;/p></description></item><item><title>Tutorial Mempercepat Video Pelatihan Prakerja di Skill Akademi</title><link>https://rmdhnreza.my.id/tutorial-mempercepat-video-pelatihan-prakerja-di-skill-akademi/</link><pubDate>Thu, 11 Mar 2021 15:36:16 +0700</pubDate><guid>https://rmdhnreza.my.id/tutorial-mempercepat-video-pelatihan-prakerja-di-skill-akademi/</guid><description>&lt;img src="https://rmdhnreza.my.id/tutorial-mempercepat-video-pelatihan-prakerja-di-skill-akademi/academia.svg" alt="Featured image of post Tutorial Mempercepat Video Pelatihan Prakerja di Skill Akademi" />&lt;p>Untuk kalian yang sedang mengikuti pelatihan prakerja khususnya yang sedang mengerjakan pelatihan di Skill Akademi, pasti kalian bosan ketika menonton video nya, Untuk itu disini saya akan memberikan tutorial mempercepat Video di Skill Akademi.&lt;/p>
 &lt;p>Tutorial disini saya menggunakan Desktop/Laptop, untuk Mobile saya kurang tahu, Oke langsung saja ke tutorialnya.&lt;/p>
 &lt;ol>
 &lt;li>Gunakan Browser Google Chrome atau Mozilla Firefox&lt;/li>
