@@ -1,4 +1,182 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rmdhnreza.my.id</title><link>https://rmdhnreza.my.id/</link><description>Recent content on rmdhnreza.my.id</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Fri, 16 Apr 2021 17:30:13 +0700</lastBuildDate><atom:link href="https://rmdhnreza.my.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Metode Terbaru Aktivasi ESET Terbaru Mei 2021</title><link>https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/</link><pubDate>Fri, 16 Apr 2021 17:30:13 +0700</pubDate><guid>https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/</guid><description>&lt;img src="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/eset-logo.svg" alt="Featured image of post Metode Terbaru Aktivasi ESET Terbaru Mei 2021" />&lt;h2 id="ngomong-ngomong">Ngomong-ngomong&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rmdhnreza.my.id</title><link>https://rmdhnreza.my.id/</link><description>Recent content on rmdhnreza.my.id</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Fri, 21 May 2021 00:30:13 +0700</lastBuildDate><atom:link href="https://rmdhnreza.my.id/index.xml" rel="self" type="application/rss+xml"/><item><title>Install VNC di VPS Ubuntu menggunakan DE i3WM</title><link>https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/</link><pubDate>Fri, 21 May 2021 00:30:13 +0700</pubDate><guid>https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/</guid><description>&lt;img src="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/linux.svg" alt="Featured image of post Install VNC di VPS Ubuntu menggunakan DE i3WM" />&lt;h2 id="pertama-tama">Pertama-tama&lt;/h2>
+&lt;p>Saya disini menggunakan VPS menggunakan Sistem Operasi Ubuntu 18.04, tapi harusnya ini juga bisa digunakan di Sistem Operasi Ubuntu yang lebih baru. Tutorial ini menggunakan Desktop Environment (DE) i3WM, bukan Gnome ataupun KDE, jadi jika kalian misalnya belum familiar dengan DE i3WM saya sarankan jangan mengikuti tutorial ini.&lt;/p>
+&lt;h2 id="tutorial-install-vnc">Tutorial Install VNC&lt;/h2>
+&lt;ol>
+&lt;li>Kalian login ke VPS kalian&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 194; flex-basis: 466px">
+&lt;a href="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-1.png" data-size="1169x602">&lt;img src="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-1.png"
+srcset="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-1_hu3a8e0ac58fa4e63b0f2e589bf6392819_46254_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-1_hu3a8e0ac58fa4e63b0f2e589bf6392819_46254_1024x0_resize_q75_box_2.png 1024w"
+width="1169"
+height="602"
+loading="lazy"
+alt="VPS">
+&lt;/a>
+&lt;figcaption>VPS&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="2">
+&lt;li>Jalankan perintah berikut untuk menginstall &lt;strong>vncserver&lt;/strong> nya, disini saya juga menginstall aplikasi lain supaya bisa langsung dipakai pada saat kalian sudah selesai menginstall &lt;strong>vncserver&lt;/strong> nya&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">sudo apt install dialog xorg xinit dbus-x11 x11-xserver-utils i3 pcmanfm xarchiver hsetroot xsel fonts-mplus fonts-firacode xsettingsd lxappearance tigervnc-standalone-server tigervnc-common tigervnc-xorg-extension tigervnc-viewer apache2 iputils-ping zsh nano netbase fonts-roboto fonts-nanum ttf-ancient-fonts fonts-wqy-zenhei imwheel zenity firefox apt-transport-https dconf-cli uuid-runtime clipit renameutils rar unrar libpci3 libpci-dev mediainfo gtk2-engines-murrine gtk2-engines-pixbuf libglib2.0-dev libxml2-utils konsole fonts-fantasque-sans gnupg aria2 breeze-gtk-theme breeze-icon-theme breeze-cursor-theme -y
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;figure style="flex-grow: 194; flex-basis: 466px">
+&lt;a href="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-2.png" data-size="1169x602">&lt;img src="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-2.png"
+srcset="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-2_hu170cc9f4abd3c38af62ca139e8f16b13_24527_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-2_hu170cc9f4abd3c38af62ca139e8f16b13_24527_1024x0_resize_q75_box_2.png 1024w"
+width="1169"
+height="602"
+loading="lazy"
+alt="Install vncserver">
+&lt;/a>
+&lt;figcaption>Install vncserver&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="3">
+&lt;li>Tunggu proses download dan installasi hingga selesai, untuk VPS tidak lebih dari 2 menit harus nya&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 194; flex-basis: 466px">
+&lt;a href="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-3.png" data-size="1169x602">&lt;img src="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-3.png"
+srcset="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-3_hu5df99781afcb0f091dbf15253496468c_96267_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-3_hu5df99781afcb0f091dbf15253496468c_96267_1024x0_resize_q75_box_2.png 1024w"
+width="1169"
+height="602"
+loading="lazy"
+alt="Proses Download dan Installasi">
+&lt;/a>
+&lt;figcaption>Proses Download dan Installasi&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 194; flex-basis: 466px">
+&lt;a href="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-4.png" data-size="1169x602">&lt;img src="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-4.png"
+srcset="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-4_hu4742efb6e32bc3c5ca44175dee0054b2_63476_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-4_hu4742efb6e32bc3c5ca44175dee0054b2_63476_1024x0_resize_q75_box_2.png 1024w"
+width="1169"
+height="602"
+loading="lazy"
+alt="Proses Download dan Installasi Selesai">
+&lt;/a>
+&lt;figcaption>Proses Download dan Installasi Selesai&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="4">
+&lt;li>Jalankan perintah &lt;code>vncserver&lt;/code>&lt;/li>
+&lt;li>Nanti kalian disuruh untuk memasukan password, password ini untuk login ke &lt;strong>VNC&lt;/strong> nya dan minimal 6 karakter&lt;/li>
+&lt;li>&lt;em>Would you like to enter a view-only password (y/n)&lt;/em> Kalian bisa pilih &lt;strong>Y&lt;/strong> atau &lt;strong>N&lt;/strong> bebas&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 194; flex-basis: 466px">
+&lt;a href="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-5.png" data-size="1169x602">&lt;img src="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-5.png"
+srcset="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-5_hucf4cc4496e172a2d462f44944a5358fe_27740_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-5_hucf4cc4496e172a2d462f44944a5358fe_27740_1024x0_resize_q75_box_2.png 1024w"
+width="1169"
+height="602"
+loading="lazy"
+alt="vncserver">
+&lt;/a>
+&lt;figcaption>vncserver&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="7">
+&lt;li>Jalankan perintah &lt;code>vncserver -kill :1&lt;/code> &lt;em>kill&lt;/em> proses &lt;em>VNC&lt;/em>&lt;/li>
+&lt;li>Masukan perintah dibawah untuk start i3WM nya&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">cat &amp;gt; .vnc/xstartup &lt;span class="s">&amp;lt;&amp;lt;EOL
+&lt;/span>&lt;span class="s">#!/bin/sh
+&lt;/span>&lt;span class="s">xrdb $HOME/.Xresources
+&lt;/span>&lt;span class="s">dbus-launch --exit-with-session i3 &amp;amp;
+&lt;/span>&lt;span class="s">exec i3
+&lt;/span>&lt;span class="s">EOL&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="9">
+&lt;li>Kalian juga bisa set resolusi &amp;amp; DPI dengan memasukan perintah&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">cat &amp;gt; .vnc/config &lt;span class="s">&amp;lt;&amp;lt;EOL
+&lt;/span>&lt;span class="s">geometry=1366x768
+&lt;/span>&lt;span class="s">dpi=96
+&lt;/span>&lt;span class="s">EOL&lt;/span>
+chmod u+x ~/.vnc/xstartup
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="10">
+&lt;li>Kalian jalankan lagi perintah &lt;code>vncserver &amp;amp;&amp;amp; pkill -9 vncconfig&lt;/code> untuk menjalankan &lt;strong>VNC&lt;/strong> nya&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>&lt;strong>Note:&lt;/strong> Jika kalian tidak &lt;em>kill&lt;/em> proses &lt;strong>vncconfig&lt;/strong> nya, biasanya background nya menjadi warna abu-abu, jadi saya sarankan kalian &lt;em>kill&lt;/em> proses &lt;strong>vncconfig&lt;/strong> nya, lalu jalankan manual pada saat sudah login ke &lt;strong>VNC&lt;/strong> nya&lt;/li>
+&lt;/ul>
+&lt;p>&lt;figure style="flex-grow: 194; flex-basis: 466px">
+&lt;a href="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-6.png" data-size="1169x602">&lt;img src="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-6.png"
+srcset="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-6_hu56126ceebfc0702016051845478e3504_40378_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-6_hu56126ceebfc0702016051845478e3504_40378_1024x0_resize_q75_box_2.png 1024w"
+width="1169"
+height="602"
+loading="lazy"
+alt="Config VNC">
+&lt;/a>
+&lt;figcaption>Config VNC&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="11">
+&lt;li>Kalian tinggal login ke VNC nya menggunakan &lt;strong>VNC Viewer&lt;/strong>, disini saya menggunakan &lt;strong>TIgerVNC&lt;/strong> kalian juga boleh menggunakan &lt;strong>VNC Viewer&lt;/strong> yang lain.&lt;/li>
+&lt;li>Masukan IP VPS nya dengan port 5901 jadinya &lt;code>IPVPS:5901&lt;/code> lalu masukan password yang tadi kalian buat di langkah nomor 5&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 194; flex-basis: 466px">
+&lt;a href="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-7.png" data-size="1169x602">&lt;img src="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-7.png"
+srcset="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-7_hu03a91f869617409d9236239cd4ee7435_14109_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-7_hu03a91f869617409d9236239cd4ee7435_14109_1024x0_resize_q75_box_2.png 1024w"
+width="1169"
+height="602"
+loading="lazy"
+alt="VNC Viewer IP">
+&lt;/a>
+&lt;figcaption>VNC Viewer IP&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 194; flex-basis: 466px">
+&lt;a href="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-8.png" data-size="1169x602">&lt;img src="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-8.png"
+srcset="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-8_hua898ef5bab16cabbde1afed4772dcdaf_11187_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-8_hua898ef5bab16cabbde1afed4772dcdaf_11187_1024x0_resize_q75_box_2.png 1024w"
+width="1169"
+height="602"
+loading="lazy"
+alt="VNC Viewer IP Password">
+&lt;/a>
+&lt;figcaption>VNC Viewer IP Password&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="13">
+&lt;li>Awal tampilan i3WM seperti ini kalian tinggal &lt;code>&amp;lt;Enter&amp;gt;&lt;/code> dan pilih &lt;code>&amp;lt;Alt&amp;gt;&lt;/code>, Jika pilih &lt;code>&amp;lt;Win&amp;gt;&lt;/code> takutnya nanti bentrok dengan tombol Windows di Desktop kalian&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 177; flex-basis: 425px">
+&lt;a href="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-9.png" data-size="1360x768">&lt;img src="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-9.png"
+srcset="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-9_hud5e68d847789a63917cad1f2d63739f5_12032_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-9_hud5e68d847789a63917cad1f2d63739f5_12032_1024x0_resize_q75_box_2.png 1024w"
+width="1360"
+height="768"
+loading="lazy"
+alt="I3WM Desktop">
+&lt;/a>
+&lt;figcaption>I3WM Desktop&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 177; flex-basis: 425px">
+&lt;a href="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-10.png" data-size="1360x768">&lt;img src="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-10.png"
+srcset="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-10_hueb7de76269c8241f4f458046348f5330_11657_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-10_hueb7de76269c8241f4f458046348f5330_11657_1024x0_resize_q75_box_2.png 1024w"
+width="1360"
+height="768"
+loading="lazy"
+alt="I3WM Desktop">
+&lt;/a>
+&lt;figcaption>I3WM Desktop&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;ol start="14">
+&lt;li>Tekan shorcut &lt;code>Alt + D&lt;/code> untuk membuka d-menu&lt;/li>
+&lt;li>Menjalankan browser Firefox&lt;/li>
+&lt;/ol>
+&lt;p>&lt;figure style="flex-grow: 177; flex-basis: 425px">
+&lt;a href="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-11.png" data-size="1360x768">&lt;img src="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-11.png"
+srcset="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-11_hu341df715d4c7913ab202490676d1b7ee_7256_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-11_hu341df715d4c7913ab202490676d1b7ee_7256_1024x0_resize_q75_box_2.png 1024w"
+width="1360"
+height="768"
+loading="lazy"
+alt="Firefox">
+&lt;/a>
+&lt;figcaption>Firefox&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 177; flex-basis: 425px">
+&lt;a href="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-12.png" data-size="1360x768">&lt;img src="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-12.png"
+srcset="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-12_hu338bfda8570b600c91ec22a65c5cde3b_28237_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-12_hu338bfda8570b600c91ec22a65c5cde3b_28237_1024x0_resize_q75_box_2.png 1024w"
+width="1360"
+height="768"
+loading="lazy"
+alt="Firefox">
+&lt;/a>
+&lt;figcaption>Firefox&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 177; flex-basis: 425px">
+&lt;a href="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-13.png" data-size="1360x768">&lt;img src="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-13.png"
+srcset="https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-13_huc0d86b2ab8a2078274bb0c9dda34e0d1_56019_480x0_resize_q75_box_2.png 480w, https://rmdhnreza.my.id/install-vnc-di-vps-ubuntu-menggunakan-de-i3wm/vnc-13_huc0d86b2ab8a2078274bb0c9dda34e0d1_56019_1024x0_resize_q75_box_2.png 1024w"
+width="1360"
+height="768"
+loading="lazy"
+alt="Speedtest">
+&lt;/a>
+&lt;figcaption>Speedtest&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Itulah tutorial cara menginstall VNC dengan Desktop Environment i3WM di VPS Ubuntu&lt;/p></description></item><item><title>Metode Terbaru Aktivasi ESET Terbaru Mei 2021</title><link>https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/</link><pubDate>Fri, 16 Apr 2021 17:30:13 +0700</pubDate><guid>https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/</guid><description>&lt;img src="https://rmdhnreza.my.id/metode-terbaru-aktivasi-eset-terbaru-mei-2021/eset-logo.svg" alt="Featured image of post Metode Terbaru Aktivasi ESET Terbaru Mei 2021" />&lt;h2 id="ngomong-ngomong">Ngomong-ngomong&lt;/h2>
 &lt;p>Metode ini bukan metode terbaru juga sih, karena dari ESET versi jadul sudah bisa menggunakan aktivasi seperti ini.&lt;/p>
 &lt;p>Sebelumnya saya sempat share &lt;strong>&lt;a class="link" href="https://rmdhnreza.my.id/cara-mendapatkan-license-eset-trial-30-hari-secara-gratis-2021/" >Cara Mendapatkan License ESET Trial 30 Hari Secara Gratis 2021&lt;/a>&lt;/strong> dan saya coba daftar bulan Mei ini masih bisa digunakan, Jika kalian tidak mau ribet untuk aktivasi ESET silahkan kalian gunakan cara diatas, tetapi memang harus daftar 14 hari sekali, awalnya cara diatas itu 30 hari, tetapi mungkin banyak yang pakai jadi hanya 14 hari sekarang.&lt;/p>
 &lt;p>Cara yang akan share disini cukup ribet, kalian sampai harus restart Desktop/Laptop-nya dua kali, tetapi cara ini paling aman dari razia, karena saya sudah hampir pakai 2 bulan database ESET nya masih bisa update, walaupun kalian tidak bisa mengganti product ESET nya, misal dari NOD32 ke EIS kalian harus uninstall dulu NOD32 nya lalu install EIS dan ikuti lagi langkah aktivasi nya dari awal.&lt;/p>
@@ -2344,7 +2522,7 @@ alt="Install Hugo Extended">
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Atau jika kalian ingin mengupdate semua aplikasi bisa dengan perintah&lt;/p>
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="n">scoop&lt;/span> &lt;span class="n">update&lt;/span> &lt;span class="p">*&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Setelah kalian mengupdate aplikasi via scoop, pastikan kalian menjalankan perintah dibawah ini untuk menghapus aplikasi versi sebelumnya&lt;/p>
-&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="n">scoop&lt;/span> &lt;span class="n">cache&lt;/span> &lt;span class="nb">rm &lt;/span>&lt;span class="p">*&lt;/span>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="n">scoop&lt;/span> &lt;span class="n">cleanup&lt;/span> &lt;span class="p">*&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Untuk lebih lengkapnya tentang scoop ini kalian bisa langsung kunjungi &lt;a class="link" href="https://github.com/lukesampson/%28wiki%29" target="_blank" rel="nofollow noopener"
 >documentation nya di github&lt;/a>&lt;/p></description></item><item><title>Tutorial Menonton Live Stream Sepakbola Kualitas HD</title><link>https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/</link><pubDate>Sun, 10 Jan 2021 00:56:20 +0700</pubDate><guid>https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/</guid><description>&lt;img src="https://rmdhnreza.my.id/tutorial-menonton-live-stream-sepakbola-kualitas-hd/soccer.svg" alt="Featured image of post Tutorial Menonton Live Stream Sepakbola Kualitas HD" />&lt;p>Tutorial kali ini akan membahas cara menonton live stream sepakbola secara ilegal tentunya, sebelum memulai tutorial ini pastikan kalian sudah setting &lt;code>DNS-over-HTTPS&lt;/code> agar website streaming nya tidak terblokir, karena sudah banyak website-website streaming yang sudah diblokir oleh pihak ISP di Indonesia. Dengan menggunakan &lt;code>DNS-over-HTTPS&lt;/code> kalian tidak perlu menggunakan VPN. Cara setting &lt;code>Dns-over-HTTPS&lt;/code> sudah ada di website ini.&lt;/p>
 &lt;h4 class="centertext" id="membuka-situs-terblokir-menggunakan-dns-over-httpshttpsrmdhnrezamyidmembuka-situs-terblokir-menggunakan-dns-over-https">&lt;a class="link" href="https://rmdhnreza.my.id/membuka-situs-terblokir-menggunakan-dns-over-https/" target="_blank" rel="nofollow noopener"
