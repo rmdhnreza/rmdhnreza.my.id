@@ -19,11 +19,23 @@
   }
 </script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GBWJJDDSHQ"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  function loadGTM() {
+      var script = document.createElement('script');
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=G-GBWJJDDSHQ';
+      script.async = true;
+      document.body.appendChild(script);
+  }
 
-  gtag('config', 'G-GBWJJDDSHQ');
+  function initializeGTM() {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-GBWJJDDSHQ');
+  }
+
+  window.onload = function() {
+      loadGTM();
+      initializeGTM();
+  };
 </script>

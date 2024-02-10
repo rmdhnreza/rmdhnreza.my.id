@@ -24,19 +24,7 @@ image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9k0x8HPWaXtoM
 ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9k0x8HPWaXtoM3QhaDyWxLdgFz7CF0Chq717tQHdHQ5qQarKpidJL2Q6QYEU7YMIrv_cVR0qpfd7Wv7ZJhPz48Kg9uMI9LdLCFWE_oB8xks83DwSk3eaxMTI2UMuGm2P2ihGT3qV125cbm4D9-j7PW9HMnnkQLO42sleFGXiGjMx5pD1aWk0Gzr55tPAE/s0-rw/firebase-logo.png
 ---
 
-{{< img 
-    defaultSrc="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgWk_6nKFe3xk28AtrUVfmqadWer4Fu-tuebVZEevXi2oyWpJzw8bknde1Ql_JfkQ6LxIxuxHvPKrpPVor0bcOGkPfof6ubTa5BoabGX6bw_Cak3YZvD0oqpeiMLX06hC14GKJRTgbL4B9TbmaaEH4xSmSWc_AA8L3FL5HMcEJc9DmDXGzsHBXvvwXf6x3/s845-rw/firebase.webp"
-    alt="Firebase" 
-    defaultWidth="845" 
-    defaultHeight="475" 
-    src360="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgWk_6nKFe3xk28AtrUVfmqadWer4Fu-tuebVZEevXi2oyWpJzw8bknde1Ql_JfkQ6LxIxuxHvPKrpPVor0bcOGkPfof6ubTa5BoabGX6bw_Cak3YZvD0oqpeiMLX06hC14GKJRTgbL4B9TbmaaEH4xSmSWc_AA8L3FL5HMcEJc9DmDXGzsHBXvvwXf6x3/s328-rw/firebase.webp"
-    src480="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgWk_6nKFe3xk28AtrUVfmqadWer4Fu-tuebVZEevXi2oyWpJzw8bknde1Ql_JfkQ6LxIxuxHvPKrpPVor0bcOGkPfof6ubTa5BoabGX6bw_Cak3YZvD0oqpeiMLX06hC14GKJRTgbL4B9TbmaaEH4xSmSWc_AA8L3FL5HMcEJc9DmDXGzsHBXvvwXf6x3/s448-rw/firebase.webp"
-    src720="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgWk_6nKFe3xk28AtrUVfmqadWer4Fu-tuebVZEevXi2oyWpJzw8bknde1Ql_JfkQ6LxIxuxHvPKrpPVor0bcOGkPfof6ubTa5BoabGX6bw_Cak3YZvD0oqpeiMLX06hC14GKJRTgbL4B9TbmaaEH4xSmSWc_AA8L3FL5HMcEJc9DmDXGzsHBXvvwXf6x3/s688-rw/firebase.webp"
-    src1024="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgWk_6nKFe3xk28AtrUVfmqadWer4Fu-tuebVZEevXi2oyWpJzw8bknde1Ql_JfkQ6LxIxuxHvPKrpPVor0bcOGkPfof6ubTa5BoabGX6bw_Cak3YZvD0oqpeiMLX06hC14GKJRTgbL4B9TbmaaEH4xSmSWc_AA8L3FL5HMcEJc9DmDXGzsHBXvvwXf6x3/s747-rw/firebase.webp"
-    src1366="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgWk_6nKFe3xk28AtrUVfmqadWer4Fu-tuebVZEevXi2oyWpJzw8bknde1Ql_JfkQ6LxIxuxHvPKrpPVor0bcOGkPfof6ubTa5BoabGX6bw_Cak3YZvD0oqpeiMLX06hC14GKJRTgbL4B9TbmaaEH4xSmSWc_AA8L3FL5HMcEJc9DmDXGzsHBXvvwXf6x3/s717-rw/firebase.webp"
-    size360="360px" size480="480px" size720="720px" size1024="1024px" size1366="1366px" width360="328" height360="184" width480="448" height480="252" width720="688" height720="387" width1024="747" height1024="420" width1024="717" height1024="420"
-    caption="Firebase" 
->}}
+![Firebase](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgWk_6nKFe3xk28AtrUVfmqadWer4Fu-tuebVZEevXi2oyWpJzw8bknde1Ql_JfkQ6LxIxuxHvPKrpPVor0bcOGkPfof6ubTa5BoabGX6bw_Cak3YZvD0oqpeiMLX06hC14GKJRTgbL4B9TbmaaEH4xSmSWc_AA8L3FL5HMcEJc9DmDXGzsHBXvvwXf6x3/s885-rw/firebase.webp)
 
 ## Apa itu Firebase
 
