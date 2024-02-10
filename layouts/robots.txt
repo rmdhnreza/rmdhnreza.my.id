@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /archives/
+Disallow: /categories/
+Disallow: /fonts/
+Disallow: /post/
+Disallow: /scss/
+Disallow: /search/
+Disallow: /search/index.json
+Disallow: /tags/
+Disallow: /ts/
+Sitemap: {{ .Sitemap.Filename | default "sitemap.xml" | absURL }}

@@ -1,0 +1,12 @@
+{{- $googleToken := .Get "googleToken" | default (.Get 0) -}}
+
+<div class="video-wrapper">
+    <iframe
+    loading="lazy"
+    allowfullscreen="allowfullscreen"
+    mozallowfullscreen="mozallowfullscreen"
+    webkitallowfullscreen="webkitallowfullscreen"
+    src="https://www.blogger.com/video.g?token={{ $googleToken }}"
+    >
+    </iframe>
+</div>

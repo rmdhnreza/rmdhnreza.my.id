@@ -1,0 +1,25 @@
+<ul class="breadcrumb article-category" itemscope itemtype="https://schema.org/BreadcrumbList">
+  {{ $.Scratch.Set "rmdhnreza" 1 }}
+  <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+    <a itemprop="item" href="/" itemscope itemtype="https://schema.org/WebPage">
+      <span itemprop="name">Home</span>
+      <meta itemprop="position" content="{{ $.Scratch.Get "rmdhnreza" }}" />  
+    </a>
+  </li> 
+  {{- with .Params.categories -}}
+    {{- range . -}}
+      {{ $.Scratch.Add "rmdhnreza" 1 }}
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}" itemscope itemtype="https://schema.org/CollectionPage">
+          <span itemprop="name">{{ . }}</span>
+        </a>
+        <meta itemprop="position" content="{{ $.Scratch.Get "rmdhnreza" }}" />
+      </li>
+    {{- end -}}
+  {{- end -}}
+  <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+    {{ $.Scratch.Add "rmdhnreza" 1 }}
+    <span style="display: none" class="bold__text" itemprop="name" itemscope itemtype="https://schema.org/Article">{{ .Params.title }}</span>
+    <meta itemprop="position" content="{{ $.Scratch.Get "rmdhnreza" }}" />
+  </li>
+</ul>

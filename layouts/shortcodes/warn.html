@@ -1,0 +1,32 @@
+<style>
+    @font-face {
+    font-family: "icons-boxes";
+    src: url("../fonts/icons-boxes.eot?bzmaom");
+    src: url("../fonts/icons-boxes.eot?bzmaom#iefix") format("embedded-opentype"),
+      url("../fonts/icons-boxes.ttf?bzmaom") format("truetype"),
+      url("../fonts/icons-boxes.woff?bzmaom") format("woff"),
+      url("../fonts/icons-boxes.svg?bzmaom#icomoon-notices") format("svg");
+    font-display: block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-transform: none;
+  }
+
+  .boxWarn:before {
+    color: #fff;
+    content: "\f05a";
+    font-family: "icons-boxes" !important;
+    font-size: 1.4em;
+  }
+
+  .boxWarn {
+    background-color: #f05959;
+    color: #fff !important;
+  }
+
+  </style>
+  <div class="styleInfo">
+    <p class="boxWarn">{{- .Inner | markdownify -}}</p>
+  </div>

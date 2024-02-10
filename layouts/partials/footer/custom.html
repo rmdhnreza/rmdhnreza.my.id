@@ -1,0 +1,29 @@
+<script>
+  // Service Workers
+  if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+        .register('/sw.js', { scope: '/' })
+        .then(() => {
+          console.info('rmdhnreza.my.id Service Worker Registered');
+        }, err => console.error("rmdhnreza.my.id Service Worker registration failed: ", err));
+
+      navigator.serviceWorker
+        .ready
+        .then(() => {
+          console.info('rmdhnreza.my.id Service Worker Ready');
+        });
+    }
+  } else {
+    console.warn('Service worker disabled on localhost.');
+  }
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GBWJJDDSHQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GBWJJDDSHQ');
+</script>

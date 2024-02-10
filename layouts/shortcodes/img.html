@@ -1,0 +1,12 @@
+{{- $alt := .Get "alt" -}}
+{{- $caption := .Get "caption" -}}
+
+<picture>
+    <source media="(max-width: 360px)" srcset="{{ .Get "src360" }}" sizes="{{ .Get "size360" }}">
+    <source media="(max-width: 480px)" srcset="{{ .Get "src480" }}" sizes="{{ .Get "size480" }}">
+    <source media="(max-width: 720px)" srcset="{{ .Get "src720" }}" sizes="{{ .Get "size720" }}">
+    <source media="(max-width: 1024px)" srcset="{{ .Get "src1024" }}" sizes="{{ .Get "size1024" }}">
+    <source media="(max-width: 1366px)" srcset="{{ .Get "src1366" }}" sizes="{{ .Get "size1366" }}">
+    <img style="margin-left: calc((var(--card-padding)) * -1); margin-right: calc((var(--card-padding)) * -1); width: calc(100% + var(--card-padding) * 2); max-width: none;" src="{{ .Get "defaultSrc" }}" alt="{{ $alt }}" width="{{ .Get "defaultWidth" }}" height="{{ .Get "defaultHeight" }}">
+</picture>
+{{ with $caption }}<figcaption>{{ . }}</figcaption>{{ end }}

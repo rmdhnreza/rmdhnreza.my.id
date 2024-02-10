@@ -1,0 +1,13 @@
+{{- $file := .Get "file" | default (.Get 0) -}}
+{{- $name := .Get "name" | default (.Get 1) -}}
+{{- $size := .Get "size" | default (.Get 2) -}}
+{{- $link := .Get "link" | default (.Get 3) -}}
+
+<div class="dlBox">
+  <span class="fileExtensions" data-text="{{ $file }}">{{ $file }}</span>
+  <div class="fileName">
+    <span>{{ $name }}</span>
+    <span class="fileSize">{{ $size }}</span>
+  </div>
+  <a class="dlboxButton" target="_blank" aria-label="Download" href="{{ $link }}">Downloads</a>
+</div>

@@ -1,0 +1,27 @@
+{{- $tabname := .Get "tabname" | default (.Get 0) -}}
+{{- $tabname1 := .Get "tabname1" | default (.Get 1) -}}
+{{- $tabcontent := .Get "tabcontent" | default (.Get 2) -}}
+{{- $tabcontent1 := .Get "tabcontent1" | default (.Get 3) -}}
+
+<div class="tab">
+  <div class="tabs tabs-tab-content">
+    <input id="tabs-contents-1" name="tabs-contents-3" type="radio" checked>
+    <label for="tabs-contents-1">{{ $tabname }}</label>
+    <input id="tabs-contents-2" name="tabs-contents-3" type="radio">
+    <label for="tabs-contents-2">{{ $tabname1 }}</label>
+    <div id="tabs-content-1" class="tabs-content">
+      <div style="text-align: center;">
+        <div class="tabs-iframe">
+          {{ $tabcontent }}
+        </div>
+      </div>
+    </div>
+    <div id="tabs-content-2" class="tabs-content">
+      <div style="text-align: center;">
+        <div class="tabs-iframe">
+          {{ $tabcontent1 }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

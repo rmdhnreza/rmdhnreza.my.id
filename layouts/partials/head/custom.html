@@ -1,0 +1,91 @@
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<meta name="apple-mobile-web-app-title" content="rmdhnreza.my.id - Blog Tutorial For Linux & Windows">
+<meta name="application-name" content="rmdhnreza.my.id - Blog Tutorial For Linux & Windows">
+<meta name="keywords" content="Tutorial, Windows, Linux, Android, Hack, Piracy, Privacy">
+
+{{ if .IsHome -}}
+{{- $description := partialCached "data/description" . .RelPermalink -}}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "{{ .Site.BaseURL }}",
+    "name": "{{ .Site.Title }}",
+    "description": "Blog Tutorial For Linux & Windows",
+    "thumbnailUrl": "{{ .Site.BaseURL }}/favicon-96x96.png",
+    "license": "{{ default .Site.Params.article.license.default .Params.license }}",
+    "inLanguage": "id-ID",
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "{{ .Site.BaseURL }}/search/?keyword={search_term_string}",
+        "query-input": "required name=search_term_string"
+    },
+    "sameAs": [
+        "https://github.com/rmdhnreza/rmdhnreza.my.id",
+        "https://rmdhnreza.firebaseapp.com",
+        "https://rmdhnreza.github.io",
+        "https://rmdhnreza.my.id",
+        "https://rmdhnreza.web.app"
+    ]
+}
+</script>
+{{ else if .IsPage }}
+{{ $author := or (.Params.author) (.Site.Author.name) }}
+{{ $org_name := .Site.Title }}
+{{ $ISO8601 := "2006-01-02T15:04:05-07:00" }}
+{{- $image := partialCached "helper/image" (dict "Context" . "Type" "section") .RelPermalink "section" -}}
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "name": "{{ .Title | safeJS }}",
+        "headline": "{{ .Title | safeJS }}",
+        "description": "{{- .Params.summary -}}",
+        "inLanguage":"id-ID",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{ .Permalink }}"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "rmdhnreza",
+            "url": "https://github.com/rmdhnreza"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "rmdhnreza"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "rmdhnreza"
+        },
+        "copyrightHolder" : "{{ $org_name }}",
+        "copyrightYear" : "{{ .Date.Format "2006" }}",
+        "datePublished": {{ (.Date.Format $ISO8601) }},
+        "dateModified" : {{ (.Lastmod.Format $ISO8601) | default (.Date.Format $ISO8601) }},
+        "publisher": {
+            "@type":"Organization",
+            "name": {{ $org_name }},
+            "url": {{ .Site.BaseURL }},
+            "logo": {
+                "@type": "ImageObject",
+                "url": "{{ .Site.BaseURL }}/favicon-96x96.png",
+                "width":"112",
+                "height":"112"
+            }
+        },
+        "image": {{ .Params.ThumbSchema | absURL }},
+        "url" : "{{ .Permalink }}",
+        "wordCount" : "{{ .WordCount }}",
+        "tag" : [{{ range $index, $tag := .Params.tags }}{{ if $index }}, {{ end }}"{{ $tag }}" {{ end }}],
+        "keywords" : [{{ range $index, $keywords := .Params.keywords }}{{ if $index }}, {{ end }}"{{ $keywords }}" {{ end }}],
+        "articleSection": [{{ range $index, $categories := .Params.categories }}{{ if $index }}, {{ end }}"{{ $categories }}" {{ end }}]
+    }
+</script>
+{{ end }}

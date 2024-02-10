@@ -1,0 +1,52 @@
+name: Deploy to Firebase Hosting
+
+on:
+  push:
+    branches:
+      - rmdhnreza.my.id
+  workflow_dispatch:
+    inputs:
+      git-ref:
+        description: Descriptions (Optional)
+        required: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '^1.22.0'
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: latest
+          extended: true
+
+      - uses: actions/cache@v3
+        with:
+          path: /home/runner/.cache/hugo_cache
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugomod-
+
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_RMDHNREZA }}'
+          channelId: live
+          projectId: rmdhnreza
