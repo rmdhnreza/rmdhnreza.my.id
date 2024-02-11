@@ -1,11 +1,11 @@
 <article>
   <a href="{{ .RelPermalink }}">
     <div class="article-details">
-      <h2 class="article-title">
+      <h2 class="article-title" role="link" aria-label="{{- .Title -}}">
         {{- .Title -}}
       </h2>
       {{ with .Params.summary }}
-        <span class="section-description">{{ . | truncate 75 }}</span>
+        <span class="section-description" aria-label="{{- . | truncate 75 -}}">{{- . | truncate 75 -}}</span>
       {{ end }}
       <footer class="article-time">
         <time class="time" datetime="{{ .PublishDate }}" title="{{ .PublishDate }}">{{ partial "helper/icon" "clock" }} {{ .Date | time.Format ":date_full" }}</time>

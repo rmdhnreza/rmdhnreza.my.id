@@ -38,9 +38,9 @@
   </header>
 
   {{- with .Site.Menus.social -}}
-      <ol class="social-menu" role="tablist">
+      <ol class="social-menu" role="list">
           {{ range . }}
-              <li>
+              <li role="listitem">
                   <a 
                       href='{{ .URL }}'
                       {{ if eq (default true .Params.newTab) true }}target="_blank"{{ end }}
@@ -89,7 +89,7 @@
           {{ end }}
           
           {{ if (default false .Site.Params.colorScheme.toggle) }}
-              <li id="dark-mode-toggle" role="listitem" aria-checked="false" tabindex="0" aria-label="{{ T "darkMode" }}">
+              <li id="dark-mode-toggle" role="listitem" tabindex="0" aria-label="{{ T "darkMode" }}">
                   {{ partial "helper/icon" "toggle-left" }}
                   {{ partial "helper/icon" "toggle-right" }}
                   <span>{{ T "darkMode" }}</span>
