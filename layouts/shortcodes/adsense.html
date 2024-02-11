@@ -10,3 +10,35 @@
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+<script defer>
+  window.addEventListener("DOMContentLoaded", function() {
+    try {
+      var iframes = document.querySelectorAll(
+        'iframe[src*="https://googleads.g.doubleclick.net"], iframe[data-google-container-id]'
+      );
+
+      iframes.forEach(function(iframe) {
+        iframe.setAttribute("title", "google ads");
+        iframe.setAttribute("role", "banner");
+
+        if (iframe.hasAttribute("data-google-container-id") && iframe.complete) {
+          setAttributes(iframe);
+        } else {
+          iframe.addEventListener("load", function() {
+            setAttributes(iframe);
+          });
+        }
+      });
+
+      function setAttributes(iframe) {
+        var containerId = iframe.getAttribute("data-google-container-id");
+        iframe.setAttribute("title", "google ads");
+        iframe.setAttribute("role", "banner");
+      }
+    } catch (error) {
+      // Handle any errors that occur during the execution of the code
+      console.error("An error occurred:", error);
+    }
+  });
+</script>
