@@ -4,6 +4,7 @@
   "paginate":10,
   "title":"rmdhnreza.my.id",
   "DefaultContentLanguage":"id",
+  "enableGitInfo":true,
   "enableRobotsTXT":true,
   "canonifyURLs":true,
   "enableEmoji":true,
