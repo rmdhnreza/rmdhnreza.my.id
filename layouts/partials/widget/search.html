@@ -4,7 +4,7 @@
     <form role="search" action="{{ $searchPage.RelPermalink }}" class="search-form widget" {{ with .OutputFormats.Get "json" -}}data-json="{{ .Permalink }}" {{- end }}>
         <p>
             <label aria-label="{{ T "search.title" }}">{{ T "search.title" }}</label>
-            <input type="search" aria-label="{{ T `search.placeholder` }}" name="keyword" required placeholder="{{ T `search.placeholder` }}" />
+            <input accesskey="s" type="search" aria-label="{{ T `search.placeholder` }}" name="keyword" required placeholder="{{ T `search.placeholder` }}" />
         
             <button role="button" type="submit" title="{{ T `search.title` }}">
                 {{ partial "helper/icon" "search" }}

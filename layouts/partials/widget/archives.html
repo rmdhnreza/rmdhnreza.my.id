@@ -3,17 +3,17 @@
 {{- $limit := default 5 .Params.limit -}}
 {{- if $query -}}
   {{- $archivesPage := index $query 0 -}}
-  <section role="archive" class="widget archives">
+  <section class="widget archives" role="group">
     <h2 class="widget-title section-title" aria-label="{{ T "widget.archives.title" }}" aria-describedby="archives-year">{{ partial "helper/icon" "archives" }} {{ T "widget.archives.title" }}</h2>
     {{ $pages := where $context.Site.RegularPages "Type" "in" $context.Site.Params.mainSections }}
     {{ $notHidden := where $context.Site.RegularPages "Params.hidden" "!=" true }}
     {{ $filtered := ($pages | intersect $notHidden) }}
     {{ $archives := $filtered.GroupByDate "2006" }}
-    <div role="list" class="widget-archive--list">
+    <div role="treeitem" class="widget-archive--list">
       {{ range $index, $item := first (add $limit 1) ($archives) }}
         {{- $id := lower (replace $item.Key " " "-") -}}
-        <div role="listitem" class="archives-year">
-          <a aria-label="{{ $archivesPage.RelPermalink }}#{{ $id }}" href="{{ $archivesPage.RelPermalink }}#{{ $id }}">
+        <div role="list" class="archives-year">
+          <a role="listitem" aria-label="{{ $archivesPage.RelPermalink }}#{{ $id }}" href="{{ $archivesPage.RelPermalink }}#{{ $id }}">
             {{ if eq $index $limit }}
               <span aria-label="{{ T "widget.archives.more" }}" class="year">{{ T "widget.archives.more" }}</span>
             {{ else }}
