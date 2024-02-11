@@ -1,27 +1,27 @@
 <nav aria-label="Breadcrumb">
   <ol class="breadcrumb article-category" itemscope itemtype="https://schema.org/BreadcrumbList" role="list">
-    {{ $.Scratch.Set "rmdhnreza" 1 }}
+    {{ $.Scratch.Set "position" 1 }}
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" role="listitem">
-      <a itemprop="item" href="/" itemscope itemtype="https://schema.org/WebPage" tabindex="0">
+      <a itemprop="item" href="/" tabindex="0">
         <span itemprop="name" aria-label="Home" tabindex="-1">Home</span>
-        <meta itemprop="position" content="{{ $.Scratch.Get "rmdhnreza" }}" />  
+        <meta itemprop="position" content="{{ $.Scratch.Get "position" }}" />  
       </a>
     </li> 
     {{- with .Params.categories -}}
       {{- range . -}}
-        {{ $.Scratch.Add "rmdhnreza" 1 }}
+        {{ $.Scratch.Add "position" 1 }}
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" role="listitem">
-          <a itemprop="item" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}" itemscope itemtype="https://schema.org/CollectionPage" tabindex="0">
+          <a itemprop="item" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}" tabindex="0">
             <span itemprop="name" aria-label="{{ . }}" tabindex="-1">{{ . }}</span>
           </a>
-          <meta itemprop="position" content="{{ $.Scratch.Get "rmdhnreza" }}" />
+          <meta itemprop="position" content="{{ $.Scratch.Get "position" }}" />
         </li>
       {{- end -}}
     {{- end -}}
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      {{ $.Scratch.Add "rmdhnreza" 1 }}
-      <span style="display: none" class="bold__text" itemprop="name" itemscope itemtype="https://schema.org/Article" aria-label="{{ .Params.title }}" aria-current="page" tabindex="-1">{{ .Params.title }}</span>
-      <meta itemprop="position" content="{{ $.Scratch.Get "rmdhnreza" }}" />
+      {{ $.Scratch.Add "position" 1 }}
+      <span style="display: none" class="bold__text" aria-label="{{ .Params.title }}" aria-current="page" tabindex="-1">{{ .Params.title }}</span>
+      <meta itemprop="position" content="{{ $.Scratch.Get "position" }}" />
     </li>
   </ol>
 </nav>
