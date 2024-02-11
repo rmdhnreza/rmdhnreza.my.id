@@ -2,9 +2,9 @@
 {{- $limit := default 10 .Params.limit -}}
 <section class="widget tagCloud" >
   <h2 class="widget-title section-title" aria-label="{{ T "widget.tagCloud.title" }}" >{{ partial "helper/icon" "tags" }} {{ T "widget.tagCloud.title" }}</h2>
-  <div class="tagCloud-tags" role="group">
+  <div class="tagCloud-tags" role="list">
     {{ range first $limit $context.Site.Taxonomies.tags.ByCount }}
-      <a href="{{ .Page.RelPermalink }}" class="font_size_{{ .Count }}" role="treeitem" aria-label="{{ .Page.Title }}">
+      <a href="{{ .Page.RelPermalink }}" class="font_size_{{ .Count }}" role="listitem" aria-label="{{ .Page.Title }}">
         {{ .Page.Title }}
       </a>
     {{ end }}

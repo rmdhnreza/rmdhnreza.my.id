@@ -9,10 +9,10 @@
     {{ $notHidden := where $context.Site.RegularPages "Params.hidden" "!=" true }}
     {{ $filtered := ($pages | intersect $notHidden) }}
     {{ $archives := $filtered.GroupByDate "2006" }}
-    <div role="group" class="widget-archive--list">
+    <div role="list" class="widget-archive--list">
       {{ range $index, $item := first (add $limit 1) ($archives) }}
         {{- $id := lower (replace $item.Key " " "-") -}}
-        <div role="treeitem" class="archives-year">
+        <div role="listitem" class="archives-year">
           <a aria-label="{{ $id }}" href="{{ $archivesPage.RelPermalink }}#{{ $id }}">
             {{ if eq $index $limit }}
               <span aria-label="{{ T "widget.archives.more" }}" class="year">{{ T "widget.archives.more" }}</span>
