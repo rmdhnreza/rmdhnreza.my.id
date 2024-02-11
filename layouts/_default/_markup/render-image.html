@@ -4,10 +4,6 @@
 {{- $Width := 0 -}}
 {{- $Height := 0 -}}
 {{- $Srcset := "" -}}
-{{- $verysmall := "" -}}
-{{- $small := "" -}}
-{{- $medium := "" -}}
-{{- $big := "" -}}
 
 {{/* SVG and external images won't work with gallery layout, because their width and height attributes are unknown */}}
 {{- $galleryImage := false -}}
@@ -22,33 +18,31 @@
         {{- $galleryImage = true -}}
 
         {{- if (default true .Page.Site.Params.imageProcessing.content.enabled) -}}
-            {{- $verysmall = $image.Resize `360x` -}}
-            {{- $small = $image.Resize `480x` -}}
-            {{- $medium = $image.Resize `720x` -}}
-            {{- $big = $image.Resize `1024x` -}}
-            {{- if and $verysmall $small $medium $big -}}
-                {{- $Srcset = printf `%s 360w, %s 480w, %s 720w, %s 1024w` $verysmall.RelPermalink $small.RelPermalink $medium.RelPermalink $big.RelPermalink -}}
+            {{- $small := $image.Resize `480x` -}}
+            {{- if $small -}}
+                {{- $big := $image.Resize `1024x` -}}
+                {{- $Srcset = printf `%s 480w, %s 1024w` $small.RelPermalink $big.RelPermalink -}}
+            {{- else -}}
+                {{- $Srcset = $Permalink -}}
             {{- end -}}
         {{- end -}}
     {{- end -}}
 {{- end -}}
 
-<figure itemscope itemtype="https://schema.org/ImageObject" class="{{if $galleryImage}}gallery-image{{end}}" style="{{if $galleryImage}}flex-grow: {{div (mul $image.Width 100) $image.Height}}; flex-basis: {{div (mul $image.Width 240) $image.Height}}px{{end}}">
-  <a target="_blank" href="{{ $Permalink }}" {{if $galleryImage}}data-size="{{ $image.Width }}x{{ $image.Height }}" {{end}}>
-    <picture>
-      {{with $verysmall}}
-        <source srcset="{{ .RelPermalink }}" media="(max-width: 480px)" loading="lazy">
-      {{end}}
-      {{with $small}}
-        <source srcset="{{ .RelPermalink }}" media="(max-width: 720px)" loading="lazy">
-      {{end}}
-      {{with $medium}}
-        <source srcset="{{ .RelPermalink }}" media="(max-width: 1024px)" loading="lazy">
-      {{end}}
-      <img loading="lazy" itemprop="image" {{with $Width}}width="{{ . }}" {{end}} {{with $Height}}height="{{ . }}" {{end}} itemprop="contentUrl" src="{{ $Permalink }}" alt="{{ $alt }}">
-    </picture>
-  </a>
-  {{with $alt}}
-    <figcaption itemprop="name">{{ . | markdownify }}</figcaption>
-  {{end}}
-</figure>
+<img src="{{ $Permalink }}"
+    {{ with $Width }}width="{{ . }}"{{ end }}
+    {{ with $Height }}height="{{ . }}"{{ end }}
+    {{ with $Srcset }}srcset="{{ . }}"{{ end }}
+    loading="lazy"
+    {{ with $alt }}
+        alt="{{ . }}"
+    {{ end }}
+    {{ if $galleryImage }}
+        class="gallery-image" 
+        data-flex-grow="{{ div (mul $image.Width 100) $image.Height }}"
+        data-flex-basis="{{ div (mul $image.Width 240) $image.Height }}px"
+    {{ end }}
+    itemprop="image"
+    itemscope
+    itemtype="http://schema.org/ImageObject"
+>
