@@ -261,6 +261,50 @@
   }
 }
 
+.socialShare {
+  display: flex;
+  padding: var(--card-padding);
+  padding-top: 0;
+  @include tag(span) .socialInfo {
+    color: var(--card-text-color-main);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0.5em 0 0;
+  }
+  @at-root .socialButton {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 0.5em;
+    @include tag(a) .socialLinksFacebook {
+      color: #fff;
+      background-color: #1778f2;
+      padding: 8px 16px;
+      border-radius: var(--tag-border-radius);
+      display: flex;
+      font-size: 1.4rem;
+      transition: background-color 0.5s;
+      gap: 0.5rem;
+      justify-content: center;
+    }
+    @include tag(a) .socialLinksTwitter {
+      color: #fff;
+      background-color: #1da1f2;
+      padding: 8px 16px;
+      border-radius: var(--tag-border-radius);
+      display: flex;
+      font-size: 1.4rem;
+      transition: background-color 0.5s;
+      gap: 0.5rem;
+      justify-content: center;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    display: grid;
+    grid-row-gap: 0.5em;
+  }
+}
+
 .tagCloud {
   .tagCloud-tags {
     a {
