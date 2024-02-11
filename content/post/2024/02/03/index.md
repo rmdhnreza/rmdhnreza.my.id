@@ -24,8 +24,6 @@ image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9k0x8HPWaXtoM
 ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9k0x8HPWaXtoM3QhaDyWxLdgFz7CF0Chq717tQHdHQ5qQarKpidJL2Q6QYEU7YMIrv_cVR0qpfd7Wv7ZJhPz48Kg9uMI9LdLCFWE_oB8xks83DwSk3eaxMTI2UMuGm2P2ihGT3qV125cbm4D9-j7PW9HMnnkQLO42sleFGXiGjMx5pD1aWk0Gzr55tPAE/s0-rw/firebase-logo.png
 ---
 
-![Firebase](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgWk_6nKFe3xk28AtrUVfmqadWer4Fu-tuebVZEevXi2oyWpJzw8bknde1Ql_JfkQ6LxIxuxHvPKrpPVor0bcOGkPfof6ubTa5BoabGX6bw_Cak3YZvD0oqpeiMLX06hC14GKJRTgbL4B9TbmaaEH4xSmSWc_AA8L3FL5HMcEJc9DmDXGzsHBXvvwXf6x3/s885-rw/firebase.webp)
-
 ## Apa itu Firebase
 
 Firebase adalah platform pengembangan aplikasi mobile dan web yang dimiliki oleh Google. Firebase menyediakan berbagai layanan dan alat untuk membantu pengembang dalam membuat, mengelola, dan mengoptimalkan aplikasi. Berikut adalah beberapa fitur utama Firebase:

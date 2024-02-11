@@ -11,6 +11,7 @@
   --note-background-color: #8caaee;
   --note-text-color: #000;
   --link-color: rgb(26, 13, 171);
+  --line-color: #000;
 
   &[data-scheme='dark'] {
     --body-background: #1e1e2e;
@@ -27,6 +28,7 @@
     --link-color: #ffd9a5;
     --note-background-color: #89b4fa;
     --note-text-color: #000;
+    --line-color: #fff;
 }
   --thumbSize: 80px;
   --gapsPadding: 15px;
