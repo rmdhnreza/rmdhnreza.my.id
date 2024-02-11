@@ -35,12 +35,15 @@
       margin-right: calc((var(--card-padding)) * -1);
       width: calc(100% + var(--card-padding) * 2);
       background-color: var(--heading-background-color);
-      color: var(--note-text-color);
+      color: var(--heading-text-color);
       padding: var(--small-card-padding);
       display: flex;
       align-items: center;
       justify-content: center;
       border-inline-start: 0;
+  }
+  .copyCodeButton {
+    top: calc(var(--card-padding) - 11px);
   }
   .highlight {
     padding: 0;
@@ -89,6 +92,21 @@
       @media (max-width: 752px) {
         padding: var(--small-card-padding);
         padding-top: 0;
+      }
+      a {
+        background: var(--categories-color);
+      box-shadow: var(--shadow-l1);
+      border-radius: var(--tag-border-radius);
+      padding: 8px 20px;
+      color: var(--categories-text-color);
+      font-size: 1.4rem;
+      transition: box-shadow 0.3s ease;
+      border: 1px solid var(--categories-border-color);
+      &:hover {
+        background: var(--categories-color);
+        color: var(--categories-text-color);
+        box-shadow: var(--shadow-l2);
+      }
       }
     }
     & .article-title {
@@ -148,22 +166,16 @@
     display: block;
   }
   & .lnt {
-    margin-right: 0.4em;
-    padding: 0 0.4em 0 0.4em;
+    margin-right: 1.2em !important;
+    padding: 0 !important;
     display: block;
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
   }
   & .ln {
-    margin-right: 0;
-    padding: 0 1em 0 0;
-  }
-  & .ge {
-    font-style: italic;
-  }
-  & .gs {
-    font-weight: bold;
+    margin-right: 0 !important;
+    padding: 0 !important;
   }
 }
 
@@ -273,6 +285,11 @@
   }
 }
 
+a.link {
+  color: var(--link-color);
+  font-weight: 700;
+}
+
 nav#TableOfContents ol {
   counter-reset: item;
   list-style-type: none;
@@ -304,6 +321,8 @@ ol.breadcrumb {
       transition: box-shadow 0.3s ease;
       border: 1px solid var(--categories-border-color);
       &:hover {
+        background: var(--categories-color);
+        color: var(--categories-text-color);
         box-shadow: var(--shadow-l2);
       }
     }
