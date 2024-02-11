@@ -61,6 +61,9 @@
     & > a {
       padding: 0;
     }
+    &:not(:last-of-type) {
+      border-bottom: 1.5px solid var(--border-color);
+    }
     & .article-details {
       display: flex;
       flex-grow: 0;
