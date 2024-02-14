@@ -24,7 +24,7 @@ keywords:
 description: 'Install v2ray Websocket TLS CDN Ubuntu'
 summary: 'Install v2ray Websocket TLS CDN Ubuntu'
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsq5qCD4I90uIzNOHH1GnE1NG1ytTgb-sNPOGRPNWQl0LZk-Ndm6ew4jLXm2ELpvz0axp0nYwbgD_pYTV5eh4c8WQUXF6Cf-8H3J6scIxqyj8N4GjOpgamf5V9oWsr1-GFJ0lGt9C8xMxGVnPyLKZkONVVFFE3rsIq-wUaGtDQVHjDfb2cCkFlOZBTIJ0O/s80-rw/v2ray-logo.jpg
-ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsq5qCD4I90uIzNOHH1GnE1NG1ytTgb-sNPOGRPNWQl0LZk-Ndm6ew4jLXm2ELpvz0axp0nYwbgD_pYTV5eh4c8WQUXF6Cf-8H3J6scIxqyj8N4GjOpgamf5V9oWsr1-GFJ0lGt9C8xMxGVnPyLKZkONVVFFE3rsIq-wUaGtDQVHjDfb2cCkFlOZBTIJ0O/s0-rw/v2ray-logo.jpg
+ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsq5qCD4I90uIzNOHH1GnE1NG1ytTgb-sNPOGRPNWQl0LZk-Ndm6ew4jLXm2ELpvz0axp0nYwbgD_pYTV5eh4c8WQUXF6Cf-8H3J6scIxqyj8N4GjOpgamf5V9oWsr1-GFJ0lGt9C8xMxGVnPyLKZkONVVFFE3rsIq-wUaGtDQVHjDfb2cCkFlOZBTIJ0O/s0/v2ray-logo.jpg
 ---
 
 ## V2Ray
@@ -55,29 +55,29 @@ Disini saya akan menggunakan domain gratis dari freenom yaitu `rmdhnreza.tk`
 
 1                          | 2
 :-------------------------:|:-------------------------:
-![Add Site](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOjYqgCV9KAopub95HP84de946fhQvhijebeg_uWLDFpehWIK_kNaGDnNL9ASsaYp504bcYhmKznYwlBaKebOptVyCG8N74OlxRmcZwkP1bbYpQZFpXDB90Mrh0YzfR1HGKWlVlEMuYrrWSIETdLDpkGUUdJdAbuTzmpZ5qMGJax105L9WOUKynLakTSzG/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.2.jpg) | ![Free Plan](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDmvl4hPykoXcizof4OmoLjTdb3kJAf-fqHyL9SIZLC_Wcf1Bq1xYq4jJSr96ZQHuVhVzJdSpXbKsXd47d9oPF04twvN-qnXVi5x7rOZ7s53tkXBYFalW-i6tV9MbuYF8dj0dvsa_MRVBvAq1l5JDQGGe6s-HgOvBvfa_NhFFxqtpLH5hRKrdjO5EAhssN/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.3.jpg)
+![Add Site](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOjYqgCV9KAopub95HP84de946fhQvhijebeg_uWLDFpehWIK_kNaGDnNL9ASsaYp504bcYhmKznYwlBaKebOptVyCG8N74OlxRmcZwkP1bbYpQZFpXDB90Mrh0YzfR1HGKWlVlEMuYrrWSIETdLDpkGUUdJdAbuTzmpZ5qMGJax105L9WOUKynLakTSzG/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.2.jpg) | ![Free Plan](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDmvl4hPykoXcizof4OmoLjTdb3kJAf-fqHyL9SIZLC_Wcf1Bq1xYq4jJSr96ZQHuVhVzJdSpXbKsXd47d9oPF04twvN-qnXVi5x7rOZ7s53tkXBYFalW-i6tV9MbuYF8dj0dvsa_MRVBvAq1l5JDQGGe6s-HgOvBvfa_NhFFxqtpLH5hRKrdjO5EAhssN/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.3.jpg)
 
 2. Untuk DNS, jika kosong seperti ini cukup klik ***Continue*** saja. Nanti akan muncul *pop up* ***Add records later*** kalian klik saja ***Confirm***
 
 1                          |  2
 :-------------------------:|:-------------------------:
-![DNS Record](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-TXUtMZVMP0st02PMTI2kNdE3e35AUBf-zQfG0FKYMjb2caeXKgEU5rzzCS4MmLgkBd3PV_U94-nreZDRdwG0v4Km0Z2EZy1v4o1Hn6FhRcUblAiaszUY6Na3TaBh3i5e9yvpFQVVO15tRQBmBZmOr5jql28lBQ63Opln3GDq-U7yy27hGcnVO9NINprx/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.4.jpg) | ![Confirm](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLYMOCrTBLLb3HeS1wrqlqgiCAtOiLeLlqZP1e-tbBseUabdM7R2utk818ElxLHM_mVGTiAqHd9pLT_QuGcXqxhpE-yPxHJlJ3Qh9WdGzfBxlli6tKCHfM2pwj9jF4dtZMSHOJeTFv0xr_JNtBx1jvlOMnlD3XfxTkO7hEdtBjtADf_AwMompIhlV21OF1/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.5.jpg)
+![DNS Record](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-TXUtMZVMP0st02PMTI2kNdE3e35AUBf-zQfG0FKYMjb2caeXKgEU5rzzCS4MmLgkBd3PV_U94-nreZDRdwG0v4Km0Z2EZy1v4o1Hn6FhRcUblAiaszUY6Na3TaBh3i5e9yvpFQVVO15tRQBmBZmOr5jql28lBQ63Opln3GDq-U7yy27hGcnVO9NINprx/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.4.jpg) | ![Confirm](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLYMOCrTBLLb3HeS1wrqlqgiCAtOiLeLlqZP1e-tbBseUabdM7R2utk818ElxLHM_mVGTiAqHd9pLT_QuGcXqxhpE-yPxHJlJ3Qh9WdGzfBxlli6tKCHfM2pwj9jF4dtZMSHOJeTFv0xr_JNtBx1jvlOMnlD3XfxTkO7hEdtBjtADf_AwMompIhlV21OF1/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.5.jpg)
 
 3. Pointing *nameserver* dari cloudflare ke domain kalian, jika sudah klik ***Done, check nameserver***
 
 1             |  2
 :-------------------------:|:-------------------------:
-![Nameserver Cloudflare](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8xT1NBNjeuK5Gk4-50oQ5oFW3s5pQakA1dmq_nYn1_H9uyJRjsJ11J0NqJO-qcCAhpvAKrnlfUy7q5DZmrkNvelL0zS3al3SnDgLz1R7PJSoHCw1Dg6em5ZC4JjHZ9kaUGBSFK5nuxh0Qzp72X3kAh_eMvTQ20DEBJdqBO7YVlvqjdZ0tLv7srEc2eghl/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.6.jpg) | ![Nameserver Domain](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh760d7FaHCfLp3pSrV4K8mcKVO7YVRwMacNvdKRnR_G4ZSagfbcSKFx88Hxokqcz7LTaMnDHhgcgP7a6o6qFGfTvxDJsLTtYSVR3Y6FOlraZzb3WT710b_v12esxHJZxrg49EzOpOiY_uC3S73M8JlEw9C4Bo86LaRdrmC7vRUMqKejJ4Aa9bFfuvoBdNA/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.7.jpg)
+![Nameserver Cloudflare](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8xT1NBNjeuK5Gk4-50oQ5oFW3s5pQakA1dmq_nYn1_H9uyJRjsJ11J0NqJO-qcCAhpvAKrnlfUy7q5DZmrkNvelL0zS3al3SnDgLz1R7PJSoHCw1Dg6em5ZC4JjHZ9kaUGBSFK5nuxh0Qzp72X3kAh_eMvTQ20DEBJdqBO7YVlvqjdZ0tLv7srEc2eghl/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.6.jpg) | ![Nameserver Domain](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh760d7FaHCfLp3pSrV4K8mcKVO7YVRwMacNvdKRnR_G4ZSagfbcSKFx88Hxokqcz7LTaMnDHhgcgP7a6o6qFGfTvxDJsLTtYSVR3Y6FOlraZzb3WT710b_v12esxHJZxrg49EzOpOiY_uC3S73M8JlEw9C4Bo86LaRdrmC7vRUMqKejJ4Aa9bFfuvoBdNA/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.7.jpg)
 
 4. Pada bagian ***Quick Start Guide*** kalian klik ***Finish later***
 
-![Klik Finish later](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRTj-OuYT9HTiy6HaizbZKKkmquCziedlv6TAGHXUIOIw5otR9z9Ay-31fjO2D6FK9mmvHT4X1bONGD4bgFnkP5Qrx0blQeWrfz90uyq1sQoR-zA7aC4wbpehglhnDvMHAh9Aho7Xr6v2rbpoEHKeD0yIITAEk6EKPYO9ZeFTKHEB3d2C4Esb8EiErKXYr/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.8.jpg)
+![Klik Finish later](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRTj-OuYT9HTiy6HaizbZKKkmquCziedlv6TAGHXUIOIw5otR9z9Ay-31fjO2D6FK9mmvHT4X1bONGD4bgFnkP5Qrx0blQeWrfz90uyq1sQoR-zA7aC4wbpehglhnDvMHAh9Aho7Xr6v2rbpoEHKeD0yIITAEk6EKPYO9ZeFTKHEB3d2C4Esb8EiErKXYr/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.8.jpg)
 
 5. Tunggu beberapa sampai domain kalian aktif, proses ini tidak membutuhkan waktu lama (kurang dari 10 menit). Pastikan saja langkah nomer 3 sudah benar.
 
 1                           |  2 | 3
 :-------------------------:|:-------------------------:|:-------------------------:
-![Domain Pending](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5-cNrasZQvD7u0wiT4WA9px99NeYzm0NMZx1x0d00rP00oeiJK5_7XCyCXoGoYI0JSyJvJmx2AmHjG9-V6VUaGC-EIsBIXms0VN4qEbErPLCSrDkeIkd8YZNzwhaZQQ8QGJhkHmzALXTQUWN5k0-U_fNW-yyhJmOd_dx9rYBQnJO3nyOyMkT1n2HEHkXW/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.9.jpg) | ![Domain Pending](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnt6MoOTlvFryAwAMf-qXCpxc0vRI3xSoATRbo6q2-sJRnNsD-A7eaY7kw4hkHT-BdFSx1vMz9-inm4AYbkpP1bfhHb6e8F6AXuOxUSVHFafi6h0ZSnW7Kmc8nmsFf4EKqNb8hKH7VvjpyNme5F9_SXfaywA3ue9cXCIk0dXZ9FZ4kMTns3xChqdSWf8xk/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.10.jpg) | ![Domain Aktif](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcw4H-UwW5R19kZnfRSLBwjUvWMo12PAQa9aei2K0yV9_P8Uq24LwFDjObEy65x2f9RJPk1Z4ZTitoyyMW9kaFNiacEKhi65I1TQT0koL5FZxUjWgksrwF8Vd8PVhVqauJ7BTAiTTJ2wBNAV4M7SK91cNb8H75gP63JHZHnYtSaq0gZICCGfhThmVuOPzp/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.11.jpg)
+![Domain Pending](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5-cNrasZQvD7u0wiT4WA9px99NeYzm0NMZx1x0d00rP00oeiJK5_7XCyCXoGoYI0JSyJvJmx2AmHjG9-V6VUaGC-EIsBIXms0VN4qEbErPLCSrDkeIkd8YZNzwhaZQQ8QGJhkHmzALXTQUWN5k0-U_fNW-yyhJmOd_dx9rYBQnJO3nyOyMkT1n2HEHkXW/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.9.jpg) | ![Domain Pending](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnt6MoOTlvFryAwAMf-qXCpxc0vRI3xSoATRbo6q2-sJRnNsD-A7eaY7kw4hkHT-BdFSx1vMz9-inm4AYbkpP1bfhHb6e8F6AXuOxUSVHFafi6h0ZSnW7Kmc8nmsFf4EKqNb8hKH7VvjpyNme5F9_SXfaywA3ue9cXCIk0dXZ9FZ4kMTns3xChqdSWf8xk/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.10.jpg) | ![Domain Aktif](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcw4H-UwW5R19kZnfRSLBwjUvWMo12PAQa9aei2K0yV9_P8Uq24LwFDjObEy65x2f9RJPk1Z4ZTitoyyMW9kaFNiacEKhi65I1TQT0koL5FZxUjWgksrwF8Vd8PVhVqauJ7BTAiTTJ2wBNAV4M7SK91cNb8H75gP63JHZHnYtSaq0gZICCGfhThmVuOPzp/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.11.jpg)
 
 6. Setelah aktif, masuk ke bagian DNS dan klik pada **Add Record**, Pointing **IP VPS** ke domain yang sudah di daftarkan, pada bagian **Proxy Status**, untuk sekarang pastikan kalian pilih **DNS Only**, tapi diakhir kita ubah ke **Proxied**
 
@@ -87,15 +87,15 @@ Disini saya akan menggunakan domain gratis dari freenom yaitu `rmdhnreza.tk`
 
 {{% note %}} Untuk "ray" kalian bisa ganti dengan apa saja. Intinya, ini adalah subdomain dan dipakai untuk host v2ray nantinya{{% /note %}}
 
-![Pointing IP VPS](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD9V01ELitd_m19yuRBz0pMh-Hgb4Za3MUepqC1e0YRUtEj8KfU-EV_V29V4fL4onawat4Qvf35Z723Mr7JVI0RnAeyInv16UBEwG_mbDPPDJzrPXSvjqxKtAZHf1aMDy-FJ3inVB1sMsqFSMTqCRAcUuc5xiqHvWYK8-E9ohifdZWYykoTqax8AEvEuMI/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.12.jpg)
+![Pointing IP VPS](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD9V01ELitd_m19yuRBz0pMh-Hgb4Za3MUepqC1e0YRUtEj8KfU-EV_V29V4fL4onawat4Qvf35Z723Mr7JVI0RnAeyInv16UBEwG_mbDPPDJzrPXSvjqxKtAZHf1aMDy-FJ3inVB1sMsqFSMTqCRAcUuc5xiqHvWYK8-E9ohifdZWYykoTqax8AEvEuMI/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.12.jpg)
 
 7. Masuk ke bagian **SSL/TLS** lalu pilih **Full**
 
-![Setting SSL/TLS](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk6RFVu87fwcSKJPehENrtZEmHmXvLDFhCAHFCKxzeoxw5DYlcMaL-UK7h4xtcB4snQiosgE1Vf1E9B7dHPgLiTGuWL4QfiCYeXFNjUWO3lhyKAY32bn-3geZFxEr7aHk3YIWZACogh9rqRZyMyx8Hko79M6cZyv8LvOCyM56Q80kWF9G35Uc5oYk_BCSP/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.13.jpg)
+![Setting SSL/TLS](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk6RFVu87fwcSKJPehENrtZEmHmXvLDFhCAHFCKxzeoxw5DYlcMaL-UK7h4xtcB4snQiosgE1Vf1E9B7dHPgLiTGuWL4QfiCYeXFNjUWO3lhyKAY32bn-3geZFxEr7aHk3YIWZACogh9rqRZyMyx8Hko79M6cZyv8LvOCyM56Q80kWF9G35Uc5oYk_BCSP/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.13.jpg)
 
 8. Masuk ke bagian **Edge Certificates** lalu settings **Minimum TLS Version** ke **TLS 1.2**
 
-![Minimum TLS Version](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLnQ2J_u3s1ntglMztv3nWroh4uC8V1PZnZH1vf6pb-JSKoBIQ5PSrFD66wt12F6KPSWfrd8Fe2vSC6ZWL20XKUfIsSgCi4cpP7cguGr8-Yq8jDVOhA0_zRPQKdO0eFnSPR-XRFCO2d0NZbVYxfueZAfSZZHPUsPPnFuC5B-wslgMu7uWq6r-t8Oy24kko/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.14.jpg)
+![Minimum TLS Version](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLnQ2J_u3s1ntglMztv3nWroh4uC8V1PZnZH1vf6pb-JSKoBIQ5PSrFD66wt12F6KPSWfrd8Fe2vSC6ZWL20XKUfIsSgCi4cpP7cguGr8-Yq8jDVOhA0_zRPQKdO0eFnSPR-XRFCO2d0NZbVYxfueZAfSZZHPUsPPnFuC5B-wslgMu7uWq6r-t8Oy24kko/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.14.jpg)
 
 ## Install V2Ray
 
@@ -117,7 +117,7 @@ sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y
 
 1             |  2
 :-------------------------:|:-------------------------:
-![Update System](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjdeUgJNeWOI5lRyvvJjNgWSe8bv7kYU6TQAQTqjzUyz7BvtaeODTaIW-HEfT36J_6d97xWftFhybaQC01bMdLbsWVbsVYfRlT32srnGkglYk_e4LozsdmYMwfmTJHiO1WuHqnVPb6yWftF3HOdbIj0oJCPtvjSn70clzPQQJK9Ja1Y8ayg01bIbBee8De/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.15.jpg) | ![Update System](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy0VrS6L6FmLfp_69-l3CgxL1FPJu1KZaa7yqt7fAVEVeb8c-shDeAVCD6tOizuYgqBMBOGVzKd7vJJLsyGrvLOtwZzB5PXD2tIOEw-w83wLO0ImqI0JwhklNrHgLhkFudBMBrKFLrCgn1JNEwnG1xlu87GYUojlZLqxz-2VaGLotjFj0w646tY7fTQBqo/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.16.jpg)
+![Update System](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjdeUgJNeWOI5lRyvvJjNgWSe8bv7kYU6TQAQTqjzUyz7BvtaeODTaIW-HEfT36J_6d97xWftFhybaQC01bMdLbsWVbsVYfRlT32srnGkglYk_e4LozsdmYMwfmTJHiO1WuHqnVPb6yWftF3HOdbIj0oJCPtvjSn70clzPQQJK9Ja1Y8ayg01bIbBee8De/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.15.jpg) | ![Update System](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy0VrS6L6FmLfp_69-l3CgxL1FPJu1KZaa7yqt7fAVEVeb8c-shDeAVCD6tOizuYgqBMBOGVzKd7vJJLsyGrvLOtwZzB5PXD2tIOEw-w83wLO0ImqI0JwhklNrHgLhkFudBMBrKFLrCgn1JNEwnG1xlu87GYUojlZLqxz-2VaGLotjFj0w646tY7fTQBqo/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.16.jpg)
 
 3. Jika kalian melakukan update Kernel, pastikan restart terlebih dahulu sebelum menjalankan script nya
 
@@ -125,7 +125,7 @@ sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y
 sudo reboot
 ```
 
-![Update System](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxuJjDw69oZDTvCo69PVqtb-rx4LNJGWOTRSOnuRCVQpXroEK0vHLsUKXGYBkLpI-j_CK3guE8cMXcqGMn7_IhjEF89t4hxdvbvGlED9xuolUkubiA2PfqL9YE-l1FeMgGZMdaG554Bj6pS1R5XWabLrEJgL_vPgr6f6eSy7jJGKN4Xj7ArZelQr1fkHII/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.17.jpg)
+![Update System](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxuJjDw69oZDTvCo69PVqtb-rx4LNJGWOTRSOnuRCVQpXroEK0vHLsUKXGYBkLpI-j_CK3guE8cMXcqGMn7_IhjEF89t4hxdvbvGlED9xuolUkubiA2PfqL9YE-l1FeMgGZMdaG554Bj6pS1R5XWabLrEJgL_vPgr6f6eSy7jJGKN4Xj7ArZelQr1fkHII/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.17.jpg)
 
 4. Download script berikut ini
 
@@ -139,7 +139,7 @@ wget "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh"
 bash install.sh
 ```
 
-![V2Ray script](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilu00TdTU3ke0Z3FJ3bLBHh8usUeFnRMiEWYEgEFZd0fH32nxKiYfeZVeZtojWIyS4eT7JeVBXNH0B8rJ_I6cW-dbZRkA-IDBWnpWW1V9sf7ArqxJxK6QB_NEJqncDtJ5smj3aOmTLNdZ3SnzkUUxvIBsekOdLuzfRyNc06bvnWE6PSbxxsBfUxtjL0zCY/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.18.jpg)
+![V2Ray script](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilu00TdTU3ke0Z3FJ3bLBHh8usUeFnRMiEWYEgEFZd0fH32nxKiYfeZVeZtojWIyS4eT7JeVBXNH0B8rJ_I6cW-dbZRkA-IDBWnpWW1V9sf7ArqxJxK6QB_NEJqncDtJ5smj3aOmTLNdZ3SnzkUUxvIBsekOdLuzfRyNc06bvnWE6PSbxxsBfUxtjL0zCY/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.18.jpg)
 
 6. Nanti muncul pilihan seperti ini dan kalian pilih nomor `1` lalu `Enter`
 
@@ -186,7 +186,7 @@ AFF捐赠：https://github.com/mack-a/v2ray-agent/blob/master/documents/donation
 请选择:1                   Please select:1
 ```
 
-![Install V2Ray](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiF9y-UF3lFMnb6tBrzS6GL_seRasF0t7IMiGFWKaSp-3cEAQseB_R3sZCpUvx9Ze_T_vcFNmxk-MR7NXQEsQj6EsgKr3ZtchZF6qt5545tJMODVx1TlBd6-FjG59UpT2TcSv102qNb6ehs9XHR1OCRdgHZ4BDTurMcxqqxaV3e4aMCUh7wgn-f28Rl2dow/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.19.jpg)
+![Install V2Ray](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiF9y-UF3lFMnb6tBrzS6GL_seRasF0t7IMiGFWKaSp-3cEAQseB_R3sZCpUvx9Ze_T_vcFNmxk-MR7NXQEsQj6EsgKr3ZtchZF6qt5545tJMODVx1TlBd6-FjG59UpT2TcSv102qNb6ehs9XHR1OCRdgHZ4BDTurMcxqqxaV3e4aMCUh7wgn-f28Rl2dow/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.19.jpg)
 
 7. Pilih **v2ray-core** nomor **2**
 
@@ -200,7 +200,7 @@ AFF捐赠：https://github.com/mack-a/v2ray-agent/blob/master/documents/donation
 请选择:2                    Please select:2
 ```
 
-![Install V2Ray](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvWJ0zmjln5ZeTtU4D7O_EcwBgwLQUlLVJOVjnTMy8oeykEvYMpT0HhmqyFEZVrSZ_5IRKmL55ntgGHABvQCVzguAZDpqFcmvk5sZRFlUvMaqF9rwYaMijXuxOXnJLmnzQmViBLVk-2KqjNZb_7D38Px0C3J0PC9vyBNNvgrjbxaZMJFGZascqyp63bBx3/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.20.jpg)
+![Install V2Ray](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvWJ0zmjln5ZeTtU4D7O_EcwBgwLQUlLVJOVjnTMy8oeykEvYMpT0HhmqyFEZVrSZ_5IRKmL55ntgGHABvQCVzguAZDpqFcmvk5sZRFlUvMaqF9rwYaMijXuxOXnJLmnzQmViBLVk-2KqjNZb_7D38Px0C3J0PC9vyBNNvgrjbxaZMJFGZascqyp63bBx3/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.20.jpg)
 
 Kita akan melihat penginstallan otomatis untuk dependency yang dibutuhkan
 
@@ -233,7 +233,7 @@ Executing: /lib/systemd/systemd-sysv-install enable nginx
  ---> 当前域名ip为:[167.172.92.148]               ---> The current domain name ip is: [167.172.92.148]
 ```
 
-![Install V2Ray](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgo9r5vk2MY49w-9RxzOcfTKWflnJEPceFWWreyFAxgQRj20O-4UmjokLbnK1ooyAquUD9XPT2Js-JG8UI_s0qV2XtjmHKMNS2dhB6r5_YIco8J0A3dDhMaEDSai_ml4Tz6adrIrR5qZCipD8w3_64EjmDBVkbeX_nIY2vSWpM3tHIS8CCzfYSgMUhOfRVV/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.21.jpg)
+![Install V2Ray](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgo9r5vk2MY49w-9RxzOcfTKWflnJEPceFWWreyFAxgQRj20O-4UmjokLbnK1ooyAquUD9XPT2Js-JG8UI_s0qV2XtjmHKMNS2dhB6r5_YIco8J0A3dDhMaEDSai_ml4Tz6adrIrR5qZCipD8w3_64EjmDBVkbeX_nIY2vSWpM3tHIS8CCzfYSgMUhOfRVV/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.21.jpg)
 
 9. Penginstallan TLS
 
@@ -257,7 +257,7 @@ Executing: /lib/systemd/systemd-sysv-install enable nginx
 path:v2ray                                               path:v2ray
 ```
 
-![Install V2Ray](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlV-qASMssMN4kLLUYXulIk28dAY2WDZJLjK5JbbScrN2jOnLQHLe-Vux-gArsRDtg0uFT2yiOBe_yfm78AgT_RJBDMiC5VU5AqbK3ibgAXpraqOfGQ-H5uNcrh9IYa3wK5Bt5wwlZ92b0wmqvxLaFFhfAtRlCaSKmOs859JI2um7zMWPozjHU1-4wplpE/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.22.jpg)
+![Install V2Ray](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlV-qASMssMN4kLLUYXulIk28dAY2WDZJLjK5JbbScrN2jOnLQHLe-Vux-gArsRDtg0uFT2yiOBe_yfm78AgT_RJBDMiC5VU5AqbK3ibgAXpraqOfGQ-H5uNcrh9IYa3wK5Bt5wwlZ92b0wmqvxLaFFhfAtRlCaSKmOs859JI2um7zMWPozjHU1-4wplpE/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.22.jpg)
 
 11. Pada bagian ini kalian pilih `www.cloudflare.com` nomor 2
 
@@ -287,7 +287,7 @@ https://github.com/mack-a/v2ray-agent/blob/master/documents/optimize_V2Ray.md
 请选择[回车不使用]:2                  Please select [Enter not used]: 2
 ```
 
-![Install V2Ray](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2uJZKxRNHLYEia4VtUPuHMSqrn9Q4CPLDGWQV3YyAQptfZYn5FrTCEuxcGlJc9EeNdj0K8wED39WMPFExYlGwnm1jwJanPSpvkXzRkViP4DxQbvHzkd3islHvuU4A7p3WeLEgGzE3Xqy4UD3OXkvr9PCW0WsGAcvg3aF7YZfQBWRnOfw8pwrCLV8jvrlP/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.23.jpg)
+![Install V2Ray](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2uJZKxRNHLYEia4VtUPuHMSqrn9Q4CPLDGWQV3YyAQptfZYn5FrTCEuxcGlJc9EeNdj0K8wED39WMPFExYlGwnm1jwJanPSpvkXzRkViP4DxQbvHzkd3islHvuU4A7p3WeLEgGzE3Xqy4UD3OXkvr9PCW0WsGAcvg3aF7YZfQBWRnOfw8pwrCLV8jvrlP/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.23.jpg)
 
 12. Customize UUID, jika kalian ingin menggunakan UUID kalian, bisa pilih `y` lalu masukan custom UUID kalian, tetapi disini saya pilih `n` jadi, UUID nya diisi otomatis.
 
@@ -403,15 +403,15 @@ https://github.com/mack-a/v2ray-agent/blob/master/documents/optimize_V2Ray.md
 
 {{< /spoiler >}}
 
-![Install V2Ray](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghADPvgfq9usmLiJfyt1O5gZzQPMU5w1grBZcYgQFxHBHd16BPygLhIGCUmpNhYSlfhIWFBbmuSJjl90gJefqL7XPtvdiythf6FAQQlA0IqZndy0rHSiyjCkcOCoWe5-BOkxTGv1VIb0pgcX3rjuqKN9SNGnp5UNMjc4mN61jNL2HQCxUh7sLwgpvKmPA1/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.24.jpg)
+![Install V2Ray](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghADPvgfq9usmLiJfyt1O5gZzQPMU5w1grBZcYgQFxHBHd16BPygLhIGCUmpNhYSlfhIWFBbmuSJjl90gJefqL7XPtvdiythf6FAQQlA0IqZndy0rHSiyjCkcOCoWe5-BOkxTGv1VIb0pgcX3rjuqKN9SNGnp5UNMjc4mN61jNL2HQCxUh7sLwgpvKmPA1/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.24.jpg)
 
 14. Kita pindah ke Cloudflare lagi, sekarang ubah Langkah 6 di Menambahkan Domain ke Cloudflare dari **DNS Only** menjadi **Proxied** dan **Save**.
 
-![Minimum TLS Version](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTqxcty1rQM4M6mWaTjsi5Kw8TxDzxfjeX30kFiQMrAThSB2eg4HuMQivcesMX5H_JTMCZ5cjnC_CfQFVoHlw5a8rqdHXoCdkI3IROf7vMc4BHW7ar1EshI2K0JqnTumJ6w9BmDiDfVWHGFiWjRDerzNzKkrSBxdkuLJVpB2dAwrlJ72HIrat4X7x_D-6h/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.25.jpg)
+![Minimum TLS Version](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTqxcty1rQM4M6mWaTjsi5Kw8TxDzxfjeX30kFiQMrAThSB2eg4HuMQivcesMX5H_JTMCZ5cjnC_CfQFVoHlw5a8rqdHXoCdkI3IROf7vMc4BHW7ar1EshI2K0JqnTumJ6w9BmDiDfVWHGFiWjRDerzNzKkrSBxdkuLJVpB2dAwrlJ72HIrat4X7x_D-6h/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.25.jpg)
 
 15. Jika berhasil, ketika kita buka `ray.rmdhnreza.tk` maka yang muncul adalah ***fake website***
 
-![Minimum TLS Version](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOq6QN-nR2rFeHLZsgtyFbkvHFOyG_pW2jNl_quBNcDQgzbvJzzjD4LlwKVEVHlYHHCiDQ3D4btBebxN94G3gtk0BYQdeyEod6NBcJwXUq35WDTbJmMB-PA6S_y-oeTTXybfOwo3I0DnYRxiQYAz9GjOWVlg-K0J4SSFBTS9d3VIhy1uYsecI8jWSB2diS/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.26.jpg)
+![Minimum TLS Version](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOq6QN-nR2rFeHLZsgtyFbkvHFOyG_pW2jNl_quBNcDQgzbvJzzjD4LlwKVEVHlYHHCiDQ3D4btBebxN94G3gtk0BYQdeyEod6NBcJwXUq35WDTbJmMB-PA6S_y-oeTTXybfOwo3I0DnYRxiQYAz9GjOWVlg-K0J4SSFBTS9d3VIhy1uYsecI8jWSB2diS/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.26.jpg)
 
 ## Test V2Ray
 Disini saya test akun **V2Ray** nya di Android menggunakan aplikasi **v2rayNG** memakai config `VMess WS TLS CDN`
@@ -424,15 +424,15 @@ Disini saya test akun **V2Ray** nya di Android menggunakan aplikasi **v2rayNG** 
 
 1             |  2
 :-------------------------:|:-------------------------:
-![v2rayNG](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkw-nLN9ptzt1_DiygZjMCq_lrh5V9D0uGdOMBm5JQF8yFpDsE2bXVbGBFpQvyKMp89ysWu3cJ6hiebeXpjhT-pvFP1SZuYjkHKQm0JgMhoRjh9254RvFqGaHw-1_0TJ3g3J3-U1eV7FQG9MtaFYSSR_JpvD2byyNU5qNMbBoaoE3n7_KPvIKzz_B7hGLO/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.27.jpg) | ![v2rayNG](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoxIGGsBfoHyewEJFHIsXhi4sCdwKp5kECnTY9BdOGQklSldV_fwqwkuUCwVzEFD-XVRmgv5xCrlPiuFMO2ue2aQb01La3BAN-VWoJ17GkDZaY_8m9qbW3fAQtfpiZ2evHwvX4ko1pf5eeR06yw6LURsrCpWlS0JsXz1GNynUkuAjeoUcTmxs4haTUqIMr/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.28.jpg)
+![v2rayNG](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkw-nLN9ptzt1_DiygZjMCq_lrh5V9D0uGdOMBm5JQF8yFpDsE2bXVbGBFpQvyKMp89ysWu3cJ6hiebeXpjhT-pvFP1SZuYjkHKQm0JgMhoRjh9254RvFqGaHw-1_0TJ3g3J3-U1eV7FQG9MtaFYSSR_JpvD2byyNU5qNMbBoaoE3n7_KPvIKzz_B7hGLO/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.27.jpg) | ![v2rayNG](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoxIGGsBfoHyewEJFHIsXhi4sCdwKp5kECnTY9BdOGQklSldV_fwqwkuUCwVzEFD-XVRmgv5xCrlPiuFMO2ue2aQb01La3BAN-VWoJ17GkDZaY_8m9qbW3fAQtfpiZ2evHwvX4ko1pf5eeR06yw6LURsrCpWlS0JsXz1GNynUkuAjeoUcTmxs4haTUqIMr/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.28.jpg)
 
 1             |  2
 :-------------------------:|:-------------------------:
-![v2rayNG](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGi1g9RTHgUvro7zDlLWh7EVYcKAmmrOTFb3ItNftqVwFCGBrnXmxm_Gg000u4JzKQs66zsQhyuFGMRMFn2vzO9oeqHSWjYXTbhATzU_HcI5Y_iR5zRw5IeDrwWWXcg10_CFfbD6sKe7Iz3-ojG9Oqi8J6o6yZ4NfVgCrYQ0fhVGrVK6_gadczb1mF6JK6/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.29.jpg) | ![v2rayNG](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiH0juU05vaWTleslpc6tztQuC9ktZEkOoq88QEq9qs-TFUtxX3uYeP4U9gflFMUIv1wjdhwZvo5YLx8erTeXFBg4OzvWI7m40RZQYp6GWQf5ShkQgQ2UicDtKHoLt7TFhffe_DOEFNEBpe6DhorWtuS5NGGCOERNvlbPGltjwdRy23YQwUvvuVfB9GTchz/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.30.jpg)
+![v2rayNG](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGi1g9RTHgUvro7zDlLWh7EVYcKAmmrOTFb3ItNftqVwFCGBrnXmxm_Gg000u4JzKQs66zsQhyuFGMRMFn2vzO9oeqHSWjYXTbhATzU_HcI5Y_iR5zRw5IeDrwWWXcg10_CFfbD6sKe7Iz3-ojG9Oqi8J6o6yZ4NfVgCrYQ0fhVGrVK6_gadczb1mF6JK6/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.29.jpg) | ![v2rayNG](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiH0juU05vaWTleslpc6tztQuC9ktZEkOoq88QEq9qs-TFUtxX3uYeP4U9gflFMUIv1wjdhwZvo5YLx8erTeXFBg4OzvWI7m40RZQYp6GWQf5ShkQgQ2UicDtKHoLt7TFhffe_DOEFNEBpe6DhorWtuS5NGGCOERNvlbPGltjwdRy23YQwUvvuVfB9GTchz/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.30.jpg)
 
 1             |  2
 :-------------------------:|:-------------------------:
-![v2rayNG](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPdXR1Yf8odlLoZ9Zyz2tl8h-KkG2ndwKfT4NDjTwhXCn8aK0NHtg9strQgqPCyAxNScHUhiaFiqsxHfWP15QV-lj5vXPSporq9jG0YgVRmURcIaIr64fZf7Vb_PViZNceqyhfPaE8OIfxu5Cajzv0Tsph2ntgomn3ichxBAmJ7pe0jFtDsV0VA8SiMpJb/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.31.jpg) | ![v2rayNG](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4tIRr2_B6-6Z_Fo7zPiu2VzNoNQQ9Pvo4glFrHU6y0r9hyphenhyphenZ3OfrZbnMHk4SAlXUmMT7r_ktdREoUTipbQmyDAqSN9mT2BMkaJPGNFtRHNDy_VKBCZJmXXWSSTR219EL1BSgKtnQgHOvDbHIAVIUCNLiaz-SZ6sSwburvW54U1Vv3aedfaqBzKlRu5-o1I/s0-rw/rmdhnreza.my.id.v2ray.websocket.tls.cdn.32.jpg)
+![v2rayNG](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPdXR1Yf8odlLoZ9Zyz2tl8h-KkG2ndwKfT4NDjTwhXCn8aK0NHtg9strQgqPCyAxNScHUhiaFiqsxHfWP15QV-lj5vXPSporq9jG0YgVRmURcIaIr64fZf7Vb_PViZNceqyhfPaE8OIfxu5Cajzv0Tsph2ntgomn3ichxBAmJ7pe0jFtDsV0VA8SiMpJb/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.31.jpg) | ![v2rayNG](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4tIRr2_B6-6Z_Fo7zPiu2VzNoNQQ9Pvo4glFrHU6y0r9hyphenhyphenZ3OfrZbnMHk4SAlXUmMT7r_ktdREoUTipbQmyDAqSN9mT2BMkaJPGNFtRHNDy_VKBCZJmXXWSSTR219EL1BSgKtnQgHOvDbHIAVIUCNLiaz-SZ6sSwburvW54U1Vv3aedfaqBzKlRu5-o1I/s0/rmdhnreza.my.id.v2ray.websocket.tls.cdn.32.jpg)
 
 ## Melihat Akun
 Untuk melihat akun kita bisa download lagi script nya

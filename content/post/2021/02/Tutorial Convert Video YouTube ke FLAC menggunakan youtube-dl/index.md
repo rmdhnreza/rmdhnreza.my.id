@@ -6,7 +6,7 @@ tags: ["Linux", "Windows", "Tutorial"]
 description: 'Tutorial kali ini saya akan share cara convert video atau music dari youtube ke format FLAC menggunakan yt-dlp.'
 summary: 'Tutorial kali ini saya akan share cara convert video atau music dari youtube ke format FLAC menggunakan yt-dlp.'
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3Enk7pEPNbHs3Nc_3AGoI0EvDyWh5wMJaRdp42bg0omn9ADFBtTVTKHb_-FfmiUp7pkDK33ip9ZZLLJ585ihKcKoOjkqdv5vT4FBdela_sNCmLBXFbPWxF3DD_9kS3U8qTNUWKu90X-m1jz_Lp3uN3b6Kq8_7q1N69lYQPZJgQ9JFIxCFkTO80iXcOeob/s80-rw/yt-dlp.png
-ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3Enk7pEPNbHs3Nc_3AGoI0EvDyWh5wMJaRdp42bg0omn9ADFBtTVTKHb_-FfmiUp7pkDK33ip9ZZLLJ585ihKcKoOjkqdv5vT4FBdela_sNCmLBXFbPWxF3DD_9kS3U8qTNUWKu90X-m1jz_Lp3uN3b6Kq8_7q1N69lYQPZJgQ9JFIxCFkTO80iXcOeob/s0-rw/yt-dlp.png
+ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3Enk7pEPNbHs3Nc_3AGoI0EvDyWh5wMJaRdp42bg0omn9ADFBtTVTKHb_-FfmiUp7pkDK33ip9ZZLLJ585ihKcKoOjkqdv5vT4FBdela_sNCmLBXFbPWxF3DD_9kS3U8qTNUWKu90X-m1jz_Lp3uN3b6Kq8_7q1N69lYQPZJgQ9JFIxCFkTO80iXcOeob/s0/yt-dlp.png
 ---
 
 {{% adsense %}}

@@ -7,7 +7,7 @@ tags: ["Android", "Linux", "Windows", "Tutorial"]
 description: 'Kali ini saya akan share cara Membuka Situs Terblokir Menggunakan DNS Over HTTPS atau biasa disingkat DoH, cara ini tidak menggunakan aplikasi pihak ketiga, seperti VPN atau yang lainnya, cara ini hanya membutuhkan Browser Up-to-Date.'
 summary: 'Kali ini saya akan share cara Membuka Situs Terblokir Menggunakan DNS Over HTTPS atau biasa disingkat DoH, cara ini tidak menggunakan aplikasi pihak ketiga, seperti VPN atau yang lainnya, cara ini hanya membutuhkan Browser Up-to-Date.'
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7G_GN-v6Qr48XUggyNQRzf84f12_b0IXt5IK3SnJ7cKPmoE-kADN9PiYDcPu7d9orm2XdnWaDsgFAdO2Tem_gUMIYKz2LTv76kOeVJUc1TYWdRKSk23xYreRFxjkHv_yRelm_xz3WsGOXujYCS-crK9lWS2CEw6G7Qew-aEkiLm9wotoBLLJ8SapdASCV/s80-rw/dns-logo.jpeg
-ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7G_GN-v6Qr48XUggyNQRzf84f12_b0IXt5IK3SnJ7cKPmoE-kADN9PiYDcPu7d9orm2XdnWaDsgFAdO2Tem_gUMIYKz2LTv76kOeVJUc1TYWdRKSk23xYreRFxjkHv_yRelm_xz3WsGOXujYCS-crK9lWS2CEw6G7Qew-aEkiLm9wotoBLLJ8SapdASCV/s0-rw/dns-logo.jpeg
+ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7G_GN-v6Qr48XUggyNQRzf84f12_b0IXt5IK3SnJ7cKPmoE-kADN9PiYDcPu7d9orm2XdnWaDsgFAdO2Tem_gUMIYKz2LTv76kOeVJUc1TYWdRKSk23xYreRFxjkHv_yRelm_xz3WsGOXujYCS-crK9lWS2CEw6G7Qew-aEkiLm9wotoBLLJ8SapdASCV/s0/dns-logo.jpeg
 ---
 
 {{% adsense %}}
@@ -19,7 +19,7 @@ Untuk Google Chrome sendiri sudah support DNS Over HTTPS di sistem operasi Windo
 1. Masuk ke bagian **Settings** (Klik titik 3 dibagian atas kanan lalu pilih settings)
 2. Pilih **Privacy and Security** (dibagian kiri) dan kalian Klik **Security**
 3. On kan **Use Secure DNS** kalian pilih **With:** lalu disana kalian pilih DNS yang kalian pakai
-![Dns Over HTTPS Chrome](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCE5-vZFuVWDLULVJNiXN4YlO8U_MBg3H3jjiu7hf7bFgoGb4faJKn9XGH8AqnvbUrkLQf3R_gfcSXezisx3BEE1BKNd6gu2bP2kE-AhDea4s7cu6cD3sgpvjhZRVn0bfbU2NTHvX09V4BJE0NtklvS3raWr9Zwn2FV4dJbGBmgVEVDf0auYuOFGRItqV5/s0-rw/DoH_Option%201)
+![Dns Over HTTPS Chrome](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCE5-vZFuVWDLULVJNiXN4YlO8U_MBg3H3jjiu7hf7bFgoGb4faJKn9XGH8AqnvbUrkLQf3R_gfcSXezisx3BEE1BKNd6gu2bP2kE-AhDea4s7cu6cD3sgpvjhZRVn0bfbU2NTHvX09V4BJE0NtklvS3raWr9Zwn2FV4dJbGBmgVEVDf0auYuOFGRItqV5/s0/DoH_Option%201)
 
 {{% adsense %}}
 
@@ -49,7 +49,7 @@ Untuk Microsoft Edge sendiri sudah support **DNS Over HTTPS** di sistem operasi 
 3. On kan **Use Secure DNS** kalian pilih **Choose a service provider** klik kolomnya lalu disana kalian pilih DNS yang kalian pakai
 
 
-![Dns Over HTTPS Microsoft Edge](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhven61BUdvXcpvRdW2Qw9-IoJi_iQPvNPXTYgT8glA_KJvMyDPYpaBFJ6GpFDNraLGPHXtJZM6biU9whb42fx-bdnHyArSveV2hu9GstaCiEtBcdPm3oR3BgymE5EdUAxR3-c-yErklxUtgEtPaKpD05z9AS-8NyYJ7OdUUCnUWljt-9PP_Wdl2c2E521z/s0-rw/doh-edge.jpg)
+![Dns Over HTTPS Microsoft Edge](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhven61BUdvXcpvRdW2Qw9-IoJi_iQPvNPXTYgT8glA_KJvMyDPYpaBFJ6GpFDNraLGPHXtJZM6biU9whb42fx-bdnHyArSveV2hu9GstaCiEtBcdPm3oR3BgymE5EdUAxR3-c-yErklxUtgEtPaKpD05z9AS-8NyYJ7OdUUCnUWljt-9PP_Wdl2c2E521z/s0/doh-edge.jpg)
 
 {{% adsense %}}
 
@@ -58,7 +58,7 @@ Untuk Microsoft Edge sendiri sudah support **DNS Over HTTPS** di sistem operasi 
 1. Masuk ke bagian **Preferences** (Klik strip 3 dibagian atas kanan lalu pilih Preferences)
 2. Scroll ke paling bawah sampai bagian **Network Settings** dan kalian klik **Settings**
 3. Ceklis **Enable DNS over HTTPS** lalu kalian pilih **Cloudflare** atau **NextDNS**
-![Dns Over HTTPS Firefox](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvcLqfhyphenhyphenX8ZTqMqOLPogP8D1MdvOj81KI9HAxm0Z1m-DSuKT_6_zdzAusgr19TOcZ7yeKXS42W8V21izWZnQqyrZM3_nOT9vjfmP91olgeQElQSGrNCFPO2m9cy4rrvSHtO1GkgsBaAu1qqztgDqTjctFD7PMcG1Tz0UhCslAh1GXVAJ9vtuShTbu9BeKJ/s0-rw/doh-firefox.jpg)
+![Dns Over HTTPS Firefox](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvcLqfhyphenhyphenX8ZTqMqOLPogP8D1MdvOj81KI9HAxm0Z1m-DSuKT_6_zdzAusgr19TOcZ7yeKXS42W8V21izWZnQqyrZM3_nOT9vjfmP91olgeQElQSGrNCFPO2m9cy4rrvSHtO1GkgsBaAu1qqztgDqTjctFD7PMcG1Tz0UhCslAh1GXVAJ9vtuShTbu9BeKJ/s0/doh-firefox.jpg)
 
 ## Menggunakan DNS Over HTTPS Andorid 9+
 Untuk Android 9 keatas sudah support **DNS Over HTTPS** atau **Private DNS**. Untuk mengaktifkannya kalian bisa
@@ -68,6 +68,6 @@ Untuk Android 9 keatas sudah support **DNS Over HTTPS** atau **Private DNS**. Un
    * **dns.google** untuk DNS Google
    * **1dot1dot1dot1.cloudflare-dns.com** untuk DNS Cloudflare
 4. Jika sudah klik Save, kalian sudah bisa membuka situs yang terblokir
-![Dns Over HTTPS Android](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV4SiKhHCwroZE7T5DLZRZ8Xgrli99KxvNOffX9HUHTf7g5xjIZQsEq7gPY7GFWCYB1qg369xhGaLaQCFXjkOh3DAVE0DcppNK9d9Umkss6VxKMMFJQ0Z-nM5MLFmvkPByfthZQE38CnTInebH9UZBGRFN-lN9gdLJezjXTNjRyETh8Ly2wKgH5leV-fmB/s0-rw/doh-android.jpg)
+![Dns Over HTTPS Android](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV4SiKhHCwroZE7T5DLZRZ8Xgrli99KxvNOffX9HUHTf7g5xjIZQsEq7gPY7GFWCYB1qg369xhGaLaQCFXjkOh3DAVE0DcppNK9d9Umkss6VxKMMFJQ0Z-nM5MLFmvkPByfthZQE38CnTInebH9UZBGRFN-lN9gdLJezjXTNjRyETh8Ly2wKgH5leV-fmB/s0/doh-android.jpg)
 
 {{% adsense %}}

@@ -15,13 +15,13 @@ keywords:
 description: 'Animation of Vivaldi UI make browser look slow for me, so I just want browser with no UI animations.'
 summary: 'Animation of Vivaldi UI make browser look slow for me, so I just want browser with no UI animations.'
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2JK3oWUZ-t-40Nhqt4jhOeYlp9HSiM3ZpOINd88fpwyireJ1fYy_yxdU7gWGfQBYfuEWsmzblIbk41YJzIRiI_hM4hTL9StW6bSnxXhMzJZ90whU0uAyzJ6odNXTvfGY4n37XH6pQ8Hgj0tfw02YTM0c-ps4HA1cDWo-nl4OFtORr2mhrLyeCwVao_ukn/s80-rw/vivaldi-logo.png
-ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2JK3oWUZ-t-40Nhqt4jhOeYlp9HSiM3ZpOINd88fpwyireJ1fYy_yxdU7gWGfQBYfuEWsmzblIbk41YJzIRiI_hM4hTL9StW6bSnxXhMzJZ90whU0uAyzJ6odNXTvfGY4n37XH6pQ8Hgj0tfw02YTM0c-ps4HA1cDWo-nl4OFtORr2mhrLyeCwVao_ukn/s0-rw/vivaldi-logo.png
+ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2JK3oWUZ-t-40Nhqt4jhOeYlp9HSiM3ZpOINd88fpwyireJ1fYy_yxdU7gWGfQBYfuEWsmzblIbk41YJzIRiI_hM4hTL9StW6bSnxXhMzJZ90whU0uAyzJ6odNXTvfGY4n37XH6pQ8Hgj0tfw02YTM0c-ps4HA1cDWo-nl4OFtORr2mhrLyeCwVao_ukn/s0/vivaldi-logo.png
 ---
 
 ## Vivaldi Animations
 Animation of Vivaldi UI make browser look slow for me, so I just want browser with no UI animations.\
 Vivaldi had internal setting for disable UI Animation, but some animations still there.\
-![Vivaldi setting animation](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEim9h3DFHl83KSTk9RJtYo1HDy7rA3M71BVENVwdaBryTOPtD0paJdy-ttrdnZlW0h1XsH2kFgm7OACPwGu8ItiNgTxSLu5NF5sq40n48l8BFVI7JeHzq5eBpguAlWxU0roNOd80BQFhSY-phRKcZV4CE8qdrvm-Zl5-q5M3dVzIINcfhrYkvIMU7ZaDQWB/s0-rw/rmdhnreza.my.id.disable.vivaldi.animation.1.jpg)
+![Vivaldi setting animation](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEim9h3DFHl83KSTk9RJtYo1HDy7rA3M71BVENVwdaBryTOPtD0paJdy-ttrdnZlW0h1XsH2kFgm7OACPwGu8ItiNgTxSLu5NF5sq40n48l8BFVI7JeHzq5eBpguAlWxU0roNOd80BQFhSY-phRKcZV4CE8qdrvm-Zl5-q5M3dVzIINcfhrYkvIMU7ZaDQWB/s0/rmdhnreza.my.id.disable.vivaldi.animation.1.jpg)
 For example if you click on `+` new tab, extensions icon there still transform animation.
 
 {{% adsense %}}
@@ -50,7 +50,7 @@ Here step-by-step for enabling `custom.css`
    * `$HOME/.config/vivaldi/CustomCSS/custom.css`
    * `Documents/Vivaldi/CustomCSS/custom.css`
 
-![Vivaldi custom css](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgW92tKdMgt53F_H13gAgsUyL8zTHsAIhBpDw7DhGuhHQIj8qRDQosdvZF4mCJthvZshP0wh7m4Ril3Enxqd01IDfUxsiV3vgYVQpxVCtw8vS9xQNI6nsoIC0OpJj3R6vx0xbJWSqdfAEFoSIprP8bGrpPH59qq5NR7xjZga6BdbyE8gWe-2l9TwctaKrU9/s0-rw/rmdhnreza.my.id.disable.vivaldi.animation.2.jpg)
+![Vivaldi custom css](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgW92tKdMgt53F_H13gAgsUyL8zTHsAIhBpDw7DhGuhHQIj8qRDQosdvZF4mCJthvZshP0wh7m4Ril3Enxqd01IDfUxsiV3vgYVQpxVCtw8vS9xQNI6nsoIC0OpJj3R6vx0xbJWSqdfAEFoSIprP8bGrpPH59qq5NR7xjZga6BdbyE8gWe-2l9TwctaKrU9/s0/rmdhnreza.my.id.disable.vivaldi.animation.2.jpg)
 
 {{% adsense %}}
 

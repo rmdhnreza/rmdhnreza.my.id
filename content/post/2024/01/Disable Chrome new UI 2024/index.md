@@ -15,10 +15,10 @@ keywords:
 description: 'Disable Google Chrome new UI 2023'
 summary: 'Disable Google Chrome new UI 2023'
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4gS484_RRF5AP20-jeEH9_uybKhpE1g8e_3oDcy6NQIJ6IM2Syvp_hIltipnbQwvpfO9BgZzZa6utCPWPNGTrowES-q8sDUH3GPiShw_sX570qVJEHkEMl-sLHW_nqAgVbWK9ukhEQ4qwJUYWPlDCjCi_jS-nPYUJdm58zB49iOZv0prsPL8UeRaG4C1B/s80-rw/chrome-logo.png
-ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4gS484_RRF5AP20-jeEH9_uybKhpE1g8e_3oDcy6NQIJ6IM2Syvp_hIltipnbQwvpfO9BgZzZa6utCPWPNGTrowES-q8sDUH3GPiShw_sX570qVJEHkEMl-sLHW_nqAgVbWK9ukhEQ4qwJUYWPlDCjCi_jS-nPYUJdm58zB49iOZv0prsPL8UeRaG4C1B/s0-rw/chrome-logo.png
+ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4gS484_RRF5AP20-jeEH9_uybKhpE1g8e_3oDcy6NQIJ6IM2Syvp_hIltipnbQwvpfO9BgZzZa6utCPWPNGTrowES-q8sDUH3GPiShw_sX570qVJEHkEMl-sLHW_nqAgVbWK9ukhEQ4qwJUYWPlDCjCi_jS-nPYUJdm58zB49iOZv0prsPL8UeRaG4C1B/s0/chrome-logo.png
 ---
 
-![Google Chrome new Material UI](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_fvpJQ7VceGQtTawwDx-IDmgvaeBQh7OCt-2wIHPlmMrbydMlHdCszKuz2OjiRTI8478oBrrwcrplP9QGTrUTGLKiFZI6L-Q-6r_yPpbahyphenhyphenxKL0WFd_ufGsS8SzVdV8Imz2tDJjOfM-QaBaNAT7lmcMZFDjTrMLUYmWhAr7EAkb2EyB_XFLBLSC1qH4nj/s0-rw/GM3_Hero.width-1200.format-webp.webp)
+![Google Chrome new Material UI](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_fvpJQ7VceGQtTawwDx-IDmgvaeBQh7OCt-2wIHPlmMrbydMlHdCszKuz2OjiRTI8478oBrrwcrplP9QGTrUTGLKiFZI6L-Q-6r_yPpbahyphenhyphenxKL0WFd_ufGsS8SzVdV8Imz2tDJjOfM-QaBaNAT7lmcMZFDjTrMLUYmWhAr7EAkb2EyB_XFLBLSC1qH4nj/s0/GM3_Hero.width-1200.format-webp.webp)
 
 {{% adsense %}}
 

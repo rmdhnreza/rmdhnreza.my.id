@@ -7,7 +7,7 @@ tags: ["Google Drive", "Tutorial"]
 description: 'Pada tutorial kali ini saya akan membagikan cara copy file dari Team Drive ke Akun Google Drive, seperti yang kita ketahui sekarang Google Drive tidak bisa melakukan copy file secara langsung ke akun Google Drive kita sebagai gantinya hanya dijadikan shorcut saja alih-alih filenya dicopy ke akun Google Drive.'
 summary: 'Pada tutorial kali ini saya akan membagikan cara copy file dari Team Drive ke Akun Google Drive, seperti yang kita ketahui sekarang Google Drive tidak bisa melakukan copy file secara langsung ke akun Google Drive kita sebagai gantinya hanya dijadikan shorcut saja alih-alih filenya dicopy ke akun Google Drive.'
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwt-aIrDfkicVex80qrbDItqFfgyBTs2wC8x83xh6zK4tHZo1DNzL78bDUJpSn3HvlHnhbzQ01IsYCqkqYqiv_BSsdZvTqYWmKPJpbC8cwPreQ7ryVzxBU1LJev9XvWudfSxA_2GFvDAmuyF-JX9jKJJ0XBCLNJ4XqZFMi2WrfBmWjJHXepFRghbbM2eF4/s80-rw/Google_Drive_logo.png
-ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwt-aIrDfkicVex80qrbDItqFfgyBTs2wC8x83xh6zK4tHZo1DNzL78bDUJpSn3HvlHnhbzQ01IsYCqkqYqiv_BSsdZvTqYWmKPJpbC8cwPreQ7ryVzxBU1LJev9XvWudfSxA_2GFvDAmuyF-JX9jKJJ0XBCLNJ4XqZFMi2WrfBmWjJHXepFRghbbM2eF4/s0-rw/Google_Drive_logo.png
+ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwt-aIrDfkicVex80qrbDItqFfgyBTs2wC8x83xh6zK4tHZo1DNzL78bDUJpSn3HvlHnhbzQ01IsYCqkqYqiv_BSsdZvTqYWmKPJpbC8cwPreQ7ryVzxBU1LJev9XvWudfSxA_2GFvDAmuyF-JX9jKJJ0XBCLNJ4XqZFMi2WrfBmWjJHXepFRghbbM2eF4/s0/Google_Drive_logo.png
 ---
 
 {{% adsense %}}
@@ -36,7 +36,7 @@ rclone config
 ```
 5. Jika tidak muncul error maka bisa langsung lanjut ke langkah selanjutnya
 
-![Tutorial Copy File dari Team Drive ke Google Drive](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgx04PKdh0D8wFZHnsYJgeAfLag6HwahOXCARG4I05KSuHJ-eDHUOXAjfTjfZ4M2ep9Gvh4Ko87nQVzWS9nR34Ij06VPU8WYfiNXfFWwoB89wK2bjO9_DmwpoTYUXb1El7QRusON9VBjbWEiIKCaW8C8kDg7i3UxEkgidCpeOkSsNQ_FVl2wDwJq-dIyr67/s0-rw/rcloneconfig1.jpeg)
+![Tutorial Copy File dari Team Drive ke Google Drive](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgx04PKdh0D8wFZHnsYJgeAfLag6HwahOXCARG4I05KSuHJ-eDHUOXAjfTjfZ4M2ep9Gvh4Ko87nQVzWS9nR34Ij06VPU8WYfiNXfFWwoB89wK2bjO9_DmwpoTYUXb1El7QRusON9VBjbWEiIKCaW8C8kDg7i3UxEkgidCpeOkSsNQ_FVl2wDwJq-dIyr67/s0/rcloneconfig1.jpeg)
 
 {{% adsense %}}
 
@@ -48,7 +48,7 @@ rclone config
 2. **No remotes found - make a new one** > kalian pilih **n** untuk membuat remote
 3. **name** > kalian buat nama remote kalian bebas, tapi saya sarankan jangan memakai spasi, disini nama remote yang akan saya gunakan **TeamDrive**
 
-![Tutorial Copy File dari Team Drive ke Google Drive](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlCnw6UXn2b7T3eD4ubJrMj-TfeXH-5gLosw_UKhAafTBAD-C0hlD6jxOkvbvgr0cw2TGpbSKSx8cjWZQRGtUvSzOD6WnVo_AX-Fkg8g8JjVe2DWW93eDLPpbLhf832HnONORHAsVfHglWt9ih_Ko7LcZ7Wc_ed3povwyaTJjmwLGJ23lR9oUuHta0v99_/s0-rw/rcloneconfig2.jpeg)
+![Tutorial Copy File dari Team Drive ke Google Drive](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlCnw6UXn2b7T3eD4ubJrMj-TfeXH-5gLosw_UKhAafTBAD-C0hlD6jxOkvbvgr0cw2TGpbSKSx8cjWZQRGtUvSzOD6WnVo_AX-Fkg8g8JjVe2DWW93eDLPpbLhf832HnONORHAsVfHglWt9ih_Ko7LcZ7Wc_ed3povwyaTJjmwLGJ23lR9oUuHta0v99_/s0/rcloneconfig2.jpeg)
 
 4. **Storage** > kalian ketik "**drive**" (tanpa tanda "")
 5. **client_id**, **client_secret**, kalian kosongkan saja
@@ -69,7 +69,7 @@ rclone config
 1. Sama seperti langkah Konfigurasi Team Drive, yang harus dibedakan adalah nama pada langkah nomor 3 disini saya menggunakan nama MainDrive dan Langkah nomor 10 kalian harus pilih **N**
 2. Jika konfigurasi telah selesai kalian ketik q lalu Enter untuk Quit
 
-![Tutorial Copy File dari Team Drive ke Google Drive](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEWtrxwwRli6_zNKixEtWK06kS95kv0EatWN93hPhgeWqG7e4JNagE3Jf4bfWY74X9442WJu88FBZjyxUIPh13P5ufBq1TyHqGPr-h87MPzPPsKjXPsgk-Xb7JszbTmHOB5xuAY9KJlcao_iseT5G8ygVjZFreDCikvq4kuyxF-aoa_LeX6K1HqvtGfTGH/s0-rw/path.jpeg)
+![Tutorial Copy File dari Team Drive ke Google Drive](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEWtrxwwRli6_zNKixEtWK06kS95kv0EatWN93hPhgeWqG7e4JNagE3Jf4bfWY74X9442WJu88FBZjyxUIPh13P5ufBq1TyHqGPr-h87MPzPPsKjXPsgk-Xb7JszbTmHOB5xuAY9KJlcao_iseT5G8ygVjZFreDCikvq4kuyxF-aoa_LeX6K1HqvtGfTGH/s0/path.jpeg)
 
 {{% adsense %}}
 
@@ -77,7 +77,7 @@ rclone config
 1. Yang harus kalian lakukan pertama kali adalah share file (karena Team Drive untuk sekarang tidak bisa share folder) dari akun Team Drive kalian ke akun Google Drive yang akan meng-copy jika kalian tidak melakukan ini maka dipastikan akan error pada saat melakukan copy dengan rclone
 2. Saya akan melakukan copy Video Running Man tahun 2010 di Folder (Perhatikan **PATH** nya) **RunningMan/2010**  ke Folder **2010** di Akun Google Drive
 
-![Tutorial Copy File dari Team Drive ke Google Drive](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpdkgOD2Ny_QwkfhaQ0bSZVbvbEaozptswpG9Ojh-6dQqIoJSB6DfwXtswhEmCQ_bX7qeHtMj-bgvsn6KUvasIzKEn_hf7VdWl_dox25XjfwToh9DEDZDuuohYo4D8U81CJAlIKzX9NPvfHPsBiAslPSDUsQYScCdL_EYLdH2mq2l_cajI7fRVIG-GjvNN/s0-rw/rcloneconfig3.jpeg)
+![Tutorial Copy File dari Team Drive ke Google Drive](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpdkgOD2Ny_QwkfhaQ0bSZVbvbEaozptswpG9Ojh-6dQqIoJSB6DfwXtswhEmCQ_bX7qeHtMj-bgvsn6KUvasIzKEn_hf7VdWl_dox25XjfwToh9DEDZDuuohYo4D8U81CJAlIKzX9NPvfHPsBiAslPSDUsQYScCdL_EYLdH2mq2l_cajI7fRVIG-GjvNN/s0/rcloneconfig3.jpeg)
 
 3. Jika sudah di Share langsung buka cmd, PowerShell atau terminal nya lalu ketikan perintah
 ```bash
@@ -88,11 +88,11 @@ rclone copy --progress --drive-server-side-across-configs NamaRemoteTeamDriveKal
 rclone copy --progress --drive-server-side-across-configs TeamDrive:RunningMan/2010 MainDrive:2010
 ```
 
-![Tutorial Copy File dari Team Drive ke Google Drive](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgz-cd7gwdytGOcOpTkiDZJTNpZM3vO9YNjCSzC4DvKh4c-mf_JhYhctKFoSfB1tNg_1J-B8EX2zaIfow0KduchLsRywljNGTxJ2OlQzZr-QHElz1snLmUm5A4NMHN82ss1WHmjAWPAnsNuqPbeMy1-Cge7blDHJ6q_4iiFZKKtwHq3_A8S-PnwkSaZ5X0j/s0-rw/rcloneconfig4.jpeg)
+![Tutorial Copy File dari Team Drive ke Google Drive](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgz-cd7gwdytGOcOpTkiDZJTNpZM3vO9YNjCSzC4DvKh4c-mf_JhYhctKFoSfB1tNg_1J-B8EX2zaIfow0KduchLsRywljNGTxJ2OlQzZr-QHElz1snLmUm5A4NMHN82ss1WHmjAWPAnsNuqPbeMy1-Cge7blDHJ6q_4iiFZKKtwHq3_A8S-PnwkSaZ5X0j/s0/rcloneconfig4.jpeg)
 
 5. Jika berhasil maka tidak ada error yang muncul dan kalian akan melihat progress copy filenya
 
-![Tutorial Copy File dari Team Drive ke Google Drive](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3TW8jZBq-tOVPO0x174sPrNh7cwH2qiNxH8LjpjVHA5G41TWcWZVc93Tby5w4k77hrj22cv1RunD8JKJ9N-PpTzAXnf9724dj2UMR1eTrUgvv_kcYIJPhu7neXiyeCm9YVcBge5bLIutMQjPdIm849X2osuzFCyzjqdvjjarLOT7JA8u6NVySc_YnWG3w/s0-rw/rcloneconfig.jpeg)
+![Tutorial Copy File dari Team Drive ke Google Drive](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3TW8jZBq-tOVPO0x174sPrNh7cwH2qiNxH8LjpjVHA5G41TWcWZVc93Tby5w4k77hrj22cv1RunD8JKJ9N-PpTzAXnf9724dj2UMR1eTrUgvv_kcYIJPhu7neXiyeCm9YVcBge5bLIutMQjPdIm849X2osuzFCyzjqdvjjarLOT7JA8u6NVySc_YnWG3w/s0/rcloneconfig.jpeg)
 
 Jika kalian masih kebingungan kalian bisa tanyakan di kolom komentar, bingungnya dibagian mana, sebisa mungkin nanti saya akan bantu
 

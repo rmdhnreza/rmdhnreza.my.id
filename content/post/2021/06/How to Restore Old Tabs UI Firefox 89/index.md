@@ -15,7 +15,7 @@ keywords:
 description: 'Firefox 89.0 is the latest stable version of the Firefox web browser. Released on June 1, 2021, it ships with major interface changes, a new custom theme, and more.'
 summary: 'Firefox 89.0 is the latest stable version of the Firefox web browser. Released on June 1, 2021, it ships with major interface changes, a new custom theme, and more.'
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9MVbPR-bBvD7uG4zCzjHh-1Cva25JoEfoTYcsZWTbaYB6hPL67_fz2ge-TLpTk0DEKLWd1PV1pT8V_LSzAvY87FmEqGGXdbpg088EpWRNIzuMCMx1WBAZ2XXVydo4qkk_At6TkKhkXFT-ZjlVVWZg7lQJKrcOIYQPUms8m68EITTTj-FaRN6DH_pBJN3f/s80-rw/firefox-logo.jpeg
-ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9MVbPR-bBvD7uG4zCzjHh-1Cva25JoEfoTYcsZWTbaYB6hPL67_fz2ge-TLpTk0DEKLWd1PV1pT8V_LSzAvY87FmEqGGXdbpg088EpWRNIzuMCMx1WBAZ2XXVydo4qkk_At6TkKhkXFT-ZjlVVWZg7lQJKrcOIYQPUms8m68EITTTj-FaRN6DH_pBJN3f/s0-rw/firefox-logo.jpeg
+ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9MVbPR-bBvD7uG4zCzjHh-1Cva25JoEfoTYcsZWTbaYB6hPL67_fz2ge-TLpTk0DEKLWd1PV1pT8V_LSzAvY87FmEqGGXdbpg088EpWRNIzuMCMx1WBAZ2XXVydo4qkk_At6TkKhkXFT-ZjlVVWZg7lQJKrcOIYQPUms8m68EITTTj-FaRN6DH_pBJN3f/s0/firefox-logo.jpeg
 ---
 
 {{% adsense %}}
@@ -36,13 +36,13 @@ Some users maybe hate proton tabs because it's looking like floating button inst
 3. Search `browser.proton.enabled` and set value to `false`
 
 {{< spoiler text="Click to Show Image" >}}
-![Disable Proton Tabs](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWzy5kFmFwFzhs8gtkVl_f-JCsHYNOq7jnIVp1cC2_DhE50odVdhBVKWETI1V2bKTOiSyIvdBR1aJB0KxFLFWTtEUEJ8N3VAdwb4m5f6rGPjipFimSlZZew0f7lm5ZAWwgSYWULaclGC1I0LK_ynXdi4p9NrKSq5P0pcIoM6YOLbvbzvCxOxlhUQS1r4yI/s0-rw/rmdhnreza.my.id.restore.firefox.89.old.ui.1.jpeg)
+![Disable Proton Tabs](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWzy5kFmFwFzhs8gtkVl_f-JCsHYNOq7jnIVp1cC2_DhE50odVdhBVKWETI1V2bKTOiSyIvdBR1aJB0KxFLFWTtEUEJ8N3VAdwb4m5f6rGPjipFimSlZZew0f7lm5ZAWwgSYWULaclGC1I0LK_ynXdi4p9NrKSq5P0pcIoM6YOLbvbzvCxOxlhUQS1r4yI/s0/rmdhnreza.my.id.restore.firefox.89.old.ui.1.jpeg)
 {{< /spoiler >}}
 
 4. To make more compact search `browser.compactmode.show` and set value to `true`
 
 {{< spoiler text="Click to Show Image" >}}
-![Show Compact Mode](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitxy_bzmG4rxlSOLX175_NaAPmbWeF007QemRvn2cEcsGr_I7nbHp8sf_d_dL-6wuA1QLdtHEVlEbYdFo0FjkTAen6UH7xQHJYcJwFuENri8P3gD2yNqCCP4vMZmBIjqUQxeRJUdSyKKKsgB0A2WaltnbPWPF8eAhFYgUqdx5Tl2MdCgtuZhwEBglyN9rX/s0-rw/rmdhnreza.my.id.restore.firefox.89.old.ui.2.jpeg)
+![Show Compact Mode](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitxy_bzmG4rxlSOLX175_NaAPmbWeF007QemRvn2cEcsGr_I7nbHp8sf_d_dL-6wuA1QLdtHEVlEbYdFo0FjkTAen6UH7xQHJYcJwFuENri8P3gD2yNqCCP4vMZmBIjqUQxeRJUdSyKKKsgB0A2WaltnbPWPF8eAhFYgUqdx5Tl2MdCgtuZhwEBglyN9rX/s0/rmdhnreza.my.id.restore.firefox.89.old.ui.2.jpeg)
 {{< /spoiler >}}
 
 {{% adsense %}}
@@ -50,7 +50,7 @@ Some users maybe hate proton tabs because it's looking like floating button inst
 5. Click on the hamburger menu → More Tools → Customize Toolbar... → Density → Compact (not supported)
 
 {{< spoiler text="Click to Show Image" >}}
-![Enable Compact Mode](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgppXci8G5QLmwA_5fjyGZu8fgwESdsWwb-7p_wO_dJHwreD4HskDPKlD1gIHtquTm0OTlfShkliKS9LC2flZR70oc_9UHRwMIzYBylcXZ8Hk0oDpcK6PZ1IKi6NgegwX5ag48sZGGY5s-paRdfqJcb-G4xln4_XuarbZFfNAqLwHr34_WpPx2Oexl5lZfK/s0-rw/rmdhnreza.my.id.restore.firefox.89.old.ui.3.jpeg)
+![Enable Compact Mode](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgppXci8G5QLmwA_5fjyGZu8fgwESdsWwb-7p_wO_dJHwreD4HskDPKlD1gIHtquTm0OTlfShkliKS9LC2flZR70oc_9UHRwMIzYBylcXZ8Hk0oDpcK6PZ1IKi6NgegwX5ag48sZGGY5s-paRdfqJcb-G4xln4_XuarbZFfNAqLwHr34_WpPx2Oexl5lZfK/s0/rmdhnreza.my.id.restore.firefox.89.old.ui.3.jpeg)
 {{< /spoiler >}}
 
 **Sadly, `browser.proton.enabled` will be removed in Firefox 90 Stable.**
@@ -125,7 +125,7 @@ Some users maybe hate proton tabs because it's looking like floating button inst
 8. The UI look like this
 
 {{< spoiler text="Click to Show Image" >}}
-![Firefox userChrome.css](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUWLVlkULDFriV7PQ-6689c9VdrvsKrrlyMu3oBvcWEGAOFpJ9THZ0UlwfbXj1UTvLAKSeHgmyPnQNS1Ssum1iGyiDByIFjL19AR8qn2A6mOANoKqaeFWSE9wYAilzNC6NogK63mjhCQu-eK6pJty-Elk8RjkNhCpq6lno4t-8Wxl5xi_NOekbTSqBmsO2/s0-rw/rmdhnreza.my.id.restore.firefox.89.old.ui.4.jpeg)
+![Firefox userChrome.css](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUWLVlkULDFriV7PQ-6689c9VdrvsKrrlyMu3oBvcWEGAOFpJ9THZ0UlwfbXj1UTvLAKSeHgmyPnQNS1Ssum1iGyiDByIFjL19AR8qn2A6mOANoKqaeFWSE9wYAilzNC6NogK63mjhCQu-eK6pJty-Elk8RjkNhCpq6lno4t-8Wxl5xi_NOekbTSqBmsO2/s0/rmdhnreza.my.id.restore.firefox.89.old.ui.4.jpeg)
 {{< /spoiler >}}
 
 To disable `userChrome.css` just set value `toolkit.legacyUserProfileCustomizations.stylesheets` to `false`

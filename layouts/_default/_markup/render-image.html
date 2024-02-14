@@ -18,10 +18,12 @@
         {{- $galleryImage = true -}}
 
         {{- if (default true .Page.Site.Params.imageProcessing.content.enabled) -}}
-            {{- $small := $image.Resize `480x` -}}
-            {{- if $small -}}
-                {{- $big := $image.Resize `1024x` -}}
-                {{- $Srcset = printf `%s 480w, %s 1024w` $small.RelPermalink $big.RelPermalink -}}
+            {{- $large := $image.Resize `1024x webp` -}}
+            {{- if $large -}}
+                {{- $medium := $image.Resize `720x webp` -}}
+                {{- $small := $image.Resize `480x webp` -}}
+                {{- $tiny := $image.Resize `360x webp` -}}
+                {{- $Srcset = printf `%s 360w, %s 480w, %s 720w, %s 1024w` $tiny.RelPermalink $small.RelPermalink $medium.RelPermalink $large.RelPermalink -}}
             {{- else -}}
                 {{- $Srcset = $Permalink -}}
             {{- end -}}

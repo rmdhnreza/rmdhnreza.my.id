@@ -23,7 +23,7 @@ keywords:
 description: 'Cara Download Komik Webtoon Menggunakan PC.'
 summary: 'Cara Download Komik Webtoon Menggunakan PC.'
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX8kYZNfbt36tIy2RKS5XShkM5GgFqrQmw619pS054SLYo678uf7Zxc-3fTOXoR7Il7hyXshwVQDDkJFBGrij7TBOKMdP43fkD8eAtUjyy98FBVvrWD2wAla7ziA_vcE7pggxJZX3-0SedVg7-RohT9-NIywSqcYsXrL8ikP8ZcKjfcDme1wB4XcQO9svl/s80-rw/webtoon-logo.png
-ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX8kYZNfbt36tIy2RKS5XShkM5GgFqrQmw619pS054SLYo678uf7Zxc-3fTOXoR7Il7hyXshwVQDDkJFBGrij7TBOKMdP43fkD8eAtUjyy98FBVvrWD2wAla7ziA_vcE7pggxJZX3-0SedVg7-RohT9-NIywSqcYsXrL8ikP8ZcKjfcDme1wB4XcQO9svl/s0-rw/webtoon-logo.png
+ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX8kYZNfbt36tIy2RKS5XShkM5GgFqrQmw619pS054SLYo678uf7Zxc-3fTOXoR7Il7hyXshwVQDDkJFBGrij7TBOKMdP43fkD8eAtUjyy98FBVvrWD2wAla7ziA_vcE7pggxJZX3-0SedVg7-RohT9-NIywSqcYsXrL8ikP8ZcKjfcDme1wB4XcQO9svl/s0/webtoon-logo.png
 ---
 
 ![Tower of God](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQaSqkTsDDe2c5abh3Ru1ZkO-ysub07YFhXYEl3xLD4MBqV046jEVyR4bZE8X4W99mJW4nu-DPxaiMO0MOW65QuUhzUboamiYYbMOt_pCKv5hWz1KGmltQFN1Fre6YM1VXOPwWKAD1WqmLf1Sh96DaRRbegRbwknz002azGUJtI1dhEjZzdOkiqt49Lq4D/s1600/webtoon-tower-of-god.jpg)

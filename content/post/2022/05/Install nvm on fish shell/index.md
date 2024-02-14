@@ -14,7 +14,7 @@ keywords:
 description: 'Fish is a smart and user-friendly command line shell for macOS, Linux, and the rest of the family. Fish includes features like syntax highlighting, autosuggest-as-you-type, and fancy tab completions that just work, with no configuration required.'
 summary: 'Fish is a smart and user-friendly command line shell for macOS, Linux, and the rest of the family. Fish includes features like syntax highlighting, autosuggest-as-you-type, and fancy tab completions that just work, with no configuration required.'
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisicyW-w1Bv23AhvpAG2W55KaQ7GAAPFZVVxQedvViaQH4h22oCvx6mXIBp3SjVc_ovqKrKD-swXYrRokbt_A0MwxGwjDkLhpaBHt_EyD4p2nbMS2qJjLT54Yv7xkQeXnmTiL7mBrGflRSHQwLBKufrsRFmEg_KTkumd-03DGjYcIIE-3dqd-lTduJjKU5/s80-rw/fish-shell-logo.png
-ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisicyW-w1Bv23AhvpAG2W55KaQ7GAAPFZVVxQedvViaQH4h22oCvx6mXIBp3SjVc_ovqKrKD-swXYrRokbt_A0MwxGwjDkLhpaBHt_EyD4p2nbMS2qJjLT54Yv7xkQeXnmTiL7mBrGflRSHQwLBKufrsRFmEg_KTkumd-03DGjYcIIE-3dqd-lTduJjKU5/s0-rw/fish-shell-logo.png
+ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisicyW-w1Bv23AhvpAG2W55KaQ7GAAPFZVVxQedvViaQH4h22oCvx6mXIBp3SjVc_ovqKrKD-swXYrRokbt_A0MwxGwjDkLhpaBHt_EyD4p2nbMS2qJjLT54Yv7xkQeXnmTiL7mBrGflRSHQwLBKufrsRFmEg_KTkumd-03DGjYcIIE-3dqd-lTduJjKU5/s0/fish-shell-logo.png
 ---
 
 ![Fish Shell](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj85qJDXuwx57n5TGE-S3knMhdvlO3XMBYd9hMdR3kZnxjj99GP9Ayo0UtZYr0deKhe6tbX_BLofGmaqMiJ7fUORpd8VqafijUlWcmvvRzM6bGWJ052H2F6zEdvxOmqNNFcTshVavpK0Vrwmiigmxq1pcdVwsGnSNLdMjmmhVohzD-EvMoyf1qrZLgjOb4X/s1600/rmdhnreza.my.id.fish.shell.nvm.1.jpg)

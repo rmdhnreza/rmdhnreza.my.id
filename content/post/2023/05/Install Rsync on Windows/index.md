@@ -15,7 +15,7 @@ keywords:
 description: 'Rsync is a utility for efficiently transferring and synchronizing files between a computer and a storage drive and across networked computers by comparing the modification times and sizes of files'
 summary: 'Rsync is a utility for efficiently transferring and synchronizing files between a computer and a storage drive and across networked computers by comparing the modification times and sizes of files'
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga3v9Wyvky-hWIl8pvbG6o3DKmIDuGG4Nm1eIT-QtgPDozU_cdv_2b0XUIhkA3fOVXEPO11k036UKEeuP3m4rSGCTfGhptDOSTVPBQ97WsL74MtlB4VapWDg9b7pJ28Hz7JSyOnFq8qJElZ-_jkySiAfk4ct6wumIUpiVomgRnuJhyAd29_mI-nVexnbWS/s80-rw/rsync-logo.jpg
-ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga3v9Wyvky-hWIl8pvbG6o3DKmIDuGG4Nm1eIT-QtgPDozU_cdv_2b0XUIhkA3fOVXEPO11k036UKEeuP3m4rSGCTfGhptDOSTVPBQ97WsL74MtlB4VapWDg9b7pJ28Hz7JSyOnFq8qJElZ-_jkySiAfk4ct6wumIUpiVomgRnuJhyAd29_mI-nVexnbWS/s0-rw/rsync-logo.jpg
+ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga3v9Wyvky-hWIl8pvbG6o3DKmIDuGG4Nm1eIT-QtgPDozU_cdv_2b0XUIhkA3fOVXEPO11k036UKEeuP3m4rSGCTfGhptDOSTVPBQ97WsL74MtlB4VapWDg9b7pJ28Hz7JSyOnFq8qJElZ-_jkySiAfk4ct6wumIUpiVomgRnuJhyAd29_mI-nVexnbWS/s0/rsync-logo.jpg
 ---
 
 {{% adsense %}}

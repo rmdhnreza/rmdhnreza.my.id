@@ -14,7 +14,7 @@ keywords:
 description: '*Jackket adalah plugin search index untuk mencari file torrent yang support banyak tracker mulai dari private, semi-private dan public tracker.'
 summary: 'Jackket adalah plugin search index untuk mencari file torrent yang support banyak tracker mulai dari private, semi-private dan public tracker.'
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQdnh9S46i3M4Z9Rw5uJA58ey9da_-UXswcmNknr7laOhQysVC-yGf7lSsSOpkWET2F1kGBWNkGq3jWZnTFWQ3FHWb4PHZY-eBOX46c5i4djFoaZemZSi8wR6-zROc_MwdgntOo7CZtRs5JqLlmunKkntrvAS4T1shqynIGs_ApnrfI9X5yAqHEuHG5zmM/s80-rw/jackett-logo.png
-ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQdnh9S46i3M4Z9Rw5uJA58ey9da_-UXswcmNknr7laOhQysVC-yGf7lSsSOpkWET2F1kGBWNkGq3jWZnTFWQ3FHWb4PHZY-eBOX46c5i4djFoaZemZSi8wR6-zROc_MwdgntOo7CZtRs5JqLlmunKkntrvAS4T1shqynIGs_ApnrfI9X5yAqHEuHG5zmM/s0-rw/jackett-logo.png
+ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQdnh9S46i3M4Z9Rw5uJA58ey9da_-UXswcmNknr7laOhQysVC-yGf7lSsSOpkWET2F1kGBWNkGq3jWZnTFWQ3FHWb4PHZY-eBOX46c5i4djFoaZemZSi8wR6-zROc_MwdgntOo7CZtRs5JqLlmunKkntrvAS4T1shqynIGs_ApnrfI9X5yAqHEuHG5zmM/s0/jackett-logo.png
 ---
 
 ## Jackett

@@ -14,7 +14,7 @@ keywords:
 description: 'Stunnel adalah proxy yang dirancang untuk menambahkan fungsionalitas enkripsi TLS ke klien dan server yang ada tanpa perubahan apa pun dalam kode program'
 summary: 'Stunnel adalah proxy yang dirancang untuk menambahkan fungsionalitas enkripsi TLS ke klien dan server yang ada tanpa perubahan apa pun dalam kode program'
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHeDpFPUJ3lnkmVU24KK7JhF-OTPh6RrjDbFhcuv54jjR_Upgq8io6_oXbAZ-aNra8TPTtmdqgYkrPTlZ-q8KRZVmZygGrUCrk8-bpKO_8s4uOOmgKc3UbQgdddhZWlYp3U-Ht315p-YtDNgwS16Xz22H2SvKgSw63eCvG77gSQyJM38b3eXJRS9f7gg_A/s80-rw/stunnel-logo.jpg
-ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHeDpFPUJ3lnkmVU24KK7JhF-OTPh6RrjDbFhcuv54jjR_Upgq8io6_oXbAZ-aNra8TPTtmdqgYkrPTlZ-q8KRZVmZygGrUCrk8-bpKO_8s4uOOmgKc3UbQgdddhZWlYp3U-Ht315p-YtDNgwS16Xz22H2SvKgSw63eCvG77gSQyJM38b3eXJRS9f7gg_A/s0-rw/stunnel-logo.jpg
+ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHeDpFPUJ3lnkmVU24KK7JhF-OTPh6RrjDbFhcuv54jjR_Upgq8io6_oXbAZ-aNra8TPTtmdqgYkrPTlZ-q8KRZVmZygGrUCrk8-bpKO_8s4uOOmgKc3UbQgdddhZWlYp3U-Ht315p-YtDNgwS16Xz22H2SvKgSw63eCvG77gSQyJM38b3eXJRS9f7gg_A/s0/stunnel-logo.jpg
 ---
 
 ## Stunnel4
@@ -45,7 +45,7 @@ sudo nano /etc/default/dropbear
    * `DROPBEAR_PORT=` menjadi `DROPBEAR_PORT=3128`\
      **Catatan: Disini saya menggunakan port 3128 untuk port Dropbear nya.**
 
-![Setting Dropbear](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCNWtywn-MBZEnXbIp0W3riPg3GrcWvOUaLSLLqEHveIfWwkjMiEPYioq5lfMPrR4iCcesD4m7ld3uOkDWSfoIgXCJVgqOIxCXUvhwDHNwET9e-qnM4-aVZoDM69uRXPprDuoGKJ4ZhEPrgQSdLPYnN0Uh4bOAOoZQcjprikzvJzX3BEoLAr3cPTtzrZIL/s0-rw/rmdhnreza.my.id.install.stunnel4.1.jpg)
+![Setting Dropbear](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCNWtywn-MBZEnXbIp0W3riPg3GrcWvOUaLSLLqEHveIfWwkjMiEPYioq5lfMPrR4iCcesD4m7ld3uOkDWSfoIgXCJVgqOIxCXUvhwDHNwET9e-qnM4-aVZoDM69uRXPprDuoGKJ4ZhEPrgQSdLPYnN0Uh4bOAOoZQcjprikzvJzX3BEoLAr3cPTtzrZIL/s0/rmdhnreza.my.id.install.stunnel4.1.jpg)
 
 3. Save, untuk editor nano kita bisa menggunakan `CTRL + O` -> `Enter` -> `CTRL + X`
 4. Start dropbear dengan perintah
@@ -78,13 +78,13 @@ accept = 443
 
 Catatan: pastikan pada bagian `[dropbear]` port nya sama dengan port dropbear yang sudah di setting di langkah sebelumnya!
 
-![Setting Stunnel4](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg-Ukv9W7Hh1u3sqJX9QuIJTYp0BkVKQ167pSndyhtDog26woI4nPlaQxb5KOkQ3aCUE5GDHX9brZ4zWjTLj7xx5Bfj6QsvDJzbnnxfgNQNqZg0DpgoKJUMfd9XKLlLlNEUgmBjGuo_DmcHaNHyJu-dfWxB1u1-Jj5AIuTIx-VOFfWDJ6sJpbSjIX0eRum/s0-rw/rmdhnreza.my.id.install.stunnel4.2.jpg)
+![Setting Stunnel4](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg-Ukv9W7Hh1u3sqJX9QuIJTYp0BkVKQ167pSndyhtDog26woI4nPlaQxb5KOkQ3aCUE5GDHX9brZ4zWjTLj7xx5Bfj6QsvDJzbnnxfgNQNqZg0DpgoKJUMfd9XKLlLlNEUgmBjGuo_DmcHaNHyJu-dfWxB1u1-Jj5AIuTIx-VOFfWDJ6sJpbSjIX0eRum/s0/rmdhnreza.my.id.install.stunnel4.2.jpg)
 
 3. Save, untuk editor nano kita bisa menggunakan `CTRL + O` -> `Enter` -> `CTRL + X`
 
 4. Edit file `/etc/default/stunnel4` agar bisa berjalan pada saat system bootup, cukup tambahkan `ENABLED=1` diawal atau diakhir baris.
 
-![Setting Stunnel4](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZUk-MKaFDQczz61mP8bEZOTsdzx3ee_j3PqlnTTK9TQZPRvu_W1Q3wMSy7zyfO0-LJSlLzgR_9nxcCbb7vhN6X-WGQdcSoN4u6AL9_YVK0LFP8gpRn-UR9VDHWOtZjlygaL1iTSjoyA6h5zFCnFpTzlH4inmYjb28Vr-d5filjxcyw7O61SQMMxAG8taX/s0-rw/rmdhnreza.my.id.install.stunnel4.3.jpg)
+![Setting Stunnel4](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZUk-MKaFDQczz61mP8bEZOTsdzx3ee_j3PqlnTTK9TQZPRvu_W1Q3wMSy7zyfO0-LJSlLzgR_9nxcCbb7vhN6X-WGQdcSoN4u6AL9_YVK0LFP8gpRn-UR9VDHWOtZjlygaL1iTSjoyA6h5zFCnFpTzlH4inmYjb28Vr-d5filjxcyw7O61SQMMxAG8taX/s0/rmdhnreza.my.id.install.stunnel4.3.jpg)
 
 5. Membuat `self-signed cerfiticate`, pastikan kalian masukan perintahnya satu persatu jangan sekaligus
 
@@ -94,7 +94,7 @@ openssl req -new -x509 -key key.pem -out cert.pem -days 1095
 cat key.pem cert.pem >> /etc/stunnel/stunnel.pem
 ```
 
-![Generated Certificates](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXj9LgIEUNaPPQXt6hx-7B5YUl6hb_bnMaDD4xaaaVCDNHOFoWC1k7AuQ3lSJgBZnx1H4ZzF5JiK2pbhnExmeflReizNNqURYZi66JnDGSPiLgzHxfkRbvzy8NXFvGpRQQX0nKPuZTNdfJanLMBYMqDRUN0jr1klYsA-udkG5H7Y3pRGVpALJxzRvqnuWg/s0-rw/rmdhnreza.my.id.install.stunnel4.4.jpg)
+![Generated Certificates](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXj9LgIEUNaPPQXt6hx-7B5YUl6hb_bnMaDD4xaaaVCDNHOFoWC1k7AuQ3lSJgBZnx1H4ZzF5JiK2pbhnExmeflReizNNqURYZi66JnDGSPiLgzHxfkRbvzy8NXFvGpRQQX0nKPuZTNdfJanLMBYMqDRUN0jr1klYsA-udkG5H7Y3pRGVpALJxzRvqnuWg/s0/rmdhnreza.my.id.install.stunnel4.4.jpg)
 
 Nanti kalian akan disuruh mengisi tempat, company, dll. Kalian bisa isi seperti ini atau cukup Enter saja (blank) tanpa di isi.
 
@@ -131,9 +131,9 @@ Jika *command* di atas *not found* kita bisa install `net-tools` terlebih dahulu
 sudo apt install net-tools
 ```
 
-![Check Port](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9gMo7FXmRHIoMf0Ew5b6MQWe53CoAkAD8Bqm3cwMSBODYpiYS-OHpnit8GUv-VhL783Li-S0gX9Itlu5SkKUKJa-X0A-F71chqZrxJgF2OmPnRkK9R-fnbe3RKxEnBrpe4AQH-hlPJ9_ZJ3Ao3HjT7ZkSHcRz5scQQIfBWQksNe5S4XP8RPtJQCeXITAA/s0-rw/rmdhnreza.my.id.install.stunnel4.5.jpg)
+![Check Port](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9gMo7FXmRHIoMf0Ew5b6MQWe53CoAkAD8Bqm3cwMSBODYpiYS-OHpnit8GUv-VhL783Li-S0gX9Itlu5SkKUKJa-X0A-F71chqZrxJgF2OmPnRkK9R-fnbe3RKxEnBrpe4AQH-hlPJ9_ZJ3Ao3HjT7ZkSHcRz5scQQIfBWQksNe5S4XP8RPtJQCeXITAA/s0/rmdhnreza.my.id.install.stunnel4.5.jpg)
 
 ## Test SSH
 Jika berhasil maka bisa connect seperti ini.
 
-![HTTP Injector](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEib416k3TmZl9l79_n8sE0byUuG4PShPrSql5k8O6Kg6zr0UGWE3urX6GvcjCrr1Hiu41svDPOUq8EsRNKTSQU0E1OohDnUNSRovc7HXvFFD4JugeYg501pZUiby_gfGFBzRPcMvQ7FElG_XoEYM_YPBhdmYc01NqFZnCwJpHlNluuEqpp7k6NbJokYjRSW/s0-rw/rmdhnreza.my.id.install.stunnel4.6.jpg)
+![HTTP Injector](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEib416k3TmZl9l79_n8sE0byUuG4PShPrSql5k8O6Kg6zr0UGWE3urX6GvcjCrr1Hiu41svDPOUq8EsRNKTSQU0E1OohDnUNSRovc7HXvFFD4JugeYg501pZUiby_gfGFBzRPcMvQ7FElG_XoEYM_YPBhdmYc01NqFZnCwJpHlNluuEqpp7k6NbJokYjRSW/s0/rmdhnreza.my.id.install.stunnel4.6.jpg)

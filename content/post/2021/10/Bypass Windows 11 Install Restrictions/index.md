@@ -15,7 +15,7 @@ keywords:
 description: 'Windows 11 Installasi Restrictions sudah ter-bypass otomatis di versi Ghost Spectre ini, tapi saya tidak terlalu menyarankan versi Ghost Spectre ini karena kita tidak tahu code apa saja yang diubah di Windows versi Ghost Spectre ini.'
 summary: 'Windows 11 Installasi Restrictions sudah ter-bypass otomatis di versi Ghost Spectre ini, tapi saya tidak terlalu menyarankan versi Ghost Spectre ini karena kita tidak tahu code apa saja yang diubah di Windows versi Ghost Spectre ini.'
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBHtbalLnHkYsI1w5DDQGDzMKf4vPuwdyj4dKtkGaqQaw9sF9vNffHJOcFGA3lb46CfzsSI9yCDZs4lZVI_s9ZcfF7cf8ee9UxzWtbuxGEV_bZZkH9QkeT4uVCd4_FFo1y80i12pffQ_M_02u5ASx8H_AJcrUWmYrMyK4jYEAuIRDHaUJKrZmYG9K3KWiU/s80-rw/windows11-logo.png
-ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBHtbalLnHkYsI1w5DDQGDzMKf4vPuwdyj4dKtkGaqQaw9sF9vNffHJOcFGA3lb46CfzsSI9yCDZs4lZVI_s9ZcfF7cf8ee9UxzWtbuxGEV_bZZkH9QkeT4uVCd4_FFo1y80i12pffQ_M_02u5ASx8H_AJcrUWmYrMyK4jYEAuIRDHaUJKrZmYG9K3KWiU/s0-rw/windows11-logo.png
+ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBHtbalLnHkYsI1w5DDQGDzMKf4vPuwdyj4dKtkGaqQaw9sF9vNffHJOcFGA3lb46CfzsSI9yCDZs4lZVI_s9ZcfF7cf8ee9UxzWtbuxGEV_bZZkH9QkeT4uVCd4_FFo1y80i12pffQ_M_02u5ASx8H_AJcrUWmYrMyK4jYEAuIRDHaUJKrZmYG9K3KWiU/s0/windows11-logo.png
 ---
 
 {{% adsense %}}
@@ -54,7 +54,7 @@ ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBHtbalL
 
 4. Setelah selesai copy file **AutoUnattend.xml** ke flashdisk yang sudah dibuat bootable sebelumnya
 
-![Copy AutoUnattend.xml](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIaY99V-P4OvYGkK1S9aiGv6kOGBTr0J5sYVaVm0CKPR7rtSg5VTI5uBlBSdkrUVmW2y-HWODHgfv19bsQZLltb81ZWXrw204qLzSJmNpEeTpvXj861ZhxYvPLC62TqGqeR_MGriY47imZrpPuUJV2YZkAWztL_X4gJbbMKyEPC2FxszNpGr77mhsDk-bo/s0-rw/rmdhnreza.my.id-bypass-tpm-1.jpeg)
+![Copy AutoUnattend.xml](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIaY99V-P4OvYGkK1S9aiGv6kOGBTr0J5sYVaVm0CKPR7rtSg5VTI5uBlBSdkrUVmW2y-HWODHgfv19bsQZLltb81ZWXrw204qLzSJmNpEeTpvXj861ZhxYvPLC62TqGqeR_MGriY47imZrpPuUJV2YZkAWztL_X4gJbbMKyEPC2FxszNpGr77mhsDk-bo/s0/rmdhnreza.my.id-bypass-tpm-1.jpeg)
 
 5. Selesai! kalian bisa lakukan installasi seperti biasa.
 

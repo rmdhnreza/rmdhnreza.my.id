@@ -9,7 +9,7 @@ keywords: ["Spoiler Hugo", "Markdown Spoiler", "Cara Membuat Spoiler di Hugo", "
 description: 'Kalian yang suka ikut forum (seperti Kaskus, Reddit, Tenforums, MDL, dll) pasti sudah tahu apa itu spoiler. Spoiler sangat sering digunakan, bahkan dianjurkan jika kalian ingin membuat postingan gambar yang berukuran besar ataupun video.'
 summary: 'Kalian yang suka ikut forum (seperti Kaskus, Reddit, Tenforums, MDL, dll) pasti sudah tahu apa itu spoiler. Spoiler sangat sering digunakan, bahkan dianjurkan jika kalian ingin membuat postingan gambar yang berukuran besar ataupun video.'
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgf1oK8J4S3tNRWW330MlC17FhhksTbIfUXE49C6mbc5OQTrkhr290jKKDMwmYNiVHY-RNXhPurj7DCzzXZpw9XnEO36JnkBWIYMjEk7EEexmYw57w5KDiQVs7rFh71xCvHzMvU0wu-haVqmqgwBxnL-Y7v5lXBGASCMKsNfC-__2j6op-H9eKE6-1aSvds/s80-rw/hugo.png
-thumbschema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgf1oK8J4S3tNRWW330MlC17FhhksTbIfUXE49C6mbc5OQTrkhr290jKKDMwmYNiVHY-RNXhPurj7DCzzXZpw9XnEO36JnkBWIYMjEk7EEexmYw57w5KDiQVs7rFh71xCvHzMvU0wu-haVqmqgwBxnL-Y7v5lXBGASCMKsNfC-__2j6op-H9eKE6-1aSvds/s0-rw/hugo.png
+thumbschema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgf1oK8J4S3tNRWW330MlC17FhhksTbIfUXE49C6mbc5OQTrkhr290jKKDMwmYNiVHY-RNXhPurj7DCzzXZpw9XnEO36JnkBWIYMjEk7EEexmYw57w5KDiQVs7rFh71xCvHzMvU0wu-haVqmqgwBxnL-Y7v5lXBGASCMKsNfC-__2j6op-H9eKE6-1aSvds/s0/hugo.png
 ---
 
 {{% adsense %}}
@@ -48,7 +48,7 @@ rmdhnreza.my.id
 3. Jika sudah kalian save.
 4. Untuk membuat spoiler kalian tambahkan kode berikut pada postingan kalian
 
-![Spoiler Hugo](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhesQG716_QX-WylPx-qSQm9Kc31HZXvu5EW9CqrH7tQqIPmbmVdgBBK7rz_3nmiVJLQzcYPUoBuR1RG3WSBMM7_djKYdRchplcjf1UhrWC6WbfkeFBht4E5SihFYgmYCCtAMN8yNlfly5hJnZ5Xx1gaHWdWiEjvnnvZn7R9nwE45cmlHXk0GN5xax1aajt/s0-rw/1.jpeg)
+![Spoiler Hugo](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhesQG716_QX-WylPx-qSQm9Kc31HZXvu5EW9CqrH7tQqIPmbmVdgBBK7rz_3nmiVJLQzcYPUoBuR1RG3WSBMM7_djKYdRchplcjf1UhrWC6WbfkeFBht4E5SihFYgmYCCtAMN8yNlfly5hJnZ5Xx1gaHWdWiEjvnnvZn7R9nwE45cmlHXk0GN5xax1aajt/s0/1.jpeg)
 
 {{% adsense %}}
 

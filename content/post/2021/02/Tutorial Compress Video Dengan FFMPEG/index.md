@@ -7,7 +7,7 @@ tags: ["Linux", Windows, "Tutorial"]
 description: 'Pada kesempatan kali ini saya akan memberikan tutorial compress video menggunakan ffmpeg, ffmpeg ini biasanya program yang digunakan aplikasi untuk compress video, salah satunya handbrake.'
 summary: 'Pada kesempatan kali ini saya akan memberikan tutorial compress video menggunakan ffmpeg, ffmpeg ini biasanya program yang digunakan aplikasi untuk compress video, salah satunya handbrake.'
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoxnlTORd-C99ayoO1digwfSc5TAkckwCfg92GdGH2SQthGHCqQy9ak1CdyTQHbR7ELbkz_BdkKi-q-YntBmxLOAAqOyFQBVwCVRmDheDPVzNXs9RP-Li8sW6F4hoCv8bETjak1rkJVdENnP4UBQTsEIzj0NJHxDibExzSwQosab-zaHRDqI31bXt4NnBE/s80-rw/ffmpeg-logo.png
-ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoxnlTORd-C99ayoO1digwfSc5TAkckwCfg92GdGH2SQthGHCqQy9ak1CdyTQHbR7ELbkz_BdkKi-q-YntBmxLOAAqOyFQBVwCVRmDheDPVzNXs9RP-Li8sW6F4hoCv8bETjak1rkJVdENnP4UBQTsEIzj0NJHxDibExzSwQosab-zaHRDqI31bXt4NnBE/s0-rw/ffmpeg-logo.png
+ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoxnlTORd-C99ayoO1digwfSc5TAkckwCfg92GdGH2SQthGHCqQy9ak1CdyTQHbR7ELbkz_BdkKi-q-YntBmxLOAAqOyFQBVwCVRmDheDPVzNXs9RP-Li8sW6F4hoCv8bETjak1rkJVdENnP4UBQTsEIzj0NJHxDibExzSwQosab-zaHRDqI31bXt4NnBE/s0/ffmpeg-logo.png
 ---
 
 {{% adsense %}}
@@ -44,7 +44,7 @@ Jika kalian menggunakan snap bisa menggunakan perintah
 
 5. Perbedaan kecepatan compress menggunakan CPU dan GPU (*Hardware Accelerated*)
 
-![CPU](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpJHs-qhXEBJ73rXXSQDesBqrreNm3by0ztyTrnsYSCIRFdCpCTkAjrVRKqiNIyqV9L6twgf6Yl9LL0-R1I65guDgPRN5R62I-g93tq2sX2av9QsXRlJjaIKJr_DbLa23Aln0d-tNctRYM-dP9bW-eXQcJBLo2qHE1XBsK0cc-rskq11uZOIsO480uIPKz/s0-rw/1.jpeg) | ![GPU](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaEm50SMOzPebMWh_vmXcW91T_Woid2zU2TuPRrKq229cnHolx3hyphenhyphenqPFa2jhnVmEV51gHRW1erXlFMCGxVOGPzBvY-NanlyHcTFpAwWRZHAoS_qvI4lZyCAG_mUTNMe52QKmqahPiqB42iUk9kZ_ijUGRnIx6egFpjN8hTgOAk_1-mcp9EyDdsbeiDPqQc/s0-rw/2.jpeg)
+![CPU](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpJHs-qhXEBJ73rXXSQDesBqrreNm3by0ztyTrnsYSCIRFdCpCTkAjrVRKqiNIyqV9L6twgf6Yl9LL0-R1I65guDgPRN5R62I-g93tq2sX2av9QsXRlJjaIKJr_DbLa23Aln0d-tNctRYM-dP9bW-eXQcJBLo2qHE1XBsK0cc-rskq11uZOIsO480uIPKz/s0/1.jpeg) | ![GPU](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaEm50SMOzPebMWh_vmXcW91T_Woid2zU2TuPRrKq229cnHolx3hyphenhyphenqPFa2jhnVmEV51gHRW1erXlFMCGxVOGPzBvY-NanlyHcTFpAwWRZHAoS_qvI4lZyCAG_mUTNMe52QKmqahPiqB42iUk9kZ_ijUGRnIx6egFpjN8hTgOAk_1-mcp9EyDdsbeiDPqQc/s0/2.jpeg)
 
 6. Jika kalian ingin setting mengganti resolusi, bitrate audio & video nya kalian bisa menggunakan perintah
 
@@ -58,6 +58,6 @@ ffmpeg -hide_banner -c:v h264_cuvid -resize 854x480 -i 1080p.mp4 -c:v h264_nvenc
 ```
 Perintah diatas mengubah resolusi menjadi 480p, bitrate audio menjadi 64k dan bitrate video menjadi 512k
 
-![File size](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidXTIxHGrCI9RU_vMkJOf-LsIbjRN8GDAYYFGJDz83xp1fOdn_2k9l_kBlTfpeEN-fSspaXHcX8aGSItPibZrQW_cIFNfpgxLx13bJMpbGJRzNAjLPaTA_JlTBQOkq4fgT-Oi93T3rUxG8e5DIdoePi4X32oR1Xc1p5vS5bBAx-_Mw7nLh3pSKMyaqWIYV/s0-rw/3.jpeg)
+![File size](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidXTIxHGrCI9RU_vMkJOf-LsIbjRN8GDAYYFGJDz83xp1fOdn_2k9l_kBlTfpeEN-fSspaXHcX8aGSItPibZrQW_cIFNfpgxLx13bJMpbGJRzNAjLPaTA_JlTBQOkq4fgT-Oi93T3rUxG8e5DIdoePi4X32oR1Xc1p5vS5bBAx-_Mw7nLh3pSKMyaqWIYV/s0/3.jpeg)
 
 {{% adsense %}}

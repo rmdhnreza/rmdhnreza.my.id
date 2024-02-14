@@ -19,7 +19,7 @@ keywords:
 description: 'Install Windows 11 Fonts Arch Linux'
 summary: 'Install Windows 11 Fonts Arch Linux'
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiB9KmwxElIwG9jVUuI6TGA1yRNWiN5IwL8uNIF3NXhqd--bU-Tetg-f6mDgJ4BOvP7QwzuFUx6TU5shatoDTkS5IlK7jynk7KL96rn0NNNFUikxZwFmreDv1G8J4itLVyXudDHKKPH4VpzA093OOy7v84fkoIX8Le-NnDbi-a-Hh-usyBxuxqvE_RkkfjN/s80-rw/Arch-linux-logo.png
-ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiB9KmwxElIwG9jVUuI6TGA1yRNWiN5IwL8uNIF3NXhqd--bU-Tetg-f6mDgJ4BOvP7QwzuFUx6TU5shatoDTkS5IlK7jynk7KL96rn0NNNFUikxZwFmreDv1G8J4itLVyXudDHKKPH4VpzA093OOy7v84fkoIX8Le-NnDbi-a-Hh-usyBxuxqvE_RkkfjN/s0-rw/Arch-linux-logo.png
+ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiB9KmwxElIwG9jVUuI6TGA1yRNWiN5IwL8uNIF3NXhqd--bU-Tetg-f6mDgJ4BOvP7QwzuFUx6TU5shatoDTkS5IlK7jynk7KL96rn0NNNFUikxZwFmreDv1G8J4itLVyXudDHKKPH4VpzA093OOy7v84fkoIX8Le-NnDbi-a-Hh-usyBxuxqvE_RkkfjN/s0/Arch-linux-logo.png
 ---
 
 {{% adsense %}}

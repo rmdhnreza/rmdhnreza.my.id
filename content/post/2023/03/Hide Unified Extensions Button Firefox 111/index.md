@@ -14,7 +14,7 @@ keywords:
 description: 'Remove Firefox View & Tab Manager Firefox 106'
 summary: 'Remove Firefox View & Tab Manager Firefox 106'
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLLrmW9XsjhLNq729L3Pq6-JMtposi_hJatBpaSkdpXJDmjT8hvEV_eOodM-LGtXfpgj3MrynwLJmiwU0AXx7eWP-GDYR-Qa8abHbRzEnoAa_c2MwOQnv0bkqAgjLNdQPVMZt04PJ32zoXXUjaA3iAZgJRmBS0S14Rdr_cizBKa5VOSVuYdJTlmP9JLvp1/s80-rw/firefox-logo.png
-ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLLrmW9XsjhLNq729L3Pq6-JMtposi_hJatBpaSkdpXJDmjT8hvEV_eOodM-LGtXfpgj3MrynwLJmiwU0AXx7eWP-GDYR-Qa8abHbRzEnoAa_c2MwOQnv0bkqAgjLNdQPVMZt04PJ32zoXXUjaA3iAZgJRmBS0S14Rdr_cizBKa5VOSVuYdJTlmP9JLvp1/s0-rw/firefox-logo.png
+ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLLrmW9XsjhLNq729L3Pq6-JMtposi_hJatBpaSkdpXJDmjT8hvEV_eOodM-LGtXfpgj3MrynwLJmiwU0AXx7eWP-GDYR-Qa8abHbRzEnoAa_c2MwOQnv0bkqAgjLNdQPVMZt04PJ32zoXXUjaA3iAZgJRmBS0S14Rdr_cizBKa5VOSVuYdJTlmP9JLvp1/s0/firefox-logo.png
 ---
 
 {{% adsense %}}

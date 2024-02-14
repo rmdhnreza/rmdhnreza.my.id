@@ -36,7 +36,7 @@
     "post":"/:title"
   },
   "params":{
-    "favicon":"favicon.svg",
+    "favicon":"/favicon.svg",
     "mainSections":[
       "post"
     ],
@@ -118,6 +118,17 @@
       }
     }
   },
+  "imaging": {
+    "exif": {
+      "hint": "photo",
+      "quality": 80,
+      "resampleFilter": "Lanczos",
+      "disableDate": true,
+      "disableLatLong": true,
+      "excludeFields": ".*",
+      "includeFields": ""
+    }
+ },
   "menu":{
     "main":[
       {
@@ -218,6 +229,32 @@
       "mediaType":"application/xml",
       "protocol":"xml://",
       "path":"/"
+    }
+  },
+  "caches":{
+    "assets":{
+      "dir":":resourceDir/_gen",
+      "maxAge":-1
+    },
+    "getcsv":{
+      "dir":":cacheDir/:project",
+      "maxAge":-1
+    },
+    "getjson":{
+      "dir":":cacheDir/:project",
+      "maxAge":-1
+    },
+    "getresource":{
+      "dir":":resourceDir/_gen",
+      "maxAge":-1
+    },
+    "images":{
+      "dir":":resourceDir/_gen",
+      "maxAge":-1
+    },
+    "modules":{
+      "dir":":cacheDir/modules",
+      "maxAge":-1
     }
   }
 }

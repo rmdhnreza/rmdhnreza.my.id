@@ -20,6 +20,21 @@
   {{ partialCached "footer/footer" . }}
 
   {{ partialCached "article/components/photoswipe" . }}
+  <script>
+    setTimeout(function() {
+        document.addEventListener("DOMContentLoaded", function() {
+            const images = document.querySelectorAll('img[data-src]');
+            images.forEach(img => {
+                img.setAttribute('src', img.getAttribute('data-src'));
+                img.onload = function() {
+                    setTimeout(function() {
+                        img.removeAttribute('data-src');
+                    }, 4000); // Delay of 2 seconds (2000 milliseconds) after image onload
+                };
+            });
+        });
+    });
+</script>
 {{ end }}
 
 {{ define "left-sidebar" }}

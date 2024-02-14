@@ -6,7 +6,7 @@ tags: ["Tutorial", "Windows 10"]
 description: 'Cortana adalah asisten pribadi berbasis cloud yang bekerja di seluruh perangkat Windows dan layanan Microsoft lainnya. Cortana dapat menyediakan berbagai fitur. Cortana di Windows tersedia di negara dan bahasa tertentu. Cortana juga tersedia di platform lain, seperti Android dan iOS.'
 summary: 'Cortana adalah asisten pribadi berbasis cloud yang bekerja di seluruh perangkat Windows dan layanan Microsoft lainnya. Cortana dapat menyediakan berbagai fitur. Cortana di Windows tersedia di negara dan bahasa tertentu. Cortana juga tersedia di platform lain, seperti Android dan iOS.'
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1b05kzmSnLWUrG2u5uokNT3Js6g9uYEMMKfc5wqAdOQ0evNPTlNpFNbF3vizWMbSKYd-m2HKQxY6Hd3jtgWedZEkHho9YlFrh7B_AtOxw0a0HSk_QXGJdJN7oMsZb1Fu1k5fOgTuiNymq3XAgr0IV7lCxwGMFzE_jWkAdM1bLCXVapYr10bSh2wtw_zt5/s80-rw/cortana.jpg
-ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1b05kzmSnLWUrG2u5uokNT3Js6g9uYEMMKfc5wqAdOQ0evNPTlNpFNbF3vizWMbSKYd-m2HKQxY6Hd3jtgWedZEkHho9YlFrh7B_AtOxw0a0HSk_QXGJdJN7oMsZb1Fu1k5fOgTuiNymq3XAgr0IV7lCxwGMFzE_jWkAdM1bLCXVapYr10bSh2wtw_zt5/s0-rw/cortana.jpg
+ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1b05kzmSnLWUrG2u5uokNT3Js6g9uYEMMKfc5wqAdOQ0evNPTlNpFNbF3vizWMbSKYd-m2HKQxY6Hd3jtgWedZEkHho9YlFrh7B_AtOxw0a0HSk_QXGJdJN7oMsZb1Fu1k5fOgTuiNymq3XAgr0IV7lCxwGMFzE_jWkAdM1bLCXVapYr10bSh2wtw_zt5/s0/cortana.jpg
 ---
 
 
@@ -26,7 +26,7 @@ Computer Configuration/Administrative Templates/Windows Components/Search
 
 3. Di Panel sebelah kanan **Search**, double click/tap di **Allow Cortana** Untuk mengedit policy nya
 
-![Local Group Policy Editor](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrv-nniX8KsXIaoUUFuevBHN4xbMVzhw1-hQ7D4uXJ9z1d94N8zYPHaQO-LSdw_8U6WuWK31aIEQSKldyrQq3L0Cmjc56ZUOazqSMk5omImSVpS9F5LjTtBbbjhSSjXdA5rwdBW5LFVLJUZrhclugEcQ8qkJKp5lU_pE56GN64XRWcUQIN6PtHf-J-Rde4/s0-rw/1.jpg)
+![Local Group Policy Editor](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrv-nniX8KsXIaoUUFuevBHN4xbMVzhw1-hQ7D4uXJ9z1d94N8zYPHaQO-LSdw_8U6WuWK31aIEQSKldyrQq3L0Cmjc56ZUOazqSMk5omImSVpS9F5LjTtBbbjhSSjXdA5rwdBW5LFVLJUZrhclugEcQ8qkJKp5lU_pE56GN64XRWcUQIN6PtHf-J-Rde4/s0/1.jpg)
 
 {{% adsense %}}
 
@@ -34,7 +34,7 @@ Computer Configuration/Administrative Templates/Windows Components/Search
 5. Untuk Enable Cortana kalian pilih **Not Configured** atau **Enabled**
 6. Untuk Disable Cortana kalian pilih **Disabled**
 
-![Local Group Policy Editor](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitGTYg5ol76xOnksWFn3BD595_a0dRZm6z4ltejiC29lWlL0XskExjW6TvmRsCnWn9hT772ForMo3m6XQMxnpYZMty6dGYEn2uWgOkeXJ2NsbnBHz91v2IwC7EYXLsB-MDhbB55rlcZ_JFAutgZRSAlkY7nFhnzWGNr1Lmj-mzHGmuAUXPsrJBma3eO9_U/s0-rw/2.jpg)
+![Local Group Policy Editor](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitGTYg5ol76xOnksWFn3BD595_a0dRZm6z4ltejiC29lWlL0XskExjW6TvmRsCnWn9hT772ForMo3m6XQMxnpYZMty6dGYEn2uWgOkeXJ2NsbnBHz91v2IwC7EYXLsB-MDhbB55rlcZ_JFAutgZRSAlkY7nFhnzWGNr1Lmj-mzHGmuAUXPsrJBma3eO9_U/s0/2.jpg)
 
 7. Jika sudah, Close **Local Group Policy Editor**
 8. Restart Explorer atau Sign Out & Sign In atau Kalian Restart PC kalian. Untuk menerapkan konfigurasi yang sudah di setting di **Local Group Policy Editor**

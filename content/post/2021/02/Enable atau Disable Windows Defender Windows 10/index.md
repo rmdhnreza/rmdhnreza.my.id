@@ -6,7 +6,7 @@ tags: ["Tutorial", "Windows 10"]
 description: 'Mulai Windows 10 versi 2004 Windows Defender diganti namanya menjadi Microsoft Defender Antivirus, Sebetulnya Microsoft Defender Antivirus akan nonaktif sendiri jika kalian menginstall Antivirus pihak ketiga, seperti: ESET, Norton, dll.'
 summary: 'Mulai Windows 10 versi 2004 Windows Defender diganti namanya menjadi Microsoft Defender Antivirus, Sebetulnya Microsoft Defender Antivirus akan nonaktif sendiri jika kalian menginstall Antivirus pihak ketiga, seperti: ESET, Norton, dll.'
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNt9DpgKPxflrbnYq1EiEI4P6Y6IvGA3JSS6bPryXjFoZxdu0Ny7qGTe1dn30lbAel_ZChMiMfDrko85txVSjhZF4VDfNqhuHXHOtBWZsXDanh5KLsBbo9wl9J2V-ldSHm3dgE72xbyDwRigQFLue4KEktFF_-XCwiwcMo_UpEm4wkXdM2ksB2AF193Eiv/s80-rw/defender-logo.png
-ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNt9DpgKPxflrbnYq1EiEI4P6Y6IvGA3JSS6bPryXjFoZxdu0Ny7qGTe1dn30lbAel_ZChMiMfDrko85txVSjhZF4VDfNqhuHXHOtBWZsXDanh5KLsBbo9wl9J2V-ldSHm3dgE72xbyDwRigQFLue4KEktFF_-XCwiwcMo_UpEm4wkXdM2ksB2AF193Eiv/s0-rw/defender-logo.png
+ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNt9DpgKPxflrbnYq1EiEI4P6Y6IvGA3JSS6bPryXjFoZxdu0Ny7qGTe1dn30lbAel_ZChMiMfDrko85txVSjhZF4VDfNqhuHXHOtBWZsXDanh5KLsBbo9wl9J2V-ldSHm3dgE72xbyDwRigQFLue4KEktFF_-XCwiwcMo_UpEm4wkXdM2ksB2AF193Eiv/s0/defender-logo.png
 ---
 
 {{% adsense %}}
@@ -23,15 +23,15 @@ Caranya:
 
 1. Buka __Windows Security__, dan click/tap di __Virus & threat protection__ icon.
 
-![Tamper Protection](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIiAzB52xTWRqZBw_ToK4tgcvg5Mbvrr2VWSq2ONNA3N8TyXVB53NmpTkCt-Xb3FUd8xwJOZYV56_DBD8ykumJARfVmRieN82QLNtdAIeBxiwy9r1CYmtQtyN7bznw33g0ofw05OCbHmuFZIAqxhB_sjcQ9IR12oEH-K0GCqtl2gs29Qd-iVCca5dtP10k/s0-rw/tamper-protection-1.jpeg)
+![Tamper Protection](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIiAzB52xTWRqZBw_ToK4tgcvg5Mbvrr2VWSq2ONNA3N8TyXVB53NmpTkCt-Xb3FUd8xwJOZYV56_DBD8ykumJARfVmRieN82QLNtdAIeBxiwy9r1CYmtQtyN7bznw33g0ofw05OCbHmuFZIAqxhB_sjcQ9IR12oEH-K0GCqtl2gs29Qd-iVCca5dtP10k/s0/tamper-protection-1.jpeg)
 
 2. Click/tap on the __Manage settings__ link dibawah __Virus & threat protection settings__
 
-![Tamper Protection](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiPMaSuohuo2vz9RamauPY953s5JQ4VdPKGLwIrCw9e5kJ18aJ4POVXDUhu1Yo77Ygxzj9mzuNEGlHoH8zaq6O2dYvxj36ZouRqMSrT5ITrTXEjZNFiP8BxMVk3MeM5ZdXrX7o-eioN-fMdgwStpj0mdHf6EPx97qy5zCnWmlejBfGDcBGUpcF7AYe8ZTa/s0-rw/tamper-protection-2.jpeg)
+![Tamper Protection](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiPMaSuohuo2vz9RamauPY953s5JQ4VdPKGLwIrCw9e5kJ18aJ4POVXDUhu1Yo77Ygxzj9mzuNEGlHoH8zaq6O2dYvxj36ZouRqMSrT5ITrTXEjZNFiP8BxMVk3MeM5ZdXrX7o-eioN-fMdgwStpj0mdHf6EPx97qy5zCnWmlejBfGDcBGUpcF7AYe8ZTa/s0/tamper-protection-2.jpeg)
 
 3. Scroll sampai bawah dan Off kan __Tamper Protection__
 
-![Tamper Protection](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1ZzdcN4o9BZf5xbhm-9zPKkj4Rr0-K2uOWbs0x-h0pcYqdAYduFl1rNJ5KXkjAQmwG95fZFlwCnZ0Nwrd1xvJf0rMTMDDZArbpQz0WGsQLDZW_rhWQXcT-FrrgDkAQ121z4f8wNTLxrgLxAxEflk2-eO-ImWyQk-URvuscQzya8NOWYsL2d4GyWWgZY09/s0-rw/tamper-protection-3.jpeg)
+![Tamper Protection](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1ZzdcN4o9BZf5xbhm-9zPKkj4Rr0-K2uOWbs0x-h0pcYqdAYduFl1rNJ5KXkjAQmwG95fZFlwCnZ0Nwrd1xvJf0rMTMDDZArbpQz0WGsQLDZW_rhWQXcT-FrrgDkAQ121z4f8wNTLxrgLxAxEflk2-eO-ImWyQk-URvuscQzya8NOWYsL2d4GyWWgZY09/s0/tamper-protection-3.jpeg)
 
 Jika sudah, ikuti langkah selanjutnya.
 
@@ -47,13 +47,13 @@ Computer Configuration\Administrative Templates\Windows Components\Windows\Defen
 Untuk Windows 10 version 2004 dan selanjutnya
 Computer Configuration\Administrative Templates\Windows Components\Microsoft Defender Antivirus
 
-![Local Group Policy Editor](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZIG3BgLZelVtbE3OSI8Zcoar1CuxI8BWDOaN5wqMsbEoD4fq09NWyWIgQszetvfS6xiJlFgpcbHBKlv5dtxCwl6nMoj_ejjUZZ5obwN4EiJ_TFDGU47wUQvmlmZN5G22xc_nU4kbrB9ax7iQu2qS2w1TRc-RFUR3hKjjQVvS5lIH22pP4N2aouKyUQmVk/s0-rw/gpedit-1.jpeg)
+![Local Group Policy Editor](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZIG3BgLZelVtbE3OSI8Zcoar1CuxI8BWDOaN5wqMsbEoD4fq09NWyWIgQszetvfS6xiJlFgpcbHBKlv5dtxCwl6nMoj_ejjUZZ5obwN4EiJ_TFDGU47wUQvmlmZN5G22xc_nU4kbrB9ax7iQu2qS2w1TRc-RFUR3hKjjQVvS5lIH22pP4N2aouKyUQmVk/s0/gpedit-1.jpeg)
 
 3. Di Panel sebelah kanan __Windows Defender Antivirus__ atau __Microsoft Defender Antivirus__, double click/tap di __Turn off Windows Defender Antivirus__ atau __Turn off Microsoft Defender Antivirus__ Untuk mengedit policy nya
 4. Untuk Disable Defender Antivirus kalian pilih __Enabled__
 5. Sedangkan untuk Enable Defender Antivirus kalian pilih __Not Configured__ atau __Disabled__
 
-![Local Group Policy Editor](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga4cWvbPZawrHQqMA4B1hPpRbWXr1SC1vL80VoRf642tTU8mMYgXyDqeg7FXPOVgRmHKaciGlQmm5fnouTJxnd_N2Hap-zUmQP60iK7QUyArRRA6OQWkUUTVWRkq6d2IojPLy9IWqbWWDzz5eab-0V30Rl8aFiGH8FKGd72Kfb-tbTNjqnMBSejORxU8Ur/s0-rw/gpedit-2.jpeg)
+![Local Group Policy Editor](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga4cWvbPZawrHQqMA4B1hPpRbWXr1SC1vL80VoRf642tTU8mMYgXyDqeg7FXPOVgRmHKaciGlQmm5fnouTJxnd_N2Hap-zUmQP60iK7QUyArRRA6OQWkUUTVWRkq6d2IojPLy9IWqbWWDzz5eab-0V30Rl8aFiGH8FKGd72Kfb-tbTNjqnMBSejORxU8Ur/s0/gpedit-2.jpeg)
 
 #### Cara 2: Menggunakan Registry Editor (Regedit)
 

@@ -15,7 +15,7 @@ keywords:
 description: 'Semua pelanggan Windows 7 dan Windows Server 2008/R2 menerima pembaruan official terakhir pada 14 Januari 2020. Pembaruan untuk sistem operasi ini setelah 14 Januari 2020 disediakan hanya untuk pelanggan ESU.'
 summary: 'Semua pelanggan Windows 7 dan Windows Server 2008/R2 menerima pembaruan official terakhir pada 14 Januari 2020. Pembaruan untuk sistem operasi ini setelah 14 Januari 2020 disediakan hanya untuk pelanggan ESU.'
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJP3T-lYqguyVi8LM52w03iCbyzlHM-1Wf6Z9NFsrTAQwLqWp2JKJqo-ZrE0QUbx2tJqF8V1gYrvxDg_mXelllbKQU7fbLIz7G1NBTlHPKPXi7TX4HPXuHinZFkjz3Zo6FZlmEkVWpE2MBzTepqOCAGAliqpI6B5cEw11tCENw8t7NEEG5illwF39MUwDY/s80-rw/windows7-logo.png
-ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJP3T-lYqguyVi8LM52w03iCbyzlHM-1Wf6Z9NFsrTAQwLqWp2JKJqo-ZrE0QUbx2tJqF8V1gYrvxDg_mXelllbKQU7fbLIz7G1NBTlHPKPXi7TX4HPXuHinZFkjz3Zo6FZlmEkVWpE2MBzTepqOCAGAliqpI6B5cEw11tCENw8t7NEEG5illwF39MUwDY/s0-rw/windows7-logo.png
+ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJP3T-lYqguyVi8LM52w03iCbyzlHM-1Wf6Z9NFsrTAQwLqWp2JKJqo-ZrE0QUbx2tJqF8V1gYrvxDg_mXelllbKQU7fbLIz7G1NBTlHPKPXi7TX4HPXuHinZFkjz3Zo6FZlmEkVWpE2MBzTepqOCAGAliqpI6B5cEw11tCENw8t7NEEG5illwF39MUwDY/s0/windows7-logo.png
 ---
 
 {{% adsense %}}
@@ -34,7 +34,7 @@ Semua pelanggan Windows 7 dan Windows Server 2008/R2 menerima pembaruan official
 
 Sebelum melakukan patch ESU kalian harus menginstall update berikut atau lebih bagus lagi kalian update dulu Windows 7 kalian sampai tidak ada update lagi sebelum melakukan patch ESU.
 
-![Check for Updates](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSfi2u2lpb3HzT56BqGWh2K92vaqmVBnILguNgCVawjWV64LJt657d4BVpimPBQlEhuLnIRPa1wm9z8TE7YD09qc4SY_52NU4suwHVk-3Sw4r-Su63SVLmfdudG3n07C5R2XoMbCQXQVTlqRdv3KhIxRj6pKOOHnoIYi3u12-LYUVTFurOHBR_MnEfyons/s0-rw/rmdhnreza.my.id-patch-esu-1-2023.png)
+![Check for Updates](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSfi2u2lpb3HzT56BqGWh2K92vaqmVBnILguNgCVawjWV64LJt657d4BVpimPBQlEhuLnIRPa1wm9z8TE7YD09qc4SY_52NU4suwHVk-3Sw4r-Su63SVLmfdudG3n07C5R2XoMbCQXQVTlqRdv3KhIxRj6pKOOHnoIYi3u12-LYUVTFurOHBR_MnEfyons/s0/rmdhnreza.my.id-patch-esu-1-2023.png)
 
 - **KB4490628**: Servicing Stack Update, Maret 2019
   - **x86 (32-Bit)**
@@ -104,7 +104,7 @@ https://download.ru/files/9CfkU6ka
 8. **Jika tidak ada update, kalian restart dulu komputer nya lalu check for updates lagi**
 9. Jika berhasil nanti akan muncul update tahun 2021 seperti gambar dibawah ini
 
-![Patch ESU berhasil](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5BZgHd4OyJpHFgLXUJbeQJ2yUbaai33jx_G4Wkw7urGQ3A5PxQexM52Lb0Xio8ODvKEeVbki74OAcj7v5t0BZK1swzEHQXuRMcf2Zkbnx3-gL86BrJpUEn0G5VeBsC1jizZfwAeQUVQWk1YwgDKmD1gtQhW3fF2uDhacJk4NSV0AjFZFVNRsFDTQ8Tbdr/s0-rw/rmdhnreza.my.id-patch-esu-2-2023.png)
+![Patch ESU berhasil](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5BZgHd4OyJpHFgLXUJbeQJ2yUbaai33jx_G4Wkw7urGQ3A5PxQexM52Lb0Xio8ODvKEeVbki74OAcj7v5t0BZK1swzEHQXuRMcf2Zkbnx3-gL86BrJpUEn0G5VeBsC1jizZfwAeQUVQWk1YwgDKmD1gtQhW3fF2uDhacJk4NSV0AjFZFVNRsFDTQ8Tbdr/s0/rmdhnreza.my.id-patch-esu-2-2023.png)
 
 {{< spoiler text="Klik untuk Melihat Video" >}}
 

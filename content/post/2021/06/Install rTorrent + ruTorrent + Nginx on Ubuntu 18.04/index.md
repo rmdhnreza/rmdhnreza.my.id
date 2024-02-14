@@ -18,7 +18,7 @@ keywords:
 description: 'Firefox 89.0 is the latest stable version of the Firefox web browser. Released on June 1, 2021, it ships with major interface changes, a new custom theme, and more.'
 summary: 'Firefox 89.0 is the latest stable version of the Firefox web browser. Released on June 1, 2021, it ships with major interface changes, a new custom theme, and more.'
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6l5tekXAR5aLIebY2y3-Iu_OdRt2Lv_qkemOHsvaOnY6_OtR_QjJPi6xbdQ6nXcppkpt2lY5Zyg2GzCpeZ8ciBKto2nXirMor6fwloSJ2-AFgIoZ-ZcXrmMdz_Y96ekt8XlScUF5htQ5JOMW361g5FZSzfcnwPpkxWUnE3BJwpcLm9gqPPO58fkjm8fCm/s80-rw/ubuntu-logo.png
-ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6l5tekXAR5aLIebY2y3-Iu_OdRt2Lv_qkemOHsvaOnY6_OtR_QjJPi6xbdQ6nXcppkpt2lY5Zyg2GzCpeZ8ciBKto2nXirMor6fwloSJ2-AFgIoZ-ZcXrmMdz_Y96ekt8XlScUF5htQ5JOMW361g5FZSzfcnwPpkxWUnE3BJwpcLm9gqPPO58fkjm8fCm/s0-rw/ubuntu-logo.png
+ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6l5tekXAR5aLIebY2y3-Iu_OdRt2Lv_qkemOHsvaOnY6_OtR_QjJPi6xbdQ6nXcppkpt2lY5Zyg2GzCpeZ8ciBKto2nXirMor6fwloSJ2-AFgIoZ-ZcXrmMdz_Y96ekt8XlScUF5htQ5JOMW361g5FZSzfcnwPpkxWUnE3BJwpcLm9gqPPO58fkjm8fCm/s0/ubuntu-logo.png
 ---
 
 {{% adsense %}}
@@ -221,7 +221,7 @@ network.scgi.open_port = "127.0.0.1:6000"
 After all configuration has been set up, you can run command `rtorrent`, if no error, this will look like this.\
 Hit `CTRL + Q` for kill rtorrent
 
-![rTorrent](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBO22IHaBMBnEaDCQK3beVkO_2xFTzg4MOTqJBBJd3L-tCUys69tX1vFUP66YyrBh50BMCbzsqqeFD_LdVw4xWXh_vQ_8bvQ6NsML0hd5tdQFVpEYkDjhEL89gECkz0zDTc9yGjUkPrxRPB6XMgJamNcLUIOHNG5ne1PzakzOri2kCVIYMYSe9X_IMxWYx/s0-rw/rmdhnreza.my.id.install.rutorrent.1.jpeg)
+![rTorrent](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBO22IHaBMBnEaDCQK3beVkO_2xFTzg4MOTqJBBJd3L-tCUys69tX1vFUP66YyrBh50BMCbzsqqeFD_LdVw4xWXh_vQ_8bvQ6NsML0hd5tdQFVpEYkDjhEL89gECkz0zDTc9yGjUkPrxRPB6XMgJamNcLUIOHNG5ne1PzakzOri2kCVIYMYSe9X_IMxWYx/s0/rmdhnreza.my.id.install.rutorrent.1.jpeg)
 
 ## Configuration Nginx and PHP
 1. You can use favorite editor for edit this configuration, You can find it on `/etc/nginx/sites-available/default`\
@@ -339,7 +339,7 @@ sudo service nginx start
 ```
 4. Try open in browser `localhost:5000`
 
-![Nginx](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2D1T8CnbtpVr7g7ewxjKiSVWXr_icQ_sfAgnSPep3JhQja2mzEqFJ9nUFXrfP_coXKkTpUkQ84X27EKNfOFjZ5E9qgzkzls8KpG-FkMOrwD9TapK3X-wzZ-jcDnLqSEa-NA6_SQfqafYAfKNFhkwlV-5jB5jPznmzMr9zmr5skA0NaYdK1oxfAmSRBDFY/s0-rw/rmdhnreza.my.id.install.rutorrent.2.jpeg)
+![Nginx](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2D1T8CnbtpVr7g7ewxjKiSVWXr_icQ_sfAgnSPep3JhQja2mzEqFJ9nUFXrfP_coXKkTpUkQ84X27EKNfOFjZ5E9qgzkzls8KpG-FkMOrwD9TapK3X-wzZ-jcDnLqSEa-NA6_SQfqafYAfKNFhkwlV-5jB5jPznmzMr9zmr5skA0NaYdK1oxfAmSRBDFY/s0/rmdhnreza.my.id.install.rutorrent.2.jpeg)
 
 {{% adsense %}}
 
@@ -462,8 +462,8 @@ screen -d -m -S rtorrent rtorrent
 pkill -9 screen
 ```
 
-![ruTorrent](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8N00xf6niniCn5jLmVTifXaf_JZWx9Cg2xZpsmf8ekbwzwDRZusOYq1jppJb8s27KmAwlt9qYyxDo6UFlDejvhc-KRqhSS5da7obs7RGkcoqqlvWaMQtmWmEjFP_qt1ag3MCpbDjohA54rjmwQFgwUTC4VfZK2Dcy8yduRYPPTeSDldX4v_hM-N4C5wTP/s0-rw/rmdhnreza.my.id.install.rutorrent.3.jpeg) | ![ruTorrent](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLeT0z6TqMdGOTxLor42fkjWJsonSkFcAoH0dPLt_F2U55Fsgxg7oji8eBD0vKGbtZph7UQ7ff4uADlpQQ-vN68sEcqYDWEDTp5B92Ev2NLOj34mEVTbaTT00IKpIkiLTSTvyQibTxfe8T0Q1mUT8L2VT18Ps7embVIHBDTJAbXu9nqO7VlXbqG348itqF/s0-rw/rmdhnreza.my.id.install.rutorrent.4.jpeg) 
+![ruTorrent](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8N00xf6niniCn5jLmVTifXaf_JZWx9Cg2xZpsmf8ekbwzwDRZusOYq1jppJb8s27KmAwlt9qYyxDo6UFlDejvhc-KRqhSS5da7obs7RGkcoqqlvWaMQtmWmEjFP_qt1ag3MCpbDjohA54rjmwQFgwUTC4VfZK2Dcy8yduRYPPTeSDldX4v_hM-N4C5wTP/s0/rmdhnreza.my.id.install.rutorrent.3.jpeg) | ![ruTorrent](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLeT0z6TqMdGOTxLor42fkjWJsonSkFcAoH0dPLt_F2U55Fsgxg7oji8eBD0vKGbtZph7UQ7ff4uADlpQQ-vN68sEcqYDWEDTp5B92Ev2NLOj34mEVTbaTT00IKpIkiLTSTvyQibTxfe8T0Q1mUT8L2VT18Ps7embVIHBDTJAbXu9nqO7VlXbqG348itqF/s0/rmdhnreza.my.id.install.rutorrent.4.jpeg) 
 
-![ruTorrent](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEQ1LuEvvPzmAxVvrueaQkzVZQKj5euvMadiZEHOKzLHiLt5dugpSWPHceCV_Le5YXNj3ekZvD6TyurS74Aq78zQ5xUvAuk9GbCus2Npty8Szmvuoz_XxWm4JFus89e4bOXrt7e2vNZ5BSX58wklcZ4v2DF1BrL6ZrOf8Zi9PjFeYQlymUeWzau8nlomlo/s0-rw/rmdhnreza.my.id.install.rutorrent.5.jpeg)
+![ruTorrent](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEQ1LuEvvPzmAxVvrueaQkzVZQKj5euvMadiZEHOKzLHiLt5dugpSWPHceCV_Le5YXNj3ekZvD6TyurS74Aq78zQ5xUvAuk9GbCus2Npty8Szmvuoz_XxWm4JFus89e4bOXrt7e2vNZ5BSX58wklcZ4v2DF1BrL6ZrOf8Zi9PjFeYQlymUeWzau8nlomlo/s0/rmdhnreza.my.id.install.rutorrent.5.jpeg)
 
 {{% adsense %}}

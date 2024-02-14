@@ -12,7 +12,7 @@ keywords:
   ]
 description: 'Cara Mendaftar GitLab for Open Source program'
 summary: 'Cara Mendaftar GitLab for Open Source program'
-image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg66TCNJ9HxUlcqlJUxqgys2PjBn7VY0Ke5F3nKi_Hj_JzUQwEtTmnPtRygM9kxKpnBVdQZBdSP7ytey2y3VgVMLD88U2kWJWwXlzDDEpCha9iFL9q3e6-hLDCainGyatLOpCqvtoQ4zgKRZ1WjnmiP3pu2lkCC5GVaU2nPdk2nXhK8ROjjWezMqSGitYSR/s0-rw/gitlab-logo.jpg
+image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg66TCNJ9HxUlcqlJUxqgys2PjBn7VY0Ke5F3nKi_Hj_JzUQwEtTmnPtRygM9kxKpnBVdQZBdSP7ytey2y3VgVMLD88U2kWJWwXlzDDEpCha9iFL9q3e6-hLDCainGyatLOpCqvtoQ4zgKRZ1WjnmiP3pu2lkCC5GVaU2nPdk2nXhK8ROjjWezMqSGitYSR/s0/gitlab-logo.jpg
 ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg66TCNJ9HxUlcqlJUxqgys2PjBn7VY0Ke5F3nKi_Hj_JzUQwEtTmnPtRygM9kxKpnBVdQZBdSP7ytey2y3VgVMLD88U2kWJWwXlzDDEpCha9iFL9q3e6-hLDCainGyatLOpCqvtoQ4zgKRZ1WjnmiP3pu2lkCC5GVaU2nPdk2nXhK8ROjjWezMqSGitYSR/s80-rw/gitlab-logo.jpg
 ---
 

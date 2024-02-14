@@ -6,7 +6,7 @@ tags: ["Hugo", "Tutorial"]
 description: 'Apa sih lazyload? Lazy Load adalah sebuah teknik untuk membuat pemuatan gambar di website menjadi tidak sinkron, Dengan artian setelah konten bagian atas sepenuhnya dimuat, Maka gambar tidak akan dimuat'
 summary: 'Apa sih lazyload? Lazy Load adalah sebuah teknik untuk membuat pemuatan gambar di website menjadi tidak sinkron, Dengan artian setelah konten bagian atas sepenuhnya dimuat, Maka gambar tidak akan dimuat'
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgf1oK8J4S3tNRWW330MlC17FhhksTbIfUXE49C6mbc5OQTrkhr290jKKDMwmYNiVHY-RNXhPurj7DCzzXZpw9XnEO36JnkBWIYMjEk7EEexmYw57w5KDiQVs7rFh71xCvHzMvU0wu-haVqmqgwBxnL-Y7v5lXBGASCMKsNfC-__2j6op-H9eKE6-1aSvds/s80-rw/hugo.png
-thumbschema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgf1oK8J4S3tNRWW330MlC17FhhksTbIfUXE49C6mbc5OQTrkhr290jKKDMwmYNiVHY-RNXhPurj7DCzzXZpw9XnEO36JnkBWIYMjEk7EEexmYw57w5KDiQVs7rFh71xCvHzMvU0wu-haVqmqgwBxnL-Y7v5lXBGASCMKsNfC-__2j6op-H9eKE6-1aSvds/s0-rw/hugo.png
+thumbschema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgf1oK8J4S3tNRWW330MlC17FhhksTbIfUXE49C6mbc5OQTrkhr290jKKDMwmYNiVHY-RNXhPurj7DCzzXZpw9XnEO36JnkBWIYMjEk7EEexmYw57w5KDiQVs7rFh71xCvHzMvU0wu-haVqmqgwBxnL-Y7v5lXBGASCMKsNfC-__2j6op-H9eKE6-1aSvds/s0/hugo.png
 ---
 
 {{% adsense %}}
@@ -46,6 +46,6 @@ layouts
 ```
 7. Jika berhasil, maka gambar akan muncul dengan sempurna dan terdapat `class="lazyload"`, jika gambar tidak muncul pastikan tidak ada error yang berhubungan dengan `lazysizes.min.js`, atau kalian bisa lihat di ***Inspect Element*** bagian ***Console*** disana akan terdapat error yang akan memudahkan kalian untuk memecahkan masalahnya.
 
-![Lazyload](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEh9h1keeffpWKicMnvuX6gbr-DcuqCrFztnnpZQdJBBLiuQAg57QLxmy8hF53BfGmQ0thqwVXINllPK5jDf_5nYZO3tawmzUqMK3Xua2bAc5YM1eQjZ14r2Nn2RCBDvIYzhDd6IalHIUPg5XfMt795ED9EDPDvMij7-rVDNY6d2mvMqgAMFuaykDBdbrr/s0-rw/1.jpg)
+![Lazyload](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEh9h1keeffpWKicMnvuX6gbr-DcuqCrFztnnpZQdJBBLiuQAg57QLxmy8hF53BfGmQ0thqwVXINllPK5jDf_5nYZO3tawmzUqMK3Xua2bAc5YM1eQjZ14r2Nn2RCBDvIYzhDd6IalHIUPg5XfMt795ED9EDPDvMij7-rVDNY6d2mvMqgAMFuaykDBdbrr/s0/1.jpg)
 
 {{% adsense %}}

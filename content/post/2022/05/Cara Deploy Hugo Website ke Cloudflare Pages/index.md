@@ -13,7 +13,7 @@ keywords:
 description: 'Cloudflare Pages adalah platform JAMstack (arsitektur pengembangan web modern berdasarkan JavaScript sisi klien, reusable APIs dan prebuilt Markup) untuk pengembang frontend untuk berkolaborasi dan menyebarkan situs web.'
 summary: 'Cloudflare Pages adalah platform JAMstack (arsitektur pengembangan web modern berdasarkan JavaScript sisi klien, reusable APIs dan prebuilt Markup) untuk pengembang frontend untuk berkolaborasi dan menyebarkan situs web.'
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHYeiY6yfe8xAATQ8h2ZHuJRboTeCZXToJOG-dew3Gq3t5TqYwyz1btQxwx8tUJpgNLvkjUM6Vco49OXdxKZfrxgtrFcpy9F1ggatkY4lJ-c_TfCdF3nDvSR-Til-OZV-iITK1Ldcrdk0Up3PGnPaeqxCO5j6Bc0hccerO3V0xrwWB-yx54sK8UXBMUAt0/s80-rw/clouflare-logo.png
-ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHYeiY6yfe8xAATQ8h2ZHuJRboTeCZXToJOG-dew3Gq3t5TqYwyz1btQxwx8tUJpgNLvkjUM6Vco49OXdxKZfrxgtrFcpy9F1ggatkY4lJ-c_TfCdF3nDvSR-Til-OZV-iITK1Ldcrdk0Up3PGnPaeqxCO5j6Bc0hccerO3V0xrwWB-yx54sK8UXBMUAt0/s0-rw/clouflare-logo.png
+ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHYeiY6yfe8xAATQ8h2ZHuJRboTeCZXToJOG-dew3Gq3t5TqYwyz1btQxwx8tUJpgNLvkjUM6Vco49OXdxKZfrxgtrFcpy9F1ggatkY4lJ-c_TfCdF3nDvSR-Til-OZV-iITK1Ldcrdk0Up3PGnPaeqxCO5j6Bc0hccerO3V0xrwWB-yx54sK8UXBMUAt0/s0/clouflare-logo.png
 ---
 
 ## Cloudflare Pages

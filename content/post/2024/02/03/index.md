@@ -21,7 +21,7 @@ keywords:
 description: "Temukan langkah mudah membuat website upload sederhana dengan Firebase. Ikuti tutorial lengkap ini untuk panduan langkah demi langkah dalam memanfaatkan Firebase untuk membangun situs pengunggahan file yang efisien dan handal."
 summary: "Pelajari langkah mudah membuat website upload sederhana menggunakan Firebase. Tutorial ini membahas secara terperinci cara memanfaatkan Firebase untuk mengembangkan situs pengunggahan file yang simpel dan efisien. Dengan petunjuk langkah demi langkah, Anda akan dapat membuat website fungsional dengan kemampuan unggah file yang handal dan dapat diandalkan."
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9k0x8HPWaXtoM3QhaDyWxLdgFz7CF0Chq717tQHdHQ5qQarKpidJL2Q6QYEU7YMIrv_cVR0qpfd7Wv7ZJhPz48Kg9uMI9LdLCFWE_oB8xks83DwSk3eaxMTI2UMuGm2P2ihGT3qV125cbm4D9-j7PW9HMnnkQLO42sleFGXiGjMx5pD1aWk0Gzr55tPAE/s80-rw/firebase-logo.png
-ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9k0x8HPWaXtoM3QhaDyWxLdgFz7CF0Chq717tQHdHQ5qQarKpidJL2Q6QYEU7YMIrv_cVR0qpfd7Wv7ZJhPz48Kg9uMI9LdLCFWE_oB8xks83DwSk3eaxMTI2UMuGm2P2ihGT3qV125cbm4D9-j7PW9HMnnkQLO42sleFGXiGjMx5pD1aWk0Gzr55tPAE/s0-rw/firebase-logo.png
+ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9k0x8HPWaXtoM3QhaDyWxLdgFz7CF0Chq717tQHdHQ5qQarKpidJL2Q6QYEU7YMIrv_cVR0qpfd7Wv7ZJhPz48Kg9uMI9LdLCFWE_oB8xks83DwSk3eaxMTI2UMuGm2P2ihGT3qV125cbm4D9-j7PW9HMnnkQLO42sleFGXiGjMx5pD1aWk0Gzr55tPAE/s0/firebase-logo.png
 ---
 
 ## Apa itu Firebase
@@ -51,44 +51,44 @@ Sebelum kita membuat website *upload* nya kita perlu membuat project di Firebase
 
 1. Kunjungi [console.firebase.google.com](https://console.firebase.google.com) dan *Login* menggunakan akun Google kamu dan buat project baru
 
-![Figure 1](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZ9zTYABtUPQVRWZtLWrDmUqUaVxIJ3qxwIvcAbQnaQhg82jX4Tg5CZDNxHo5BX642WmV57Aq9M3qyF_WIM1CJpROXb6cNmRwKiA5LkagWY6bkkp1E431e7JNIqh0pYkm5Z4NTtpSN_MP6IRIkmhZyMlla9iNz1ja6nytPHhJv2ZiDvC1bLVLye-XcI3oj/s0-rw/rmdhnreza.my.id.firebase.create.project.1.png)
+![Figure 1](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZ9zTYABtUPQVRWZtLWrDmUqUaVxIJ3qxwIvcAbQnaQhg82jX4Tg5CZDNxHo5BX642WmV57Aq9M3qyF_WIM1CJpROXb6cNmRwKiA5LkagWY6bkkp1E431e7JNIqh0pYkm5Z4NTtpSN_MP6IRIkmhZyMlla9iNz1ja6nytPHhJv2ZiDvC1bLVLye-XcI3oj/s0/rmdhnreza.my.id.firebase.create.project.1.png)
 
 1. Isi nama project, bebas. Setelah itu klik *Continue*
 
-![Figure 2](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhB8hJYl1oplCPpohK_vgj3nJGyPyRbCP0Ywek4mF28GANR1lXG881E9BYFyURp0Xvb5ktArMApuVigogcUdhGjKeb6WX8NpQAppimSyj3O2z8K1ja7c96rzBLXVxAro28ie-rPINZnp2m2ndno_goCiRQ8X_W27Hi-ZjIIGgpGtU1nwtRWFhH6ngL7lTp_/s0-rw/rmdhnreza.my.id.firebase.create.project.2.png)
+![Figure 2](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhB8hJYl1oplCPpohK_vgj3nJGyPyRbCP0Ywek4mF28GANR1lXG881E9BYFyURp0Xvb5ktArMApuVigogcUdhGjKeb6WX8NpQAppimSyj3O2z8K1ja7c96rzBLXVxAro28ie-rPINZnp2m2ndno_goCiRQ8X_W27Hi-ZjIIGgpGtU1nwtRWFhH6ngL7lTp_/s0/rmdhnreza.my.id.firebase.create.project.2.png)
 
 3. Disable saja Google Analytics nya karena kita tidak akan memakai fitur ini, setelah itu *Create Project*
 
-![Figure 3](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1SQS-RJmUuQo3aP4MNFv0TgOVdTPe7olmueWeG3MXsPcUQrNgtplppCTyOk5uia3AOAtCYh5Gp758FBOgzE4_xhgd7u_RtbU_1ReBHS4kw8sbCj3Nt_PdATrjoFofX5f3BEFcvNXmgbjbpFbRyqHqYbZqTn8DbYNn8FukPd2Sy8vTeOSK_D4xGwVpUE_u/s0-rw/rmdhnreza.my.id.firebase.create.project.3.png)
+![Figure 3](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1SQS-RJmUuQo3aP4MNFv0TgOVdTPe7olmueWeG3MXsPcUQrNgtplppCTyOk5uia3AOAtCYh5Gp758FBOgzE4_xhgd7u_RtbU_1ReBHS4kw8sbCj3Nt_PdATrjoFofX5f3BEFcvNXmgbjbpFbRyqHqYbZqTn8DbYNn8FukPd2Sy8vTeOSK_D4xGwVpUE_u/s0/rmdhnreza.my.id.firebase.create.project.3.png)
 
 4. Tunggu beberapa saat sampai project nya berhasil dibuat dan akan otomatis masuk ke *dashboard* project yang sudah dibuat.
 
-![Figure 4](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz7rCXO2u9nOwOAeXQCyJAKnGnJCFMi1liJgWBDkZPUICgBZLssy78HJo3VoaDJk2cYY6FzNdrmbfjRZTjcBMj3mzmuJJUPZKM5NK6ZAsg4LBg2IjjQyGStcgGsKHdWhepeOTUh7Yc8yFsD6szA2iKJ34fscdjPXjiXsgQ4K-kJGx8-vseAYxtJpIMoMTL/s0-rw/rmdhnreza.my.id.firebase.create.project.4.png) ![Figure 5](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTncM7J9F4NKJNO7snOEU7Tn-hJxswUxht8qaxMUTldEFiTstY1mmiVBwhDaJO6ymehN2fm5AVBvbT4ARZ9iB9ugvsnUCIQVHNElrslMurg1n3_vh9M_1QUe9M90hTWlgVAs1eV4_nXJM_fOayX8tAzzMQfcnTJJvUztVCuhw8LLNnrXlyKKe6sgCBQqt4/s0-rw/rmdhnreza.my.id.firebase.create.project.5.png) 
+![Figure 4](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz7rCXO2u9nOwOAeXQCyJAKnGnJCFMi1liJgWBDkZPUICgBZLssy78HJo3VoaDJk2cYY6FzNdrmbfjRZTjcBMj3mzmuJJUPZKM5NK6ZAsg4LBg2IjjQyGStcgGsKHdWhepeOTUh7Yc8yFsD6szA2iKJ34fscdjPXjiXsgQ4K-kJGx8-vseAYxtJpIMoMTL/s0/rmdhnreza.my.id.firebase.create.project.4.png) ![Figure 5](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTncM7J9F4NKJNO7snOEU7Tn-hJxswUxht8qaxMUTldEFiTstY1mmiVBwhDaJO6ymehN2fm5AVBvbT4ARZ9iB9ugvsnUCIQVHNElrslMurg1n3_vh9M_1QUe9M90hTWlgVAs1eV4_nXJM_fOayX8tAzzMQfcnTJJvUztVCuhw8LLNnrXlyKKe6sgCBQqt4/s0/rmdhnreza.my.id.firebase.create.project.5.png) 
 
 5. Pada *Project Overview* klik *icon gear* dan pilih *Project settings*
 
-![Figure 6](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiY4sPYLFYmAGoMt_sdWaKttT7pufEkACqs0C4aZ1qOwvr7q1agt3v4rBCYc5bsbJZpfW-LLOAheX96vt31eYbwtAhfWoFieO7l1Ra9lkZBSNl8V38mG_PP53ANe71T2ncaRhu3l0rRcIT8qcKwLctgczW8ObX9G6HOSGy5l6vLNpX1YFRocbe_NnWSR5uz/s0-rw/rmdhnreza.my.id.firebase.create.project.6.png)
+![Figure 6](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiY4sPYLFYmAGoMt_sdWaKttT7pufEkACqs0C4aZ1qOwvr7q1agt3v4rBCYc5bsbJZpfW-LLOAheX96vt31eYbwtAhfWoFieO7l1Ra9lkZBSNl8V38mG_PP53ANe71T2ncaRhu3l0rRcIT8qcKwLctgczW8ObX9G6HOSGy5l6vLNpX1YFRocbe_NnWSR5uz/s0/rmdhnreza.my.id.firebase.create.project.6.png)
 
 6. Klik icon pensil pada ***Default GCP resource location*** dan pilih ***asia-southeast2*** dan klik *Done*.
 
-![Figure 7](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqkAdkHULx0IKE22jNVflMPHDUEn0WDJf_b5WWKF4OmM6vKK45tdEfEn5luQh1muylPbEJQPpDdYA9YEM2jelB2il9u7PcF2pHNIeeHQfUHyv_FZvXnitFLZ_JJdOJCEFX5x9NNAgmsCNK2QOUfkazt4ur5C26oEgkALwgeSBHiMQvtwZQb4dZcrEKTg7o/s0-rw/rmdhnreza.my.id.firebase.create.project.7.png) ![Figure 8](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgi8o6q5Zcm7XcWCRoJyWVPzK0Meg5JW9LYzeBk6UnmNM2twCZUqoLgGdwAfk_SwH8WnRVY9kZM6URuVJZj75im_3JlaS_-JK0S5zj0IGenIErRs0OoEzAx6urN_UX7k_4XAwXeif5pLmzu4jsEWc3QnKwSWkRgYitR55qcZjO9M1diNfW_ws15uk26k5do/s0-rw/rmdhnreza.my.id.firebase.create.project.8.png)
+![Figure 7](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqkAdkHULx0IKE22jNVflMPHDUEn0WDJf_b5WWKF4OmM6vKK45tdEfEn5luQh1muylPbEJQPpDdYA9YEM2jelB2il9u7PcF2pHNIeeHQfUHyv_FZvXnitFLZ_JJdOJCEFX5x9NNAgmsCNK2QOUfkazt4ur5C26oEgkALwgeSBHiMQvtwZQb4dZcrEKTg7o/s0/rmdhnreza.my.id.firebase.create.project.7.png) ![Figure 8](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgi8o6q5Zcm7XcWCRoJyWVPzK0Meg5JW9LYzeBk6UnmNM2twCZUqoLgGdwAfk_SwH8WnRVY9kZM6URuVJZj75im_3JlaS_-JK0S5zj0IGenIErRs0OoEzAx6urN_UX7k_4XAwXeif5pLmzu4jsEWc3QnKwSWkRgYitR55qcZjO9M1diNfW_ws15uk26k5do/s0/rmdhnreza.my.id.firebase.create.project.8.png)
 
 {{% note %}} asia-southeast2 adalah server negara Indonesia, tepatnya di Jakarta. {{% /note %}}
 
 7. Scroll kebawah dan klik pada icon code `</>`, untuk register web app
 
-![Figure 9](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPBpvEXd_IxjVGhWbir3Gu-K2TMI7VbrDbyRy2HtrJJ-UQrei8AB28lNtxKq-wcej7g10HSJBKmOLzOzNX4TXaI-n3EuUkTI-mAx1ogMxd3uLDuGCCFVuYjthTKvQm1y4WJcH2mxtes_cOiCJyNo8-5RxHOQsynfD6P9wXBlmL0PbW5QY2L72y09vpdDsY/s0-rw/rmdhnreza.my.id.firebase.create.project.9.png)
+![Figure 9](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPBpvEXd_IxjVGhWbir3Gu-K2TMI7VbrDbyRy2HtrJJ-UQrei8AB28lNtxKq-wcej7g10HSJBKmOLzOzNX4TXaI-n3EuUkTI-mAx1ogMxd3uLDuGCCFVuYjthTKvQm1y4WJcH2mxtes_cOiCJyNo8-5RxHOQsynfD6P9wXBlmL0PbW5QY2L72y09vpdDsY/s0/rmdhnreza.my.id.firebase.create.project.9.png)
 
 8. App nickname bisa kamu isi apa saja, untuk yang lainnya bisa ditinggalkan *default*
    * Add Firebase SDK -> *Continue*
    * Install Firebase CLI -> *Continue*
    * Deploy to Firebase Hosting -> *Continue to console*
 
-![Figure 10](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-hyH7m2YD4v2bIfJNf-J_X6wbcu6AfpAZ0PPoZHzYBSo6tHZVCaEDTqQI6ro4_KSbW5wqG7xsxbfCdewNXGKgwR4yD29KY61M4LusW91DqHNecNfGVdbHRI31Vh564swmNuIHErVeSa8t9eULnBqhh44E6bVWgcvdl_jz_j2qh76DCiCj26sV38hJUkGY/s0-rw/rmdhnreza.my.id.firebase.create.project.10.png) ![Figure 11](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOKv5Xro7JBHuJqrDvCIs-lb8HIwG-WdfCOv3s-44Oml84hiZX0lnptTBAI_wvdyCWtJc-y25N3pZpP3xPdiUTcuJABsJ6IMU2Ou9joLYnFtzKa86IjVfHBL5sJZ3-CT4qYXnNpb8aB-DKF3SoRFsH2Orwi-Cmf7oGVemueRiMUuOi6d_jCqcN56MBMN1u/s0-rw/rmdhnreza.my.id.firebase.create.project.11.png)
+![Figure 10](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-hyH7m2YD4v2bIfJNf-J_X6wbcu6AfpAZ0PPoZHzYBSo6tHZVCaEDTqQI6ro4_KSbW5wqG7xsxbfCdewNXGKgwR4yD29KY61M4LusW91DqHNecNfGVdbHRI31Vh564swmNuIHErVeSa8t9eULnBqhh44E6bVWgcvdl_jz_j2qh76DCiCj26sV38hJUkGY/s0/rmdhnreza.my.id.firebase.create.project.10.png) ![Figure 11](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOKv5Xro7JBHuJqrDvCIs-lb8HIwG-WdfCOv3s-44Oml84hiZX0lnptTBAI_wvdyCWtJc-y25N3pZpP3xPdiUTcuJABsJ6IMU2Ou9joLYnFtzKa86IjVfHBL5sJZ3-CT4qYXnNpb8aB-DKF3SoRFsH2Orwi-Cmf7oGVemueRiMUuOi6d_jCqcN56MBMN1u/s0/rmdhnreza.my.id.firebase.create.project.11.png)
 
 9. Sekarang kita dapat config firebase nya.
 
-![Figure 12](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPf6G8uYESGUskd8AvW4pKX_Rc_ywn8FW41MR9wPU4f_OewIJgpPADDdLzGn5eYkHJo2yluVMo_hGUCKJ1V89wVbAzPO-M7BsHQaMf3kHygw9rcRGHtmsfRnSQpbRImZBcMSMjhfqItRkfuH0Ytj7nYSBKsKSCWi1st2uah-bF0KVWUbBzZH6d0fyFeMgk/s0-rw/rmdhnreza.my.id.firebase.create.project.12.png)
+![Figure 12](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPf6G8uYESGUskd8AvW4pKX_Rc_ywn8FW41MR9wPU4f_OewIJgpPADDdLzGn5eYkHJo2yluVMo_hGUCKJ1V89wVbAzPO-M7BsHQaMf3kHygw9rcRGHtmsfRnSQpbRImZBcMSMjhfqItRkfuH0Ytj7nYSBKsKSCWi1st2uah-bF0KVWUbBzZH6d0fyFeMgk/s0/rmdhnreza.my.id.firebase.create.project.12.png)
 
 ### Membuat User
 Supaya yang bisa upload adalah user yang terdaftar maka kita harus membuat User terlebih dahulu
@@ -96,43 +96,43 @@ Supaya yang bisa upload adalah user yang terdaftar maka kita harus membuat User 
 1. Klik pada menu **Build** dan pilih **Authentication**
 2. Klik pada **Get started**
 
-![Figure 13](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGTGeOShA1UFoWXKhYa0IUhvET3N1kkAmt5yJH6Rs1TFl4Pvjn_yBa5b1L8_xINrxt_Caxqc5nO14DAfVfg1MzLZg0qL5uLJNwdWWrXnw1GoM-YMThiqzFH_nXEJBMBB5bSP29UO2DnY4jY5yhvu_ZS_wFFI8Fm6shYCeqP9IvYYbT4xdNLMLvPVyQft_R/s0-rw/rmdhnreza.my.id.firebase.create.authentication.13.png)
+![Figure 13](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGTGeOShA1UFoWXKhYa0IUhvET3N1kkAmt5yJH6Rs1TFl4Pvjn_yBa5b1L8_xINrxt_Caxqc5nO14DAfVfg1MzLZg0qL5uLJNwdWWrXnw1GoM-YMThiqzFH_nXEJBMBB5bSP29UO2DnY4jY5yhvu_ZS_wFFI8Fm6shYCeqP9IvYYbT4xdNLMLvPVyQft_R/s0/rmdhnreza.my.id.firebase.create.authentication.13.png)
 
 3. Pilih **Email/Password**
 
-![Figure 14](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2D_MjwFK-souDQ4t54NP5ecc9vp7JcTywDjahrGQxOwfzNh1ZE-zkYLwHsGuQzXLyOYnMfdA_k3KIDEklX1mPPQMZYodqIiJpyigiATeb8UVP4V1k3Bypl61juzLTz7ZB4pTxJhxsl5QfKxOT22Beke0kfsReJF54gZqlvRCXgFo0sU08BjDwF9UKTj4i/s0-rw/rmdhnreza.my.id.firebase.create.authentication.14.png)
+![Figure 14](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2D_MjwFK-souDQ4t54NP5ecc9vp7JcTywDjahrGQxOwfzNh1ZE-zkYLwHsGuQzXLyOYnMfdA_k3KIDEklX1mPPQMZYodqIiJpyigiATeb8UVP4V1k3Bypl61juzLTz7ZB4pTxJhxsl5QfKxOT22Beke0kfsReJF54gZqlvRCXgFo0sU08BjDwF9UKTj4i/s0/rmdhnreza.my.id.firebase.create.authentication.14.png)
 
 4. Enabe **Email/Password** dan Save
 
-![Figure 15](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjDgge8tFFFuJB5JkxKD-5zUJzQTGjg3odBUY0S8jbooJPdFpLIVZztudUqjH51S5Hl-5prH0owP8NafeilSv_msN-gPmYedjGn5IswcQh1GiosvLkYKn4dcZ5F89ydFixFTYEZpsRvH0DUa99cShRwHJX-VHHPFEEHAPtDj3T2-k7z6HWihzhonJpAJVc/s0-rw/rmdhnreza.my.id.firebase.create.authentication.15.png) ![Figure 16](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwyXyrnfVhUSM0L0MfGC7JZOplfVixLVqzOeawXre1Aw77vUMJrKu4qiv7Cvs89c_r18t2G_bVFV_DK7xgERWNKhQsz5htyCIe9tuSsBGdmKA-MvmilZ5nquSsVGDATcGX_PcXoPYwphaYx5bTI2EiFmUPmqepSOrGr6suzRsxU-9yvihoWVEvTVDB0v-o/s0-rw/rmdhnreza.my.id.firebase.create.authentication.16.png)
+![Figure 15](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjDgge8tFFFuJB5JkxKD-5zUJzQTGjg3odBUY0S8jbooJPdFpLIVZztudUqjH51S5Hl-5prH0owP8NafeilSv_msN-gPmYedjGn5IswcQh1GiosvLkYKn4dcZ5F89ydFixFTYEZpsRvH0DUa99cShRwHJX-VHHPFEEHAPtDj3T2-k7z6HWihzhonJpAJVc/s0/rmdhnreza.my.id.firebase.create.authentication.15.png) ![Figure 16](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwyXyrnfVhUSM0L0MfGC7JZOplfVixLVqzOeawXre1Aw77vUMJrKu4qiv7Cvs89c_r18t2G_bVFV_DK7xgERWNKhQsz5htyCIe9tuSsBGdmKA-MvmilZ5nquSsVGDATcGX_PcXoPYwphaYx5bTI2EiFmUPmqepSOrGr6suzRsxU-9yvihoWVEvTVDB0v-o/s0/rmdhnreza.my.id.firebase.create.authentication.16.png)
 
 5. Pilih tab **Users** dan Klik pada **Add user**
 
-![Figure 17](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk3AZ_b8cs9rpCqkEX9gW04TNsgx_rSrohxo6Y2B6CkdFfcJyDtxkjdtRX8xD-7y-JJHDx_ZEJx3wvadcwSxAkxysmmIFGxKmj7XoBediCB4zDBy_FOPIKs8F_qCTj0w8KdS0Q-7_fvHu-U_JfcfE_HuK8f95xLW-c_xICXnr1jJ8eG_CEhAJgQSzu9TMX/s0-rw/rmdhnreza.my.id.firebase.create.authentication.17.png)
+![Figure 17](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk3AZ_b8cs9rpCqkEX9gW04TNsgx_rSrohxo6Y2B6CkdFfcJyDtxkjdtRX8xD-7y-JJHDx_ZEJx3wvadcwSxAkxysmmIFGxKmj7XoBediCB4zDBy_FOPIKs8F_qCTj0w8KdS0Q-7_fvHu-U_JfcfE_HuK8f95xLW-c_xICXnr1jJ8eG_CEhAJgQSzu9TMX/s0/rmdhnreza.my.id.firebase.create.authentication.17.png)
 
 6. Masukan **Email** dan **Password** untuk Login nanti dan Pilih **Add user**
 
-![Figure 18](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuk_yOziwncsXuVm78vWENZYhlMFCoa9eyrs01-IfoSaHXeC1XwyuRpJsJ4fqoC8qLAx7lg_enGsPv-HQJGDQxmU7VgqeIvvX6wVcYHvziZU_Fgq6nK3ZGmpqvjEjaDMgceZAGmQgWQYL4y4Cs7VDgIkOAmhfqSDSOVCJypvnnsWlvbj6Wt_bLanKIzuVx/s0-rw/rmdhnreza.my.id.firebase.create.authentication.18.png)
+![Figure 18](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuk_yOziwncsXuVm78vWENZYhlMFCoa9eyrs01-IfoSaHXeC1XwyuRpJsJ4fqoC8qLAx7lg_enGsPv-HQJGDQxmU7VgqeIvvX6wVcYHvziZU_Fgq6nK3ZGmpqvjEjaDMgceZAGmQgWQYL4y4Cs7VDgIkOAmhfqSDSOVCJypvnnsWlvbj6Wt_bLanKIzuVx/s0/rmdhnreza.my.id.firebase.create.authentication.18.png)
 
 7. Copy **User UID** nya untuk settings *Rules* pada **Firebase Storage** dan **Realtime Database**
 
-![Figure 19](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnh_LhqKAbJLRa_R3jeibiRgs1vME6gVib1uMdzg1qVPHWYI3ZKXhsuJxqhSk_hh4F-VgIRnrWyML0wX1VXjZyNRC8wqXEFrTnUsT4praFXAuW0-3Fk4URfrGbDX9mhnigOJ5Y8EYLMm-vusSaDEY24g7xnz-o9uSMRlqTmTrClwqHdBTGzbqz4-xErQhK/s0-rw/rmdhnreza.my.id.firebase.create.authentication.19.png)
+![Figure 19](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnh_LhqKAbJLRa_R3jeibiRgs1vME6gVib1uMdzg1qVPHWYI3ZKXhsuJxqhSk_hh4F-VgIRnrWyML0wX1VXjZyNRC8wqXEFrTnUsT4praFXAuW0-3Fk4URfrGbDX9mhnigOJ5Y8EYLMm-vusSaDEY24g7xnz-o9uSMRlqTmTrClwqHdBTGzbqz4-xErQhK/s0/rmdhnreza.my.id.firebase.create.authentication.19.png)
 
 
 ### Buat Firebase Storage
 1. Klik pada menu **Build** dan pilih **Storage**
 2. Klik pada **Get started**
 
-![Figure 20](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO-B0LIQ8EbSp5XSlD9NjSIYRG35QmFI5UPGMI43Bn0RAFced2CEKUuhv_ez0-5-eRMNnxQj-vEsjERZRJBDscvFUjZWg3DxxlNcIqjK-G4VLiAE_gUe_1CeptUMvToDFsBzw9gyfDbHMxhjwo3t9MptrH0tx2Cs6wkUSbDUMyqRh9aqHtvjnkgiQovmTN/s0-rw/rmdhnreza.my.id.firebase.create.storage.26.png)
+![Figure 20](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO-B0LIQ8EbSp5XSlD9NjSIYRG35QmFI5UPGMI43Bn0RAFced2CEKUuhv_ez0-5-eRMNnxQj-vEsjERZRJBDscvFUjZWg3DxxlNcIqjK-G4VLiAE_gUe_1CeptUMvToDFsBzw9gyfDbHMxhjwo3t9MptrH0tx2Cs6wkUSbDUMyqRh9aqHtvjnkgiQovmTN/s0/rmdhnreza.my.id.firebase.create.storage.26.png)
 
 3. Pilih **Start in production mode** dan Next dan pilih Next
 
-![Figure 21](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5X-rE3MJ4HVBCK37uIgPJ2BjkoS5rYAmqJLg1MHES2XjpnvK9BpwRvqLEkSvykurJT88wVFQZoy60n9xQgCY9V67JpIIa-rF3q0pWGnJXxAvF9q97QEG7FD9-bv_GhNYK_bqIGleUUHQ0b29Lnas1axkPlN7W0yAJfYRudPeVxEIZ_a0WBHxIU9jGvPf1/s0-rw/rmdhnreza.my.id.firebase.create.storage.27.png) ![Figure 22](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRHqUJciZVXEAMtqRlnpFDgq7n74q3Y8Y4mJL90JwinfeghlhvHDtdZja0W23DyliJgid4amfjJHB5dOshfKKtT7usmLToEF4CVvAO_JX6k8DwHGcuSOi_P8-cHJ7F2nhuSKZU4ijL5qjnsty4o674I_RATdgCX0tOvIC2LdZJQ-TZ_-bUUxiLShVgsfoT/s0-rw/rmdhnreza.my.id.firebase.create.storage.28.png)
+![Figure 21](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5X-rE3MJ4HVBCK37uIgPJ2BjkoS5rYAmqJLg1MHES2XjpnvK9BpwRvqLEkSvykurJT88wVFQZoy60n9xQgCY9V67JpIIa-rF3q0pWGnJXxAvF9q97QEG7FD9-bv_GhNYK_bqIGleUUHQ0b29Lnas1axkPlN7W0yAJfYRudPeVxEIZ_a0WBHxIU9jGvPf1/s0/rmdhnreza.my.id.firebase.create.storage.27.png) ![Figure 22](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRHqUJciZVXEAMtqRlnpFDgq7n74q3Y8Y4mJL90JwinfeghlhvHDtdZja0W23DyliJgid4amfjJHB5dOshfKKtT7usmLToEF4CVvAO_JX6k8DwHGcuSOi_P8-cHJ7F2nhuSKZU4ijL5qjnsty4o674I_RATdgCX0tOvIC2LdZJQ-TZ_-bUUxiLShVgsfoT/s0/rmdhnreza.my.id.firebase.create.storage.28.png)
 
 
 4. Buat folder dengan nama **images** dan **videos**
 
-![Figure 23](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGxFu00IGNK5zH7mQ3692zNf9QAeAeMPj3Bxign_PBR0aRpAl7-E95vdcYNIKTGVesQ0znJQHnlxxgOw1HnQN7ej78ADCvrCVmZcxeRAbrsSPvhemFRNDDpZgK2LPDBy-AjAsZH4jea_1PCOJ0nuM-yz5lXTDRfPvX-9_JD0W5kQiXEcNJJd9EOzjleScy/s0-rw/rmdhnreza.my.id.firebase.create.storage.29.png)
+![Figure 23](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGxFu00IGNK5zH7mQ3692zNf9QAeAeMPj3Bxign_PBR0aRpAl7-E95vdcYNIKTGVesQ0znJQHnlxxgOw1HnQN7ej78ADCvrCVmZcxeRAbrsSPvhemFRNDDpZgK2LPDBy-AjAsZH4jea_1PCOJ0nuM-yz5lXTDRfPvX-9_JD0W5kQiXEcNJJd9EOzjleScy/s0/rmdhnreza.my.id.firebase.create.storage.29.png)
 
 5. Masuk ke tab Rules dan ganti dengan kode berikut lalu klik pada button **Publish**
 
@@ -143,18 +143,18 @@ service firebase.storage {
     match /images/{allPaths=**} {
       allow read: if true; // Allow read for everyone
       allow write: if request.auth != null &&
-                           request.auth.uid == 'UID' && // Ganti dengan UID USER YANG SUDAH DIBUAT
-                           request.resource.size < 5 * 1024 * 1024 &&
-                           request.resource.contentType.matches('image/.*');
+                      request.auth.uid == 'UID' && // Ganti dengan UID USER YANG SUDAH DIBUAT
+                      request.resource.size < 5 * 1024 * 1024 &&
+                      request.resource.contentType.matches('image/.*');
       allow delete: if request.auth != null && request.auth.uid == '123456'; // Ganti dengan UID USER YANG SUDAH DIBUAT
     }
 
     match /videos/{allPaths=**} {
       allow read: if true; // Allow read for everyone
       allow write: if request.auth != null &&
-                            request.auth.uid == '123456' && // Ganti dengan UID USER YANG SUDAH DIBUAT
-                            request.resource.size < 5 * 1024 * 1024 &&
-                            request.resource.contentType.matches('video/mp4');
+                      request.auth.uid == '123456' && // Ganti dengan UID USER YANG SUDAH DIBUAT
+                      request.resource.size < 5 * 1024 * 1024 &&
+                      request.resource.contentType.matches('video/mp4');
        allow delete: if request.auth != null && request.auth.uid == '123456'; // Ganti dengan UID USER YANG SUDAH DIBUAT
     }
 
@@ -171,26 +171,26 @@ service firebase.storage {
 
 Pada rules diatas, hanya UID `123456` yang bisa upload dan delete (*write*) files sedangkan yang lainnya hanya bisa *read* saja, hanya bisa upload format image dan video hanya bisa format mp4
 
-![Figure 24](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEganbaOasQzH90zvUXUDo9Tf4VSRWPjbATAztWeTenfo0pS4GaJPVFWMy4tBtPk6tYSbg_PMC_Is2nuDbRkC4aUid1lflkZp3J5fSDP0_kXlMvTSMugIo7_9NgcfeUlLeumpVUEtNS4t3zmgXncGtNXoa4YHcLe-EKuKJ09WU4X6ot_L79dqdX8VVhNgBJT/s0-rw/rmdhnreza.my.id.firebase.create.storage.30.png)
+![Figure 24](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEganbaOasQzH90zvUXUDo9Tf4VSRWPjbATAztWeTenfo0pS4GaJPVFWMy4tBtPk6tYSbg_PMC_Is2nuDbRkC4aUid1lflkZp3J5fSDP0_kXlMvTSMugIo7_9NgcfeUlLeumpVUEtNS4t3zmgXncGtNXoa4YHcLe-EKuKJ09WU4X6ot_L79dqdX8VVhNgBJT/s0/rmdhnreza.my.id.firebase.create.storage.30.png)
 
 ### Membuat Realtime Database
 
 1. Klik pada menu **Build** dan pilih **Realtime Database**
 2. Klik **Create Database**
 
-![Figure 25](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVEBTDKZ228flgUZxbRALlKygF_wtzGwZ5KvfOMI6NbF5rZMQwjusYOP-CJN_Bjak9obXIeqRHDYHVEP5FOt6w1VYhW3K1ciaqvlExqLax6fl7lpyyVd99WqxmEA5ZkLLuLv2Lpr4ZGBNVndjlsW2Xd3nmr07edtNdKgM0TaRqH87Qpxpyx8bNQyHo05Iu/s0-rw/rmdhnreza.my.id.firebase.create.realtime.database.21.png)
+![Figure 25](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVEBTDKZ228flgUZxbRALlKygF_wtzGwZ5KvfOMI6NbF5rZMQwjusYOP-CJN_Bjak9obXIeqRHDYHVEP5FOt6w1VYhW3K1ciaqvlExqLax6fl7lpyyVd99WqxmEA5ZkLLuLv2Lpr4ZGBNVndjlsW2Xd3nmr07edtNdKgM0TaRqH87Qpxpyx8bNQyHo05Iu/s0/rmdhnreza.my.id.firebase.create.realtime.database.21.png)
 
 3. Pada **Realtime Database location**, Pilih negara **Singapore** lalu Next
 
-![Figure 26](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjpN6ewHGjQPAg2a3qlXOaARWe3EZerbpbUfe0DeNTvtvaZMHETKZp5Zi5sZJxYwCYWCannJSbU9yhWdlpfDU39Mox31JAbTfCSc6mc-rR2y9sVtxmoG1KbOEad0TjgSuNuSx3jErIM-Rc6htl63SRDFQ9E8SlLuw3760UsJaNgVuTfDtvhzB3KG_dda-n/s0-rw/rmdhnreza.my.id.firebase.create.realtime.database.22.png)
+![Figure 26](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjpN6ewHGjQPAg2a3qlXOaARWe3EZerbpbUfe0DeNTvtvaZMHETKZp5Zi5sZJxYwCYWCannJSbU9yhWdlpfDU39Mox31JAbTfCSc6mc-rR2y9sVtxmoG1KbOEad0TjgSuNuSx3jErIM-Rc6htl63SRDFQ9E8SlLuw3760UsJaNgVuTfDtvhzB3KG_dda-n/s0/rmdhnreza.my.id.firebase.create.realtime.database.22.png)
 
 4. Pilih saja **Start in locked mode** lalu **Enable**
 
-![Figure 27](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2BqYxAguUWXu5TGFpU2UGa8o1sgBqk8bWuCJONa-Yp62VdCWZ19fdptVXtwX2tXIZZksXHQPC_287LESCjk4nmYzaNAu2wnpm-0a9obGEbmrQTtan_2PQxsXRmc8W8t3willaG0GT-P5Utp-iWZQ4p0kpDsbVyImTVNAv3G7kZ1zR8UnTZVD94tvn7YOM/s0-rw/rmdhnreza.my.id.firebase.create.realtime.database.23.png)
+![Figure 27](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2BqYxAguUWXu5TGFpU2UGa8o1sgBqk8bWuCJONa-Yp62VdCWZ19fdptVXtwX2tXIZZksXHQPC_287LESCjk4nmYzaNAu2wnpm-0a9obGEbmrQTtan_2PQxsXRmc8W8t3willaG0GT-P5Utp-iWZQ4p0kpDsbVyImTVNAv3G7kZ1zR8UnTZVD94tvn7YOM/s0/rmdhnreza.my.id.firebase.create.realtime.database.23.png)
 
 5. kamu copy dan simpan **Realtime Database URL** nya
 
-![Figure 28](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgB5jRG6jNnE7QuHLq4_Cqy6khcyUOvlwlK2toKCFf4krumMAJO-1qzKLeSTrUCplk5542ogYE_Sh5kfLP7Msy1VQicBm16tpU1X4P7CvYy_Cg7iueJlDelVh4AiB5qK12fLA47bua9d_fW0CkefiNwx-W_rKox7KG6reXTIyHVoTfG2pwjNxiy5wGMLFAe/s0-rw/rmdhnreza.my.id.firebase.create.realtime.database.24.png)
+![Figure 28](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgB5jRG6jNnE7QuHLq4_Cqy6khcyUOvlwlK2toKCFf4krumMAJO-1qzKLeSTrUCplk5542ogYE_Sh5kfLP7Msy1VQicBm16tpU1X4P7CvYy_Cg7iueJlDelVh4AiB5qK12fLA47bua9d_fW0CkefiNwx-W_rKox7KG6reXTIyHVoTfG2pwjNxiy5wGMLFAe/s0/rmdhnreza.my.id.firebase.create.realtime.database.24.png)
 
 6. Masuk ke tab Rules dan masukan kode berikut lalu klik pada button **Publish**
 
@@ -205,7 +205,7 @@ Pada rules diatas, hanya UID `123456` yang bisa upload dan delete (*write*) file
 
 Pada rules diatas, hanya UID `123456` yang bisa *read* dan *write* ke database yang lainnya tidak bisa.
 
-![Figure 29](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMSGOtswlBqYPSCK8aIiysf73fwNz7U0CRiNCsrszPQEFcx8GiJ9wY7YnT9G4qMh8KR9sRFRPBxXyZ412scA1kvNWVh_RELbGjOiVXoCFfcTYEwWhrlsjjC33y6Oy47_1V8nLA5mcyc8w4oH97CWjRSmWDuVEchK3vfevSlOU0Q7MSDCSOV3sIhDmZQjTH/s0-rw/rmdhnreza.my.id.firebase.create.realtime.database.25.png)
+![Figure 29](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMSGOtswlBqYPSCK8aIiysf73fwNz7U0CRiNCsrszPQEFcx8GiJ9wY7YnT9G4qMh8KR9sRFRPBxXyZ412scA1kvNWVh_RELbGjOiVXoCFfcTYEwWhrlsjjC33y6Oy47_1V8nLA5mcyc8w4oH97CWjRSmWDuVEchK3vfevSlOU0Q7MSDCSOV3sIhDmZQjTH/s0/rmdhnreza.my.id.firebase.create.realtime.database.25.png)
 
 {{% adsense %}}
 
@@ -710,27 +710,27 @@ Karena ini static website jadinya kita bisa menjalankannya secara lokal, tidak p
 1. Buka `index.html` pada browser kamu
 2. Login dengan Email/Password yang sudah dibuat dilangkah 6 pada [Membuat User](#membuat-user)
 
-![Figure 30](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkvwGPtkvMksVla5xrPk_I2REddfsuEAITCfkwZgiwAZA3X_2WjpxHv0HHBajywq8Fj384tpUCTykgU0irOkxyP0KQj3TYSqDH_80LWSk8Zc6ayUhu1fdvyneW870-OBMriMUlY65AQb3y_3iPRQCl_K-RIcGJiz2FkOtz0Ha0PP8wLoj_5k6h6lh64frT/s0-rw/rmdhnreza.my.id.firebase.website.32.png)
+![Figure 30](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkvwGPtkvMksVla5xrPk_I2REddfsuEAITCfkwZgiwAZA3X_2WjpxHv0HHBajywq8Fj384tpUCTykgU0irOkxyP0KQj3TYSqDH_80LWSk8Zc6ayUhu1fdvyneW870-OBMriMUlY65AQb3y_3iPRQCl_K-RIcGJiz2FkOtz0Ha0PP8wLoj_5k6h6lh64frT/s0/rmdhnreza.my.id.firebase.website.32.png)
 
 3. Kamu coba untuk upload file dengan cara klik **Choose File** dan setelah itu klik **Upload File**
 
-![Figure 31](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhr_dSsWJmbmZlyMY0T_tUOis1dgCFhWT9LFmNQD8sp9swghXfAQA8U0aUszoSdEr4wFJQ6JgOMTQ-AcAbT5dohwiMT5FjIaGrY1XuFvrkjJVp4B4k6oxAUu2Vu1j_mK454j1RhkHigrWh1oq3MhyeTRrahqc_0ktSssQyg9Vs3pB_NZqEgHY4Er3g8-ik/s0-rw/rmdhnreza.my.id.firebase.website.33.png)
+![Figure 31](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhr_dSsWJmbmZlyMY0T_tUOis1dgCFhWT9LFmNQD8sp9swghXfAQA8U0aUszoSdEr4wFJQ6JgOMTQ-AcAbT5dohwiMT5FjIaGrY1XuFvrkjJVp4B4k6oxAUu2Vu1j_mK454j1RhkHigrWh1oq3MhyeTRrahqc_0ktSssQyg9Vs3pB_NZqEgHY4Er3g8-ik/s0/rmdhnreza.my.id.firebase.website.33.png)
 
 4. Jika berhasil maka akan tampil seperti ini
 
-![Figure 32](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7M9jIr7Vqv9tz-el6cpra5evc-6Vob3klmOJLbRJwyFyNhfHRN54zSU4BOqEPygUUVI0OLMMtUEbXfxROtH_4R6mpBCIsL-neaMUpRO4UJrFB_zq-2ulMJjeUk8eHskZIkTzu-_H1FeWtCSejznZGlEhU_1IOd4OiAaNQhWEyyw6SyPlkCfW7UYRub92x/s0-rw/rmdhnreza.my.id.firebase.website.34.png) ![Figure 33](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9yg-7EFPMNuQ91PvdiraqWS3HWB7SnZZv9g6dCSWlJAULVsWvITPHQDrIBziHgRwaCt-v3fHtMVOEi9RLJknnJFjneg9ByVPpR1MsBOG2xqPK4zxXrtSIAZLJLn0ss5lslKnIwc0Cpp6-OT2SH5oYmlM3Pk98aBKE58kkglvvqhtGMOLrX0P-FxuEopV-/s0-rw/rmdhnreza.my.id.firebase.website.35.png)
+![Figure 32](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7M9jIr7Vqv9tz-el6cpra5evc-6Vob3klmOJLbRJwyFyNhfHRN54zSU4BOqEPygUUVI0OLMMtUEbXfxROtH_4R6mpBCIsL-neaMUpRO4UJrFB_zq-2ulMJjeUk8eHskZIkTzu-_H1FeWtCSejznZGlEhU_1IOd4OiAaNQhWEyyw6SyPlkCfW7UYRub92x/s0/rmdhnreza.my.id.firebase.website.34.png) ![Figure 33](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9yg-7EFPMNuQ91PvdiraqWS3HWB7SnZZv9g6dCSWlJAULVsWvITPHQDrIBziHgRwaCt-v3fHtMVOEi9RLJknnJFjneg9ByVPpR1MsBOG2xqPK4zxXrtSIAZLJLn0ss5lslKnIwc0Cpp6-OT2SH5oYmlM3Pk98aBKE58kkglvvqhtGMOLrX0P-FxuEopV-/s0/rmdhnreza.my.id.firebase.website.35.png)
 
 5. Cek firebase storage folder images
 
-![Figure 34](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgreD-CHmRKWbese-c2JibmNbbTaUurMaXov7a7sw7nVzktIaMUAGuvlIXgOQU61Baa9-8EIhcxmmUNzcWOr4lYEhVaXy4iSKTFNSXqUjgFA__-9UVow0pG1eAmzoc7ONPrLjLAcsV_PVBTCRDoqlN7Es0mtB6UkDOmjIUve7Sn18xsLZX0Xh_9KPiJtvoj/s0-rw/rmdhnreza.my.id.firebase.website.36.png)
+![Figure 34](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgreD-CHmRKWbese-c2JibmNbbTaUurMaXov7a7sw7nVzktIaMUAGuvlIXgOQU61Baa9-8EIhcxmmUNzcWOr4lYEhVaXy4iSKTFNSXqUjgFA__-9UVow0pG1eAmzoc7ONPrLjLAcsV_PVBTCRDoqlN7Es0mtB6UkDOmjIUve7Sn18xsLZX0Xh_9KPiJtvoj/s0/rmdhnreza.my.id.firebase.website.36.png)
 
 6. Cek juga database nya
 
-![Figure 35](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3kOXtCspQalY8ykMY-0SfiaDDE3GIHHFtn1oJwNuDOL74VTCfIjN3UKGs5hRXwgjUIo8GPLL85y2uFhoypHvn5saKKjZJkZY7kQz5rMa_d7CQO2XRlxLB6df4IBs5s9JfKChL6CYvoD-6DffsqXECzgYGKyjlj-6KN18mRPGc8pqQ_zWRxi3MDCpl90Ye/s0-rw/rmdhnreza.my.id.firebase.website.37.png)
+![Figure 35](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3kOXtCspQalY8ykMY-0SfiaDDE3GIHHFtn1oJwNuDOL74VTCfIjN3UKGs5hRXwgjUIo8GPLL85y2uFhoypHvn5saKKjZJkZY7kQz5rMa_d7CQO2XRlxLB6df4IBs5s9JfKChL6CYvoD-6DffsqXECzgYGKyjlj-6KN18mRPGc8pqQ_zWRxi3MDCpl90Ye/s0/rmdhnreza.my.id.firebase.website.37.png)
 
 7. Coba delete file yang sudah diupload
 
-![Figure 36](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgV95X5nVrgOxgl3TpQ1LsNphosLaXurdamOWdtGsto98-Q5lb6TibvzLVKlzuiaI0pjg47RD5eYHIPl2a8rwKPCXsy3VP2keyTLUPaEVO_BlGjKcIXTfLE1QijdcDW5q_mNgbGAw7DR0h-C4_6x9CKrEgVZYSm_w_MVLN7c9huVkEhnZ6H9uknXTlyslNK/s0-rw/rmdhnreza.my.id.firebase.website.38.png)
+![Figure 36](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgV95X5nVrgOxgl3TpQ1LsNphosLaXurdamOWdtGsto98-Q5lb6TibvzLVKlzuiaI0pjg47RD5eYHIPl2a8rwKPCXsy3VP2keyTLUPaEVO_BlGjKcIXTfLE1QijdcDW5q_mNgbGAw7DR0h-C4_6x9CKrEgVZYSm_w_MVLN7c9huVkEhnZ6H9uknXTlyslNK/s0/rmdhnreza.my.id.firebase.website.38.png)
 
 
 Itulah tutorial Langkah Mudah Membuat Website Upload Sederhana dengan Firebase, jika kamu ingin membuat website ini bisa diakses, kamu bisa deploy ke firebase hosting.
