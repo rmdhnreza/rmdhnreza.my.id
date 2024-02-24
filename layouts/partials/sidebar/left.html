@@ -77,7 +77,7 @@
     </ol>
     <ol class="menu menu-bottom-section" id="main-menu" role="list" >
           {{- $currentLanguageCode := .Language.Lang -}}
-          {{ with .Site.Home.AllTranslations }}
+          {{ if ( compare.Gt .Site.Home.AllTranslations.Len 1 ) }}
               <li role="listitem" id="i18n-switch" aria-label="{{ .Language.LanguageName }}">  
                   {{ partial "helper/icon" "language" }}
                   <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
