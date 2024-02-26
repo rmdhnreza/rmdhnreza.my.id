@@ -14,6 +14,7 @@
   --line-color: #000;
   --spoiler-color: rgb(205 214 244 / 20%);
   --spoiler-border-color: var(--border-color);
+  --pre-background-color: #eff1f5;
 
   &[data-scheme='dark'] {
     --body-background: #1e1e2e;
@@ -32,6 +33,7 @@
     --note-text-color: #000;
     --line-color: #fff;
     --spoiler-border-color: rgb(205 214 244 / 20%);
+    --pre-background-color: #1e1e2e;
 }
   --details-padding: 1em;
   --thumbnail-size: 80px;
