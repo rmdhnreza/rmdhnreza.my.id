@@ -1,0 +1,15 @@
+Cache-Control: max-age=604800
+Referrer-Policy: strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-XSS-Protection: 1; mode=block
+
+*.css
+  Cache-Control: max-age=604800
+
+*.js
+  Cache-Control: max-age=604800
+
+*.img
+  Cache-Control: max-age=604800
