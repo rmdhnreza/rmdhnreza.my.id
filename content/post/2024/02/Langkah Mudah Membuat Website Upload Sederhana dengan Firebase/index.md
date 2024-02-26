@@ -244,6 +244,7 @@ Jadinya struktur folder nya seperti ini:
 1. Copy dan pastekan kode berikut ke `index.html`
 
 {{% spoiler text="index.html" %}}
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -318,6 +319,7 @@ Jadinya struktur folder nya seperti ini:
   </body>
 </html>
 ```
+
 {{% /spoiler %}}
 
 2. Copy dan pastekan kode berikut ke `style.css`

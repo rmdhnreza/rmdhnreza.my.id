@@ -12,6 +12,8 @@
   --note-text-color: #000;
   --link-color: rgb(26, 13, 171);
   --line-color: #000;
+  --spoiler-color: rgb(205 214 244 / 20%);
+  --spoiler-border-color: var(--border-color);
 
   &[data-scheme='dark'] {
     --body-background: #1e1e2e;
@@ -29,8 +31,10 @@
     --note-background-color: #89b4fa;
     --note-text-color: #000;
     --line-color: #fff;
+    --spoiler-border-color: rgb(205 214 244 / 20%);
 }
-  --thumbSize: 80px;
-  --gapsPadding: 15px;
+  --details-padding: 1em;
+  --thumbnail-size: 80px;
+  --gaps-padding: 15px;
   
 }
