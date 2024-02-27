@@ -356,6 +356,17 @@ a.link {
   font-weight: 700;
 }
 
+aside {
+  &.related-content--wrapper {
+    background-color: var(--card-background);
+    border: 1px solid var(--border-color);
+    border-radius: var(--card-border-radius);
+    .section-title, .related-content {
+      margin: 10px;
+    }
+  }
+}
+
 details {
   background: var(--spoiler-color);
   border: 1px solid var(--spoiler-border-color);
