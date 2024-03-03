@@ -14,3 +14,6 @@
 
 /*.img
   Cache-Control: max-age=604800
+
+/*.woff2
+  Cache-Control: max-age=604800
