@@ -10,16 +10,8 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 }
 
 @font-face {
-  font-family: 'Fira Sans';
-  font-style: bold;
-  font-weight: 600;
-  font-display: swap;
-  src: url(https://rmdhnreza.my.id/fonts/firasans-bold.woff2) format('woff2');
-}
-
-@font-face {
   font-family: 'iosevka';
-  font-style: bold;
+  font-style: normal;
   font-weight: 600;
   font-display: swap;
   src: url(https://rmdhnreza.my.id/fonts/iosevka.woff2) format('woff2');
@@ -56,8 +48,8 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
     --scrollbar-thumb: hsl(0, 0%, 85%);
     --scrollbar-track: var(--body-background);
     --section-separation: 40px;
+    --spoiler-background-color: rgb(205 214 244 / 20%);
     --spoiler-border-color: var(--border-color);
-    --spoiler-color: rgb(205 214 244 / 20%);
     --tag-border-radius: 4px;
 
     &[data-scheme="dark"] {
