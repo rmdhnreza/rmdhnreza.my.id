@@ -9,43 +9,42 @@
 {{- $galleryImage := false -}}
 
 {{- if $image -}}
-	{{- $notSVG := ne (path.Ext .Destination) ".svg" -}}
-	{{- $Permalink = $image.RelPermalink -}}
+    {{- $notSVG := ne (path.Ext .Destination) ".svg" -}}
+    {{- $Permalink = $image.RelPermalink -}}
 
-	{{- if $notSVG -}}
-		{{- $Width = $image.Width -}}
-		{{- $Height = $image.Height -}}
-		{{- $galleryImage = true -}}
+    {{- if $notSVG -}}
+        {{- $Width = $image.Width -}}
+        {{- $Height = $image.Height -}}
+        {{- $galleryImage = true -}}
 
-		{{- if (default true .Page.Site.Params.imageProcessing.content.enabled) -}}
-			{{- $small := $image.Resize `webp 360x` -}}
-      {{- $medium := $image.Resize `webp 480x` -}}
-      {{- $large := $image.Resize `webp 720x` -}}
-			{{- $full := $image.Resize `webp 1024x` -}}
-			{{- $Srcset = printf `%s 360w, %s 480w, %s 720w, %s 1024w` $small.RelPermalink $medium.RelPermalink $large.RelPermalink $full.RelPermalink -}}
-		{{- end -}}
-	{{- end -}}
+        {{- if (default true .Page.Site.Params.imageProcessing.content.enabled) -}}
+            {{- $large := $image.Resize `1024x webp` -}}
+            {{- if $large -}}
+                {{- $medium := $image.Resize `720x webp` -}}
+                {{- $small := $image.Resize `480x webp` -}}
+                {{- $tiny := $image.Resize `360x webp` -}}
+                {{- $Srcset = printf `%s 360w, %s 480w, %s 720w, %s 1024w` $tiny.RelPermalink $small.RelPermalink $medium.RelPermalink $large.RelPermalink -}}
+            {{- else -}}
+                {{- $Srcset = $Permalink -}}
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
 {{- end -}}
 
-<picture
-	{{ if $galleryImage }}
-		class="gallery-image" 
-		data-flex-grow="{{ div (mul $image.Width 100) $image.Height }}"
-		data-flex-basis="{{ div (mul $image.Width 240) $image.Height }}px"
-	{{ end }}
+<img src="{{ $Permalink }}"
+    {{ with $Width }}width="{{ . }}"{{ end }}
+    {{ with $Height }}height="{{ . }}"{{ end }}
+    {{ with $Srcset }}srcset="{{ . }}"{{ end }}
+    loading="lazy"
+    {{ with $alt }}
+        alt="{{ . }}"
+    {{ end }}
+    {{ if $galleryImage }}
+        class="gallery-image" 
+        data-flex-grow="{{ div (mul $image.Width 100) $image.Height }}"
+        data-flex-basis="{{ div (mul $image.Width 240) $image.Height }}px"
+    {{ end }}
+    itemprop="image"
+    itemscope
+    itemtype="http://schema.org/ImageObject"
 >
-	{{ with $Srcset }}
-		<source type="image/webp"
-			srcset="{{ $Srcset }}"
-		>
-	{{ end }}
-	<img src="{{ $Permalink }}"
-		{{ with $Width }}width="{{ . }}"{{ end }}
-		{{ with $Height }}height="{{ . }}"{{ end }}
-		loading="lazy"
-		decoding="async"
-		{{ with $alt }}
-			alt="{{ . }}"
-		{{ end }}
-	>
-</picture>
