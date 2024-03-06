@@ -50,6 +50,9 @@
       border-inline-start: 0;
       letter-spacing: 1px;
   }
+  hr {
+    background: var(--categories-border-color);
+  }
   td {
     border: none;
     &:has(img) {

@@ -21,20 +21,16 @@ ThumbSchema: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2JK3oWU
 ## Vivaldi Animations
 Animation of Vivaldi UI make browser look slow for me, so I just want browser with no UI animations.\
 Vivaldi had internal setting for disable UI Animation, but some animations still there.\
+
 ![Vivaldi setting animation](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEim9h3DFHl83KSTk9RJtYo1HDy7rA3M71BVENVwdaBryTOPtD0paJdy-ttrdnZlW0h1XsH2kFgm7OACPwGu8ItiNgTxSLu5NF5sq40n48l8BFVI7JeHzq5eBpguAlWxU0roNOd80BQFhSY-phRKcZV4CE8qdrvm-Zl5-q5M3dVzIINcfhrYkvIMU7ZaDQWB/s0/rmdhnreza.my.id.disable.vivaldi.animation.1.jpg)
+
 For example if you click on `+` new tab, extensions icon there still transform animation.
 
-{{% adsense %}}
-
----
-
 {{< spoiler text=" Example Video" >}}
-
 {{% iframe "AD6v5dw0NaSVm7wssS4my2lGkQan1DfBaDHbJjDjZ9laKyxOUn62-2DaG9BZ5fHAK-UFI1WxfGRwGGaSV6BXWN2zYsliN5qomN7SYmVlnO_1yD1aDFylwCTP-ruFS1g2R3ijmqE88qav" %}}
-
 {{< /spoiler >}}
 
----
+{{% adsense %}}
 
 ## Add Custom CSS
 For disable Vivaldi UI animations, we need custom CSS to override default Vivaldi CSS.
@@ -58,8 +54,11 @@ Here step-by-step for enabling `custom.css`
 After you enabling, `Allow for using CSS modifications` next step is add CSS to override default Vivaldi CSS.
 Just copy this line to `custom.css` and save, after that restart your Vivaldi browser.
 ```css
-/*** Disable UI Animations ***/
-* {
+/* 
+  Disable UI Animations 
+*/
+
+*:not(.favicon):not(.jstest-favicon-image):not(.tab-audio):not(.audioicon):not(.tab-position):not(#modal-bg) {
   animation-delay: 0s !important;
   animation-duration: 0s !important;
   animation: none !important;
@@ -69,46 +68,33 @@ Just copy this line to `custom.css` and save, after that restart your Vivaldi br
   transition: none !important;
 }
 
-/*** Make tab bar working ***/
-.tab-position {
-  transform: translateX(var(--PositionX)) translateY(var(--PositionY)) | !important;
+/* 
+  Fix for checkbox
+*/
+
+input[type=checkbox]:checked:after {
+  transform: rotate(225deg) translateY(-25%) translateX(-85%) scaleX(0.2) scaleY(0.7) !important;
+  transition-duration: 0ms !important;
+  transition-delay: 33.33333333ms !important;
 }
 
-/*** Fix for audio icon ***/
-.audioicon {
-  transform: scale(0.5) translateZ(0) | !important;
+input[type=checkbox]:after {
+  transform: rotate(225deg) translateY(-25%) translateX(-85%) scaleX(0.2) scaleY(0) !important;
+  transition-delay: 0ms !important;
 }
 
-#browser:not(.alt-tabs)
-  #tabs-container
-  .tab:not(.pinned):not(.tab-small).audio-on
-  .tab-audio,
-#browser:not(.alt-tabs)
-  #tabs-container
-  .tab:not(.pinned):not(.tab-small).audio-muted
-  .tab-audio,
-#browser:not(.alt-tabs)
-  #tabs-container
-  .tab:not(.pinned):not(.tab-small).tab-captured
-  .tab-audio {
-  transition-delay: 50ms !important;
-  transform: scale(1) | !important;
+input[type=checkbox]:checked:before {
+  transform: rotate(-45deg) translateY(45%) translateX(-30%) scaleX(0.2) scaleY(0.4) !important;
+  transition-duration: 0ms !important;
 }
 
-/*** Quick commands ***/
-#modal-bg {
-  transform: translateX(-50%) | !important;
+input[type=checkbox]:before {
+  transform: rotate(-45deg) translateY(45%) translateX(-30%) scaleX(0.2) scaleY(0) !important;
 }
 ```
 
 If working, it looks like this.
 
----
-
 {{< spoiler text=" Example Video" >}}
-
 {{% iframe "AD6v5dwRq1xxG1Idl_FHk44_Bc8gbl-3NWkBHx-yD9wy4wyO392oI6Im1zqRiPoVAQzxbt_EslR9vesQL3OhvOLNitWRgn6EbJFlL5TwEMqKbYmoosOCgAw1oRtResstDZhRqrBMLvTs" %}}
-
 {{< /spoiler >}}
-
----
