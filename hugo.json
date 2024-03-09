@@ -144,7 +144,7 @@
       {
         "identifier":"archives",
         "name":"Archives",
-        "url":"archives",
+        "url":"https://rmdhnreza.my.id/archives",
         "weight":-80,
         "params":{
           "icon":"archives",
@@ -164,7 +164,7 @@
       {
         "identifier":"search",
         "name":"Search",
-        "url":"search",
+        "url":"https://rmdhnreza.my.id/search",
         "weight":-60,
         "params":{
           "icon":"search",
