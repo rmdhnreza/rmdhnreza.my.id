@@ -1,6 +1,6 @@
 ---
 title: 'Disable all animation Vivaldi UI'
-date: 2022-05-10T11:30:13+07:00
+date: 2024-03-8T11:30:13+07:00
 description: 'Tutorial how to disable all animation Vivaldi UI'
 categories: ['Tutorial']
 tags: ['Tutorial']
@@ -58,7 +58,7 @@ Just copy this line to `custom.css` and save, after that restart your Vivaldi br
   Disable UI Animations 
 */
 
-*:not(.favicon):not(.jstest-favicon-image):not(.tab-audio):not(.audioicon):not(.tab-position):not(#modal-bg) {
+*:not(.favicon):not(.jstest-favicon-image):not(.tab-audio):not(.audioicon):not(.tab-position):not(#modal-bg):not(input[type=checkbox]) {
   animation-delay: 0s !important;
   animation-duration: 0s !important;
   animation: none !important;
@@ -66,30 +66,6 @@ Just copy this line to `custom.css` and save, after that restart your Vivaldi br
   transition-delay: 0s !important;
   transition-duration: 0s !important;
   transition: none !important;
-}
-
-/* 
-  Fix for checkbox
-*/
-
-input[type=checkbox]:checked:after {
-  transform: rotate(225deg) translateY(-25%) translateX(-85%) scaleX(0.2) scaleY(0.7) !important;
-  transition-duration: 0ms !important;
-  transition-delay: 33.33333333ms !important;
-}
-
-input[type=checkbox]:after {
-  transform: rotate(225deg) translateY(-25%) translateX(-85%) scaleX(0.2) scaleY(0) !important;
-  transition-delay: 0ms !important;
-}
-
-input[type=checkbox]:checked:before {
-  transform: rotate(-45deg) translateY(45%) translateX(-30%) scaleX(0.2) scaleY(0.4) !important;
-  transition-duration: 0ms !important;
-}
-
-input[type=checkbox]:before {
-  transform: rotate(-45deg) translateY(45%) translateX(-30%) scaleX(0.2) scaleY(0) !important;
 }
 ```
 
