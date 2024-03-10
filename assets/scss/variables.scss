@@ -1,22 +1,6 @@
 $defaultTagBackgrounds: #8ea885, #df7988, #0177b8, #ffb900, #6b69d6;
 $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 
-@font-face {
-  font-family: 'Fira Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://rmdhnreza.my.id/fonts/firasans.woff2) format('woff2');
-}
-
-@font-face {
-  font-family: 'iosevka';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url(https://rmdhnreza.my.id/fonts/iosevka.woff2) format('woff2');
-}
-
 /*
 *   Global style
 */
@@ -84,11 +68,11 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 *   Global font family
 */
 :root {
-    --sys-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Droid Sans", "Helvetica Neue";
+    --sys-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Droid Sans", "Helvetica Neue";
     --zh-font-family: "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";
 
-    --base-font-family: "Fira Sans", var(--sys-font-family), var(--zh-font-family), sans-serif;
-    --code-font-family: iosevka, Menlo, Monaco, Consolas, "Courier New", var(--zh-font-family), monospace;
+    --base-font-family: var(--sys-font-family), var(--zh-font-family), sans-serif;
+    --code-font-family: Menlo, Monaco, Consolas, "Courier New", var(--zh-font-family), monospace;
 }
 
 /*
