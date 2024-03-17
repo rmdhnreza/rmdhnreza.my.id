@@ -3,6 +3,7 @@ Allow: /
 Disallow: /archives/
 Disallow: /categories/
 Disallow: /fonts/
+Disallow: /page/
 Disallow: /post/
 Disallow: /scss/
 Disallow: /search/

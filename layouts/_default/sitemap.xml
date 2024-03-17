@@ -4,6 +4,7 @@
   {{ if not
     (or (hasPrefix .RelPermalink "/archives")
     (hasPrefix .RelPermalink "/categories")
+    (hasPrefix .RelPermalink "/page")
     (hasPrefix .RelPermalink "/post")
     (hasPrefix .RelPermalink "/scss")
     (hasPrefix .RelPermalink "/search")
