@@ -33,13 +33,13 @@ In this blog post, I'll show you how to install Windows fonts in Arch Linux usin
 2. After downloading the fonts, extract the files. The format is a `zst` file, which you can extract with `zstd`.
 
 ```fish
-~ ❱ zstd -d Windows\ 10\ Fonts.tar.zst
-~ ❱ tar -xvf Windows\ 10\ Fonts.tar
+zstd -d Windows\ 10\ Fonts.tar.zst
+tar -xvf Windows\ 10\ Fonts.tar
 ```
 
 3. Navigate to the font's directory you just extracted and run this command.
 ```fish
-~ ❱ makepkg -si PKGBUILD
+makepkg -si PKGBUILD
 ```
 4. Wait until installation completed.
 
